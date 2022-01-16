@@ -1,0 +1,55 @@
+#navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin: 24px;
+}
+
+#icon-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#cv, #github, #linkedin, #janco {
+    margin: 20px;
+}
+
+#cv {
+    background-image: url('icons/CV.svg');
+    background-position: cover;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+}
+
+#github {
+    background: url('icons/GitHub.png');
+    background-position: cover;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+}
+
+#linkedin {
+    background: url('icons/LinkedIn.png');
+    background-position: cover;
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+}
+
+#janco {
+    background-image: url('orgs/JanCo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 128px;
+}
+
+@media screen and (max-width: 768px) {
+    #cv, #github, #linkedin, #janco {
+        margin: 10px;
+    }
+}
