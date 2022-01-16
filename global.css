@@ -1,4 +1,4 @@
-body {
+html {
   background: linear-gradient(
     166.69deg, #2D2D2D 1.83%, 
     rgba(58, 69, 81, 0.87) 20.23%, 
@@ -8,9 +8,12 @@ body {
     rgba(39, 26, 26, 0.9) 97.4%)
     center;
   font-family: 'Istok Web';
+  color: #ffffff;
+}
+
+body {
   margin: 0;
   padding: 0;
-  color: #ffffff;
 }
 
 @font-face {
