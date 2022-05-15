@@ -4,7 +4,7 @@ import fs from 'fs'
 import path from 'path'
 
 type FileObj = {
-  name: string,
+  name: string
   mediaType: string
   buffer: Buffer
 }
@@ -14,15 +14,49 @@ type FileDict = {
 }
 
 const filesPath = 'files'
-const fileObjs: { name: string, mediaType: string }[] = [
+
+const fileObjs: Omit<FileObj, 'buffer'>[] = [
   {
     name: 'resume.pdf',
     mediaType: 'application/pdf'
   },
+  {
+    name: 'solidguard.zip',
+    mediaType: 'application/zip'
+  },
+  {
+    name: 'stock-predictions.zip',
+    mediaType: 'application/zip'
+  },
+  {
+    name: 'grr-pi.zip',
+    mediaType: 'application/zip'
+  },
+  {
+    name: 'mummy-run.zip',
+    mediaType: 'application/zip'
+  },
+  {
+    name: 'solidguard.png',
+    mediaType: 'image/png'
+  },
+  {
+    name: 'stock-predictions.png',
+    mediaType: 'image/png'
+  },
+  {
+    name: 'grr-pi.jpg',
+    mediaType: 'image/jpg'
+  },
+  {
+    name: 'mummy-run.png',
+    mediaType: 'image/png'
+  },
 ]
+
 const fileDicts = getFileBuffers(filesPath, fileObjs);
 
-function getFileBuffers(filesPath: string, fileObjs: { name: string, mediaType: string }[]): FileDict {
+function getFileBuffers(filesPath: string, fileObjs: Omit<FileObj, 'buffer'>[]): FileDict {
   return fileObjs.reduce((buffers: FileDict, fileObj: { name: string, mediaType: string }) => {
     const filePath = path.resolve(`./${filesPath}`, fileObj.name);
     buffers[fileObj.name] = { ...fileObj, buffer: fs.readFileSync(filePath) };
@@ -44,15 +78,3 @@ export default function handler(
   res.setHeader('Content-Type', fileDicts[pid].mediaType)
   return res.send(fileDicts[pid].buffer);
 }
-
-
-// import fs from 'fs'
-// import path from 'path'
-
-// const filePath = path.resolve('.', 'files/resume.pdf')
-// const imageBuffer = fs.readFileSync(filePath)
-
-// export default function(req: NextApiRequest, res: NextApiResponse<Buffer>) {
-//   res.setHeader('Content-Type', 'application/pdf')
-//   res.send(imageBuffer)
-// }
