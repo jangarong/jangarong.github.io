@@ -17,5 +17,18 @@ html, body {
 
 #layout {
   color: white;
-  background-color:black;
+}
+
+@keyframes up {
+  0%   {
+    transform: translateY(25%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.moveUp {
+  animation-name: up;
+  animation-duration: 0.5s;
 }
