@@ -1,14 +1,16 @@
 import Head from "next/head";
+import Navbar from "./navbar";
 
 export default function Layout({ children }: {children: React.ReactNode}) {
   return (
-    <div className="pattern-grid-lg" id="bg">
+    <div>
       <Head>
-        <title>Welcome to JanCo.</title>
+        <title>Jan Garong</title>
         <meta name="description" content="Welcome to my portfolio website!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main id="layout">{children}</main>
+      <Navbar />
+      <main>{children}</main>
     </div>
   )
 }

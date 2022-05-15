@@ -52,6 +52,18 @@ const fileObjs: Omit<FileObj, 'buffer'>[] = [
     name: 'mummy-run.png',
     mediaType: 'image/png'
   },
+  {
+    name: 'certik.png',
+    mediaType: 'image/png'
+  },
+  {
+    name: 'dapp.svg',
+    mediaType: 'image/svg'
+  },
+  {
+    name: 'uoft.png',
+    mediaType: 'image/png'
+  },
 ]
 
 const fileDicts = getFileBuffers(filesPath, fileObjs);
