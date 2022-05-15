@@ -1,13 +1,9 @@
 import type { NextComponentType } from 'next'
-import { Card } from 'antd'
+import BaseCard from './baseCard'
 
 const HomeCard: NextComponentType = () => {
     return (
-        <Card title="Default size card" className="moveUp">
-            <p>Card content</p>
-            <p>Card content</p>
-            <p>Card content</p>
-        </Card>
+        <BaseCard />
     )
 }
 
