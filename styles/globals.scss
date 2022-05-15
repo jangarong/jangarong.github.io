@@ -1,3 +1,6 @@
+$grid-bg: mediumspringgreen;
+$grid-color: white;
+
 html, body {
   padding: 0;
   margin: 0;
@@ -11,8 +14,8 @@ html, body {
   right: 0;
   bottom: 0;
   position: fixed;
-  background-color: mediumspringgreen;
-  color: white;
+  background-color: $grid-bg;
+  color: $grid-color;
 }
 
 #layout {
