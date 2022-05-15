@@ -3,16 +3,6 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import fs from 'fs'
 import path from 'path'
 
-type FileObj = {
-  name: string
-  mediaType: string
-  buffer: Buffer
-}
-
-type FileDict = {
-  [key: string]: FileObj
-}
-
 const filesPath = 'files'
 
 const fileObjs: Omit<FileObj, 'buffer'>[] = [

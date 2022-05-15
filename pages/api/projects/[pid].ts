@@ -1,14 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-type Project = {
-  name: string
-  description: string
-  imgUrl: string
-  githubUrl?: string
-  kaggleUrl?: string
-  zipUrl?: string
-}
-
 const step = 10
 
 const projects: Project[] = [
