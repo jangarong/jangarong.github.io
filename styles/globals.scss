@@ -1,39 +1,8 @@
 @use 'base';
 
-$grid-bg: mediumspringgreen;
-$grid-color: white;
-
 html, body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-#bg {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: fixed;
-  background-color: $grid-bg;
-  color: $grid-color;
-}
-
-#layout {
-  color: base.$secondary-color;
-}
-
-@keyframes up {
-  0%   {
-    transform: translateY(50%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-.moveUp {
-  animation-name: up;
-  animation-duration: 0.5s;
 }
