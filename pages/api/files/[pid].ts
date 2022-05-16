@@ -3,7 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import fs from 'fs'
 import path from 'path'
 
-const filesPath = 'files'
+const filesPath = 'public/files'
 
 const fileObjs: Omit<FileObj, 'buffer'>[] = [
   {

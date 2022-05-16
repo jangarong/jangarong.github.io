@@ -63,7 +63,13 @@ h2 {
 }
 
 .stripe {
-  background: linear-gradient(169.84deg, rgba(65, 65, 65, 0) 25.11%, #9A5C5C 25.11%, #C87777 33.54%, #C87777 79.4%, rgba(65, 65, 65, 0) 79.4%);
+  background: linear-gradient(169.84deg, 
+    rgba(65, 65, 65, 0) 25.11%, 
+    base.$primary-secondary-shadow-color 25.11%, 
+    base.$secondary-color 33.54%, 
+    base.$secondary-color 79.4%, 
+    rgba(65, 65, 65, 0) 79.4%
+  );
   background-position: center;
   background-repeat: no-repeat;
   background-size: fill;
