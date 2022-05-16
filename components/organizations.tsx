@@ -24,10 +24,10 @@ const Organizations: NextComponentType = () => {
             <div id="org-logos">
                 {orgs.map(org => (
                     <Link href={org.url}>
-                        <Image
+                        {/* eslint-disable @next/next/no-img-element */}
+                        <img
                             src={org.imgUrl}
-                            height="150px"
-                            width="300px"
+                            alt={org.name}
                             className="logo"
                         />
                     </Link>

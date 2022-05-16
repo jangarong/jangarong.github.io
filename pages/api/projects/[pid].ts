@@ -12,7 +12,7 @@ const projects: Project[] = [
   },
   {
     name: 'Stock Market Predictions',
-    description: 'Submission for Kaggle\'s Two Sigma compeition. Features include headline keywords and aggregations over a time interval with LGBM.',
+    description: 'Using headline keywords and aggregation to predict stock movements!',
     imgUrl: '/api/files/stock-predictions.png',
     zipUrl: '/api/files/stock-predictions.zip',
     githubUrl: 'https://github.com/jangarong/StockMarketPredictions',
