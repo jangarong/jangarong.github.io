@@ -47,8 +47,8 @@ const fileObjs: Omit<FileObj, 'buffer'>[] = [
     mediaType: 'image/png'
   },
   {
-    name: 'dapp.svg',
-    mediaType: 'image/svg'
+    name: 'dapp.png',
+    mediaType: 'image/png'
   },
   {
     name: 'uoft.png',

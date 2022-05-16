@@ -8,8 +8,8 @@ const ProjectCard = (props: { project: Project }) => {
         <div className="card">
             <Image
                 src={project.imgUrl}
-                width="100%"
-                height="100%"
+                width="400%"
+                height="250%"
             />
             <div className="body">
                 <h1>

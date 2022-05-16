@@ -27,7 +27,7 @@ const Organizations: NextComponentType = () => {
                         <Image
                             src={org.imgUrl}
                             height="150px"
-                            width="100%"
+                            width="300px"
                             className="logo"
                         />
                     </Link>

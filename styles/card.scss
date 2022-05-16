@@ -6,17 +6,17 @@
     border-radius: 16px;
     text-align: left;
     width: 360px;
-    height: 380px;
+    height: 460px;
     margin: 50px;
 
     .body {
         position: relative;
-        padding: 20px;
+        padding: 10px 20px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: flex-start;
-        height: 40%;
+        height: 25%;
     }
 
     img {
@@ -42,7 +42,7 @@
     }
 
     .card-icon-menu {
-        padding: 20px;
+        padding: 10px 20px;
         display: flex;
         flex-wrap: nowrap;
         justify-content: flex-start;
@@ -53,7 +53,7 @@
         background-size: contain;
         height: 32px;
         width: 32px;
-        margin: 15px;
+        margin: 10px;
     }
 
     .download {
@@ -76,7 +76,7 @@
 @media screen and (max-width: 768px) {
     .card {
         width: 340px;
-        height: 420px;
+        height: 460px;
         margin: 20px;
     }
 }

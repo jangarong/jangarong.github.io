@@ -5,7 +5,7 @@ import Projects from '../components/projects'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div id="sections">
       <Profile />
       <Projects />
       <Organizations />

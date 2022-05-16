@@ -5,14 +5,14 @@ const step = 10
 const projects: Project[] = [
   {
     name: 'SolidGuard',
-    description: 'Blockchain security tool used to take quick action against newly-discovered vulnerabilities in the blockchain by notifying product owners via email or freezeing smart contracts on discovery!',
+    description: 'Blockchain security tool used to take quick action against newly-discovered vulnerabilities in the blockchain.',
     imgUrl: '/api/files/solidguard.png',
     zipUrl: '/api/files/solidguard.zip',
     githubUrl: 'https://github.com/SolidGuard/solidguard'
   },
   {
     name: 'Stock Market Predictions',
-    description: 'Submission for Kaggle\'s Two Sigma compeition. Features include headline keywords and aggregations over a time interval with LGBM. Complete with data visualizations!',
+    description: 'Submission for Kaggle\'s Two Sigma compeition. Features include headline keywords and aggregations over a time interval with LGBM.',
     imgUrl: '/api/files/stock-predictions.png',
     zipUrl: '/api/files/stock-predictions.zip',
     githubUrl: 'https://github.com/jangarong/StockMarketPredictions',
@@ -20,14 +20,14 @@ const projects: Project[] = [
   },
   {
     name: 'GRR-Pi',
-    description: 'The Great Roaming Robot (GRR) autonomously creates maps, storing information that the robot recieves through its camera input. Made with Python and Raspberry Pi.',
+    description: 'Robot that atonomously creates maps and locates objects.',
     imgUrl: '/api/files/grr-pi.jpg',
     zipUrl: '/api/files/grr-pi.zip',
     githubUrl: 'https://github.com/jangarong/StockMarketPredictions'
   },
   {
     name: 'Mummy Run',
-    description: 'History-themed game programmed in ActionScript in collaboration with students from Holy Redeemer Catholic Elementary School. A combination between bullethell and multiple choice questions.',
+    description: 'A history-themed flash game featuring MCQs and bullethell!',
     imgUrl: '/api/files/mummy-run.png',
     zipUrl: '/api/files/mummy-run.zip',
   },

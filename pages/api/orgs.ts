@@ -19,7 +19,7 @@ const organizations: Organization[] = [
     },
     {
         name: 'dApp Technology Inc.',
-        imgUrl: '/api/files/dapp.svg',
+        imgUrl: '/api/files/dapp.png',
         url: 'https://dapp-inc.com/'
     }
 ]
