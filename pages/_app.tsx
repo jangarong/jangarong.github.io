@@ -4,6 +4,8 @@ import Layout from '../components/layout'
 import '../styles/globals.scss'
 import '../styles/navbar.scss'
 import '../styles/profile.scss'
+import '../styles/card.scss'
+import '../styles/projects.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

@@ -1,5 +1,5 @@
 import type { NextComponentType } from 'next'
-import Image from 'next/image'
+import ProjectCard from './projectCard'
 import { useEffect, useState } from 'react'
 
 const Projects: NextComponentType = () => {
@@ -19,7 +19,16 @@ const Projects: NextComponentType = () => {
     return (
         <div className="stripe">
             <div className="section-stripe">
-
+                <div className="title">
+                    PROJECTS
+                </div>
+                <div id="projects">
+                    {projects.map(project => (
+                        <ProjectCard
+                            project={project}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     )
