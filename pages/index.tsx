@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Organizations from '../components/organizations'
 import Profile from '../components/profile'
 import Projects from '../components/projects'
 
@@ -7,6 +8,7 @@ const Home: NextPage = () => {
     <div>
       <Profile />
       <Projects />
+      <Organizations />
     </div>
   )
 }

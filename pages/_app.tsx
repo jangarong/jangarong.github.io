@@ -6,6 +6,8 @@ import '../styles/navbar.scss'
 import '../styles/profile.scss'
 import '../styles/card.scss'
 import '../styles/projects.scss'
+import '../styles/organizations.scss'
+import '../styles/footer.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

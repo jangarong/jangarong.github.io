@@ -17,7 +17,9 @@ const Projects: NextComponentType = () => {
     }, [])
 
     return (
-        <div className="stripe">
+        <div>
+            <div className="stripe">
+            </div>
             <div className="section-stripe">
                 <div className="title">
                     PROJECTS

@@ -27,7 +27,7 @@ html, body {
 
 .section-stripe {
   @extend %section;
-  min-height: 150%;
+  height: 100%;
 }
 
 %header, #header {
