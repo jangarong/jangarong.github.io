@@ -1,0 +1,14 @@
+#global-footer{
+    font-size: 12pt;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    background: #1C1C1C;
+ }
+
+ .footer-text, .footer-text a {
+    font-size: 12pt;
+ }
