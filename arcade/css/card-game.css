@@ -1,0 +1,39 @@
+.games {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    padding: 5pt;
+    width: 100%;
+}
+
+.game-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.game p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 12pt;
+}
+
+.game a {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 12pt;
+}
+
+@media screen and (max-width: 680px) {
+    .game {
+        display: flex;
+        padding: 5pt;
+        align-items: center;
+        flex-direction: column;
+    }
+}

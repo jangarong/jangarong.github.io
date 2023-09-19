@@ -13,6 +13,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+#footer p {
+    font-size: 12pt;
+    margin-top: 3pt;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .bottom-border,

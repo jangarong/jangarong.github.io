@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-.card {
+.card{
     background: #1C1C1C;
     border: 1pt solid #7D7D7D;
     border-radius: 16pt;
@@ -12,14 +12,25 @@
     height: fit-content;
 }
 
+.card.webgame  {
+    width: 1280px;
+}
+
 @media screen and (max-width: 680px) {
     .card {
         width: 95%;
+    }
+    .card.webgame  {
+        width: 1280px;
     }
 }
 
 @media screen and (min-width: 1080px) {
     .card {
         transform: rotate(6deg);
+    }
+    .card.webgame  {
+        width: 1280px;
+        transform: rotate(0deg);
     }
 }
