@@ -33,4 +33,8 @@
         width: 1280px;
         transform: rotate(0deg);
     }
+    .card.info  {
+        width: 860px;
+        transform: rotate(0deg);
+    }
 }
