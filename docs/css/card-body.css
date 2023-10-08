@@ -54,6 +54,7 @@
     align-items: left;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
+    line-height: 18pt;
     margin: 10pt;
 }
 
