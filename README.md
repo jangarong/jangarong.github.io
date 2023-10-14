@@ -7,5 +7,3 @@ Just my average website made with HTML/CSS to keep it lightweight.
 ## Asset Credits
 - Right arrow icon by https://www.flaticon.com/authors/chanut
 - Mao (ZodiacTail) by Amy Li and Jacqueline Sun
-- antony robot by Raisa Lara
-- SolidGuard Racoon by Jacqueline Sun
