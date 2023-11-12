@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 10pt;
+    flex-wrap: wrap;
 }
 
 #companies a {
@@ -9,8 +10,8 @@
  }
 
 .company {
-    height: 50pt;
-    margin: 6pt 12pt;
+    width: 120pt;
+    margin: 8pt 8pt;
 }
 
 @media screen and (max-width: 680px) {
@@ -21,7 +22,7 @@
         flex-wrap: wrap;
     }
     .company {
-        height: 40pt;
+        width: 160pt;
         margin: 12pt 8pt;
     }
 }
