@@ -67,6 +67,14 @@
     margin: 0;
 }
 
+.project-listing {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 @media screen and (max-width: 680px) {
     #body-art img {
         height: 200pt;
@@ -80,6 +88,15 @@
         padding: 5pt;
         align-items: center;
         flex-direction: column;
+    }
+    .project-listing {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .project b, p, a {
+        text-align: center;
     }
     #body {
         padding: 18pt 6pt;
