@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <title>jangarong - Mummy Run</title>
+    <meta name="description" content="Web browser games." />
+    <meta name="keywords" content="jangarong jan garong" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <link rel="stylesheet" href="../css/card-body.css"  media="screen">
+    <link rel="stylesheet" href="../css/card-border.css"  media="screen">
+    <link rel="stylesheet" href="../css/card.css"  media="screen">
+    <link rel="stylesheet" href="../css/global.css"  media="screen">
+    <link rel="stylesheet" href="../css/card-icon.css"  media="screen">
+    <script type="text/javascript" src="../ruffle/ruffle.js"></script>
+  </head>
+
+  <body>
+    <div class="card-container">
+      <div class="card webgame">
+        <div id="header" class="bottom-border">
+          <div id="title-container">
+            <div id="name">Jan Garong</div>
+            <div id="title">Cybersecurity's Software Developer</div>
+          </div>
+          <div id="icon-container">
+            <a href="../../../">
+              <img src="../../../assets/icons/next.png" alt="Flip Card" id="next-icon" />
+            </a>
+          </div>
+        </div>
+        <div id="body" class="webgame">
+          <object type="application/x-shockwave-flash" id="flash-game" name="flash-game">
+            <param name="menu" value="false" />
+            <param name="allowScriptAccess" value="always" />
+            <param name="flashvars" value="lang=en" />
+          </object>
+        </div>
+        <div id="footer" class="top-border">
+          <div class="spaced-title">
+            MUMMY RUN: BOSS RUSH MODE
+          </div>
+          <p>Art + Code by Jan Garong, additional art by Emily Martinko.</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const game = document.getElementById("flash-game");
+        game.appendChild(player);
+        player.style.width = "1280px";
+        player.style.height = "720px";
+        player.config = {
+          scale: "exactfit",
+          backgroundColor: "#121212",
+          forceScale: true,
+        };
+        player.load({
+          url: "MummyRun.swf",
+        });
+      });
+    </script>
+  </body>
+</html>
