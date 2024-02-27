@@ -1,7 +1,8 @@
 #companies {
     display: flex;
     justify-content: center;
-    padding: 10pt;
+    padding: 10pt 10pt;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -22,7 +23,7 @@
         flex-wrap: wrap;
     }
     .company {
-        width: 160pt;
+        width: 180pt;
         margin: 12pt 8pt;
     }
 }
