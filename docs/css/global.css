@@ -18,6 +18,10 @@ html {
     background-position:  40px 0, 40px 0, 0 0, 0 0;
     background-size: 40px 40px;
     background-repeat: repeat;
+
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
 }
 
 @media screen and (max-width: 680px) {
