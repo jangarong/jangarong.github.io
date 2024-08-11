@@ -8,33 +8,32 @@
     background: #1C1C1C;
     border: 1pt solid #7D7D7D;
     border-radius: 16pt;
-    width: 480pt;
-    height: fit-content;
+    display: flex;
 }
 
-.card.webgame  {
-    width: 1280px;
+.card.mobile {
+    display: none;
+    width: 360px;
+    height: 630px;
+    flex-direction: column;
+}
+
+.card.web {
+    display: flex;
+    width: 630px;
+    height: 360px;
+    padding-left: 64px;
+    padding-right: 64px;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 680px) {
-    .card {
-        width: 95%;
+    .card.mobile {
+        display: flex;
     }
-    .card.webgame  {
-        width: 1280px;
+    
+    .card.web {
+        display: none;
     }
 }
 
-@media screen and (min-width: 1080px) {
-    .card {
-        transform: rotate(6deg);
-    }
-    .card.webgame  {
-        width: 1280px;
-        transform: rotate(0deg);
-    }
-    .card.info  {
-        width: 860px;
-        transform: rotate(0deg);
-    }
-}

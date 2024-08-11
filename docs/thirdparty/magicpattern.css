@@ -1,0 +1,8 @@
+.hypno_pattern {
+
+    /* https://www.magicpattern.design/tools/css-backgrounds */
+    background-color: #121212;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #121212 9px ), repeating-linear-gradient( #26262655, #262626 );
+
+}
