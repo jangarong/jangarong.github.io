@@ -1,0 +1,38 @@
+a {
+    color: white;
+}
+
+a .hover {
+    color: white;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-size: 20pt;
+    margin: 0px;
+    color: white;
+}
+h2 {
+    font-family: 'Inter';
+    font-size: 10pt;
+    font-weight: normal;
+    margin:0;
+    color: white;
+}
+p {
+    font-family: 'Inter';
+    font-size: 8pt;
+    opacity: 0.8;
+    margin:0;
+    color: white;
+}
+
+@media screen and (max-width: 680px) {
+    h1 {
+        font-size: 14pt;
+    }
+    h2 {
+        font-size: 10pt;
+        opacity: 0.8;
+    }
+}

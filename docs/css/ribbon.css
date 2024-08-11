@@ -1,0 +1,29 @@
+.ribbon {
+    /* background-color: #121212; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1pt solid #343434;
+}
+
+/* .ribbon.web {
+    height: 310px;
+    width: 240px;
+} */
+
+.ribbon.web img {
+    height: 300px;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+
+.ribbon.mobile {
+    width: 360px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.ribbon.mobile img {
+    height: 300px;
+}
