@@ -31,7 +31,7 @@
     border-radius: 16pt;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
     .card.mobile {
         display: flex;
         width: 360px;

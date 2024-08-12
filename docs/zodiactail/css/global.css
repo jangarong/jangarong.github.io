@@ -20,7 +20,7 @@ html {
     background-repeat: repeat;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
     body {
         padding-top: 50pt;
         padding-bottom: 200pt;

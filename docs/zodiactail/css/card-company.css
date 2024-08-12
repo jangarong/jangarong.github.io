@@ -15,7 +15,7 @@
     margin: 8pt 8pt;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
     #companies {
         flex-direction: row;
         align-items: center;
