@@ -216,7 +216,7 @@
 	        animation: flip-2-ver-left-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
-.flip-2-ver-left-1-back {
+.flip-2-ver-left-1-front {
   position: absolute;
 	-webkit-animation: flip-2-ver-left-1-front 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	        animation: flip-2-ver-left-1-front 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
