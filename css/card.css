@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    position: absolute;
 }
 
 .card{
@@ -47,14 +48,3 @@
         padding-left: 0;
     }
 }
-
-.card-layout-back {
-    display: flex;
-    flex-direction: row;
-    padding-left: 64px;
-    /* background: #1C1C1C; */
-    border: 1pt solid #343434;
-    border-radius: 16pt;
-    /* position: absolute; */
-}
-

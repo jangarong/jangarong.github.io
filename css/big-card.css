@@ -1,0 +1,30 @@
+.big-card-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+
+.big-card{
+    border-radius: 16pt;
+    display: flex;
+    justify-content: center;
+    width: 360px;
+}
+
+.big-card-layout {
+    display: flex;
+    flex-direction: row;
+    background: #1C1C1C;
+    border: 1pt solid #343434;
+    border-radius: 16pt;
+}
+
+.big-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px;
+}
+
