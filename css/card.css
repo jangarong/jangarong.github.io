@@ -1,4 +1,5 @@
 .card-container {
+    margin-top: 150pt;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -37,6 +38,10 @@
         display: flex;
         width: 360px;
         height: 630px;
+    }
+
+    .card-container {
+        margin-top: 0;
     }
     
     .card.web {
