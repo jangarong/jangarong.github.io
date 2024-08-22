@@ -38,6 +38,7 @@
         display: flex;
         width: 360px;
         height: 630px;
+        margin-left: -18px;
     }
 
     .card-container {

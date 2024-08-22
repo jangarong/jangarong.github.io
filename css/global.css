@@ -19,11 +19,15 @@ html {
     background-size: 40px 40px;
     background-repeat: repeat;
 
+    background-color: #191919;
+
     color: white;
 
     overflow-x: hidden;
     -ms-overflow-style: none;
-    scrollbar-width: none; 
+    scrollbar-width: none;
+
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 800px) {
