@@ -10,14 +10,29 @@
     display: flex;
     justify-content: center;
     width: 800px;
+    z-index: 1;
 }
 
 .big-card-layout {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: #1C1C1C;
     border: 1pt solid #343434;
     border-radius: 16pt;
+}
+
+.big-card-header {
+    display: flex;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: row;
+    text-align: center;
+}
+
+.big-card-header p {
+    padding-top: 32px;
+    word-break: break-all;
 }
 
 .big-card-body {
@@ -25,7 +40,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 @media screen and (max-width: 800px) {

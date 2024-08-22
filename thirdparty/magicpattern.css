@@ -55,3 +55,8 @@
       repeating-conic-gradient(var(--c2) 0 25%,var(--c1) 0 50%)
        0 0/calc(2*var(--s)) calc(2*var(--s));
   }
+
+  .attention-pattern {
+  background-color: #1C1C1C;
+background: repeating-linear-gradient( 45deg, #121212, #121212 50px, #1C1C1C 20px, #1C1C1C 100px );
+  }

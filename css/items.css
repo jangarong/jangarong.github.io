@@ -25,6 +25,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1pt solid #343434;
 }
 
 .item {
@@ -32,7 +35,7 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .item {
         display: flex;
         flex-direction: column;
