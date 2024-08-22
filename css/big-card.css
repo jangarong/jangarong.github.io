@@ -9,7 +9,7 @@
     border-radius: 16pt;
     display: flex;
     justify-content: center;
-    width: 360px;
+    width: 800px;
 }
 
 .big-card-layout {
@@ -28,3 +28,9 @@
     padding: 32px;
 }
 
+@media screen and (max-width: 800px) {
+    .big-card {
+        width: 100%;
+        margin-left: -18px;
+    }
+}

@@ -1,6 +1,23 @@
 .item img {
     width: 100px;
     height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.item h2 {
+    padding-bottom: 6px;
+}
+
+.item p {
+    padding-bottom: 6px;
+
+}
+
+.item {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .items {
@@ -12,4 +29,22 @@
 
 .item {
     display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item h2 {
+        text-align: center;
+    }
+    
+    .item p {
+        text-align: center;
+    
+    }
 }
