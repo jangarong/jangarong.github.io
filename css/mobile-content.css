@@ -29,15 +29,23 @@
 .card-footer {
     padding: 16px;
     text-align: center;
+    padding-bottom: 64px;
 }
 
 .company-list.mobile {
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .company-list.mobile img {
     height: 22px;
+}
+
+.company-list.mobile a {
+    white-space: nowrap;
+    text-decoration: none;
+    margin-bottom: 4px;
 }
 

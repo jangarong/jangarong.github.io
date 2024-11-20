@@ -37,11 +37,11 @@
     .card.mobile {
         display: flex;
         width: 360px;
-        height: 630px;
+        height: 660px;
     }
 
     .card-container {
-        margin-top: 0;
+        margin-top: -50pt;
         margin-left: -8px;
     }
     

@@ -13,6 +13,17 @@
     width: 400px;
 }
 
+.company-list.web img {
+    height: 22px;
+}
+
+.company-list.web a {
+    margin-right: 12px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
 .links.web {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -25,7 +36,7 @@
 .social-details {
     display: flex;
     flex-direction: column;
-    margin-top: 32px;
+    margin-top: 12px;
 }
 
 .social-detail {
