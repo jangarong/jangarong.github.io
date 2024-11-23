@@ -3,36 +3,17 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>jangarong - Zodiac Tail: A Game of Cat and Mouse</title>
-    <meta name="description" content="My ordinary website." />
-    <meta name="keywords" content="jangarong jan garong" />
+    <title>Zodiac Tail: A Game of Cat and Mouse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
-    <link rel="stylesheet" href="./css/card-body.css" media="screen" />
-    <link rel="stylesheet" href="./css/card-border.css" media="screen" />
-    <link rel="stylesheet" href="./css/card.css" media="screen" />
+    <link rel="icon" type="image/x-icon" href="./assets/beta-icon.png" />
     <link rel="stylesheet" href="./css/global.css" media="screen" />
-    <link rel="stylesheet" href="./css/card-icon.css" media="screen" />
   </head>
   <body>
-    <div class="card-container">
-      <div class="card webgame">
-        <div id="header" class="bottom-border">
-          <div id="title-container">
-            <div id="name">Zodiac Tail: A Game of Cat and Mouse</div>
-            <div id="title">Created by Team Zodiac Tail</div>
-          </div>
-          <div id="icon-container">
-            <a href="../">
-              <img
-                src="./assets/icons/next.png"
-                alt="Flip Card"
-                id="next-icon"
-              />
-            </a>
-          </div>
-        </div>
-        <div id="body" class="webgame">
+    <div>
+      <button id="unity-fullscreen-button">Full Screen</button>
+      <a href="https://zodiactail.itch.io/prologue"><button>Download</button></a>
+    </div>
+    <div>
           <noscript>This game requires you to enable JavaScript.</noscript>
           <canvas id="unity-canvas" width="1280" height="720"></canvas>
           <div id="unity-loading-bar">
@@ -43,23 +24,13 @@
           </div>
           <div id="unity-warning"></div>
         </div>
-        <div id="footer" class="top-border">
-          <div class="spaced-title">ZODIAC TAIL: A GAME OF CAT AND MOUSE</div>
-          <p>
-            Please note that this game is a web experimental version, so some
-            aspects like shaders may be broken. To play the full game, check it
-            out on
-            <a href="https://zodiactail.itch.io/prologue">itch.io</a>!
-          </p>
-        </div>
-      </div>
-    </div>
+        
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      // var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
@@ -142,9 +113,9 @@
         })
           .then((unityInstance) => {
             loadingBar.style.display = "none";
-            // fullscreenButton.onclick = () => {
-            //   unityInstance.SetFullscreen(1);
-            // };
+            fullscreenButton.onclick = () => {
+              unityInstance.SetFullscreen(1);
+            };
           })
           .catch((message) => {
             alert(message);
