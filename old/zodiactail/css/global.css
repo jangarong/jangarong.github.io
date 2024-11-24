@@ -1,36 +1,38 @@
 body {
     /* background-color: #1C1C1C; */
-    color: white;
-    font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 100pt;
-    padding-bottom: 100pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+button {
+    margin: 25px;
 }
 
 html {
     margin: 0;
     padding: 0;
+    height: 100%;
+
+    background-color: black;
+
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     /* https://www.magicpattern.design/tools/css-backgrounds */
-    background-color: #000000;
+    /* background-color: #000000;
     opacity: 1;
     background-image:  linear-gradient(135deg, #191919 25%, transparent 25%), linear-gradient(225deg, #191919 25%, transparent 25%), linear-gradient(45deg, #191919 25%, transparent 25%), linear-gradient(315deg, #191919 25%, #000000 25%);
     background-position:  40px 0, 40px 0, 0 0, 0 0;
     background-size: 40px 40px;
-    background-repeat: repeat;
-}
-
-@media screen and (max-width: 800px) {
-    body {
-        padding-top: 50pt;
-        padding-bottom: 200pt;
-    }
-
-}
-
-@media screen and (min-width: 1080px) {
-    body {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+    background-repeat: repeat; */
+    /* background-image: url("../assets/hall.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
 }
