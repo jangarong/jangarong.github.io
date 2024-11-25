@@ -4,7 +4,7 @@ import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image";
 
-import { Card, CardContent, CardDescription } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardFooter } from "@/components/ui/card"
 import {
   Carousel,
   CarouselContent,
@@ -12,6 +12,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { Button } from "@/components/ui/button";
+import { ChevronRight } from "lucide-react";
 
 export function Teams() {
   const plugin = React.useRef(
@@ -20,24 +22,28 @@ export function Teams() {
 
   const teams = [
     {
-      "company":"Google",
+      "company": "Google",
       "logo": "/companies/google.svg",
-      "description": "Google Cloud Security"
+      "description": "Google Cloud Security",
+      "enabled": false
     },
     {
-      "company":"Trend Micro",
+      "company": "Trend Micro",
       "logo": "/companies/trend.svg",
-      "description": "Trend Micro Email Security"
+      "description": "Trend Micro Email Security",
+      "enabled": true
     },
     {
-      "company":"BlackBerry",
+      "company": "BlackBerry",
       "logo": "/companies/blackberry.svg",
-      "description": "BlackBerry CylanceMDR"
+      "description": "BlackBerry CylanceMDR",
+      "enabled": true
     },
     {
-      "company":"CertiK",
+      "company": "CertiK",
       "logo": "/companies/certik.svg",
-      "description": "CertiK Skynet"
+      "description": "CertiK Skynet",
+      "enabled": true
     },
   ]
 
@@ -55,15 +61,20 @@ export function Teams() {
               <Card>
                 <CardContent className="flex flex-col items-center aspect-square justify-center p-6">
                   <Image
-                        className="dark:invert p-4"
-                        src={team.logo}
-                        alt={team.company}
-                        width={300}
-                        height={300}
-                        priority
-                    />
+                    className="dark:invert p-4"
+                    src={team.logo}
+                    alt={team.company}
+                    width={300}
+                    height={300}
+                    priority
+                  />
                   <CardDescription>{team.description}</CardDescription>
                 </CardContent>
+                <CardFooter className="-mt-12 flex justify-end">
+                  <Button variant="outline" size="icon">
+                    <ChevronRight />
+                  </Button>
+                </CardFooter>
               </Card>
             </div>
           </CarouselItem>
