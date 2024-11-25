@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/carousel"
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import { TeamCard } from "./team-card";
 
 export function Teams() {
   const plugin = React.useRef(
@@ -57,26 +58,7 @@ export function Teams() {
       <CarouselContent>
         {teams.map((team) => (
           <CarouselItem key={team.company}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex flex-col items-center aspect-square justify-center p-6">
-                  <Image
-                    className="dark:invert p-4"
-                    src={team.logo}
-                    alt={team.company}
-                    width={300}
-                    height={300}
-                    priority
-                  />
-                  <CardDescription>{team.description}</CardDescription>
-                </CardContent>
-                <CardFooter className="-mt-12 flex justify-end">
-                  <Button variant="outline" size="icon">
-                    <ChevronRight />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </div>
+            <TeamCard {...team} />
           </CarouselItem>
         ))}
       </CarouselContent>
