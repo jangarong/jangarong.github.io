@@ -35,6 +35,7 @@ import {
 import { Teams } from "./teams"
 import { ChevronRight } from "lucide-react"
 import { CarouselItem } from "./ui/carousel"
+import { TeamDrawer } from "./team-drawer"
 
 interface TeamProps {
     company: string;
@@ -59,9 +60,7 @@ export function TeamCard({ company, logo, description, enabled }: TeamProps) {
                     <CardDescription>{description}</CardDescription>
                 </CardContent>
                 <CardFooter className="-mt-12 flex justify-end">
-                    <Button variant="outline" size="icon">
-                        <ChevronRight />
-                    </Button>
+                    <TeamDrawer />
                 </CardFooter>
             </Card>
         </div>
