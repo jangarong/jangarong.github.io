@@ -42,16 +42,16 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
     let logoMarginBottom = 6
     if (!!isMobile){
         logoWidth = 80
-        logoMargin = 2
+        logoMargin = 0
         logoMarginBottom = 4
     }
 
     return (
         <div className="flex flex-wrap justify-center align-center">
             {teams.map((team) => (
-                <div className="flex">
+                <div className={`flex pl-${logoMargin} pr-${logoMargin}`}>
                     <Image
-                        className={`dark:invert m-${logoMargin} mb-${logoMarginBottom}`}
+                        className={`dark:invert m-2 mb-${logoMarginBottom}`}
                         src={team.logo}
                         alt={team.company}
                         width={logoWidth}

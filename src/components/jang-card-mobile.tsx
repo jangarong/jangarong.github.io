@@ -29,7 +29,7 @@ export function JangCardMobile() {
                             <DownloadIcon />
                         </Button>
                     </div>
-                    <Card className="mt-[20px] w-[350px] h-[400px] rounded-none">
+                    <Card className="mt-[15px] w-[350px] h-[425px] rounded-none">
                         <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
                     </Card>
                     <CardContent className="mt-4">

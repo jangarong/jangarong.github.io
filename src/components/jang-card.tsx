@@ -31,7 +31,7 @@ export function JangCard() {
                             <CardDescription className="text-center">Developing Cybersecurity tools at</CardDescription>
                         </div>
                     </CardHeader>
-                    <CardContent className="w-[80%]">
+                    <CardContent className="w-[90%]">
                         <TeamsContent />
                         <div className="flex w-[100%] text-xxs text-center justify-center">
                             *Starting January 2025
