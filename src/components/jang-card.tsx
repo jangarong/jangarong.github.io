@@ -12,6 +12,7 @@ import {
 import ShineBorder from "@/components/ui/shine-border"
 import { TeamsContent } from "./teams-content"
 import { CodeIcon, DownloadIcon } from "lucide-react"
+import AnimatedShinyText from "./ui/animated-shiny-text"
 
 export function JangCard() {
     return (
@@ -27,13 +28,19 @@ export function JangCard() {
 
                     <CardHeader>
                         <div className="flex flex-col items-center justify-between pt-4 text-xl">
-                            <CardTitle className="p-2">Jan Garong</CardTitle>
-                            <CardDescription className="text-center">Developing Cybersecurity tools at</CardDescription>
+                            <CardTitle className="p-2">
+                                Jan Garong
+                            </CardTitle>
+                            <CardDescription className="text-center">
+                                <AnimatedShinyText className="inline-flex items-center justify-center px-4 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
+                                    <span>Developing Cybersecurity tools at</span>
+                                </AnimatedShinyText>
+                            </CardDescription>
                         </div>
                     </CardHeader>
-                    <CardContent className="w-[90%]">
+                    <CardContent className="w-[90%] mt-[-8px]">
                         <TeamsContent />
-                        <div className="flex w-[100%] text-xxs text-center justify-center">
+                        <div className="flex w-[100%] mt-[20px] text-xxs text-center justify-center">
                             *Starting January 2025
                         </div>
                     </CardContent>
