@@ -38,17 +38,21 @@ export function JangCard() {
                         </div>
                     </CardContent>
                     <CardFooter className="flex justify-between w-[100%]">
-                        <Button variant="outline">
-                            Contributions
-                            <CodeIcon />
-                        </Button>
-                        <Button>
-                            Resume
-                            <DownloadIcon />
-                        </Button>
+                        <a href="/works">
+                            <Button variant="outline">
+                                Contributions
+                                <CodeIcon />
+                            </Button>
+                        </a>
+                        <a href="/resume.pdf">
+                            <Button>
+                                Resume
+                                <DownloadIcon />
+                            </Button>
+                        </a>
                     </CardFooter>
                 </div>
             </ShineBorder>
-        </Card>
+        </Card >
     )
 }
