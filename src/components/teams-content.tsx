@@ -41,14 +41,14 @@ export function TeamsContent() {
                         className="dark:invert m-2 mb-6"
                         src={team.logo}
                         alt={team.company}
-                        width={100}
+                        width={90}
                         height={75}
                         priority
                     />
                     {team.enabled ? null : <div className="text-2xl ml-[-8px] mr-[6px]">*</div>}
                 </div>
             ))}
-            <div className="flex w-[100%] text-xs text-center justify-center">
+            <div className="flex w-[100%] text-xxs text-center justify-center">
                 *Starting January 2025
             </div>
         </div>

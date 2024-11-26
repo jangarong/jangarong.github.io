@@ -71,7 +71,10 @@ export default {
   					'background-position': '0% 0%'
   				}
   			}
-  		}
+  		},
+		fontSize: {
+			'xxs': '0.625rem'
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
