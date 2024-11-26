@@ -2,9 +2,6 @@
 
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
-import Image from "next/image";
-
-import { Card, CardContent, CardDescription, CardFooter } from "@/components/ui/card"
 import {
   Carousel,
   CarouselContent,
@@ -12,8 +9,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
 import { TeamCard } from "./team-card";
 
 export function Teams() {

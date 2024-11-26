@@ -1,7 +1,4 @@
 import Image from "next/image";
-import { CardWithForm } from "./example";
-import { ModeToggle } from "@/components/mode-toggle";
-import { DrawerDemo } from "@/components/drawer-demo";
 import { JangCard } from "@/components/jang-card";
 
 export default function Home() {
