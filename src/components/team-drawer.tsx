@@ -122,7 +122,24 @@ export function TeamDrawer() {
                   />
                 </BarChart>
               </ResponsiveContainer> */}
-                            hello world!
+                            <div>
+                                hello wlrd!
+                            </div>
+                            <div>
+                                hello wlrd!
+                            </div>
+                            <div>
+                                hello wlrd!
+                            </div>
+                            <div>
+                                hello wlrd!
+                            </div>
+                            <div>
+                                hello wlrd!
+                            </div>
+                            <div>
+                                hello wlrd!
+                            </div>
                         </div>
                     </div>
                     <DrawerFooter>

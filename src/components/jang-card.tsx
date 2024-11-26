@@ -36,28 +36,26 @@ import { Teams } from "./teams"
 
 export function JangCard() {
     return (
-        <Card className="w-[350px]">
-            <CardHeader>
-                <div className="flex flex-col items-center justify-between ">
-                    <Image
-                        className="dark:invert p-4"
-                        src="/jang.svg"
-                        alt="Next.js logo"
-                        width={180}
-                        height={42}
-                        priority
-                    />
-                    <CardTitle className="p-2">Jan Garong</CardTitle>
-                    <CardDescription>Cybersecurity's Software Developer</CardDescription>
-                </div>
-            </CardHeader>
-            <CardContent>
-                <Teams />
-            </CardContent>
-            <CardFooter className="flex justify-between">
-                <ModeToggle />
-                <Button>Contact</Button>
-            </CardFooter>
+        <Card className="w-[650px] h-[350px] flex flex-row">
+            <Card className="ml-[40px] w-[225px] rounded-none">
+                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
+            </Card>
+            <div className="flex flex-col">
+
+                <CardHeader>
+                    <div className="flex flex-col items-center justify-between p-12">
+                        <CardTitle className="p-2">Jan Garong</CardTitle>
+                        <CardDescription>Cybersecurity's Software Developer</CardDescription>
+                    </div>
+                </CardHeader>
+                <CardContent>
+                    {/* <Teams /> */}
+                </CardContent>
+                <CardFooter className="flex justify-between">
+                    <ModeToggle />
+                    <Button>Contact</Button>
+                </CardFooter>
+            </div>
         </Card>
     )
 }
