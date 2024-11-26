@@ -25,8 +25,8 @@ export function JangCardMobile() {
                     <div className="flex flex-row items-center justify-between ml-6 mr-6 text-lg mt-[20px]">
                         <CardTitle>Jan Garong</CardTitle>
                         <Button className="text-xs">
-                            Resume
-                            <DownloadIcon />
+                            Contributions
+                            <CodeIcon />
                         </Button>
                     </div>
                     <Card className="mt-[15px] w-[350px] h-[425px] rounded-none">
