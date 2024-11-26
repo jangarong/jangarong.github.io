@@ -9,7 +9,6 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import { ModeToggle } from "./mode-toggle"
 
 export function JangCard() {
     return (
@@ -22,16 +21,12 @@ export function JangCard() {
                 <CardHeader>
                     <div className="flex flex-col items-center justify-between p-12">
                         <CardTitle className="p-2">Jan Garong</CardTitle>
-                        <CardDescription>Cybersecurity&#39;s Software Developer</CardDescription>
+                        <CardDescription className="text-center">Developing Cybersecurity tools at</CardDescription>
                     </div>
                 </CardHeader>
                 <CardContent>
                     {/* <Teams /> */}
                 </CardContent>
-                <CardFooter className="flex justify-between">
-                    <ModeToggle />
-                    <Button>Contact</Button>
-                </CardFooter>
             </div>
         </Card>
     )

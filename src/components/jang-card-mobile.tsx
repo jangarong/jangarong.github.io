@@ -10,7 +10,6 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import Image from "next/image";
-import { ModeToggle } from "./mode-toggle"
 import { Teams } from "./teams"
 
 export function JangCardMobile() {
@@ -33,8 +32,7 @@ export function JangCardMobile() {
             <CardContent>
                 <Teams />
             </CardContent>
-            <CardFooter className="flex justify-between">
-                <ModeToggle />
+            <CardFooter>
                 <Button>Contact</Button>
             </CardFooter>
         </Card>
