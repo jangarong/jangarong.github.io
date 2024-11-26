@@ -1,6 +1,10 @@
 import Image from "next/image";
 
-export function TeamsContent() {
+interface TeamsContentProps {
+    isMobile?: boolean;
+}
+
+export function TeamsContent({isMobile}: TeamsContentProps) {
 
     const teams = [
         {
@@ -33,24 +37,30 @@ export function TeamsContent() {
         },
     ]
 
+    let logoWidth = 90
+    let logoMargin = 2
+    let logoMarginBottom = 6
+    if (!!isMobile){
+        logoWidth = 80
+        logoMargin = 2
+        logoMarginBottom = 4
+    }
+
     return (
         <div className="flex flex-wrap justify-center align-center">
             {teams.map((team) => (
                 <div className="flex">
                     <Image
-                        className="dark:invert m-2 mb-6"
+                        className={`dark:invert m-${logoMargin} mb-${logoMarginBottom}`}
                         src={team.logo}
                         alt={team.company}
-                        width={90}
-                        height={75}
+                        width={logoWidth}
+                        height={logoWidth/ 2}
                         priority
                     />
                     {team.enabled ? null : <div className="text-2xl ml-[-8px] mr-[6px]">*</div>}
                 </div>
             ))}
-            <div className="flex w-[100%] text-xxs text-center justify-center">
-                *Starting January 2025
-            </div>
         </div>
     )
 }

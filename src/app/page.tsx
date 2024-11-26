@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { JangCard } from "@/components/jang-card";
 import { GithubIcon, LinkedinIcon, KeyRoundIcon } from "lucide-react";
+import { JangCardMobile } from "@/components/jang-card-mobile";
 
 export default function Home() {
   return (
@@ -8,7 +9,12 @@ export default function Home() {
       {/* <CardWithForm /> */}
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
       {/* <ModeToggle /> */}
+      <div className="hidden md:block">
       <JangCard />
+      </div>
+      <div className="visible md:hidden">
+      <JangCardMobile />
+      </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a

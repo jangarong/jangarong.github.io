@@ -12,7 +12,6 @@ import {
 import ShineBorder from "@/components/ui/shine-border"
 import { TeamsContent } from "./teams-content"
 import { CodeIcon, DownloadIcon } from "lucide-react"
-import Image from "next/image";
 
 export function JangCard() {
     return (
@@ -24,7 +23,7 @@ export function JangCard() {
                 <Card className="ml-[40px] w-[275px] h-[350px] rounded-none">
                     <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
                 </Card>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
 
                     <CardHeader>
                         <div className="flex flex-col items-center justify-between pt-4 text-xl">
@@ -32,16 +31,19 @@ export function JangCard() {
                             <CardDescription className="text-center">Developing Cybersecurity tools at</CardDescription>
                         </div>
                     </CardHeader>
-                    <CardContent>
+                    <CardContent className="w-[80%]">
                         <TeamsContent />
+                        <div className="flex w-[100%] text-xxs text-center justify-center">
+                            *Starting January 2025
+                        </div>
                     </CardContent>
-                    <CardFooter className="flex justify-between">
+                    <CardFooter className="flex justify-between w-[100%]">
                         <Button variant="outline">
-                        Contributions
+                            Contributions
                             <CodeIcon />
                         </Button>
                         <Button>
-                        Resume
+                            Resume
                             <DownloadIcon />
                         </Button>
                     </CardFooter>
