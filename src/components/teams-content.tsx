@@ -49,7 +49,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
     return (
         <div className="flex flex-wrap justify-center align-center">
             {teams.map((team) => (
-                <div className={`flex pl-${logoMargin} pr-${logoMargin}`}>
+                <div className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
                     <Image
                         className={`dark:invert m-2 mb-${logoMarginBottom}`}
                         src={team.logo}

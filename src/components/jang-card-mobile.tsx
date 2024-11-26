@@ -5,13 +5,11 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
-    CardHeader,
     CardTitle,
 } from "@/components/ui/card"
 import ShineBorder from "@/components/ui/shine-border"
 import { TeamsContent } from "./teams-content"
-import { CodeIcon, DownloadIcon } from "lucide-react"
+import { CodeIcon } from "lucide-react"
 
 export function JangCardMobile() {
     return (
