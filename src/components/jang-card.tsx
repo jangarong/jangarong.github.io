@@ -12,7 +12,7 @@ import {
 import ShineBorder from "@/components/ui/shine-border"
 import { TeamsContent } from "./teams-content"
 import { CodeIcon, DownloadIcon } from "lucide-react"
-import AnimatedShinyText from "./ui/animated-shiny-text"
+import AnimatedShinyText from "@/components/ui/animated-shiny-text"
 
 export function JangCard() {
     return (
@@ -52,7 +52,7 @@ export function JangCard() {
                                 </Button>
                             </a>
                             <a href="/resume.pdf">
-                                <Button>
+                                <Button className="h-[34px] mb-[2px]">
                                     Resume
                                     <DownloadIcon />
                                 </Button>

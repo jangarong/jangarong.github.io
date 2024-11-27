@@ -70,3 +70,52 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* https://codepen.io/frontendsda/pen/JeEmPW */
+
+.bkg__spotlight {
+  position: absolute;
+  width: 100vw;
+  background: radial-gradient(75% 35% at 50% 50%, rgba(46, 47, 56, 0.6) 20%, rgba(53, 55, 66, 0) 90%), 
+              linear-gradient(rgba(19, 24, 34, 0) 0%, rgb(2, 2, 4) 80%);
+  z-index: -1;
+
+&:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: radial-gradient(50vw 60vw at 50% 50%, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0) 60%),
+  radial-gradient(35% 15% at 50% 50%, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0) 100%);
+}
+}
+
+
+@media (min-width: 768px) {
+.bkg__spotlight {
+	position: absolute;
+	width: 100vw;
+	background: radial-gradient(75% 35% at 50% 95%, rgba(46, 47, 56, 0.6) 20%, rgba(53, 55, 66, 0) 90%),
+					linear-gradient(rgba(19, 24, 34, 0) 0%, rgb(2, 2, 4) 80%);
+	z-index: -1;
+	
+	&:before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		position: absolute;
+		top: 0; 
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: radial-gradient(50vw 60vw at 50% 70%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 60%), 
+						radial-gradient(35% 15% at 50% 85%, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%); 
+	}
+}
+}
