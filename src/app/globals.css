@@ -74,11 +74,13 @@ body {
 /* https://codepen.io/frontendsda/pen/JeEmPW */
 
 .bkg__spotlight {
+  pointer-events: none;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   background: radial-gradient(75% 35% at 50% 50%, rgba(46, 47, 56, 0.6) 20%, rgba(53, 55, 66, 0) 90%), 
               linear-gradient(rgba(19, 24, 34, 0) 0%, rgb(2, 2, 4) 80%);
-  z-index: -1;
+  z-index: 2;
+  opacity: 30%;
 
 &:before {
   content: "";
@@ -98,17 +100,19 @@ body {
 
 @media (min-width: 768px) {
 .bkg__spotlight {
+  pointer-events: none;
 	position: absolute;
-	width: 100vw;
+	width: 100%;
 	background: radial-gradient(75% 35% at 50% 95%, rgba(46, 47, 56, 0.6) 20%, rgba(53, 55, 66, 0) 90%),
 					linear-gradient(rgba(19, 24, 34, 0) 0%, rgb(2, 2, 4) 80%);
-	z-index: -1;
+	z-index: 2;
+  opacity: 40%;
 	
 	&:before {
 		content: "";
 		width: 100%;
 		height: 100%;
-		z-index: 1;
+		z-index: 2;
 		position: absolute;
 		top: 0; 
 		left: 0;
