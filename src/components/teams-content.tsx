@@ -10,28 +10,28 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
         {
             "company": "Google",
             "logo": "/companies/google.svg",
-            "url": "",
+            "url": "https://about.google/",
             "description": "Google Cloud Security",
             "enabled": false
         },
         {
             "company": "Trend Micro",
             "logo": "/companies/trend.svg",
-            "url": "",
+            "url": "https://www.trendmicro.com/",
             "description": "Trend Micro Email Security",
             "enabled": true
         },
         {
             "company": "BlackBerry",
             "logo": "/companies/blackberry.svg",
-            "url": "",
+            "url": "https://www.blackberry.com",
             "description": "BlackBerry CylanceMDR",
             "enabled": true
         },
         {
             "company": "CertiK",
             "logo": "/companies/certik.svg",
-            "url": "",
+            "url": "https://certik.com",
             "description": "CertiK Skynet",
             "enabled": true
         },
@@ -49,7 +49,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
     return (
         <div className="flex flex-wrap justify-center align-center">
             {teams.map((team) => (
-                <div className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
+                <a href={team.url} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
                     <Image
                         className={`dark:invert m-2 mb-${logoMarginBottom}`}
                         src={team.logo}
@@ -59,7 +59,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
                         priority
                     />
                     {team.enabled ? null : <div className="text-2xl ml-[-8px] mr-[6px]">*</div>}
-                </div>
+                </a>
             ))}
         </div>
     )
