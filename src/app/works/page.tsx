@@ -1,5 +1,7 @@
 // https://ui.shadcn.com/docs/components/typography
 
+import Link from "next/link";
+
 export default function Works() {
   return (
     <div className="m-8">
@@ -7,7 +9,7 @@ export default function Works() {
         My Works
       </h1>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
-        This is a list of projects and teams I've been a part of. This page is a WIP.
+        This is a list of projects and teams I&apos;ve been a part of. This page is a WIP.
       </p>
       <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
         Contributions
@@ -28,7 +30,7 @@ export default function Works() {
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         An MDR and threat intelligence platform for incoming
-        malicious events. Monitored on devices with Cylance's AI,
+        malicious events. Monitored on devices with Cylance&apos;s AI,
         and managed by security analysts available 24/7. Previously
         developed microservices used to maintain the data pipeline,
         as well as APIs that are used for multi-tenancy and showing
@@ -56,7 +58,7 @@ export default function Works() {
         <li><a className="[&:not(:first-child)]:mt-6 underline" href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks">Amateur Hour - Using Headlines to Predict Stocks</a> - Machine Learning model that predicts stock movements based on news headlines.</li>
       </ul>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
-        <a className="[&:not(:first-child)]:mt-6 underline" href="/">Go back home</a>
+        <Link className="[&:not(:first-child)]:mt-6 underline" href="/">Go back home</Link>
       </p>
     </div>
   );
