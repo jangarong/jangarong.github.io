@@ -55,6 +55,9 @@ export default function Works() {
         <li><a className="[&:not(:first-child)]:mt-6 underline" href="https://github.com/sit-n-coding/solidguard">SolidGuard</a> - Vulnerability database + 24/7 Automated Smart Contract auditor.</li>
         <li><a className="[&:not(:first-child)]:mt-6 underline" href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks">Amateur Hour - Using Headlines to Predict Stocks</a> - Machine Learning model that predicts stock movements based on news headlines.</li>
       </ul>
+      <p className="leading-7 [&:not(:first-child)]:mt-6">
+        <a className="[&:not(:first-child)]:mt-6 underline" href="/">Go back home</a>
+      </p>
     </div>
   );
 }
