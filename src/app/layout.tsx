@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
+         <div className="bkg__spotlight w-[100%] h-[100%] min-h-[640px] overflow-auto"></div>
         {children}
       </body>
     </html>
