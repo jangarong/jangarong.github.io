@@ -51,7 +51,7 @@ export default function Works() {
       </h2>
       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
         <li>
-          <a className="[&:not(:first-child)]:mt-6 underline" href="https://zodiactail.itch.io/prologue">Zodiac Tail : A Game of Cat and Mouse</a> - A puzzle platformer with time mechanics that features the Zodiac Animals!</li>
+          <a className="[&:not(:first-child)]:mt-6 underline" href="/zodiactail/index.html">Zodiac Tail : A Game of Cat and Mouse</a> - A puzzle platformer with time mechanics that features the Zodiac Animals!</li>
         <li><a className="[&:not(:first-child)]:mt-6 underline" href="https://github.com/sit-n-coding/solidguard">SolidGuard</a> - Vulnerability database + 24/7 Automated Smart Contract auditor.</li>
         <li><a className="[&:not(:first-child)]:mt-6 underline" href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks">Amateur Hour - Using Headlines to Predict Stocks</a> - Machine Learning model that predicts stock movements based on news headlines.</li>
       </ul>
