@@ -22,8 +22,8 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
             "url": "https://www.trendmicro.com/",
             "description": "Trend Micro Email Security",
             "enabled": true,
-            "width":1.25,
-            "height":0.75
+            "width":1,
+            "height":0.5
         },
         {
             "company": "BlackBerry",
