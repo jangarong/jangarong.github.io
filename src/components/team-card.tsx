@@ -16,7 +16,7 @@ interface TeamProps {
 export function TeamCard({ avatar, description, team, date, url }: TeamProps) {
     return (
         <Card className="max-w-[400px] no-border bg-white/20 filter blur-10">
-            <CardHeader className="flex gap-3 flex-row items-center">
+            <CardHeader className="flex gap-3 flex-row items-center mb-[-12px]">
                 <Avatar>
                     <AvatarImage src={avatar} />
                     <AvatarFallback> src={team}</AvatarFallback>

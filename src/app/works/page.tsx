@@ -16,14 +16,14 @@ export default function Works() {
       "name": "BlackBerry CylanceMDR",
       "date": "September 2023 - December 2023",
       "avatar": "/teams/cylancemdr.webp",
-      "description": "An MDR and threat intelligence platform for incoming malicious events. Monitored on devices with Cylance's AI, and managed by security analysts available 24/7. Previously developed microservices used to maintain the data pipeline, as well as APIs that are used for multi-tenancy and showing alerts detected on client endpoints.&nbsp;",
+      "description": "An MDR and threat intelligence platform for incoming malicious events. Monitored on devices with Cylance's AI, and managed by security analysts available 24/7. Previously developed microservices used to maintain the data pipeline, as well as APIs that are used for multi-tenancy and showing alerts detected on client endpoints.",
       "url": "https://docs.blackberry.com/en/unified-endpoint-security/cylancemdr"
     },
     {
       "name": "CertiK Skynet",
       "date": "May 2022 - August 2022",
       "avatar": "/teams/skynet.jpg",
-      "description": "An all-in-one security analytics platform that gives insights to a variety of Web3 projects. This includes on-chain data, visualizations, security features, project activity, and many more! Worked on developing many of the widgets, most notably the bug bounty feature.&nbsp;",
+      "description": "An all-in-one security analytics platform that gives insights to a variety of Web3 projects. This includes on-chain data, visualizations, security features, project activity, and many more! Worked on developing many of the widgets, most notably the bug bounty feature.",
       "url": "https://www.certik.com/products/skynet"
     }
   ]
@@ -54,7 +54,7 @@ export default function Works() {
         tools for the Email Security product. This product aims to
         prevent incoming malicious emails such as those that contain
         phishing, ransomware, spam, as well as other protocol
-        filters like IP reputation, spoofing, etc.&nbsp;
+        filters like IP reputation, spoofing, etc.
         <a className="[&:not(:first-child)]:mt-6 underline" href="https://www.trendmicro.com/en_ca/business/products/user-protection/sps/email-and-collaboration/email-security.html">(Product Page)</a>
       </p>
       <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
@@ -66,7 +66,7 @@ export default function Works() {
         and managed by security analysts available 24/7. Previously
         developed microservices used to maintain the data pipeline,
         as well as APIs that are used for multi-tenancy and showing
-        alerts detected on client endpoints.&nbsp;
+        alerts detected on client endpoints.
         <a className="[&:not(:first-child)]:mt-6 underline" href="https://docs.blackberry.com/en/unified-endpoint-security/cylancemdr">(Product Page)</a>
       </p>
       <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
@@ -77,7 +77,7 @@ export default function Works() {
         insights to a variety of Web3 projects. This includes
         on-chain data, visualizations, security features, project
         activity, and many more! Worked on developing many of the
-        widgets, most notably the bug bounty feature.&nbsp;
+        widgets, most notably the bug bounty feature.
         <a className="[&:not(:first-child)]:mt-6 underline" href="https://www.certik.com/products/skynet">(Product Page)</a>
       </p>
       <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
