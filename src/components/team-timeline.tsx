@@ -28,7 +28,7 @@ export default function TeamTimeline() {
     ]
     return (
         <div className="ml-[6px] w-[640px]">
-            <div className="border-l-2 border-white">
+            <div className="border-l-[1px] border-white">
                 {teams.map(team => <TeamNode team={team.name}
                     date={team.date}
                     avatar={team.avatar}

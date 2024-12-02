@@ -16,8 +16,8 @@ interface TeamProps {
 export function TeamNode({ avatar, description, team, date, url }: TeamProps) {
     return (
         <div className="mb-[28px]">
-            <div className="flex gap-3 flex-row items-center ml-[-6px]">
-                <div className="w-3 h-3 bg-white rounded-full" />
+            <div className="flex gap-3 flex-row items-center ml-[-6.5px] mb-[16px]">
+                <div className="w-3 h-3 bg-black rounded-full border border-white" />
                 <Avatar>
                     <AvatarImage src={avatar} />
                     <AvatarFallback> src={team}</AvatarFallback>
