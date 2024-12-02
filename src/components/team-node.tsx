@@ -13,10 +13,11 @@ interface TeamProps {
     url: string;
 }
 
-export function TeamCard({ avatar, description, team, date, url }: TeamProps) {
+export function TeamNode({ avatar, description, team, date, url }: TeamProps) {
     return (
-        <Card className="max-w-[400px] no-border bg-white/20 filter blur-10">
-            <CardHeader className="flex gap-3 flex-row items-center mb-[-12px]">
+        <div className="mb-[28px]">
+            <div className="flex gap-3 flex-row items-center ml-[-6px]">
+                <div className="w-3 h-3 bg-white rounded-full" />
                 <Avatar>
                     <AvatarImage src={avatar} />
                     <AvatarFallback> src={team}</AvatarFallback>
@@ -25,19 +26,19 @@ export function TeamCard({ avatar, description, team, date, url }: TeamProps) {
                     <p className="text-md font-bold">{team}</p>
                     <p className="text-sm opacity-50">{date}</p>
                 </div>
-            </CardHeader>
-            <Separator className="my-4" />
-            <CardContent>
-                <p>{description}</p>
-            </CardContent>
-            <Separator className="my-4" />
-            <CardFooter>
-                <Link
-                    href={url}
-                >
-                    Product Page
-                </Link>
-            </CardFooter>
-        </Card>
+            </div>
+            <div className="flex-column ml-[16px]">
+                <div>
+                    <p>{description}</p>
+                </div>
+                <div>
+                    <Link
+                        href={url}
+                    >
+                        Product Page
+                    </Link>
+                </div>
+            </div>
+        </div>
     )
 }
