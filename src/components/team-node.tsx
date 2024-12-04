@@ -23,22 +23,13 @@ export function TeamNode({ avatar, description, team, date, url }: TeamProps) {
                     <AvatarFallback> src={team}</AvatarFallback>
                 </Avatar>
                 <div className="flex flex-col">
-                    <p className="text-md font-bold">{team}</p>
+                    <Link href={url} className="text-md font-bold">{team}</Link>
                     <p className="text-sm opacity-50">{date}</p>
                 </div>
             </div>
-            <div className="flex-column ml-[16px]">
-                <div>
+            <div className="ml-[18px]">
                     <p>{description}</p>
                 </div>
-                <div>
-                    <Link
-                        href={url}
-                    >
-                        Product Page
-                    </Link>
-                </div>
-            </div>
         </div>
     )
 }
