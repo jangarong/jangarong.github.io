@@ -11,14 +11,15 @@ export default function Works() {
   return (
     <div className="flex flex-col items-center">
       {/* <div className="bkg__spotlight w-[100%] h-[100%] min-h-[640px] overflow-auto"></div> */}
-      <div className="mt-[64px] mb-[64px]">
-        <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
-          My Works
-        </span>
-        <Separator className="mb-[64px]" />
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 gap-16 md:p-20 font-[family-name:var(--font-geist-sans)]">
+        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <TeamTimeline />
-      </div>
-      {/* <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          
+          {/* <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+            My Works
+          </span> */}
+          {/* <Separator className="mb-[64px]" /> */}
+          {/* <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
         Side Projects
       </h2>
       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
@@ -30,7 +31,9 @@ export default function Works() {
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         <Link className="[&:not(:first-child)]:mt-6 underline" href="/">Go back home</Link>
       </p> */}
-      <JangFooter />
+        </main>
+        <JangFooter />
+      </div>
     </div>
   );
 }
