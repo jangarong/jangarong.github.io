@@ -1,5 +1,4 @@
 import { JangCard } from "@/components/jang-card";
-import { GithubIcon, LinkedinIcon, MailIcon, KeyRoundIcon } from "lucide-react";
 import { JangCardMobile } from "@/components/jang-card-mobile";
 import { JangFooter } from "@/components/jang-footer";
 

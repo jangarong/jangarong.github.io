@@ -1,7 +1,4 @@
-import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-// import { Divider } from "@nextui-org/divider";
-import { Separator } from "@/components/ui/separator"
 import Link from "next/link";
 // import { Link } from "@nextui-org/link";
 
