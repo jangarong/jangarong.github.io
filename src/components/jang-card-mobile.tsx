@@ -24,7 +24,7 @@ export function JangCardMobile() {
                         <div className="flex flex-row items-center justify-between ml-6 mr-6 text-lg mt-[20px] mb-2">
                             <div className="mt-3">
                                 <CardTitle className="text-sm mb-1">Jan Garong</CardTitle>
-                                <CardDescription className="opacity-50 text-sm">
+                                <CardDescription className="opacity-80 text-sm">
                                     Software Engineer
                                 </CardDescription>
                             </div>
