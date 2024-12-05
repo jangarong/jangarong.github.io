@@ -2,10 +2,10 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Link from "next/link";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { ArrowRightIcon } from "lucide-react";
-// import { Link } from "@nextui-org/link";
 
 interface TeamProps {
     avatar: string;
+    teamLogo: string; // TODO: Hack; teamLogo is CSS className
     description: string;
     team: string;
     date: string;
@@ -14,7 +14,7 @@ interface TeamProps {
     invert?: boolean;
 }
 
-export function TeamCard({ avatar, description, team, date, url, color, invert }: TeamProps) {
+export function TeamCard({ avatar, description, team, date, url, color, invert, teamLogo }: TeamProps) {
     return (
         <Card className={`border-${color} bg-${color} h-[640px] w-[320px] rounded-3xl flex flex-col`}>
             <CardContent className="flex-grow">
