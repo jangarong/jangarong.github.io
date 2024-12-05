@@ -60,7 +60,7 @@ export default function TeamCarousel() {
                         url={team.url}
                         color={team.color}
                         invert={team.invert}
-                        teamLogo={team.teamLogo}
+                        // teamLogo={team.teamLogo}
                     />
                 </div>)}
         </div>

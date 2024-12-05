@@ -29,12 +29,12 @@ export default function TeamTimeline() {
     return (
         <div className="ml-[6px] w-[320px] sm:w-[480px] md:w-[640px]">
             <div className="border-l-[1px] border-white">
-                {teams.map(team => <TeamNode team={team.name}
+                {teams.map(team => <div key={team.name}><TeamNode team={team.name}
                     date={team.date}
                     avatar={team.avatar}
                     description={team.description}
                     url={team.url}
-                />)}
+                /></div>)}
             </div>
         </div>
     );

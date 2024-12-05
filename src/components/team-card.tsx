@@ -5,7 +5,7 @@ import { ArrowRightIcon } from "lucide-react";
 
 interface TeamProps {
     avatar: string;
-    teamLogo: string; // TODO: Hack; teamLogo is CSS className
+    // teamLogo: string; // TODO: Hack; teamLogo is CSS className
     description: string;
     team: string;
     date: string;
@@ -14,7 +14,7 @@ interface TeamProps {
     invert?: boolean;
 }
 
-export function TeamCard({ avatar, description, team, date, url, color, invert, teamLogo }: TeamProps) {
+export function TeamCard({ avatar, description, team, date, url, color, invert }: TeamProps) {
     return (
         <Card className={`border-${color} bg-${color} h-[640px] w-[320px] rounded-3xl flex flex-col`}>
             <CardContent className="flex-grow">
