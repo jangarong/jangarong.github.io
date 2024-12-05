@@ -3,6 +3,15 @@ import { TeamCard } from "@/components/team-card";
 export default function TeamCarousel() {
     const teams = [
         {
+            "name": "Security Command Center",
+            "date": "January 2025 - ???",
+            "avatar": "/teams/zodiactail.png",
+            "description": "Coming soon...",
+            "url": "https://cloud.google.com/security/products/security-command-center?hl=en",
+            "color": "white",
+            "invert": true
+        },
+        {
             "name": "Email Security",
             "date": "Jan 2024 - Dec 2024",
             "avatar": "/teams/tmems.png",
@@ -30,13 +39,13 @@ export default function TeamCarousel() {
             "name": "Zodiac Tail",
             "date": "July 2023 - Sept 2023",
             "avatar": "/teams/zodiactail.png",
-            "description": "A puzzle platformer with time mechanics that features the Zodiac Animals!",
+            "description": "A puzzle platformer with time mechanics that features the Zodiac Animals! I led development while Amy Li led the art direction for this game!",
             "url": "/zodiactail/index.html",
             "color": "orange-500"
         }
     ]
     return (
-        <div className="flex flex-row ml-[960px] md:ml-[640px] xl:ml-[0px]">
+        <div className="flex flex-row ml-[1320px] md:ml-[640px] xl:ml-[480px]">
             {teams.map(team =>
                 <div key={team.name} className="ml-3 mr-3">
                     <TeamCard team={team.name}
@@ -45,6 +54,7 @@ export default function TeamCarousel() {
                         description={team.description}
                         url={team.url}
                         color={team.color}
+                        invert={team.invert}
                     />
                 </div>)}
         </div>

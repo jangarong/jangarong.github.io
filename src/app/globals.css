@@ -172,19 +172,19 @@ body {
 /* tailwind colors doesn't work for some reason :( */
 
 .bg-trendmicro {
-  background-color: #D8121B;
+  background-color: #d8121b;
 }
 
-.border-trendmicro  {
-  border-color: #D8121B;
+.border-trendmicro {
+  border-color: #d8121b;
 }
 
 .bg-blackberry {
-  background-color: #1475DC;
+  background-color: #1475dc;
 }
 
 .border-blackberry {
-  border-color: #1475DC;
+  border-color: #1475dc;
 }
 
 .bg-neutral-900 {
@@ -203,3 +203,10 @@ body {
   border-color: #9a3412;
 }
 
+.bg-white-0 {
+  background-color: #ffffff;
+}
+
+.border-white-0 {
+  border-color: #ffffff;
+}

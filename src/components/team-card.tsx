@@ -11,9 +11,10 @@ interface TeamProps {
     date: string;
     url: string;
     color: string;
+    invert?: boolean;
 }
 
-export function TeamCard({ avatar, description, team, date, url, color }: TeamProps) {
+export function TeamCard({ avatar, description, team, date, url, color, invert }: TeamProps) {
     return (
         <Card className={`border-${color} bg-${color} h-[640px] w-[320px] rounded-3xl flex flex-col`}>
             <CardContent className="flex-grow">
@@ -22,16 +23,16 @@ export function TeamCard({ avatar, description, team, date, url, color }: TeamPr
                         <AvatarImage src={avatar} />
                         <AvatarFallback> src={team}</AvatarFallback>
                     </Avatar>
-                    <div className="flex flex-col">
+                    <div className={`flex flex-col ${invert ? 'invert' : ''}`}>
                         <div className="text-md font-bold">{team}</div>
                         <p className="text-sm opacity-80">{date}</p>
                     </div>
                 </div>
-                <div>
+                <div className={`${invert ? 'invert' : ''}`}>
                     <p>{description}</p>
                 </div>
             </CardContent>
-            <CardFooter className="bottom-0 left-0 right-0 flex justify-end">
+            <CardFooter className={`bottom-0 left-0 right-0 flex justify-end ${invert ? 'invert' : ''}`}>
                 <Link href={url} target="_blank"
                     rel="noopener noreferrer">
                     <ArrowRightIcon />
