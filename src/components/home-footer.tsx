@@ -1,4 +1,4 @@
-import { GithubIcon, HomeIcon, KeyRoundIcon, LinkedinIcon, MailIcon } from "lucide-react";
+import { GithubIcon, HomeIcon, LinkedinIcon } from "lucide-react";
 
 export function HomeFooter() {
     return (
