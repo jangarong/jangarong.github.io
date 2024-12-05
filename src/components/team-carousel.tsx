@@ -50,7 +50,7 @@ export default function TeamCarousel() {
         }
     ]
     return (
-        <div className="flex flex-row ml-[1320px] md:ml-[640px] xl:ml-[480px]">
+        <div className="flex flex-row ml-[1320px] md:ml-[1080px] xl:ml-[720px]">
             {teams.map(team =>
                 <div key={team.name} className="ml-3 mr-3">
                     <TeamCard team={team.name}
