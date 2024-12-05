@@ -12,6 +12,13 @@ export default {
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				// TODO: Colors not working
+				blackberry: {
+					DEFAULT: '#1475DC'
+				},
+				trendmicro: {
+					DEFAULT: '#D8121B'
+				},
 				lightblack: {
 					DEFAULT: '#0a0a0a', // Custom light black color
 					inverse: '#f5f5f5'

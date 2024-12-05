@@ -168,3 +168,29 @@ body {
     radial-gradient(at 45% 46%, hsla(21, 88%, 79%, 1) 0px, transparent 50%),
     radial-gradient(at 87% 97%, hsla(88, 61%, 60%, 1) 0px, transparent 50%);
 }
+
+/* tailwind colors doesn't work for some reason :( */
+
+.bg-trendmicro {
+  background-color: #D8121B;
+}
+
+.border-trendmicro  {
+  border-color: #D8121B;
+}
+
+.bg-blackberry {
+  background-color: #1475DC;
+}
+
+.border-blackberry {
+  border-color: #1475DC;
+}
+
+.bg-neutral-900 {
+  background-color: rgb(23 23 23);
+}
+
+.border-neutral-900 {
+  border-color: rgb(23 23 23);
+}
