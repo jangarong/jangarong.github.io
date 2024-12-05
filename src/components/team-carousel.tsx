@@ -25,10 +25,18 @@ export default function TeamCarousel() {
             "description": "An all-in-one security analytics platform that gives insights to a variety of Web3 projects. This includes on-chain data, visualizations, security features, project activity, and many more! Worked on developing many of the widgets, most notably the bug bounty feature.",
             "url": "https://www.certik.com/products/skynet",
             "color": "neutral-900"
+        },
+        {
+            "name": "Zodiac Tail",
+            "date": "July 2023 - Sept 2023",
+            "avatar": "/teams/zodiactail.png",
+            "description": "A puzzle platformer with time mechanics that features the Zodiac Animals!",
+            "url": "/zodiactail/index.html",
+            "color": "orange-500"
         }
     ]
     return (
-        <div className="flex flex-row">
+        <div className="flex flex-row ml-[960px] md:ml-[640px]">
             {teams.map(team =>
                 <div key={team.name} className="ml-3 mr-3">
                     <TeamCard team={team.name}

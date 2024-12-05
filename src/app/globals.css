@@ -194,3 +194,12 @@ body {
 .border-neutral-900 {
   border-color: rgb(23 23 23);
 }
+
+.bg-orange-500 {
+  background-color: #9a3412;
+}
+
+.border-orange-500 {
+  border-color: #9a3412;
+}
+
