@@ -5,7 +5,7 @@ export default function TeamCarousel() {
         {
             "name": "Security Command Center",
             "date": "January 2025 - ???",
-            "avatar": "/teams/zodiactail.png",
+            "avatar": "/teams/google.png",
             "description": "Coming soon...",
             "url": "https://cloud.google.com/security/products/security-command-center?hl=en",
             "color": "white",
@@ -14,7 +14,7 @@ export default function TeamCarousel() {
         {
             "name": "Email Security",
             "date": "Jan 2024 - Dec 2024",
-            "avatar": "/teams/tmems.png",
+            "avatar": "/teams/trendmicro.png",
             "description": "Currently developing backend log features + development tools for the Email Security product. This product aims to prevent incoming malicious emails such as those that contain phishing, ransomware, spam, as well as other protocol filters like IP reputation, spoofing, etc.",
             "url": "https://www.trendmicro.com/en_ca/business/products/user-protection/sps/email-and-collaboration/email-security.html",
             "color": "trendmicro"
@@ -22,7 +22,7 @@ export default function TeamCarousel() {
         {
             "name": "CylanceMDR",
             "date": "Sept 2023 - Dec 2023",
-            "avatar": "/teams/cylancemdr.webp",
+            "avatar": "/teams/blackberry.jpg",
             "description": "An MDR and threat intelligence platform for incoming malicious events. Monitored on devices with Cylance's AI, and managed by security analysts available 24/7. Previously developed microservices used to maintain the data pipeline, as well as APIs that are used for multi-tenancy and showing alerts detected on client endpoints.",
             "url": "https://docs.blackberry.com/en/unified-endpoint-security/cylancemdr",
             "color": "blackberry"
@@ -30,7 +30,7 @@ export default function TeamCarousel() {
         {
             "name": "Skynet",
             "date": "May 2022 - Aug 2022",
-            "avatar": "/teams/skynet.jpg",
+            "avatar": "/teams/certik.jpg",
             "description": "An all-in-one security analytics platform that gives insights to a variety of Web3 projects. This includes on-chain data, visualizations, security features, project activity, and many more! Worked on developing many of the widgets, most notably the bug bounty feature.",
             "url": "https://www.certik.com/products/skynet",
             "color": "neutral-900"
