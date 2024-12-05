@@ -16,7 +16,7 @@ interface TeamProps {
 
 export function TeamCard({ avatar, description, team, date, url, color, invert }: TeamProps) {
     return (
-        <Card className={`border-${color} bg-${color} h-[640px] w-[320px] rounded-3xl flex flex-col`}>
+        <Card className={`border-${color} bg-${color} h-[480px] w-[320px] rounded-3xl flex flex-col`}>
             <CardContent className="flex-grow">
                 <div className="flex gap-3 flex-row items-center mb-[16px] mt-[16px] mr-[16px]">
                     <Avatar>

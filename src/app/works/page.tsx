@@ -13,7 +13,7 @@ export default function Works() {
         </div>
       </nav>
       <main className="absolute flex flex-col gap-8 row-start-2 items-center sm:items-start ">
-        <div className="m-[113px]">
+        <div className="mt-[156px]">
           <TeamCarousel />
         </div>
       </main>
