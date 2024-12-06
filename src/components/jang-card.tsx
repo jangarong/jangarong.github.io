@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card"
 import ShineBorder from "@/components/ui/shine-border"
 import { TeamsContent } from "./teams-content"
-import { CodeIcon, DownloadIcon } from "lucide-react"
+import { GithubIcon, LinkedinIcon } from "lucide-react"
 import AnimatedShinyText from "@/components/ui/animated-shiny-text"
 
 export function JangCard() {
@@ -45,16 +45,16 @@ export function JangCard() {
                             </div>
                         </CardContent>
                         <CardFooter className="flex justify-between w-[100%]">
-                            <a href="/works">
+                            <a href="https://github.com/jangarong">
                                 <Button variant="outline">
-                                    Contributions
-                                    <CodeIcon />
+                                    GitHub
+                                    <GithubIcon className="mb-[2px]" />
                                 </Button>
                             </a>
-                            <a href="/resume.pdf">
+                            <a href="https://linkedin.com/in/jangarong/">
                                 <Button className="h-[34px] mb-[2px]">
-                                    Resume
-                                    <DownloadIcon />
+                                    LinkedIn
+                                    <LinkedinIcon className="mb-[2px]" />
                                 </Button>
                             </a>
                         </CardFooter>
