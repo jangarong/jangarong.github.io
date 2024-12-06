@@ -16,7 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Jan Garong",
   description: "My ordinary website.",
-  icons: "/jang-favicon.svg"
+  icons: "/favicon.ico"
 };
 
 export default function RootLayout({
