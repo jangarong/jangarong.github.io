@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card"
 import ShineBorder from "@/components/ui/shine-border"
 import { TeamsContent } from "./teams-content"
-import { CodeIcon, DownloadIcon, GithubIcon, LinkedinIcon } from "lucide-react"
+import { GithubIcon, LinkedinIcon } from "lucide-react"
 import AnimatedShinyText from "@/components/ui/animated-shiny-text"
 
 export function JangCard() {
