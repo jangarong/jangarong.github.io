@@ -9,14 +9,14 @@ export default function TeamCarousel() {
             "description": "Coming soon...",
             "url": "https://cloud.google.com/security/products/security-command-center?hl=en",
             "color": "white",
-            "teamLogo":"/teams/",
+            "teamLogo": "/teams/",
             "invert": true
         },
         {
             "name": "Email Security",
             "date": "Jan 2024 - Dec 2024",
             "avatar": "/teams/trendmicro.png",
-            "teamLogo":"/teams/",
+            "teamLogo": "/teams/",
             "description": "Currently developing backend log features + development tools for the Email Security product. This product aims to prevent incoming malicious emails such as those that contain phishing, ransomware, spam, as well as other protocol filters like IP reputation, spoofing, etc.",
             "url": "https://www.trendmicro.com/en_ca/business/products/user-protection/sps/email-and-collaboration/email-security.html",
             "color": "trendmicro"
@@ -50,9 +50,9 @@ export default function TeamCarousel() {
         }
     ]
     return (
-        <div className="flex flex-row ml-[1320px] md:ml-[1080px] xl:ml-[720px]">
+        <div className="flex flex-row overflow-x-auto justify-start ml-4 mr-4">
             {teams.map(team =>
-                <div key={team.name} className="ml-3 mr-3">
+                <div key={team.name} className="m-4">
                     <TeamCard team={team.name}
                         date={team.date}
                         avatar={team.avatar}
@@ -60,7 +60,7 @@ export default function TeamCarousel() {
                         url={team.url}
                         color={team.color}
                         invert={team.invert}
-                        // teamLogo={team.teamLogo}
+                    // teamLogo={team.teamLogo}
                     />
                 </div>)}
         </div>
