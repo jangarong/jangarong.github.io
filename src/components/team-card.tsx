@@ -24,7 +24,8 @@ export function TeamCard({ avatar, description, team, date, url, color, invert, 
                         <AvatarFallback> src={team}</AvatarFallback>
                     </Avatar>
                     <div className={`flex flex-col ${invert ? 'invert' : ''}`}>
-                        <div className="text-md font-bold">{team}</div>
+                        <Link href={url} target="_blank"
+                            rel="noopener noreferrer" className="text-md font-bold">{team}</Link>
                         <p className="text-sm opacity-80">{date}</p>
                     </div>
                 </div>
