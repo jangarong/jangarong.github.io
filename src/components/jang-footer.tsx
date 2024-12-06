@@ -10,7 +10,7 @@ export function JangFooter() {
                 href="/works"
             >
                 <BriefcaseBusinessIcon className="opacity-50" />
-                Contributions
+                Works
             </Link>
             <Link
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
