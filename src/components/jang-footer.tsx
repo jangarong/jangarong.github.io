@@ -1,4 +1,6 @@
-import { GithubIcon, LinkedinIcon, MailIcon, KeyRoundIcon } from "lucide-react";
+import { GithubIcon, LinkedinIcon, MailIcon, KeyRoundIcon, BriefcaseBusinessIcon, FileTextIcon, HomeIcon } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 export function JangFooter() {
     return (
@@ -12,33 +14,34 @@ export function JangFooter() {
                 <KeyRoundIcon className="opacity-50" />
                 PGP Key
             </a>
-            <a
+            <Link
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                href="mailto:jan.garong@alumni.utoronto.ca"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/"
             >
-                <MailIcon className="opacity-50" />
-                jan.garong@alumni.utoronto.ca
-            </a>
-            <a
+                <HomeIcon className="opacity-50" />
+                Home
+            </Link>
+            <Link
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                href="https://github.com/jangarong/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/works"
             >
-                <GithubIcon className="opacity-50" />
-                jangarong
-            </a>
-            <a
+                <BriefcaseBusinessIcon className="opacity-50" />
+                Contributions
+            </Link>
+            <Link
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                href="https://linkedin.com/in/jangarong/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/resume.pdf"
             >
-                <LinkedinIcon className="opacity-50" />
-                jangarong
-            </a>
+                <FileTextIcon className="opacity-50" />
+                Resume
+            </Link>
+            <Link
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                href="/zodiactail/index.html"
+            >
+                <Image src={"/zodiactail-icon.png"} alt={"zt-icon"} width={20} height={20} />
+                Zodiac Tail
+            </Link>
         </footer>
     )
 }

@@ -38,15 +38,6 @@ export default function TeamCarousel() {
             "description": "An all-in-one security analytics platform that gives insights to a variety of Web3 projects. This includes on-chain data, visualizations, security features, project activity, and many more! Worked on developing many of the widgets, most notably the bug bounty feature.",
             "url": "https://www.certik.com/products/skynet",
             "color": "neutral-900"
-        },
-        {
-            "name": "Zodiac Tail",
-            "date": "July 2023 - Sept 2023",
-            "avatar": "/teams/zodiactail.png",
-            "teamLogo": "card-zodiactail",
-            "description": "A puzzle platformer with time mechanics that features the Zodiac Animals! I led development while Amy Li led the art direction for this game!",
-            "url": "/zodiactail/index.html",
-            "color": "orange-500"
         }
     ]
     return (

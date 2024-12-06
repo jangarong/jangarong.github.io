@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card"
 import ShineBorder from "@/components/ui/shine-border"
 import { TeamsContent } from "./teams-content"
-import { CodeIcon, DownloadIcon } from "lucide-react"
+import { CodeIcon, DownloadIcon, GithubIcon, LinkedinIcon } from "lucide-react"
 import AnimatedShinyText from "@/components/ui/animated-shiny-text"
 
 export function JangCardMobile() {
@@ -29,11 +29,11 @@ export function JangCardMobile() {
                                 </CardDescription>
                             </div>
                             <div className="text-xs items-center flex flex-row justify-between">
-                                <a href="/works">
-                                    <CodeIcon height={40} />
+                                <a href="https://github.com/jangarong">
+                                    <GithubIcon className="ml-4 opacity-50" />
                                 </a>
-                                <a href="/resume.pdf">
-                                    <DownloadIcon className="ml-6" height={40} />
+                                <a href="https://linkedin.com/in/jangarong/">
+                                    <LinkedinIcon className="ml-4 opacity-50" />
                                 </a>
                             </div>
                         </div>
