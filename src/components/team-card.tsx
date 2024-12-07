@@ -16,7 +16,7 @@ interface TeamProps {
 
 export function TeamCard({ avatar, description, team, date, url, color, invert, teamLogo }: TeamProps) {
     return (
-        <Card className={`border-${color} bg-${color} h-[520px] w-[320px] rounded-3xl flex flex-col`}>
+        <Card className={`border-${color} bg-${color} h-[420px] w-[280px] md:h-[520px] md:w-[320px] rounded-3xl flex flex-col`}>
             <CardContent className="flex-grow z-10">
                 <div className="flex gap-3 flex-row items-center mb-[16px] mt-[16px] mr-[16px]">
                     <Avatar>
@@ -39,7 +39,7 @@ export function TeamCard({ avatar, description, team, date, url, color, invert, 
                     <ArrowRightIcon />
                 </Link>
             </CardFooter>
-            <Card className={`absolute border-${color} bg-${color} ${teamLogo} h-[520px] w-[320px] rounded-3xl flex flex-col opacity-30`}></Card>
+            <Card className={`absolute border-${color} bg-${color} ${teamLogo} h-[420px] w-[280px] md:h-[520px] md:w-[320px] rounded-3xl flex flex-col opacity-30`}></Card>
         </Card>
     )
 }
