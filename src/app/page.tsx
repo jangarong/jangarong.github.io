@@ -15,8 +15,8 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start pb-[64px]">
           <RGBCard
             headerMobile={
-              <div className="flex flex-row items-center justify-between ml-6 mr-6 text-lg mt-[20px] mb-2">
-                <div className="mt-3">
+              <div className="flex flex-row items-center justify-between ml-6 mr-6 text-lg md:mt-[20px] mb-2">
+                <div className="pt-1">
                   <CardTitle className="text-sm mb-1">Jan Garong</CardTitle>
                   <CardDescription className="opacity-80 text-sm">
                     Software Engineer

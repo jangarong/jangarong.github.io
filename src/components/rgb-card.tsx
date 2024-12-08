@@ -27,13 +27,13 @@ function RGBCardMobile({ header, footer }: RGBCardMobileProps) {
                 className="dark:bg-lightblack flex w-[350px] h-[650px] flex-col overflow-hidden rounded-lg border md:shadow-xl"
                 color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
             >
-                <div className="flex flex-row justify-start mt-[-20px] mb-[-20px] overflow-hidden">
+                <div className="flex flex-row justify-start overflow-hidden">
                     <div className="flex flex-col">
-                        <div className="h-[100px]">
+                        <div className="h-[50px]">
                             {header}
                         </div>
-                        <div className="mt-[15px] mb-[5px]">
-                            <Card className="w-[350px] h-[412px] rounded-none">
+                        <div className="mt-[10px] mb-[10px]">
+                            <Card className="w-[350px] h-[425px] rounded-none">
                                 <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
                             </Card>
                         </div>
