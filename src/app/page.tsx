@@ -1,4 +1,3 @@
-import GlitchedContent from "@/components/glitched-content";
 import JangCardDesktopContent from "@/components/jang-card-desktop-content";
 import JangCardMobileFooter from "@/components/jang-card-mobile-footer";
 import JangCardMobileHeader from "@/components/jang-card-mobile-header";
@@ -21,7 +20,7 @@ export default function Home() {
             }
           />
         </main>
-        <JangFooter />
+        {/* <JangFooter /> */}
       </div>
     </div>
   );

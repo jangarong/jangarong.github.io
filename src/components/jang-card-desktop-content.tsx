@@ -2,7 +2,7 @@ import { TeamsContent } from "@/components/teams-content";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { Button } from "@/components/ui/button";
 import { CardTitle, CardDescription, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import { CompassIcon, GithubIcon, LinkedinIcon } from "lucide-react";
+import { CompassIcon, FileTextIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function JangCardDesktopContent() {
@@ -33,10 +33,10 @@ export default function JangCardDesktopContent() {
                         <CompassIcon className="mb-[2px]" />
                     </Button>
                 </Link>
-                <Link href="https://linkedin.com/in/jangarong/">
+                <Link href="/resume.pdf">
                     <Button className="h-[34px] mb-[2px]">
-                        LinkedIn
-                        <LinkedinIcon className="mb-[2px]" />
+                        Resume
+                        <FileTextIcon className="mb-[2px]" />
                     </Button>
                 </Link>
             </CardFooter>

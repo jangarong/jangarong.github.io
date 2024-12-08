@@ -1,4 +1,3 @@
-import GlitchWaveContent from "@/components/glitch-wave-content";
 import GlitchedContent from "@/components/glitched-content";
 import { JangFooter } from "@/components/jang-footer";
 import RGBCard from "@/components/rgb-card";
@@ -21,7 +20,7 @@ export default function Home() {
             />
           </GlitchedContent>
         </main>
-        <JangFooter />
+        {/* <JangFooter /> */}
       </div>
     </div>
   );
