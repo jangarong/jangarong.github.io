@@ -2,7 +2,7 @@ import { TeamsContent } from "@/components/teams-content";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { Button } from "@/components/ui/button";
 import { CardTitle, CardDescription, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import { GithubIcon, LinkedinIcon } from "lucide-react";
+import { CompassIcon, GithubIcon, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function JangCardDesktopContent() {
@@ -27,10 +27,10 @@ export default function JangCardDesktopContent() {
                 </div>
             </CardContent>
             <CardFooter className="flex justify-between w-[100%]">
-                <Link href="https://github.com/jangarong">
+                <Link href="/portal">
                     <Button variant="outline">
-                        GitHub
-                        <GithubIcon className="mb-[2px]" />
+                        Portal
+                        <CompassIcon className="mb-[2px]" />
                     </Button>
                 </Link>
                 <Link href="https://linkedin.com/in/jangarong/">
