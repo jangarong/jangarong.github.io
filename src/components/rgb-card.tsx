@@ -29,7 +29,7 @@ function RGBCardMobile({ header, footer }: RGBCardMobileProps) {
             >
                 <div className="flex flex-row justify-start overflow-hidden">
                     <div className="flex flex-col">
-                        <div className="h-[50px]">
+                        <div className="h-[80px]">
                             {header}
                         </div>
                         <div className="mt-[10px] mb-[10px]">
