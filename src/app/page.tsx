@@ -1,5 +1,3 @@
-import { JangCard } from "@/components/jang-card";
-import { JangCardMobile } from "@/components/jang-card-mobile";
 import { JangFooter } from "@/components/jang-footer";
 import RGBCard from "@/components/rgb-card";
 import { TeamsContent } from "@/components/teams-content";
