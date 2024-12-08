@@ -17,7 +17,7 @@
 }
 
 .glitchedContent:nth-child(2) {
-  margin-top: -150%;
+  margin-top: -650px;
   position: absolute;
   /* background-color: #67f3da; */
   /* color: #67f3da; */
@@ -25,12 +25,25 @@
 }
 
 .glitchedContent:nth-child(3) {
-  margin-top: -150%;
+  margin-top: -650px;
   position: absolute;
   /* background-color: #f16f6f; */
   /* color: #f16f6f; */
   animation: glitch3 2.5s infinite;
 }
+
+/* this is based off of the tailwind md */
+@media (min-width: 768px) {
+  /* this is based off of the card height */
+  .glitchedContent:nth-child(2) {
+    margin-top: -350px;
+  }
+  
+  .glitchedContent:nth-child(3) {
+    margin-top: -350px;
+  }
+}
+
 /*Keyframes*/
 
 @keyframes glitch1 {

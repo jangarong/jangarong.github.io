@@ -1,3 +1,4 @@
+import GlitchWaveContent from "@/components/glitch-wave-content";
 import GlitchedContent from "@/components/glitched-content";
 import { JangFooter } from "@/components/jang-footer";
 import RGBCard from "@/components/rgb-card";
