@@ -45,7 +45,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
         },
     ]
 
-    let logoWidth = 100
+    let logoWidth = 90
     let logoMargin = 2
     let logoMarginBottom = 2
     if (!!isMobile){

@@ -211,6 +211,10 @@ body {
   border-color: #ffffff;
 }
 
+.bg-lightblack {
+  background-color: #252525;
+}
+
 .card-scc {
   background-image: url('/teams/scc-bg.png');
   background-size: contain;
