@@ -5,7 +5,7 @@ export default function TVStaticContent({ children }: { children: JSX.Element })
         <div>
             <div className={styles.tvSection + " z-10"}></div>
             {children}
-            <svg className={styles.tvSVG}>
+            <svg className={"display-none absolute mt-[-200px]"}>
                 <filter id="noise">
                     <feTurbulence id="turbulence">
                         <animate

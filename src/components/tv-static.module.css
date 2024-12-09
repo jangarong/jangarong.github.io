@@ -13,10 +13,6 @@
   pointer-events: none;
 }
 
-/* .tvSVG {
-    display: none;
-} */
-
 @keyframes fadeOut {
     0% {
       opacity: 0.25;
