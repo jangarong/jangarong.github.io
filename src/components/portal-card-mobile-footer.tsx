@@ -37,7 +37,7 @@ export default function PortalCardMobileFooter() {
 
         <CardContent>
             <CardDescription className="text-center">
-                <AnimatedShinyText className="inline-flex items-center justify-center px-4 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400 text-base font-bold">
+                <AnimatedShinyText className="inline-flex items-center justify-center px-4 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400 text-base">
                     Portal Page
                 </AnimatedShinyText>
                 <div className="mt-[8px] flex flex-row gap-4 justify-center flex-wrap">

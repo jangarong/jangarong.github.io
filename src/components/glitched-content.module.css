@@ -12,7 +12,7 @@
   margin: 0;
   line-height: 0; */
   /*Animation*/
-  animation: glitch1 0.5s;
+  animation: glitch1 1s;
   /* animation: glitch1 2.5s infinite; */
 }
 
@@ -21,7 +21,7 @@
   position: absolute;
   /* background-color: #67f3da; */
   /* color: #67f3da; */
-  animation: glitch2 0.5s;
+  animation: glitch2 1s;
   /* animation: glitch2 2.5s infinite; */
 }
 
@@ -30,7 +30,7 @@
   position: absolute;
   /* background-color: #f16f6f; */
   /* color: #f16f6f; */
-  animation: glitch3 0.5s;
+  animation: glitch3 1s;
   /* animation: glitch3 2.5s infinite; */
 }
 
