@@ -1,6 +1,3 @@
-import { HomeIcon } from "lucide-react";
-import Link from "next/link";
-
 export function WorksHeader() {
     return (
         <div className="fixed top-0 left-0 w-full z-10 mt-12 flex flex-col items-center">
