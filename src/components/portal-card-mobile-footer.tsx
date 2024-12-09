@@ -1,7 +1,6 @@
-import { TeamsContent } from "@/components/teams-content";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { CardDescription, CardContent } from "@/components/ui/card";
-import { BriefcaseIcon, FileTextIcon, GithubIcon, KeyRoundIcon, LinkedinIcon } from "lucide-react";
+import { BriefcaseIcon, GithubIcon, KeyRoundIcon, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -42,13 +41,13 @@ export default function PortalCardMobileFooter() {
                     Portal Page
                 </AnimatedShinyText>
                 <div className="mt-[8px] flex flex-row gap-4 justify-center flex-wrap">
-                    {portalButtons.map(props => <Link
+                    {portalButtons.map(props => <div key={props.title}><Link
                         className="flex items-center gap-2 hover:underline hover:underline-offset-4"
                         href={props.link}
                     >
                         {props.icon}
                         {props.title}
-                    </Link>)}
+                    </Link></div>)}
                 </div>
             </CardDescription>
 

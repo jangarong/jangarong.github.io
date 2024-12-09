@@ -1,9 +1,6 @@
-import { TeamsContent } from "@/components/teams-content";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
-import { Button } from "@/components/ui/button";
-import { CardTitle, CardDescription, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import { BriefcaseIcon, CompassIcon, FileTextIcon, GithubIcon, HomeIcon, KeyRoundIcon, LinkedinIcon } from "lucide-react";
-import Link from "next/link";
+import { CardTitle, CardDescription, CardContent, CardHeader } from "@/components/ui/card";
+import { BriefcaseIcon, GithubIcon, HomeIcon, KeyRoundIcon, LinkedinIcon } from "lucide-react";
 import Image from "next/image";
 import { PortalButton } from "./portal-button";
 
