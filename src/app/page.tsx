@@ -1,7 +1,6 @@
 import JangCardDesktopContent from "@/components/jang-card-desktop-content";
 import JangCardMobileFooter from "@/components/jang-card-mobile-footer";
 import JangCardMobileHeader from "@/components/jang-card-mobile-header";
-import { JangFooter } from "@/components/jang-footer";
 import RGBCard from "@/components/rgb-card";
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
             }
           />
         </main>
-        {/* <JangFooter /> */}
       </div>
     </div>
   );

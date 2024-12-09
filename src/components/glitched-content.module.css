@@ -12,8 +12,8 @@
   margin: 0;
   line-height: 0; */
   /*Animation*/
-
-  animation: glitch1 2.5s infinite;
+  animation: glitch1 0.5s;
+  /* animation: glitch1 2.5s infinite; */
 }
 
 .glitchedContent:nth-child(2) {
@@ -21,7 +21,8 @@
   position: absolute;
   /* background-color: #67f3da; */
   /* color: #67f3da; */
-  animation: glitch2 2.5s infinite;
+  animation: glitch2 0.5s;
+  /* animation: glitch2 2.5s infinite; */
 }
 
 .glitchedContent:nth-child(3) {
@@ -29,7 +30,8 @@
   position: absolute;
   /* background-color: #f16f6f; */
   /* color: #f16f6f; */
-  animation: glitch3 2.5s infinite;
+  animation: glitch3 0.5s;
+  /* animation: glitch3 2.5s infinite; */
 }
 
 /* this is based off of the tailwind md */

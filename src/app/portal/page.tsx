@@ -1,5 +1,7 @@
 import GlitchedContent from "@/components/glitched-content";
-import { JangFooter } from "@/components/jang-footer";
+import PortalCardDesktopContent from "@/components/portal-card-desktop-content";
+import PortalCardMobileFooter from "@/components/portal-card-mobile-footer";
+import PortalCardMobileHeader from "@/components/portal-card-mobile-header";
 import RGBCard from "@/components/rgb-card";
 
 export default function Home() {
@@ -10,17 +12,16 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start pb-[64px]">
           <GlitchedContent>
             <RGBCard
-              headerMobile={<div></div>
+              headerMobile={<PortalCardMobileHeader />
               }
-              footerMobile={<div></div>
+              footerMobile={<PortalCardMobileFooter />
               }
               contentDesktop={
-                <div></div>
+                <PortalCardDesktopContent />
               }
             />
           </GlitchedContent>
         </main>
-        {/* <JangFooter /> */}
       </div>
     </div>
   );
