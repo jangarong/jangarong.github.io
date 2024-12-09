@@ -15,12 +15,6 @@ export default function PortalCardMobileHeader() {
                 <Link href="/">
                     <HomeIcon className="ml-4 opacity-50" />
                 </Link>
-                {/* <Link href="/works">
-                    <BriefcaseIcon className="ml-4 opacity-50" />
-                </Link>
-                <Link href="/zodiactail/index.html">
-                    <Image src={"/zodiactail-icon.png"} alt={"zt-icon"} width={20} height={20} className="ml-4" />
-                </Link> */}
             </div>
         </div>
 
