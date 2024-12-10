@@ -4,10 +4,10 @@
   position: absolute;
   width: calc(100%);
   height: calc(100%);
-  top: -25px;
-  left: -25px;
-  width: calc(100% + 25px);
-  height: calc(100% + 25px);
+  top: -100px;
+  left: -100px;
+  width: calc(100% + 100px);
+  height: calc(100% + 100px);
   /* overflow-y: hidden;
   overflow-x: hidden; */
   background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
