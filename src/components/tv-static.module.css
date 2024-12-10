@@ -6,6 +6,10 @@
   height: calc(100%);
   top: -25px;
   left: -25px;
+  width: 100vw;
+  height: 100vh;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
   background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
   background-size: 5px 5px;
   filter: url(#noise);
