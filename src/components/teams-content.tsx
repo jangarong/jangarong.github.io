@@ -10,7 +10,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
         {
             "company": "Google",
             "logo": "/companies/google.svg",
-            "url": "https://about.google/",
+            "url": "https://cloud.google.com/security/products/security-command-center",
             "description": "Google Cloud Security",
             "enabled": false,
             "width":1,
@@ -19,7 +19,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
         {
             "company": "Trend Micro",
             "logo": "/companies/trend.svg",
-            "url": "https://www.trendmicro.com/",
+            "url": "https://www.trendmicro.com/en_ca/business/products/user-protection/sps/email-and-collaboration/email-security.html",
             "description": "Trend Micro Email Security",
             "enabled": true,
             "width":1,
@@ -28,7 +28,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
         {
             "company": "BlackBerry",
             "logo": "/companies/blackberry.svg",
-            "url": "https://www.blackberry.com",
+            "url": "https://docs.blackberry.com/en/unified-endpoint-security/cylancemdr",
             "description": "BlackBerry CylanceMDR",
             "enabled": true,
             "width":1.25,
@@ -37,7 +37,7 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
         {
             "company": "CertiK",
             "logo": "/companies/certik.svg",
-            "url": "https://certik.com",
+            "url": "https://www.certik.com/products/skynet",
             "description": "CertiK Skynet",
             "enabled": true,
             "width":1.25,
