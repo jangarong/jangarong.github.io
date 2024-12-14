@@ -14,22 +14,22 @@ interface RGBCardMobileProps {
 
 export default function RGBCardMobile({ header, footer, width, height }: RGBCardMobileProps) {
     return (
-        <Card className={`w-[${width}px] h-[${height}px] flex flex-col`}>
+        <Card className={`flex flex-col`} style={{width: `${width}px`, height: `${height}px`}}>
             <ShineBorder
-                className={`dark:bg-lightblack flex w-[${width}px] h-[${height}px] flex-col overflow-hidden rounded-lg border md:shadow-xl`}
+                className={`dark:bg-lightblack flex flex-col overflow-hidden rounded-lg border md:shadow-xl`}
                 color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
             >
                 <div className="flex flex-row justify-start overflow-hidden">
                     <div className="flex flex-col">
-                        <div className="h-[80px]">
+                        <div className="h-[100px] flex justify-center flex-col">
                             {header}
                         </div>
-                        <div className="mt-[10px] mb-[10px]">
-                            <Card className={`w-[${width}px] h-[425px] rounded-none`}>
-                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
+                        <div className="">
+                            <Card className={`h-[400px] rounded-none`} style={{width: `${width}px`}}>
+                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:50px_50px]"></div>
                             </Card>
                         </div>
-                        <div className="h-[150px]">
+                        <div className="h-[150px] mt-[15px]">
                             {footer}
                         </div>
                     </div>

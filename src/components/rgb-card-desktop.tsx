@@ -13,14 +13,14 @@ interface RGBCardDesktopProps {
 
 export default function RGBCardDesktop({ children, width, height }: RGBCardDesktopProps) {
     return (
-        <Card className={`w-[${width}px] h-[${height}px] flex flex-row`}>
+        <Card className={` flex flex-row`} style={{ width: `${width}px`, height: `${height}px` }}>
             <ShineBorder
-                className={`w-[${width}px] h-[${height}px] dark:bg-lightblack flex flex-row overflow-hidden rounded-lg border md:shadow-xl`}
+                className={`dark:bg-lightblack flex flex-row overflow-hidden rounded-lg border md:shadow-xl w-full`}
                 color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
             >
                 <div className="flex flex-row items-center justify-start overflow-hidden">
                     <div className="ml-[25px]">
-                        <Card className={`w-[200px] h-[${height}px] rounded-none`}>
+                        <Card className={`w-[200px] rounded-none`} style={{ height: `${height}px` }}>
                             <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
                         </Card>
                     </div>
