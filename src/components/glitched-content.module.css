@@ -16,8 +16,8 @@
   /* animation: glitch1 2.5s infinite; */
 }
 
-.glitchedContent:nth-child(2) {
-  margin-top: -650px;
+.glitchedContent2 {
+  /* margin-top: -650px; */
   position: absolute;
   /* background-color: #67f3da; */
   /* color: #67f3da; */
@@ -33,25 +33,13 @@
   background-color: #f16f6f;
 }
 
-.glitchedContent:nth-child(3) {
-  margin-top: -650px;
+.glitchedContent3 {
+  /* margin-top: -650px; */
   position: absolute;
   /* background-color: #f16f6f; */
   /* color: #f16f6f; */
   animation: glitch3 1.5s;
   /* animation: glitch3 2.5s infinite; */
-}
-
-/* this is based off of the tailwind md */
-@media (min-width: 768px) {
-  /* this is based off of the card height */
-  .glitchedContent:nth-child(2) {
-    margin-top: -350px;
-  }
-  
-  .glitchedContent:nth-child(3) {
-    margin-top: -350px;
-  }
 }
 
 /*Keyframes*/
