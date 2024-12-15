@@ -38,7 +38,6 @@ export default {
 				},
 				lightblack: {
 					DEFAULT: '#0a0a0a', // Custom light black color
-					inverse: '#f5f5f5'
 				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
