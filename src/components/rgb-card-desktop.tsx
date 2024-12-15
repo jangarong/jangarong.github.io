@@ -20,13 +20,10 @@ export default function RGBCardDesktop({ children, width, height }: RGBCardDeskt
             >
                 <div className="flex flex-row items-center justify-start overflow-hidden ">
                     <div className="ml-[25px]">
-                        <ShineBorder
-                            className={`dark:bg-lightblack flex flex-row overflow-hidden border-2 md:shadow-xl w-full rounded-none`}
-                            color={["dark"]}>
-                            <Card className={`w-[200px] border-2 rounded-none dark:bg-lightblack`} style={{ height: `${height}px` }}>
-                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:35px_35px]"></div>
+
+                            <Card className={`w-[200px] rounded-none dark:bg-lightblack`} style={{ height: `${height}px` }}>
+                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
                             </Card>
-                        </ShineBorder>
                     </div>
                     <div className="w-[400px]">
                         {children}

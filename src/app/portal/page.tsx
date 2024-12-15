@@ -4,11 +4,12 @@ import PortalCardMobileFooter from "@/components/portal-card-mobile-footer";
 import PortalCardMobileHeader from "@/components/portal-card-mobile-header";
 import RGBCardDesktop from "@/components/rgb-card-desktop";
 import RGBCardMobile from "@/components/rgb-card-mobile";
+import Spotlight from "@/components/spotlight";
 import TVStaticContent from "@/components/tv-static-content";
 
 export default function Home() {
   return (
-    <div>
+    <Spotlight>
       <TVStaticContent>
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 md:p-20 font-[family-name:var(--font-geist-sans)]">
           <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start pb-[64px]">
@@ -37,6 +38,6 @@ export default function Home() {
           </main>
         </div>
       </TVStaticContent>
-    </div>
+    </Spotlight>
   );
 }
