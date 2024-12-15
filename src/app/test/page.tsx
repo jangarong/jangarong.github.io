@@ -5,9 +5,11 @@ import { TechnologiesMarquee } from "@/components/technologies-marquee";
 export default function Home() {
   return (
     <div>
-        <JangHero />
-        <TechnologiesMarquee />
+      <JangHero />
+      <TechnologiesMarquee />
+      <div className="mx-[32px] md:mx-[128px] my-[64px]">
         <FeaturedBento />
+      </div>
     </div>
   );
 }
