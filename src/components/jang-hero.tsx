@@ -1,8 +1,3 @@
-import GlitchedContent from "./glitched-content";
-import RGBCardMobile from "./rgb-card-mobile";
-import Spotlight from "./spotlight";
-import JangCardMobileHeader from "./jang-card-mobile-header";
-import JangCardMobileFooter from "./jang-card-mobile-footer";
 import Image from "next/image"
 
 export default function JangHero() {

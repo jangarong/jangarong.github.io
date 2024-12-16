@@ -25,7 +25,7 @@ const features = [
   },
   {
     name: "Zodiac Tail: A Tale of Cat & Mouse",
-    description: "A time-bending puzzle platformer featuring the Zodiac Animals! Art direction led by Amy Li.",
+    description: "A time-bending puzzle platformer featuring the Zodiac Animals!",
     href: "/zodiactail/index.html",
     cta: "Play Now!",
     className: "col-span-3 lg:col-span-1",
