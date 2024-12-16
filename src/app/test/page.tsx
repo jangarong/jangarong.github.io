@@ -4,11 +4,13 @@ import { TechnologiesMarquee } from "@/components/technologies-marquee";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <JangHero />
-      <TechnologiesMarquee />
-      <div className="my-[64px] flex flex-col items-center">
-        <div className="w-[80%] max-w-[1024px]"><FeaturedBento /></div>
+      <div className="">
+        <TechnologiesMarquee />
+        <div className="py-[64px] flex flex-col items-center">
+          <div className="w-[80%] max-w-[1024px]"><FeaturedBento /></div>
+        </div>
       </div>
     </div>
   );
