@@ -125,7 +125,7 @@ export function TechnologiesMarquee() {
   techImgs.slice(3 * techImgs.length / 4)]
   return (
     <div>
-      <div className="hidden md:block relative flex h-[250px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl pb-10">
+      <div className="hidden md:block relative flex h-[275px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:20s] flex justify-center align-center">
           {techDesktopImgs[0].map((imgProps) => (
             <div key={imgProps.alt} className="flex flex-col justify-center h-[100%] m-2">
@@ -143,7 +143,7 @@ export function TechnologiesMarquee() {
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
         <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
       </div>
-      <div className="block md:hidden relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl py-5">
+      <div className="block md:hidden relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl py-5">
         <Marquee pauseOnHover className="[--duration:20s] flex justify-center align-center">
           {techMobileImgs[0].map((imgProps) => (
             <div key={imgProps.alt} className="flex flex-col justify-center h-[100%] m-2">

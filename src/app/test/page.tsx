@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <JangHero />
       <TechnologiesMarquee />
-      <div className="mx-[32px] md:mx-[128px] my-[64px]">
-        <FeaturedBento />
+      <div className="my-[64px] flex flex-col items-center">
+        <div className="w-[80%] max-w-[1024px]"><FeaturedBento /></div>
       </div>
     </div>
   );
