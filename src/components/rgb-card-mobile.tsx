@@ -16,7 +16,7 @@ export default function RGBCardMobile({ header, footer, width, height }: RGBCard
     return (
         <Card className={`flex flex-col`} style={{width: `${width}px`, height: `${height}px`}}>
             <ShineBorder
-                className={`dark:bg-lightblack flex flex-col overflow-hidden rounded-lg border md:shadow-xl`}
+                className={`dark:bg-lightblack flex flex-col overflow-hidden rounded-lg border`}
                 color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
             >
                 <div className="flex flex-row justify-start overflow-hidden">
