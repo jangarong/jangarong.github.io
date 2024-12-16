@@ -11,9 +11,8 @@ export default function JangHero() {
             </div>
             <div className="mt-[10px] text-xl md:text-3xl font-bold w-[350px] md:w-[650px] text-center opacity-75">a.k.a. Jan Garong</div>
             <div className="mt-[10px] md:mt-[25px] text-md md:text-xl w-[300px] md:w-[650px] text-center opacity-50">
-                Just an average software developer specializing in making cybersecurity tools.
-                Mainly working on scaling large distributed systems in the cloud with an interest in
-                reading the latest hacks.
+                Just an average software developer specializing in large distributed systems in the cloud 
+                with an interest in reading the latest hacks.
             </div>
         </div>
     );
