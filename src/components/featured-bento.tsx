@@ -1,11 +1,4 @@
-import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
-import { BellIcon, Share2Icon } from "lucide-react";
-
-import { cn } from "@/lib/utils";
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
-import Marquee from "@/components/ui/marquee";
-
-import Image from "next/image";
 
 const features = [
   {
