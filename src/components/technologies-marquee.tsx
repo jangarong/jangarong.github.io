@@ -103,6 +103,12 @@ const techImgs = [
     alt: "elastic",
     width: 100,
     height: 50
+  },  
+  {
+    src: "/technologies/git.svg",
+    alt: "git",
+    width: 100,
+    height: 50
   },
 ];
 
