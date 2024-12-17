@@ -7,7 +7,7 @@ export default function Home() {
     <div className="">
       <JangHero />
       <div className="">
-        <div className="flex flex-col items-center justfiy-center mt-[128px]">
+        <div className="flex flex-col items-center justfiy-center pt-[128px]">
           <div className="text-left w-[80vw]">
             <div className="text-3xl md:text-5xl font-bold w-[75%] md:w-[50%] leading-normal mb-[32px] md:mb-[64px]">
               My collaborative works.
