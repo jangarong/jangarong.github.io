@@ -8,13 +8,13 @@ export default function Home() {
       <JangHero />
       <div className="">
         <div className="flex flex-col items-center justfiy-center mt-[128px]">
-          <div className="text-3xl md:text-5xl font-bold mb-[32px] md:mb-[64px] text-left w-[80vw]">
-            <div className="w-[75%] md:w-[50%] leading-normal">
+          <div className="text-left w-[80vw]">
+            <div className="text-3xl md:text-5xl font-bold w-[75%] md:w-[50%] leading-normal mb-[32px] md:mb-[64px]">
               My collaborative works.
             </div>
-          </div>
-          <div className="w-[80vw] mb-[64px]">
-            <FeaturedBento />
+            <div className="w-[80vw] mb-[64px]">
+              <FeaturedBento />
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center my-[128px]">
@@ -24,7 +24,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-[80vw]">
-          <TechnologiesMarquee />
+            <TechnologiesMarquee />
           </div>
         </div>
       </div>
