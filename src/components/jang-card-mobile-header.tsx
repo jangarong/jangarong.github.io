@@ -12,7 +12,7 @@ export default function JangCardMobileHeader() {
                 </CardDescription>
             </div>
             <div className="text-xs items-center flex flex-row justify-between">
-                <Link href="/portal">
+                <Link href="/test/portal">
                     <CompassIcon className="ml-4 opacity-50" />
                 </Link>
                 <Link href="/resume.pdf">

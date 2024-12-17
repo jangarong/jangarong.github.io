@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { Separator } from "./ui/separator";
-import { CopyrightIcon, FileTextIcon, GithubIcon, KeyRoundIcon, LinkedinIcon, MailIcon } from "lucide-react";
+import { FileTextIcon, GithubIcon, KeyRoundIcon, LinkedinIcon, MailIcon } from "lucide-react";
 
 
 export default function LinktreeFooter() {
     return (
         <div className="flex flex-col items-center w-[100%]">
             <Separator className="my-4 w-[80vw]" />
-            <div className="flex flex-col justify-center h-[267px] md:h-[168px] w-[80vw]">
+            <div className="flex flex-col justify-center h-[267px] md:h-[168px] w-[80vw] opacity-50">
                 {/* <div className="grid grid-cols-2 md:grid-cols-3 gap-2 justify-center items-center">
                     <Link href={"https://www.linkedin.com/in/jangarong/"} className="flex hover:underline hover:underline-offset-4">
                         <LinkedinIcon className="mb-[4px] mr-[8px]" />

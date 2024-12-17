@@ -27,7 +27,7 @@ export default function JangCardDesktopContent() {
                 </div>
             </CardContent>
             <CardFooter className="flex justify-between w-[100%]">
-                <Link href="/portal">
+                <Link href="/test/portal">
                     <Button variant="outline">
                         Portal
                         <CompassIcon className="mb-[2px]" />

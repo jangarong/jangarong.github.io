@@ -1,25 +1,35 @@
-import JangCardDesktopContent from "@/components/jang-card-desktop-content";
-import JangCardMobileFooter from "@/components/jang-card-mobile-footer";
-import JangCardMobileHeader from "@/components/jang-card-mobile-header";
-import RGBCardDesktop from "@/components/rgb-card-desktop";
-import RGBCardMobile from "@/components/rgb-card-mobile";
-import Spotlight from "@/components/spotlight";
+import { FeaturedBento } from "@/components/featured-bento";
+import JangHero from "@/components/jang-hero";
+import LinktreeFooter from "@/components/linktree-footer";
+import { TechnologiesMarquee } from "@/components/technologies-marquee";
 
 export default function Home() {
   return (
-    <Spotlight>
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 md:p-20 font-[family-name:var(--font-geist-sans)]">
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start pb-[64px]">
-          <div className="hidden md:block">
-            <RGBCardDesktop width={650} height={350}>
-              <JangCardDesktopContent />
-            </RGBCardDesktop>
+    <div>
+      <JangHero />
+      <div>
+        <div className="flex flex-col items-center justfiy-center pt-[128px]">
+          <div className="text-left w-[80vw]">
+            <div className="text-3xl md:text-5xl font-bold w-[75%] md:w-[50%] leading-normal mb-[32px] md:mb-[64px]">
+              My collaborative works.
+            </div>
+            <div className="w-[80vw] mb-[64px]">
+              <FeaturedBento />
+            </div>
           </div>
-          <div className="visible md:hidden">
-            <RGBCardMobile header={<JangCardMobileHeader />} footer={<JangCardMobileFooter />} width={350} height={650} />
+        </div>
+        <div className="flex flex-col items-center justify-center my-[64px]">
+          <div className="text-3xl md:text-5xl font-bold mb-[32px] w-[80vw] text-left">
+            <div className="w-[75%] md:w-[50%] leading-normal">
+              Built with the best tools possible.
+            </div>
           </div>
-        </main>
+          <div className="w-[80vw]">
+            <TechnologiesMarquee />
+          </div>
+        </div>
       </div>
-    </Spotlight>
+      <LinktreeFooter />
+    </div>
   );
 }
