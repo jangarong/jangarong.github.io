@@ -13,17 +13,6 @@ const features = [
     ),
   },
   {
-    name: "CertiK Skynet",
-    description: "Access tools, blockchain data and security to perform due diligence across Web3 projects.",
-    href: "https://www.certik.com/products/skynet",
-    cta: "Learn more",
-    className: "col-span-3 lg:col-span-1",
-    background: (
-      <div className="absolute opacity-50 w-[150%] h-[100%] bg-[url('/screenshots/skynet.png')] bg-cover bg-center bg-no-repeat bg-fixed">
-      </div>
-    ),
-  },
-  {
     name: "Zodiac Tail: A Tale of Cat & Mouse",
     description: "A time-bending puzzle platformer featuring the Zodiac Animals!",
     href: "/zodiactail/index.html",
@@ -31,6 +20,17 @@ const features = [
     className: "col-span-3 lg:col-span-1",
     background: (
       <div className="absolute opacity-50 w-[150%] h-[100%] bg-[url('/screenshots/zt.png')] bg-cover bg-center bg-no-repeat bg-fixed">
+      </div>
+    ),
+  },
+  {
+    name: "CertiK Skynet",
+    description: "Access tools, blockchain data and security to perform due diligence across Web3 projects.",
+    href: "https://www.certik.com/products/skynet",
+    cta: "Learn more",
+    className: "col-span-3 lg:col-span-1",
+    background: (
+      <div className="absolute opacity-50 w-[150%] h-[100%] bg-[url('/screenshots/skynet.png')] bg-cover bg-center bg-no-repeat bg-fixed">
       </div>
     ),
   },
