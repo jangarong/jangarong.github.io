@@ -30,7 +30,7 @@ export default function LinktreeFooter() {
                         Email
                     </Link>
                 </div> */}
-                <div className="flex gap-6 justify-center flex-wrap">
+                <div className="flex gap-8 justify-center flex-wrap pl-[24px] pr-[24px]">
                     <Link href={"https://www.linkedin.com/in/jangarong/"} className="flex hover:underline hover:underline-offset-4">
                         <LinkedinIcon className="mb-[4px] mr-[8px]" />
                         jangarong
