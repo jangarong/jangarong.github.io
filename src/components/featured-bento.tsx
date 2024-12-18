@@ -15,16 +15,16 @@ const features = [
     Icon:  <Image src={'/companies/google.svg'} alt={'Google'} width={100} height={50} className="dark:invert origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75" />
   },
   {
-    name: "Skynet",
-    description: "Access tools, blockchain data and security to perform due diligence across Web3 projects.",
-    href: "https://www.certik.com/products/skynet",
-    cta: "Learn more",
+    name: "Email Security",
+    description: "Stops phishing, ransomware, BEC, other advanced email threats, and spam from entering businesses' mailboxes.",
     className: "col-span-3 lg:col-span-1",
+    href: "https://www.trendmicro.com/en_us/business/products/email-security.html",
+    cta: "Learn more",
     background: (
-      <div className="absolute opacity-40 w-[150%] h-[100%] bg-[url('/screenshots/skynet.png')] bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="absolute opacity-50 w-[100%] h-[100%] bg-[url('/screenshots/ems.webp')] bg-cover bg-center bg-no-repeat bg-fixed">
       </div>
     ),
-    Icon:  <Image src={'/companies/certik.svg'} alt={'CertiK'} width={110} height={50} className="dark:invert origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75 mb-1" />
+    Icon:  <Image src={'/companies/trend.svg'} alt={'Trend Micro'} width={100} height={50} className="dark:invert origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75" />
   },
   {
     name: "CylanceMDR",
@@ -39,23 +39,23 @@ const features = [
     Icon:  <Image src={'/companies/blackberry.svg'} alt={'BlackBerry'} width={130} height={50} className="dark:invert origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75 mb-1" />
   },
   {
-    name: "Email Security",
-    description: "Stops phishing, ransomware, BEC, other advanced email threats, and spam from entering businesses' mailboxes.",
-    className: "col-span-3 lg:col-span-2",
-    href: "https://www.trendmicro.com/en_us/business/products/email-security.html",
+    name: "Skynet",
+    description: "Access tools, blockchain data and security to perform due diligence across Web3 projects.",
+    href: "https://www.certik.com/products/skynet",
     cta: "Learn more",
+    className: "col-span-3 lg:col-span-2",
     background: (
-      <div className="absolute opacity-50 w-[100%] h-[100%] bg-[url('/screenshots/ems.webp')] bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="absolute opacity-40 w-[100%] h-[100%] bg-[url('/screenshots/skynet.png')] bg-cover bg-center bg-no-repeat bg-fixed">
       </div>
     ),
-    Icon:  <Image src={'/companies/trend.svg'} alt={'Trend Micro'} width={100} height={50} className="dark:invert origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75" />
+    Icon:  <Image src={'/companies/certik.svg'} alt={'CertiK'} width={110} height={50} className="dark:invert origin-left transform-gpu text-neutral-700 transition-all duration-300 ease-in-out group-hover:scale-75 mb-1" />
   },
   {
     name: "Zodiac Tail: A Tale of Cat & Mouse",
     description: "A time-bending puzzle platformer featuring the Zodiac Animals!",
     href: "/zodiactail/index.html",
     cta: "Play Now!",
-    className: "col-span-3 lg:col-span-2",
+    className: "col-span-3 lg:col-span-1",
     background: (
       <div className="absolute opacity-50 w-[150%] h-[100%] bg-[url('/screenshots/zt.png')] bg-cover bg-center bg-no-repeat bg-fixed">
       </div>
