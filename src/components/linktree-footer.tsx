@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Separator } from "./ui/separator";
-import { FileTextIcon, GithubIcon, KeyRoundIcon, LinkedinIcon, MailIcon } from "lucide-react";
+import { FileTextIcon, BookOpenText, KeyRoundIcon, FileArchiveIcon, MailIcon } from "lucide-react";
 
 
 export default function LinktreeFooter() {
@@ -9,15 +9,15 @@ export default function LinktreeFooter() {
             <Separator className="my-4 w-[80vw]" />
             <div className="flex flex-col justify-center h-[267px] md:h-[168px] w-[80vw] opacity-50">
                 <div className="flex gap-8 justify-center flex-wrap pl-[24px] pr-[24px]">
-                    <Link href={"https://www.linkedin.com/in/jangarong/"} className="flex hover:underline hover:underline-offset-4">
-                        <LinkedinIcon className="mb-[4px] mr-[8px]" />
-                        jangarong
+                    <Link href={"/files"} className="flex hover:underline hover:underline-offset-4">
+                        <FileArchiveIcon className="mb-[4px] mr-[8px]" />
+                        Files
                     </Link>
-                    <Link href={"https://github.com/jangarong"} className="flex hover:underline hover:underline-offset-4">
-                        <GithubIcon className="mb-[2px] mr-[8px]" />
-                        jangarong
+                    <Link href={"/blog"} className="flex hover:underline hover:underline-offset-4">
+                        <BookOpenText className="mb-[2px] mr-[8px]" />
+                        Blog
                     </Link>
-                    <Link href={"https://keys.openpgp.org/search?q=6BDFD428487D50AC40774CB4AC382728823BDAEC"} className="flex hover:underline hover:underline-offset-4">
+                    <Link href={"/6BDFD428487D50AC40774CB4AC382728823BDAEC.asc"} className="flex hover:underline hover:underline-offset-4">
                         <KeyRoundIcon className="mb-[4px] mr-[8px]" />
                         PGP Key
                     </Link>
