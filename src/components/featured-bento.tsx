@@ -4,7 +4,7 @@ import Image from "next/image";
 const features = [
   {
     name: "Security Command Center",
-    description: "The industry's first multi-cloud security solution with virtual red teaming and built-in response capabilities. Starting January 2025!",
+    description: "Google's Cloud Security solution providing mutliple detections on your cloud infrastructure like IAMs, VPCs, K8s, Databases, etc.",
     href: "https://cloud.google.com/security/products/security-command-center",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
