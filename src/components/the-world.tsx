@@ -10,7 +10,6 @@ export function TheWorld() {
                 alt={"Tower of Babel"}
                 width={400}
                 height={600}
-                priority
             />
             <Image 
                 className={styles.ring}
