@@ -26,7 +26,7 @@ export default function RGBCardMobile({ header, footer, width, height }: RGBCard
                         </div>
                         <div className="">
                             <Card className={`h-[400px] rounded-none dark:bg-lightblack`} style={{width: `${width}px`}}>
-                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:50px_50px]"></div>
+                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/assets/jang45.svg')] dark:invert bg-repeat-space bg-[length:50px_50px]"></div>
                             </Card>
                         </div>
                         <div className="h-[150px] mt-[15px]">

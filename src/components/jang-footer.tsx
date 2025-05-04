@@ -23,7 +23,7 @@ export function JangFooter() {
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
                 href="/zodiactail/index.html"
             >
-                <Image src={"/zodiactail-icon.png"} alt={"zt-icon"} width={20} height={20} />
+                <Image src={"/assets/zodiactail-icon.png"} alt={"zt-icon"} width={20} height={20} />
                 Zodiac Tail
             </Link>
         </footer>

@@ -17,7 +17,7 @@ export default function PortalCardDesktopContent() {
             title: "Works"
         },
         {
-            icon: <Image src={"/zodiactail-icon.png"} alt={"zt-icon"} width={15} height={15} className="mb-[-4px]" />,
+            icon: <Image src={"/assets/zodiactail-icon.png"} alt={"zt-icon"} width={15} height={15} className="mb-[-4px]" />,
             link: "/zodiactail/index.html",
             title: "Zodiac Tail"
         },

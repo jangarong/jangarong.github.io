@@ -22,7 +22,7 @@ export default function RGBCardDesktop({ children, width, height }: RGBCardDeskt
                     <div className="ml-[25px]">
 
                             <Card className={`w-[200px] rounded-none dark:bg-lightblack`} style={{ height: `${height}px` }}>
-                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
+                                <div className="opacity-10 w-[100%] h-[100%] bg-[url('/assets/jang45.svg')] dark:invert bg-repeat-space bg-[length:40px_40px]"></div>
                             </Card>
                     </div>
                     <div className="w-[400px]">

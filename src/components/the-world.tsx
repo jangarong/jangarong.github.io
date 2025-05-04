@@ -1,0 +1,24 @@
+import Image from "next/image";
+import styles from './the-world.module.css';
+
+export function TheWorld() {
+    return (
+        <div className={`flex flex-wrap justify-evenly align-center`}>
+            <Image
+            className={styles.circle}
+                src={"/assets/the-world.png"}
+                alt={"Tower of Babel"}
+                width={400}
+                height={600}
+                priority
+            />
+            <Image 
+                className={styles.ring}
+                src={"/assets/ring.svg"}
+                alt={"JAN GARONG • SOFTWARE ENGINEER • CYBERSECURITY "}
+                width={500}
+                height={500}
+                />
+        </div>
+    )
+}
