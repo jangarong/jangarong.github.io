@@ -20,7 +20,7 @@ export default function Home() {
           <InfoMail />
         </div>
         <footer className="bg-black text-white p-12 text-center">
-        website design by me, with the help of shadcn and figma B)
+        website code and design by me
       </footer>
       </div>
 
