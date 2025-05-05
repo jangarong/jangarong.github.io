@@ -12,7 +12,7 @@ export default function PortalCardMobileFooter() {
             title: "Works"
         },
         {
-            icon: <Image src={"/zodiactail-icon.png"} alt={"zt-icon"} width={20} height={20} />,
+            icon: <Image src={"/assets/zodiactail-icon.png"} alt={"zt-icon"} width={20} height={20} />,
             link: "/zodiactail/index.html",
             title: "Zodiac Tail"
         },

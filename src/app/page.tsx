@@ -1,35 +1,29 @@
-import { FeaturedBento } from "@/components/featured-bento";
-import JangHero from "@/components/jang-hero";
-import LinktreeFooter from "@/components/linktree-footer";
-import { TechnologiesMarquee } from "@/components/technologies-marquee";
+import { Experience } from "@/components/experience";
+import { InfoMail } from "@/components/info-mail";
+import { TheWorld } from "@/components/the-world";
+import "../app/globals.css"
 
 export default function Home() {
   return (
-    <div>
-      <JangHero />
-      <div>
-        <div className="flex flex-col items-center justfiy-center pt-[128px]">
-          <div className="text-left w-[80vw]">
-            <div className="text-3xl md:text-5xl font-bold w-[75%] md:w-[50%] leading-normal mb-[32px] md:mb-[64px]">
-              My collaborative works.
-            </div>
-            <div className="w-[80vw] mb-[64px]">
-              <FeaturedBento />
-            </div>
-          </div>
+    <div className="h-[100vh]">
+      <div className="h-[100%]">
+        <div className={"flex justify-center items-center h-[100%]"}>
+          <TheWorld />
         </div>
-        <div className="flex flex-col items-center justify-center my-[64px]">
-          <div className="text-3xl md:text-5xl font-bold mb-[32px] w-[80vw] text-left">
-            <div className="w-[75%] md:w-[50%] leading-normal">
-              Built with the best tools possible.
-            </div>
+        <div className="pb-[64px]">
+          <div className={"spacedTitle"}>
+            CONTRIBUTIONS
           </div>
-          <div className="w-[80vw]">
-            <TechnologiesMarquee />
-          </div>
+          <Experience />
         </div>
+        <div className="pb-[128px] flex justify-center">
+          <InfoMail />
+        </div>
+        <footer className="bg-black text-white p-12 text-center">
+        website design by me, with the help of shadcn and figma B)
+      </footer>
       </div>
-      <LinktreeFooter />
+
     </div>
   );
 }
