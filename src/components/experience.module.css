@@ -1,4 +1,12 @@
 .experience {
-    width: 250px;
+    width: 200px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expImg {
+    max-width: 200px;
+    max-height: 50px;
 }
