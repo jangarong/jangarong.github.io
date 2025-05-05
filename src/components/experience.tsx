@@ -37,15 +37,15 @@ export function Experience() {
     return (
         <div>
 
-            <div className={`flex flex-col md:flex-row justify-center items-center`}>
+            <div className={`flex flex-wrap flex-row justify-center items-center`}>
                 {experiences.map(({ name, img, link, width, height }) => (
-                    <Link href={link} className={styles.experience + ' m-[24px]'}>
+                    <Link href={link} className={styles.experience + ' m-[48px]'} key={name}>
                         <Image
                             className={styles.expImg}
                             src={img}
                             alt={name}
-                            width={width}
-                            height={height}
+                            width={200}
+                            height={100}
                         />
                     </Link>))}
             </div>
