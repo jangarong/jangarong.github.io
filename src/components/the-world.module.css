@@ -4,7 +4,6 @@
 }
 
 .ring {
-  margin-top: 72px;
   animation-name: spin; /* The name of the @keyframes rule */
   animation-duration: 10s; /* How long the animation takes to complete one cycle */
   animation-iteration-count: infinite; /* How many times the animation should repeat (infinite for continuous) */
