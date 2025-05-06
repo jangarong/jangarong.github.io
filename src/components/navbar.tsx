@@ -19,7 +19,7 @@ const menuButtons = [
 const menuButtons2 = [
     {
         "name": "Zodiac Tail (WebGL Version)",
-        "link": "/zodiactail.html",
+        "link": "/zodiactail/",
         "enabled": true,
     },
 ]
