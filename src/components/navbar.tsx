@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarItem } from "@/components/ui/menubar";
+import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarSeparator, MenubarItem, MenubarGroup } from "@/components/ui/menubar";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,16 +14,14 @@ const menuButtons = [
         "link": "/",
         "enabled": false,
     },
-    // {
-    //     "name": "Zodiac Tail",
-    //     "link": "/zodiactail",
-    //     "enabled": true,
-    // },
-    // {
-    //     "name": "Blog",
-    //     "link": "/blog",
-    //     "enabled": false,
-    // },
+]
+
+const menuButtons2 = [
+    {
+        "name": "Zodiac Tail (WebGL Version)",
+        "link": "/zodiactail.html",
+        "enabled": true,
+    },
 ]
 
 export function Navbar() {
@@ -38,17 +36,23 @@ export function Navbar() {
                 ))} */}
                 <Menubar>
                     <MenubarMenu>
-                        <MenubarTrigger>Profiles</MenubarTrigger>
+                        <MenubarTrigger><HamburgerMenuIcon width={36} height={36} /></MenubarTrigger>
                         <MenubarContent>
-                            <MenubarRadioGroup value="benoit">
-                                <MenubarRadioItem value="andy">Andy</MenubarRadioItem>
-                                <MenubarRadioItem value="benoit">Benoit</MenubarRadioItem>
-                                <MenubarRadioItem value="Luis">Luis</MenubarRadioItem>
-                            </MenubarRadioGroup>
+                            <MenubarGroup>
+                                {menuButtons.map(({ name, link, enabled }) => (
+                                    <Link href={link} className={enabled ? "" : "pointer-events-none"} key={name}>
+                                        <MenubarItem disabled={!enabled}>{name}</MenubarItem>
+                                    </Link>
+                                ))}
+                            </MenubarGroup>
                             <MenubarSeparator />
-                            <MenubarItem inset>Edit...</MenubarItem>
-                            <MenubarSeparator />
-                            <MenubarItem inset>Add Profile...</MenubarItem>
+                            <MenubarGroup>
+                                {menuButtons2.map(({ name, link, enabled }) => (
+                                    <Link href={link} className={enabled ? "" : "pointer-events-none"} key={name}>
+                                        <MenubarItem disabled={!enabled}>{name}</MenubarItem>
+                                    </Link>
+                                ))}
+                            </MenubarGroup>
                         </MenubarContent>
                     </MenubarMenu>
                 </Menubar>
