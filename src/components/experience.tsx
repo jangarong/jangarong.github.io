@@ -44,7 +44,7 @@ export function Experience() {
                             className={styles.expImg}
                             src={img}
                             alt={name}
-                            width={200}
+                            width={150}
                             height={100}
                         />
                     </Link>))}
