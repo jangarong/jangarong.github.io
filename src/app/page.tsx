@@ -3,10 +3,14 @@ import { TheWorld } from "@/components/the-world";
 import "../app/globals.css"
 import RgbBusinessCard from "@/components/rgb-business-card";
 import DownloadMyResume from "@/components/download-my-resume";
+import { Navbar } from "@/components/navbar";
 
 export default function Home() {
   return (
     <div className="h-[100vh]">
+      <div className="absolute">
+        <Navbar />
+      </div>
       <div className="h-[100%]">
         <div className={"flex justify-center items-center h-[100%]"}>
           <TheWorld />
@@ -24,7 +28,7 @@ export default function Home() {
           <RgbBusinessCard />
         </div>
         <footer className="bg-black text-white p-12 text-center">
-          website code and design by me (jangarong). while you're here though, you should try <a href="/zodiactail" className="text-[violet]">zodiactail</a>!
+          Website code and design by me (jangarong). While you're here though, you should try my game <a href="/zodiactail.html" className="text-[violet]">Zodiac Tail</a>!
         </footer>
       </div>
 
