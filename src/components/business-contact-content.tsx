@@ -27,20 +27,6 @@ export default function BusinessContactContent() {
                 <div className="mb-2 flex flex-row items-center"><GitHubLogoIcon className="h-[20px] w-[20px] mr-[8px]" /><a href="https://github.com/jangarong/">https://github.com/jangarong</a></div>
                 <div className="mb-2 flex flex-row items-center"><LinkedInLogoIcon className="h-[20px] w-[20px] mr-[8px]" /><a href="https://www.linkedin.com/in/jangarong/">https://www.linkedin.com/in/jangarong/</a></div>
             </CardContent>
-            <CardFooter className="flex justify-between w-[100%]">
-                {/* <Link href="/test/portal">
-                    <Button variant="outline">
-                        Portal
-                        <CompassIcon className="mb-[2px]" />
-                    </Button>
-                </Link>
-                <Link href="/resume.pdf">
-                    <Button className="h-[34px] mb-[2px]">
-                        Resume
-                        <FileTextIcon className="mb-[2px]" />
-                    </Button>
-                </Link> */}
-            </CardFooter>
         </div>
     );
 }

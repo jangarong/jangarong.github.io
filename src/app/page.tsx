@@ -4,6 +4,7 @@ import { TheWorld } from "@/components/the-world";
 import "../app/globals.css"
 import RGBCardDesktop from "@/components/rgb-card-desktop";
 import BusinessContactContent from "@/components/business-contact-content";
+import RgbBusinessCard from "@/components/rgb-business-card";
 
 export default function Home() {
   return (
@@ -22,13 +23,11 @@ export default function Home() {
           <InfoMail />
         </div>
         <div className="pb-[128px] flex justify-center">
-        <RGBCardDesktop width={650} height={350}>
-          <BusinessContactContent />
-        </RGBCardDesktop>
+          <RgbBusinessCard />
         </div>
         <footer className="bg-black text-white p-12 text-center">
-        website code and design by me
-      </footer>
+          website code and design by me
+        </footer>
       </div>
 
     </div>
