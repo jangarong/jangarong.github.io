@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarItem } from "@/components/ui/menubar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,11 +31,27 @@ export function Navbar() {
         <div className="flex flex-row p-8 justify-between w-[100vw] items-center">
             <Image src={"/assets/jang.svg"} alt={"JanG."} width={100} height={50} />
             <div className="items-center">
-                {menuButtons.map(({name, link, enabled}) => (
+                {/* {menuButtons.map(({name, link, enabled}) => (
                     <Link href={link} className={enabled ? "" : "pointer-events-none"} key={name}>
                         <Button variant="ghost" className="text-lg font-bold p-4" disabled={!enabled}>{name}</Button>
                     </Link>
-                ))}
+                ))} */}
+                <Menubar>
+                    <MenubarMenu>
+                        <MenubarTrigger>Profiles</MenubarTrigger>
+                        <MenubarContent>
+                            <MenubarRadioGroup value="benoit">
+                                <MenubarRadioItem value="andy">Andy</MenubarRadioItem>
+                                <MenubarRadioItem value="benoit">Benoit</MenubarRadioItem>
+                                <MenubarRadioItem value="Luis">Luis</MenubarRadioItem>
+                            </MenubarRadioGroup>
+                            <MenubarSeparator />
+                            <MenubarItem inset>Edit...</MenubarItem>
+                            <MenubarSeparator />
+                            <MenubarItem inset>Add Profile...</MenubarItem>
+                        </MenubarContent>
+                    </MenubarMenu>
+                </Menubar>
             </div>
         </div>
     );
