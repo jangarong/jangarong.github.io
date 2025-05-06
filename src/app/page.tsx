@@ -3,7 +3,7 @@ import { InfoMail } from "@/components/info-mail";
 import { TheWorld } from "@/components/the-world";
 import "../app/globals.css"
 import RGBCardDesktop from "@/components/rgb-card-desktop";
-import JangCardDesktopContent from "@/components/jang-card-desktop-content";
+import BusinessContactContent from "@/components/business-contact-content";
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="pb-[128px] flex justify-center">
         <RGBCardDesktop width={650} height={350}>
-          <JangCardDesktopContent />
+          <BusinessContactContent />
         </RGBCardDesktop>
         </div>
         <footer className="bg-black text-white p-12 text-center">
