@@ -36,7 +36,7 @@ export default function RgbBusinessCard() {
                                     </CardTitle>
                                     <CardDescription className="text-left">
                                         <AnimatedShinyText className="inline-flex items-left justify-center transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-                                            <span>Software Engineer @ Google Cloud Security</span>
+                                            <span>Software Engineer | UToronto CS '23</span>
                                         </AnimatedShinyText>
                                     </CardDescription>
                                 </div>
