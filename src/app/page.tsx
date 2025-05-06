@@ -33,7 +33,7 @@ export default function Home() {
           <RgbBusinessCard />
         </div>
         <footer className="bg-black text-white p-12 text-center">
-          website code and design by me (jangarong). while you're here though, you should try <a href="/zodiactail">zodiactail</a>!
+          website code and design by me (jangarong). while you're here though, you should try <a href="/zodiactail" className="text-[violet]">zodiactail</a>!
         </footer>
       </div>
 
