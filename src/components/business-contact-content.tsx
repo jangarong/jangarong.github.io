@@ -1,10 +1,7 @@
-import { TeamsContent } from "@/components/teams-content";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
-import { Button } from "@/components/ui/button";
-import { CardTitle, CardDescription, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+import { CardTitle, CardDescription, CardContent, CardHeader } from "@/components/ui/card";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-import { CompassIcon, FileTextIcon, KeyRoundIcon, MailIcon } from "lucide-react";
-import Link from "next/link";
+import { KeyRoundIcon, MailIcon } from "lucide-react";
 
 export default function BusinessContactContent() {
     return (
