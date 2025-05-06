@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
+import Link from "next/link";
 
 const menuButtons = [
     {
@@ -30,9 +31,9 @@ export function Navbar() {
             <Image src={"/assets/jang.svg"} alt={"JanG."} width={100} height={50} />
             <div className="items-center">
                 {menuButtons.map(({name, link, enabled}) => (
-                    <a href={link} className={enabled ? "" : "pointer-events-none"}>
+                    <Link href={link} className={enabled ? "" : "pointer-events-none"} key={name}>
                         <Button variant="ghost" className="text-lg font-bold p-4" disabled={!enabled}>{name}</Button>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>

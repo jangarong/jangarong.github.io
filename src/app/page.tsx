@@ -28,7 +28,7 @@ export default function Home() {
           <RgbBusinessCard />
         </div>
         <footer className="bg-black text-white p-12 text-center">
-          Website code and design by me (jangarong). While you're here though, you should try my game <a href="/zodiactail.html" className="text-[violet]">Zodiac Tail</a>!
+          Website code and design by me (jangarong). While you&apos;re here though, you should try my game <a href="/zodiactail.html" className="text-[violet]">Zodiac Tail</a>!
         </footer>
       </div>
 
