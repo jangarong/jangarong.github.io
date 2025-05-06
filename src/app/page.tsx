@@ -2,8 +2,6 @@ import { Experience } from "@/components/experience";
 import { TheWorld } from "@/components/the-world";
 import "../app/globals.css"
 import RgbBusinessCard from "@/components/rgb-business-card";
-import { Button } from "@/components/ui/button";
-import { FileTextIcon } from "lucide-react";
 import DownloadMyResume from "@/components/download-my-resume";
 
 export default function Home() {
