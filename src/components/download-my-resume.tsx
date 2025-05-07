@@ -4,7 +4,7 @@ import { FileTextIcon } from "lucide-react";
 export default function DownloadMyResume() {
   return (
 
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center px-2">
             <div className="text-center mb-4 text-xl font-bold">Want to learn more about my work?</div>
             <div className="text-center mb-8 text-lg">Download my free resume!</div>
             <a href="/resume.pdf">

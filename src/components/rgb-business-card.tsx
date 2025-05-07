@@ -15,7 +15,7 @@ import AnimatedShinyText from "./ui/animated-shiny-text";
 
 export default function RgbBusinessCard() {
     return (
-        <Card className={`my-[200px] md:my-[50px] rotate-45 md:rotate-12 w-[650px] h-[350px] flex flex-row`}>
+        <Card className={`my-[200px] md:my-[75px] rotate-45 md:rotate-12 w-[650px] h-[350px] flex flex-row`}>
             <ShineBorder
                 className={`dark:bg-lightblack flex flex-row overflow-hidden rounded-lg border shadow-xl w-full`}
                 color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}

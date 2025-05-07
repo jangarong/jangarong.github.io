@@ -20,7 +20,7 @@ export function TheWorld() {
                     height={500}
                 />
             </div>
-            <div className={`flex md:hidden flex-wrap justify-evenly align-center`}>
+            <div className={`flex md:hidden flex-wrap justify-evenly align-center  w-[100%] h-[100%] overflow-hidden`}>
                 <Image
                     className={styles.circle}
                     src={"/assets/the-world.png"}

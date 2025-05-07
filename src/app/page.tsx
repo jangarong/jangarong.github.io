@@ -7,11 +7,11 @@ import { Navbar } from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div className="h-[100vh]">
-      <div className="absolute">
+    <div className="h-[100vh] w-[100%]">
+      <div className="absolute w-[100%]">
         <Navbar />
       </div>
-      <div className="h-[100%]">
+      <div className="h-[100%] min-h-[800px]">
         <div className={"flex justify-center items-center h-[100%]"}>
           <TheWorld />
         </div>
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="pb-[128px] flex justify-center">
           <DownloadMyResume />
         </div>
-        <div className="pb-[128px] flex justify-center">
+        <div className="pb-[128px] flex justify-center overflow-x-hidden">
           <RgbBusinessCard />
         </div>
         <footer className="bg-black text-white p-12 text-center">
