@@ -25,15 +25,15 @@ export function TheWorld() {
                     className={styles.circle}
                     src={"/assets/the-world.png"}
                     alt={"Tower of Babel"}
-                    width={300}
-                    height={400}
+                    width={250}
+                    height={350}
                 />
                 <Image
-                    className={styles.ring + ` mt-[42px]`}
+                    className={styles.ring + ` mt-[28px]`}
                     src={"/assets/ring.svg"}
                     alt={"JAN GARONG • SOFTWARE ENGINEER • CYBERSECURITY "}
-                    width={400}
-                    height={400}
+                    width={350}
+                    height={350}
                 />
             </div>
         </div>
