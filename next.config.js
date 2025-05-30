@@ -1,6 +1,6 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   /* config options here */
   output: 'export',
   reactStrictMode: true,
@@ -10,4 +10,4 @@ const nextConfig: NextConfig = {
   transpilePackages: ["next-mdx-remote"],
 };
 
-export default nextConfig;
+// export default nextConfig;
