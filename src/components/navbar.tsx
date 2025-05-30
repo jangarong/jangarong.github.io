@@ -1,4 +1,4 @@
-import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarSeparator, MenubarItem, MenubarGroup } from "@/components/ui/menubar";
+import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarGroup } from "@/components/ui/menubar";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";

@@ -1,4 +1,3 @@
-import { BlogPosts } from '@/components/blog/posts'
 import Layout from '../blog/layout'
 import Image from 'next/image'
 
@@ -12,9 +11,9 @@ export default function Page() {
         <Layout>
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Zodiac Tail: A Game of Cat and Mouse</h1>
             <div className="mb-4">
-                A puzzle platformer featuring the zodiac animals! Meet Mao, one of the Jade emperor’s most valued prophets, and Laoshu, a researcher in time manipulation who are both at a race to find the Jade Talisman.
+                A puzzle platformer featuring the zodiac animals! Meet Mao, one of the Jade emperor&apos;s most valued prophets, and Laoshu, a researcher in time manipulation who are both at a race to find the Jade Talisman.
             </div><div className="mb-4">
-                You will need to use Mao's teleporting abilities and Laoshu's time manipulation abilities in order to progress through these levels!
+                You will need to use Mao&apos;s teleporting abilities and Laoshu&apos;s time manipulation abilities in order to progress through these levels!
             </div><div className="mb-4">
                 Please note that this is a beta version, so not all aspects of the game will be polished, and you will run into missing sprites. If you found any bugs in the game, feel free to let us know in the comments or contact us directly!
             </div>
@@ -28,7 +27,7 @@ export default function Page() {
                 <Image src={"./screenshots/zt2.jpg"} alt="screenshot2" width={480} height={360} />
             </div>
             <div className="font-semibold mb-4">
-                Here's how you can play!
+                Here&apos;s how you can play!
             </div>
             <div className="ml-4">
                 <div className="mb-4">

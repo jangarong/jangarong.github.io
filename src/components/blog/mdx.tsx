@@ -5,16 +5,16 @@ import { highlight } from 'sugar-high'
 import React from 'react'
 import "./blog.css"
 
-// @ts-ignore
+// @ts-expect-error: migrated code will fix later
 function Table({ data }) {
-  // @ts-ignore
-  let headers = data.headers.map((header, index) => (
+  // @ts-expect-error: migrated code will fix later
+  const headers = data.headers.map((header, index) => (
     <th key={index}>{header}</th>
   ))
-  // @ts-ignore
-  let rows = data.rows.map((row, index) => (
+  // @ts-expect-error: migrated code will fix later
+  const rows = data.rows.map((row, index) => (
     <tr key={index}>
-      {// @ts-ignore
+      {// @ts-expect-error: migrated code will fix later
       row.map((cell, cellIndex) => (
         <td key={cellIndex}>{cell}</td>
       ))}
@@ -30,9 +30,9 @@ function Table({ data }) {
     </table>
   )
 }
-// @ts-ignore
+// @ts-expect-error: migrated code will fix later
 function CustomLink(props) {
-  let href = props.href
+  const href = props.href
 
   if (href.startsWith('/')) {
     return (
@@ -48,16 +48,16 @@ function CustomLink(props) {
 
   return <a target="_blank" rel="noopener noreferrer" {...props} />
 }
-// @ts-ignore
+// @ts-expect-error: migrated code will fix later
 function RoundedImage(props) {
   return <Image alt={props.alt} className="rounded-lg" {...props} />
 }
-// @ts-ignore
+// @ts-expect-error: migrated code will fix later
 function Code({ children, ...props }) {
-  let codeHTML = highlight(children)
+  const codeHTML = highlight(children)
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
 }
-// @ts-ignore
+// @ts-expect-error: migrated code will fix later
 function slugify(str) {
   return str
     .toString()
@@ -68,11 +68,11 @@ function slugify(str) {
     .replace(/[^\w\-]+/g, '') // Remove all non-word characters except for -
     .replace(/\-\-+/g, '-') // Replace multiple - with single -
 }
-// @ts-ignore
+// @ts-expect-error: migrated code will fix later
 function createHeading(level) {
-  // @ts-ignore
+  // @ts-expect-error: migrated code will fix later
   const Heading = ({ children }) => {
-    let slug = slugify(children)
+    const slug = slugify(children)
     // return null
     return React.createElement(
       `h${level}`,
@@ -93,7 +93,7 @@ function createHeading(level) {
   return Heading
 }
 
-let components = {
+const components = {
   h1: createHeading(1),
   h2: createHeading(2),
   h3: createHeading(3),
@@ -105,7 +105,7 @@ let components = {
   code: Code,
   Table,
 }
-// @ts-ignore
+// @ts-expect-error: migrated code will fix later
 export function CustomMDX(props) {
   return (
     <MDXRemote

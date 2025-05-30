@@ -9,7 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <div className="min-h-[100vh]">
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">What's New</h1>
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">What&apos;s New</h1>
       <BlogPosts />
     </div>
   )

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./globals.css"
 import Image from "next/image";
 
@@ -22,21 +23,21 @@ export default function RootLayout({
                     </div>
                 </div>
                 <div className="navbar-penguin flex flex-wrap">
-                    <a href="/" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                    <Link href="/" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         SIDE A
-                    </a>
-                    <a href="/blog" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        WHAT'S NEW
-                    </a>
-                    <a href="/software" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                    </Link>
+                    <Link href="/blog" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                        WHAT&apos;S NEW
+                    </Link>
+                    <Link href="/software" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         SOFTWARE
-                    </a>
-                    <a href="/art" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                    </Link>
+                    <Link href="/art" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         ART
-                    </a>
-                    <a href="" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                    </Link>
+                    <Link href="" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         ARCHIVE
-                    </a>
+                    </Link>
                 </div>
                 <div className="mt-[48px] mx-[24px]">
                     {children}
