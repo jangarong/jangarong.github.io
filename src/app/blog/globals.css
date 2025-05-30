@@ -4,7 +4,7 @@ html, body {
 
 .base {
     background-color: #fdfad6;
-    width: 760px;
+    width: 100%;
     box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2),
     -5px 0px 5px rgba(0, 0, 0, 0.2);
     /* padding-left: 16px;
@@ -41,9 +41,9 @@ html, body {
     src: url("../fonts/acme-bold.ttf");
 }
 
-/* @media (min-width: 576px) { 
+@media (min-width: 576px) { 
     .base {
-        width: 66%;
+    width: 760px;
     }
- } */
+ }
 

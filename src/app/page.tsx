@@ -27,8 +27,8 @@ export default function Home() {
         <RgbBusinessCard />
       </div>
       {/* TODO: Move this footer to layout */}
-      <footer className="bg-black text-white p-12 text-center">
-        Website code and design by me (jangarong).
+      <footer className="bg-black text-white p-12 text-sm text-center">
+        Side A website code and design by me (jangarong).
       </footer>
     </div>
   );
