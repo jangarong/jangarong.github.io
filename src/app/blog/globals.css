@@ -1,0 +1,26 @@
+html {
+    background-color: #eeeeee;
+}
+
+.base {
+    background-color: #fdfad6;
+    width: 760px;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2),
+    -5px 0px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.base-banner {
+    background-color: #0097c9;
+    background: linear-gradient(to bottom, #0c4b65, #0097c9);
+    border-bottom: 8px solid #ffcd08;
+}
+
+/* @media (min-width: 576px) { 
+    .base {
+        width: 66%;
+    }
+ } */
+

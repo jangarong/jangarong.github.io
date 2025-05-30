@@ -11,8 +11,8 @@ const menuButtons = [
     },
     {
         "name": "Side B",
-        "link": "/",
-        "enabled": false,
+        "link": "/blog",
+        "enabled": true,
     },
 ]
 
