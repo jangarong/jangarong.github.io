@@ -15,7 +15,7 @@ export default function Page() {
             </div><div className="mb-4">
                 You will need to use Mao&apos;s teleporting abilities and Laoshu&apos;s time manipulation abilities in order to progress through these levels!
             </div><div className="mb-4">
-                Please note that this is a beta version, so not all aspects of the game will be polished, and you will run into missing sprites. If you found any bugs in the game, feel free to let us know in the comments or contact us directly!
+                Please note that this is a beta version, so not all aspects of the game will be polished, and you will run into missing sprites.
             </div>
             <div className="w-[100%] flex justify-center mx-[8px] my-4">
                 <Image src={"./screenshots/zt0.png"} alt="screenshot0" width={480} height={360} />
