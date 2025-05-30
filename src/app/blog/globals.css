@@ -1,0 +1,49 @@
+html, body {
+    background-color: #eeeeee;
+}
+
+.base {
+    background-color: #fdfad6;
+    width: 100%;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2),
+    -5px 0px 5px rgba(0, 0, 0, 0.2);
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.base-banner {
+    background-color: #0097c9;
+    background: linear-gradient(to bottom, #0c4b65, #0097c9);
+    border-bottom: 8px solid #ffcd08;
+    color: white;
+        /* https://online-fonts.com/fonts/acme-explosive/download */
+}
+
+.navbar-penguin {
+    background: linear-gradient(to bottom, #025374, #106793);
+       color: white;
+        /* https://online-fonts.com/fonts/acme-explosive/download */
+    font-family: acme;
+}
+
+.navbar-penguin a:hover {
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.443);
+}
+
+@font-face {
+    font-family: acme;
+    src: url("../fonts/acme.ttf");
+}
+
+@font-face {
+    font-family: acme-bold;
+    src: url("../fonts/acme-bold.ttf");
+}
+
+@media (min-width: 576px) { 
+    .base {
+    width: 760px;
+    }
+ }
+

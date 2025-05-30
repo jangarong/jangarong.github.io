@@ -11,18 +11,18 @@ const menuButtons = [
     },
     {
         "name": "Side B",
-        "link": "/",
-        "enabled": false,
-    },
-]
-
-const menuButtons2 = [
-    {
-        "name": "Zodiac Tail (WebGL Version)",
-        "link": "/zodiactail/",
+        "link": "/blog",
         "enabled": true,
     },
 ]
+
+// const menuButtons2 = [
+//     {
+//         "name": "Zodiac Tail (WebGL Version)",
+//         "link": "/zodiactail/",
+//         "enabled": true,
+//     },
+// ]
 
 export function Navbar() {
     return (
@@ -40,14 +40,14 @@ export function Navbar() {
                                     </Link>
                                 ))}
                             </MenubarGroup>
-                            <MenubarSeparator />
-                            <MenubarGroup>
+                            {/* <MenubarSeparator /> */}
+                            {/* <MenubarGroup>
                                 {menuButtons2.map(({ name, link, enabled }) => (
                                     <Link href={link} className={enabled ? "" : "pointer-events-none"} key={name}>
                                         <MenubarItem disabled={!enabled}>{name}</MenubarItem>
                                     </Link>
                                 ))}
-                            </MenubarGroup>
+                            </MenubarGroup> */}
                         </MenubarContent>
                     </MenubarMenu>
                 </Menubar>
