@@ -12,7 +12,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center">
+        <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center bg-[#eeeeee]">
             <div className="base">
                 <div className="base-banner pt-[48px]">
                     <div className="p-[24px] flex flex-col align-center">
