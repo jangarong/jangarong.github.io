@@ -16,7 +16,7 @@ export default function RootLayout({
                 <div className="base-banner pt-[48px]">
                     <div className="p-[24px] flex flex-col align-center">
                         <div className="flex flex-col align-center justify-center w-[250px]">
-                            <Image src="./assets/jang-penguin.png" alt="JanG." width={250} height={50} />
+                            <Image src="/assets/jang-penguin.png" alt="JanG." width={250} height={50} />
                             <div className="text-center mt-[4px]">Side B of my ordinary life.</div>
                         </div>
                     </div>
