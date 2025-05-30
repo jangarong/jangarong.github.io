@@ -27,7 +27,7 @@ export default function RootLayout({
                         SIDE A
                     </Link>
                     <Link href="/blog" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        WHAT&apos;S NEW
+                        HOME
                     </Link>
                     <Link href="/software" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         SOFTWARE

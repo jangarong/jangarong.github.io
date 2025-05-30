@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const menuButtons = [
     {
-        "name": "Side A",
+        "name": "Home",
         "link": "/",
         "enabled": true,
     },
