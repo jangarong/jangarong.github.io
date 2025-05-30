@@ -5,12 +5,12 @@ import Link from "next/link";
 
 const menuButtons = [
     {
-        "name": "Home",
+        "name": "Side A",
         "link": "/",
         "enabled": true,
     },
     {
-        "name": "What's New",
+        "name": "Side B",
         "link": "/blog",
         "enabled": true,
     },
