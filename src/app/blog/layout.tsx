@@ -21,20 +21,20 @@ export default function RootLayout({
                         </div>
                     </div>
                 </div>
-                <div className="navbar-penguin h-[36px] flex">
-                    <a href="/" className="border-r border-black pl-[16px] pr-[16px] pt-[6px] h-[100%] flex flex-col">
+                <div className="navbar-penguin flex flex-wrap">
+                    <a href="/" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         SIDE A
                     </a>
-                    <a href="/blog" className="border-r border-black pl-[16px] pr-[16px] pt-[6px] h-[100%] flex flex-col">
+                    <a href="/blog" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         WHAT'S NEW
                     </a>
-                    <a href="/software" className="border-r border-black pl-[16px] pr-[16px] pt-[6px] h-[100%] flex flex-col">
+                    <a href="/software" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         SOFTWARE
                     </a>
-                    <a href="/art" className="text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] pt-[6px] h-[100%] flex flex-col">
+                    <a href="/art" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         ART
                     </a>
-                    <a href="" className="text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] pt-[6px] h-[100%] flex flex-col">
+                    <a href="" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         ARCHIVE
                     </a>
                 </div>
