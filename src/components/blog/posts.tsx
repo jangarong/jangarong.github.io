@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getBlogPosts } from '@/lib/blog'
+import { formatDate, getBlogPosts } from '@/lib/blog'
 
 export function BlogPosts() {
   const allBlogs = getBlogPosts()
@@ -21,12 +21,12 @@ export function BlogPosts() {
             className="flex flex-col space-y-1 mb-4"
             href={`/b/log/${post.slug}`}
           >
-            <div className="ml-[8px] w-[100%] flex flex-col md:flex-row space-x-0 md:space-x-2">
-              {/* <p className="text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums">
+            <div className="ml-[32px] w-[100%] flex flex-row space-x-0 space-x-2">
+              <p className="text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums">
                 {formatDate(post.metadata.publishedAt, false)}
-              </p> */}
+              </p>
               <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-                •&nbsp;&nbsp;{post.metadata.title}
+                {post.metadata.title}
               </p>
             </div>
           </Link>

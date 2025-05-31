@@ -30,7 +30,10 @@ export default function RootLayout({
                         HOME
                     </Link>
                     <Link href="/b/log" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        What&apos;s New
+                        WHAT&apos;S NEW
+                    </Link>
+                    <Link href="/b/projects" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                        PROJECTS
                     </Link>
                     <Link href="/b/drawings" className="disabled text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         DRAWINGS

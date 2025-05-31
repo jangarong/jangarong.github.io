@@ -40,6 +40,15 @@ export default function Page() {
                     </a> / <a href="/assets/ZodiacTail-Linux-0.2.13-beta.zip" className="text-blue-600 hover:text-purple-400">
                         Linux x86
                     </a> ) </div>
+                <div className="mb-4">
+                    • Signatures: ( <a href="/assets/ZodiacTail-MacOS-0.2.13-beta.zip.asc" className="text-blue-600 hover:text-purple-400">
+                        MacOS ARM
+                    </a> / <a href="/assets/ZodiacTail-Windows-0.2.13-beta.zip.asc" className="text-blue-600 hover:text-purple-400">
+                        Windows x86
+                    </a> / <a href="/assets/ZodiacTail-Linux-0.2.13-beta.zip.asc" className="text-blue-600 hover:text-purple-400">
+                        Linux x86
+                    </a> ) </div>
+                <div className="mb-4"> • Official page found at <a href="https://zodiactail.itch.io/prologue">itch.io</a></div>
             </div>
             <div className="font-semibold mb-4">
                 Credits:
@@ -56,6 +65,9 @@ export default function Page() {
                 </div>
                 <div className="mb-4">
                     • Written by Amy Li.
+                </div>
+                <div className="mb-4">
+                    • Music composed by Rahul Sharma.
                 </div>
             </div>
         </div>

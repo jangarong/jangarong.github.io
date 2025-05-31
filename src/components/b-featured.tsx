@@ -34,10 +34,10 @@ export default function BFeatured() {
                     This unofficial university capstone project was co-created with Amy Li who led the art direction!
                 </div>
                 <div className="mt-[16px]">
-                    <Link href="/b/zodiactail">Play now!</Link>&nbsp;|&nbsp;<Link href="https://zodiactail.itch.io/prologue">itch.io</Link>
+                    <Link href="/b/zodiactail">Play now!</Link>
                 </div>
             </BFeaturedItem>
-            <BFeaturedItem src="/assets/b/solidguard.png" title="SolidGuard">
+            {/* <BFeaturedItem src="/assets/b/solidguard.png" title="SolidGuard">
                 Prototype that audits smart contracts&apos; open sourced code on the blockchain for newly discovered vulnerabilities.
                 <b>This does not work anymore post-merge, but you can check the source code for reference!</b>
                 <div className="mt-[16px]">
@@ -52,7 +52,7 @@ export default function BFeatured() {
                     <Link href="https://github.com/jangarong/StockMarketPredictions">GitHub</Link>&nbsp;|&nbsp;
                     <Link href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks">Kaggle</Link>
                 </div>
-            </BFeaturedItem>
+            </BFeaturedItem> */}
         </div>
     )
 }
