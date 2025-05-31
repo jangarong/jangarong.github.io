@@ -3,12 +3,22 @@
 } */
 
 .base {
-    background-color: #fdfad6;
+    /* background-color: #fdfad6; */
+    background-color: white;
     width: 100%;
     box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2),
     -5px 0px 5px rgba(0, 0, 0, 0.2);
     /* padding-left: 16px;
     padding-right: 16px; */
+}
+
+.base a {
+    color: blue;
+}
+
+.base a:hover {
+    color: purple;
+    text-decoration: underline;
 }
 
 .base-banner {
@@ -26,8 +36,19 @@
     font-family: acme;
 }
 
+.navbar-penguin a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-penguin .disabled {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
 .navbar-penguin a:hover {
     color: yellow;
+    text-decoration: none;
     background-color: rgba(255, 255, 255, 0.443);
 }
 

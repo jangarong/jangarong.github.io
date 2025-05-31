@@ -37,7 +37,7 @@ export function generateMetadata({ params }) {
       description,
       type: 'article',
       publishedTime,
-      url: `${baseUrl}/blog/${post.slug}`,
+      url: `${baseUrl}/b/log/${post.slug}`,
       images: [
         {
           url: ogImage,
@@ -62,7 +62,7 @@ export default function Blog({ params }) {
   }
 
   return (
-    <section>
+    <section className="mt-[48px] mx-[24px] mb-[72px]">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -77,7 +77,7 @@ export default function Blog({ params }) {
             image: post.metadata.image
               ? `${baseUrl}${post.metadata.image}`
               : `/og?title=${encodeURIComponent(post.metadata.title)}`,
-            url: `${baseUrl}/blog/${post.slug}`,
+            url: `${baseUrl}/b/log/${post.slug}`,
             author: {
               '@type': 'Person',
               name: 'My Portfolio',

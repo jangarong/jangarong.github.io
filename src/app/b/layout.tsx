@@ -26,23 +26,23 @@ export default function RootLayout({
                     <Link href="/" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         SIDE A
                     </Link>
-                    <Link href="/blog" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                    <Link href="/b" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         HOME
                     </Link>
-                    <Link href="/software" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        SOFTWARE
+                    <Link href="/b/log" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                        What&apos;s New
                     </Link>
-                    <Link href="/art" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        ART
+                    <Link href="/b/drawings" className="disabled text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                        DRAWINGS
                     </Link>
-                    <Link href="" className="text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                    <Link href="" className="disabled text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         ARCHIVE
                     </Link>
                 </div>
-                <div className="mt-[48px] mx-[24px]">
+                <div>
                     {children}
                 </div>
-                <footer className="p-12 text-center text-sm">
+                <footer className="p-12 text-center text-sm bg-[#fdfad6]">
                     Side B website code and design by me (jangarong). Inspired by clubpenguin.com.
                 </footer>
             </div>
