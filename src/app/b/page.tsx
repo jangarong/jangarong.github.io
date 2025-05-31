@@ -1,6 +1,5 @@
 import BFeatured from "@/components/b-featured";
-import "./globals.css"
-import Image from "next/image";
+import "./globals.css";
 
 export const metadata = {
   title: 'Jan Garong',

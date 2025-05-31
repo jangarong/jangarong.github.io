@@ -46,7 +46,7 @@ export default function BFeatured() {
             </BFeaturedItem>
             <BFeaturedItem src="/assets/b/stock-market-headlines.png" title="Stock Market Predictions">
                 Jupyter notebook that created a LightGBM-based machine learning model that predicts stock movement based on news articles.
-                This is for Two Sigma's Kaggle competition held in 2019.
+                This is for Two Sigma&#39;s Kaggle competition held in 2019.
 
                 <div className="mt-[16px]">
                     <Link href="https://github.com/jangarong/StockMarketPredictions">GitHub</Link>&nbsp;|&nbsp;
