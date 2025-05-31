@@ -31,7 +31,7 @@ export default function BFeatured() {
             <BFeaturedItem src="/assets/b/zodiactail.png" title="Zodiac Tail: A Game of Cat and Mouse">
                 <div>
                     Join the Zodiac Tail animals on this puzzle platformer manipulating time and space for the Jade Talisman!
-                    Art direction done by Amy Li.
+                    This unofficial university capstone project was co-created with Amy Li who led the art direction!
                 </div>
                 <div className="mt-[16px]">
                     <Link href="/b/zodiactail">Play now!</Link>&nbsp;|&nbsp;<Link href="https://zodiactail.itch.io/prologue">itch.io</Link>
@@ -44,8 +44,9 @@ export default function BFeatured() {
                     <Link href="https://github.com/sit-n-coding/solidguard">GitHub</Link>
                 </div>
             </BFeaturedItem>
-            <BFeaturedItem src="/assets/b/stock-market-headlines.png" title="Amateur Hour - Using Headlines to Predict Stocks">
+            <BFeaturedItem src="/assets/b/stock-market-headlines.png" title="Stock Market Predictions">
                 Jupyter notebook that created a LightGBM-based machine learning model that predicts stock movement based on news articles.
+                This is for Two Sigma's Kaggle competition held in 2019.
 
                 <div className="mt-[16px]">
                     <Link href="https://github.com/jangarong/StockMarketPredictions">GitHub</Link>&nbsp;|&nbsp;
