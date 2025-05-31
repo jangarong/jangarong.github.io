@@ -25,7 +25,7 @@ export default function BFeatured() {
                     This is where I post very infrequently about anything.
                 </div>
                 <div className="mt-[16px]">
-                    <Link href="/b/log">View posts here!</Link>
+                    <Link href="/b/log">Click here to see more!</Link>
                 </div>
             </BFeaturedItem>
             <BFeaturedItem src="/assets/b/zodiactail.png" title="Zodiac Tail: A Game of Cat and Mouse">
@@ -34,14 +34,22 @@ export default function BFeatured() {
                     Art direction done by Amy Li.
                 </div>
                 <div className="mt-[16px]">
-                    <Link href="/b/zodiactail">Click here to play!</Link>
+                    <Link href="/b/zodiactail">Play now!</Link>&nbsp;|&nbsp;<Link href="https://zodiactail.itch.io/prologue">itch.io</Link>
                 </div>
             </BFeaturedItem>
             <BFeaturedItem src="/assets/b/solidguard.png" title="SolidGuard">
-                Prototype that audits smart contracts' open sourced code on the blockchain for newly discovered vulnerabilities.
+                Prototype that audits smart contracts&apos; open sourced code on the blockchain for newly discovered vulnerabilities.
                 <b>This does not work anymore post-merge, but you can check the source code for reference!</b>
                 <div className="mt-[16px]">
-                    <Link href="https://github.com/sit-n-coding/solidguard">GitHub Repository</Link>
+                    <Link href="https://github.com/sit-n-coding/solidguard">GitHub</Link>
+                </div>
+            </BFeaturedItem>
+            <BFeaturedItem src="/assets/b/stock-market-headlines.png" title="Amateur Hour - Using Headlines to Predict Stocks">
+                Jupyter notebook that created a LightGBM-based machine learning model that predicts stock movement based on news articles.
+
+                <div className="mt-[16px]">
+                    <Link href="https://github.com/jangarong/StockMarketPredictions">GitHub</Link>&nbsp;|&nbsp;
+                    <Link href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks">Kaggle</Link>
                 </div>
             </BFeaturedItem>
         </div>
