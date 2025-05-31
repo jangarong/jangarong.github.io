@@ -17,13 +17,13 @@ export default function Page() {
                 Please note that this is a beta version, so not all aspects of the game will be polished, and you will run into missing sprites.
             </div>
             <div className="w-[100%] flex justify-center my-8">
-                <Image src={"./screenshots/zt0.png"} alt="screenshot0" width={480} height={360} />
+                <Image src={"/assets/b/zodiactail/zt0.png"} alt="screenshot0" width={480} height={360} />
             </div>
             <div className="w-[100%] flex justify-center my-8">
-                <Image src={"./screenshots/zt1.png"} alt="screenshot1" width={480} height={360} />
+                <Image src={"/assets/b/zodiactail/zt1.png"} alt="screenshot1" width={480} height={360} />
             </div>
             <div className="w-[100%] flex justify-center my-8">
-                <Image src={"./screenshots/zt2.jpg"} alt="screenshot2" width={480} height={360} />
+                <Image src={"/assets/b/zodiactail/zt2.jpg"} alt="screenshot2" width={480} height={360} />
             </div>
             <div className="font-semibold mb-4">
                 Here&apos;s how you can play!
