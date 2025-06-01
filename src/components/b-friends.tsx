@@ -33,14 +33,14 @@ const frens: Friend[] = [
         name: "Trinity Li"
     },
     {
-        url: "https://jcaoj.github.io/",
-        img: "/assets/b/friends/jay.jpg",
-        name: "Jess Cao"
-    },
-    {
         url: "https://epicsteve2.github.io/",
         img: "/assets/b/friends/stephen.jpg",
         name: "Stephen Guo"
+    },
+    {
+        url: "https://jcaoj.github.io/",
+        img: "/assets/b/friends/jay.jpg",
+        name: "Jess Cao"
     },
     {
         url: "https://liamy.webflow.io/",
