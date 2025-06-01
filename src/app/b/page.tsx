@@ -1,7 +1,6 @@
 import BFeatured from "@/components/b-featured";
 import "./globals.css";
-import BFriends from "@/components/b-friends";
-import BFriendsV2 from "@/components/b-friends-v2";
+import PersonalCard from "@/components/personal-card";
 
 export const metadata = {
   title: 'Jan Garong',
@@ -18,7 +17,10 @@ export default function Page() {
           (sometimes engineering related), and half-decent drawings.
         </div>
         <BFeatured />
-        <BFriendsV2 />
+        <PersonalCard />
+        <div className="p-8 font-semibold">
+          Note: This website is under construction and is a work in progress.
+        </div>
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarGroup } from "@/components/ui/menubar";
+import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarGroup, MenubarSeparator } from "@/components/ui/menubar";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,13 +21,13 @@ const menuButtons = [
     },
 ]
 
-// const menuButtons2 = [
-//     {
-//         "name": "Zodiac Tail (WebGL Version)",
-//         "link": "/zodiactail/",
-//         "enabled": true,
-//     },
-// ]
+const menuButtons2 = [
+    {
+        "name": "Side B",
+        "link": "/b",
+        "enabled": true,
+    },
+]
 
 export function Navbar() {
     return (
@@ -45,14 +45,14 @@ export function Navbar() {
                                     </Link>
                                 ))}
                             </MenubarGroup>
-                            {/* <MenubarSeparator /> */}
-                            {/* <MenubarGroup>
+                            <MenubarSeparator />
+                            <MenubarGroup>
                                 {menuButtons2.map(({ name, link, enabled }) => (
                                     <Link href={link} className={enabled ? "" : "pointer-events-none"} key={name}>
                                         <MenubarItem disabled={!enabled}>{name}</MenubarItem>
                                     </Link>
                                 ))}
-                            </MenubarGroup> */}
+                            </MenubarGroup>
                         </MenubarContent>
                     </MenubarMenu>
                 </Menubar>

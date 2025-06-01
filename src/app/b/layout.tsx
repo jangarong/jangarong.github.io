@@ -33,13 +33,16 @@ export default function RootLayout({
                         WHAT&apos;S NEW
                     </Link>
                     <Link href="/b/projects" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        PROJECTS
+                        WORKS
                     </Link>
                     <Link href="/b/drawings" className="disabled text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        DRAWINGS
+                        CREATIVE
                     </Link>
-                    <Link href="" className="disabled text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                    <Link href="/b/archive" className="disabled text-nowrap border-b text-gray-400 pointer-events-none border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         ARCHIVE
+                    </Link>
+                    <Link href="/b/ack" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                        COOL PEOPLE
                     </Link>
                 </div>
                 <div>

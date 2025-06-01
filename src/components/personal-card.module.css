@@ -1,0 +1,8 @@
+.darkshadow {
+    /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5),
+                /* inset 0 0 0 5px white, Inner border (5px wide) */
+                inset 0 0 0 4px #9f4e30, /* Middle border (10px wide from element edge) */
+                inset 0 0 0 8px #edbf00; /* Outer border (15px wide from element edge) */
+           /*     inset 8px 8px 0 8px #00649b; /* Outer border (15px wide from element edge) */
+}
