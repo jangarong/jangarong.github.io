@@ -12,7 +12,7 @@ function FriendItem({ url, img, name }: Friend) {
     return (
         <div className="w-[125px] h-[200px] flex flex-col align-center">
             <Link href={url}>
-                <Image className="border-white rounded-2xl border " src={img ?? "/assets/b/friends/magichanics.png"} alt={img ?? "/assets/b/friends/magichanics.png"} width={125} height={100} />
+                <Image className="border-white rounded-2xl border-2 " src={img ?? "/assets/b/friends/magichanics.png"} alt={img ?? "/assets/b/friends/magichanics.png"} width={125} height={100} />
             </Link>
             <div className="size-xs text-center mt-[8px] text-white">
                 {name}
@@ -71,12 +71,12 @@ const frens: Friend[] = [
 
 export default function BFriends() {
     return (
-        <div className="flex justify-end w-[100%]">
-            <div className={"w-[85%] rounded-tl-2xl rounded-bl-2xl border-white border-l-2 border-t-2 border-b-2 bg-[#0099cc] " + styles.darkshadow}>
-                <div className="font-semibold size-xl text-white text-2xl text-center mt-[32px] mx-[64px]">
+        <div className="flex justify-end w-[100%] text-white">
+            <div className={"w-[85%] rounded-tl-2xl rounded-bl-2xl border-black border-l-2 border-t-2 border-b-2 bg-[#0099cc] " + styles.darkshadow}>
+                <div className="font-semibold size-xl text-2xl text-center mt-[32px] mx-[64px]">
                     People who I think are very cool
                 </div>
-                <div className="size-sm text-white text-sm text-center mb-[32px] mx-[64px]"> In the order when I have first met them B)</div>
+                <div className="size-sm text-sm text-center mb-[32px] mx-[64px]"> In the order of when I have first met them B)</div>
                 <div className="mx-[32px] grid sm:grid-cols-3 gap-2 items-center justify-items-center mb-[32px] h-[450px] overflow-y-scroll">
                     {frens.map(({ url, img, name }) => <FriendItem url={url} img={img} name={name} />)}
                 </div>
