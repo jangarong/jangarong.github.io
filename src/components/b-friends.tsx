@@ -12,7 +12,7 @@ function FriendItem({ url, img, name }: Friend) {
     return (
         <div className="w-[125px] h-[200px] flex flex-col align-center">
             <Link href={url}>
-                <Image className="border-white rounded-2xl border-2 " src={img ?? "/assets/b/friends/magichanics.png"} alt={img ?? "/assets/b/friends/magichanics.png"} width={125} height={100} />
+                <Image className="border-white rounded-2xl border-2 " src={img ?? "/assets/b/friends/magichanics.png"} alt={img ?? "/assets/b/friends/magichanics.png"} width={125} height={125} />
             </Link>
             <div className="size-xs text-center mt-[8px] text-white">
                 {name}
@@ -22,6 +22,11 @@ function FriendItem({ url, img, name }: Friend) {
 }
 
 const frens: Friend[] = [
+    {
+        url: "https://qrn99.github.io",
+        img: "/assets/b/friends/nancy.webp",
+        name: "Nancy (Ruo Ning) Qiu"
+    },
     {
         url: "https://www.linkedin.com/in/meixuan-mexi-lu-5103621b6/",
         img: "/assets/b/friends/meixuan.jpg",
