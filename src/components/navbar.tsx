@@ -10,8 +10,13 @@ const menuButtons = [
         "enabled": true,
     },
     {
-        "name": "Side B",
-        "link": "/b",
+        "name": "Contributions",
+        "link": "/contributions",
+        "enabled": false,
+    },
+    {
+        "name": "Resume",
+        "link": "/resume.pdf",
         "enabled": true,
     },
 ]
