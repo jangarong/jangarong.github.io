@@ -10,7 +10,7 @@ export default function PersonalCard() {
                     Jan Garong
                 </div>
                 <div className="size-sm text-sm text-center mx-[64px] mb-[24px]">
-                    Born from the Canadian winters.
+                    pending subtitle change
                 </div>
                 <div className="flex flex-row justify-between w-[100px]">
                     <a href="mailto:jan.garong@alumni.utoronto.ca"><span className="mr-[8px]"><MailIcon width={20} /></span> </a>

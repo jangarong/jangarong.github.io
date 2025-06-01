@@ -59,7 +59,7 @@ const frens: Friend[] = [
     },
     {
         url: "https://sayolko.carrd.co",
-        img: "/assets/b/friends/kat.png",
+        img: "/assets/b/friends/kat.webp",
         name: "Kathleen An Padua",
     },
     {
