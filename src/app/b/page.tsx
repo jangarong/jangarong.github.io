@@ -1,5 +1,6 @@
 import BFeatured from "@/components/b-featured";
 import "./globals.css";
+import BFriends from "@/components/b-friends";
 
 export const metadata = {
   title: 'Jan Garong',
@@ -16,6 +17,7 @@ export default function Page() {
           (sometimes engineering related), and half-decent drawings.
         </div>
         <BFeatured />
+        <BFriends />
       </div>
     </div>
   )
