@@ -19,7 +19,7 @@ export default function Page() {
         <BFeatured />
         <PersonalCard />
         <div className="p-8 font-semibold">
-          Note: This website is under construction and is a work in progress.
+          Note: This website is under construction. Expect bugs!
         </div>
       </div>
     </div>
