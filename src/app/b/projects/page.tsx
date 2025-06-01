@@ -16,6 +16,7 @@ export default function Page() {
             <div className="mb-8">Click on the following boxes to go to their project page!</div>
             <div className="grid flex flex-col justify-center align-center md:grid-cols-3 gap-4 mb-[32px]">
                 <ProjectItem href="/b/zodiactail" src="/assets/b/zodiactail.png" />
+                <ProjectItem href="" src="/assets/b/hex.png" />
                 <ProjectItem href="https://github.com/sit-n-coding/solidguard" src="/assets/b/solidguard.png" />
                 <ProjectItem href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks" src="/assets/b/stock-market-headlines.png" />
             </div>
