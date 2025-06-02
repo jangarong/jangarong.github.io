@@ -1,6 +1,6 @@
 import styles from "./personal-card.module.css"
-import { KeyRoundIcon, MailIcon } from "lucide-react";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+// import { KeyRoundIcon, MailIcon } from "lucide-react";
+// import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export default function PersonalCard() {
     return (
