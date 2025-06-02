@@ -34,7 +34,7 @@ export default function BFeatured() {
                     This unofficial university capstone project was co-created with Amy Li who led the art direction!
                 </div>
                 <div className="mt-[16px]">
-                    <Link href="/b/zodiactail">Play now!</Link>
+                    <Link href="/b/projects/zodiactail">Play now!</Link>
                 </div>
             </BFeaturedItem>
             {/* <BFeaturedItem src="/assets/b/solidguard.png" title="SolidGuard">

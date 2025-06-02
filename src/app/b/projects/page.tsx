@@ -12,10 +12,10 @@ function ProjectItem({ href, src }: { href: string, src: string }) {
 export default function Page() {
     return (
         <div className="mt-[48px] mx-[24px] mb-[72px]">
-            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">List of Projects</h1>
+            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">List of Works</h1>
             <div className="mb-8">Click on the following boxes to go to their project page!</div>
             <div className="grid flex flex-col justify-center align-center md:grid-cols-3 gap-4 mb-[32px]">
-                <ProjectItem href="/b/zodiactail" src="/assets/b/zodiactail.png" />
+                <ProjectItem href="/b/projects/zodiactail" src="/assets/b/zodiactail.png" />
                 <ProjectItem href="" src="/assets/b/hex.png" />
                 <ProjectItem href="https://github.com/sit-n-coding/solidguard" src="/assets/b/solidguard.png" />
                 <ProjectItem href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks" src="/assets/b/stock-market-headlines.png" />

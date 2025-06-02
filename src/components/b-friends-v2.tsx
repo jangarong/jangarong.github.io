@@ -29,7 +29,7 @@ const frens: Friend[] = [
     },
     {
         url: "https://www.linkedin.com/in/meixuan-mexi-lu-5103621b6/",
-        img: "/assets/b/friends/meixuan.jpg",
+        img: "/assets/b/friends/meixuan2.png",
         name: "Meixuan Lu"
     },
     {
