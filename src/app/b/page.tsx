@@ -18,9 +18,9 @@ export default function Page() {
         </div>
         <BFeatured />
         <PersonalCard />
-        <div className="p-8 font-semibold">
-          Note: This website is under construction. Expect bugs!
-        </div>
+        {/* <div className="p-8 font-semibold">
+          Note: This website is under construction, and I am currently quite busy with work to continue maintaining this website in the next month or 2. Expect bugs!
+        </div> */}
       </div>
     </div>
   )
