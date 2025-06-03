@@ -2,7 +2,8 @@
 /src/app/b/archive/page.tsx
 /public/b/archive.html
 /public/b/archive/*
-/src/app/b/log/posts/*.corp.mdx
+/public/assets/b/log/corp/*
+/posts/*.corp.mdx
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 

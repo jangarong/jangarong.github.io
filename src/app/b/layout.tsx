@@ -39,7 +39,7 @@ export default function RootLayout({
                     <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         CREATIVE
                     </Link>
-                    <Link href="/b/archive.html" className={(archiveExists() ? "": "disabled pointer-events-none text-gray-400")+" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
+                    <Link href="/b/archive" className={(archiveExists() ? "": "disabled pointer-events-none text-gray-400")+" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
                         ARCHIVE
                     </Link>
                     <Link href="/b/ack" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
