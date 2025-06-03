@@ -9,10 +9,12 @@ interface Friend {
 }
 
 function FriendItem({ url, img, name }: Friend) {
+    const actualImg = img ?? "/assets/b/friends/magichanics.png"
     return (
-        <div className="w-[125px] h-[200px] flex flex-col align-center">
+        <div className="w-[175px] h-[250px] sm:w-[125px] sm:h-[200px] flex flex-col align-center">
             <Link href={url}>
-                <Image className="border-white rounded-2xl border-2 " src={img ?? "/assets/b/friends/magichanics.png"} alt={img ?? "/assets/b/friends/magichanics.png"} width={125} height={125} />
+                <Image className="hidden sm:block border-white rounded-2xl border-2 " src={actualImg} alt={actualImg} width={125} height={125} />
+                <Image className="block sm:hidden border-white rounded-2xl border-2 " src={actualImg} alt={actualImg} width={175} height={175} />
             </Link>
             <div className="size-xs text-center mt-[8px] text-white">
                 {name}
@@ -78,8 +80,8 @@ export default function BFriendsV2() {
     return (
         <div className="flex justify-end w-[100%] text-white pb-[72px]">
             <div className="flex flex-col justify-center items-center w-[100%]">
-                <div className={"flex flex-row justify-center mb-[-8px] h-[48px] w-[270px] border-l-2 border-t-2 border-r-2 rounded-t-full bg-[#00519a] " + styles.darkshadowTab}>
-                    <div className="bg-[#0099cc] w-[180px] h-[42px] mt-[8px] rounded-t-full">
+                <div className={"flex flex-row justify-center mb-[-8px] h-[48px] w-[250px] sm:w-[270px] border-l-2 border-t-2 border-r-2 rounded-t-full bg-[#00519a] " + styles.darkshadowTab}>
+                    <div className="bg-[#0099cc] w-[180px] sm:w-[180px] h-[42px] mt-[8px] rounded-t-full">
 
                     </div>
                 </div>
