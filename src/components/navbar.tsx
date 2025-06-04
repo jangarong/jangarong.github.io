@@ -1,34 +1,34 @@
-import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarGroup, MenubarSeparator } from "@/components/ui/menubar";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
-import Image from "next/image";
+// import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarGroup, MenubarSeparator } from "@/components/ui/menubar";
+// import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+// import Image from "next/image";
 import Link from "next/link";
 import styles from "./navbar.module.css"
 
-const menuButtons = [
-    {
-        "name": "Home",
-        "link": "/",
-        "enabled": true,
-    },
-    {
-        "name": "Contributions",
-        "link": "/contributions",
-        "enabled": false,
-    },
-    {
-        "name": "Resume",
-        "link": "/resume.pdf",
-        "enabled": true,
-    },
-]
+// const menuButtons = [
+//     {
+//         "name": "Home",
+//         "link": "/",
+//         "enabled": true,
+//     },
+//     {
+//         "name": "Contributions",
+//         "link": "/contributions",
+//         "enabled": false,
+//     },
+//     {
+//         "name": "Resume",
+//         "link": "/resume.pdf",
+//         "enabled": true,
+//     },
+// ]
 
-const menuButtons2 = [
-    {
-        "name": "Side B",
-        "link": "/b",
-        "enabled": true,
-    },
-]
+// const menuButtons2 = [
+//     {
+//         "name": "Side B",
+//         "link": "/b",
+//         "enabled": true,
+//     },
+// ]
 
 export function Navbar() {
     return (
