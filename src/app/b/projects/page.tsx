@@ -20,7 +20,9 @@ export default function Page() {
                 <ProjectItem href="https://github.com/sit-n-coding/solidguard" src="/assets/b/solidguard.png" />
                 <ProjectItem href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks" src="/assets/b/stock-market-headlines.png" />
             </div>
-            <div className="mb-8 mb-[400px]">If you are looking for my more professional work at big corporations, please see Side A.</div>
+            <div className="mb-8 mb-[400px]">If you are looking for my more professional work at big corporations, please see <Link href="/" className="inline-block" >
+            Side A
+          </Link>.</div>
         </div>
     )
 }

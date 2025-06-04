@@ -14,21 +14,21 @@ export default function Home() {
       <div className={"flex justify-center items-center h-[100%]"}>
         <TheWorld />
       </div>
-      <div className="pb-[128px]">
+      <div className="">
         <div className={"spacedTitle"}>
           CONTRIBUTIONS
         </div>
         <Experience />
       </div>
-      <div className="pb-[128px] flex justify-center">
+      <div className="py-[128px] flex justify-center" id="resume">
         <DownloadMyResume />
       </div>
-      <div className="pb-[128px] flex justify-center overflow-x-hidden">
+      <div className="pb-[128px] flex justify-center overflow-x-hidden" id="contacts">
         <RgbBusinessCard />
       </div>
       {/* TODO: Move this footer to layout */}
       <footer className="bg-black text-white p-12 text-sm text-center">
-        Side A website code and design by me (jangarong).
+        Website code and design by me (jangarong). This website is currently a WIP!
       </footer>
     </div>
   );

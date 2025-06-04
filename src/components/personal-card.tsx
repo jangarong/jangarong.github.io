@@ -21,7 +21,7 @@ export default function PersonalCard() {
                     Pardon our dust!
                 </div>
                 <div className="text-center">
-                    This website is under construction, and I am currently quite busy with work to continue maintaining this website in the next month or 2. Expect bugs!
+                    This website is under construction, and I am currently quite busy with work to continue maintaining this website in the next month or so. Expect bugs!
                 </div>
             </div>
         </div>

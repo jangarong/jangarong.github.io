@@ -30,7 +30,7 @@ export default function Page() {
             </div>
             <div className="ml-4">
                 <div className="mb-4">
-                    • <a href="/zodiactail-webgl/" className="text-blue-600 hover:text-purple-400">WebGL Version</a>
+                    • <a href="/zodiactail-webgl/index.html" className="text-blue-600 hover:text-purple-400">WebGL Version</a>
                 </div>
                 <div className="mb-4">
                     • PC Version: ( <a href="/assets/ZodiacTail-MacOS-0.2.13-beta.zip" className="text-blue-600 hover:text-purple-400">

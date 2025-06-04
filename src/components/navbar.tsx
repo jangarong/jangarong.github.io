@@ -2,6 +2,7 @@ import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, Menu
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./navbar.module.css"
 
 const menuButtons = [
     {
@@ -32,8 +33,14 @@ const menuButtons2 = [
 export function Navbar() {
     return (
         <div className="flex flex-row p-8 justify-between w-[100%] items-center">
-            <Image src={"/assets/jang.svg"} alt={"JanG."} width={100} height={50} />
-            <div className="items-center">
+            <Link href="/b"><div className={styles.jang} /></Link>
+            {/* <Image className="visible hover:invisible" src={"/assets/jang.svg"} alt={"JanG."} width={100} height={50} />
+            <Image className="invisible hover:visible" src={"/assets/jang-penguin.png"} alt={"JanG."} width={100} height={50} /> */}
+            <div className="width-[400px] flex justify-around gap-[24px] sm:gap-8 text-xl flex-col sm:flex-row mb-[-40px] sm:mb-[0px]">
+                <Link href="/#resume">Resume</Link>
+                <Link href="/#contacts">Contacts</Link>
+            </div>
+            {/* <div className="items-center">
                 <Menubar>
                     <MenubarMenu>
                         <MenubarTrigger><HamburgerMenuIcon width={36} height={36} /></MenubarTrigger>
@@ -56,7 +63,7 @@ export function Navbar() {
                         </MenubarContent>
                     </MenubarMenu>
                 </Menubar>
-            </div>
+            </div> */}
         </div>
     );
 }

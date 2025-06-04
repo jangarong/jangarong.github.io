@@ -19,14 +19,11 @@ export default function RootLayout({
                     <div className="p-[24px] flex flex-col align-center">
                         <div className="flex flex-col align-center justify-center w-[250px]">
                             <Image src="/assets/jang-penguin.png" alt="JanG." width={250} height={50} />
-                            <div className="text-center mt-[4px]">Side B of my ordinary website.</div>
+                            <div className="text-center mt-[4px]">My ordinary website.</div>
                         </div>
                     </div>
                 </div>
                 <div className="navbar-penguin flex flex-wrap">
-                    <Link href="/" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        SIDE A
-                    </Link>
                     <Link href="/b" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         HOME
                     </Link>
