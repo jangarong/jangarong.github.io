@@ -2,6 +2,7 @@ import Link from "next/link";
 import "./globals.css"
 import Image from "next/image";
 import { archiveExists } from "@/lib/archive";
+import Head from "next/head";
 
 export const metadata = {
     title: 'Jan Garong',
@@ -14,6 +15,9 @@ export default function RootLayout({
 }>) {
     return (
         <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center bg-[#eeeeee]">
+            <Head>
+                <meta name="robots" content="noindex" />
+            </Head>
             <div className="base">
                 <div className="base-banner pt-[48px]">
                     <div className="p-[24px] flex flex-col align-center">
@@ -36,7 +40,7 @@ export default function RootLayout({
                     <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         CREATIVE
                     </Link>
-                    <Link href="/b/archive" className={(archiveExists() ? "": "disabled pointer-events-none text-gray-400")+" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
+                    <Link href="/b/archive" className={(archiveExists() ? "" : "disabled pointer-events-none text-gray-400") + " text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
                         ARCHIVE
                     </Link>
                     <Link href="/b/ack" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
