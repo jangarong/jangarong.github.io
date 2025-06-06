@@ -2,10 +2,12 @@ import Link from "next/link";
 import "./globals.css"
 import Image from "next/image";
 import { archiveExists } from "@/lib/archive";
-import Head from "next/head";
 
 export const metadata = {
     title: 'Jan Garong',
+    robots: {
+        index: false
+    }
 }
 
 export default function RootLayout({
@@ -15,9 +17,6 @@ export default function RootLayout({
 }>) {
     return (
         <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center bg-[#eeeeee]">
-            <Head>
-                <meta name="robots" content="noindex" />
-            </Head>
             <div className="base">
                 <div className="base-banner pt-[48px]">
                     <div className="p-[24px] flex flex-col align-center">
