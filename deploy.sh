@@ -1,1 +1,5 @@
-docker run -d --name jangarong.github.io -p 80:3000 jangarong/jangarong.github.io:3.0.1
+# should just be mdx files being copied
+cp ./posts/* ./volumes/posts
+# asset tree for b/log
+cp -r ./public/assets/b/log/* ./volumes/assets
+docker compose up -d

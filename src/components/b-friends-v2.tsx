@@ -25,24 +25,9 @@ function FriendItem({ url, img, name }: Friend) {
 
 const frens: Friend[] = [
     {
-        url: "https://qrn99.github.io",
-        img: "/assets/b/friends/nancy.webp",
-        name: "Nancy (Ruo Ning) Qiu"
-    },
-    {
-        url: "https://www.linkedin.com/in/meixuan-mexi-lu-5103621b6/",
-        img: "/assets/b/friends/meixuan2.png",
-        name: "Meixuan (Mexi) Lu"
-    },
-    {
-        url: "https://www.linkedin.com/in/trinity-li/",
-        img: "/assets/b/friends/trinity.jpg",
-        name: "Trinity Li"
-    },
-    {
-        url: "https://epicsteve2.github.io/",
-        img: "/assets/b/friends/stephen.jpg",
-        name: "Stephen Guo"
+        url: "https://liamy.webflow.io/",
+        img: "/assets/b/friends/amy.jpg",
+        name: "Amy Li"
     },
     {
         url: "https://jcaoj.github.io/",
@@ -50,9 +35,9 @@ const frens: Friend[] = [
         name: "Jess Cao"
     },
     {
-        url: "https://liamy.webflow.io/",
-        img: "/assets/b/friends/amy.jpg",
-        name: "Amy Li"
+        url: "https://sayolko.carrd.co",
+        img: "/assets/b/friends/kat.webp",
+        name: "Kathleen An Padua",
     },
     {
         url: "https://www.linkedin.com/in/leo-wang14/",
@@ -60,9 +45,14 @@ const frens: Friend[] = [
         name: "Leo Wang"
     },
     {
-        url: "https://sayolko.carrd.co",
-        img: "/assets/b/friends/kat.webp",
-        name: "Kathleen An Padua",
+        url: "https://www.linkedin.com/in/meixuan-mexi-lu-5103621b6/",
+        img: "/assets/b/friends/meixuan2.png",
+        name: "Meixuan (Mexi) Lu"
+    },
+    {
+        url: "https://qrn99.github.io",
+        img: "/assets/b/friends/nancy.webp",
+        name: "Nancy (Ruo Ning) Qiu"
     },
     {
         url: "https://peter-pham.netlify.app/",
@@ -70,11 +60,21 @@ const frens: Friend[] = [
         name: "Peter Pham"
     },
     {
+        url: "https://epicsteve2.github.io/",
+        img: "/assets/b/friends/stephen.jpg",
+        name: "Stephen Guo"
+    },
+    {
+        url: "https://www.linkedin.com/in/trinity-li/",
+        img: "/assets/b/friends/trinity.jpg",
+        name: "Trinity Li"
+    },
+    {
         url: "https://vivek.kandathil.ca/",
         name: "Vivek Kandathil",
         img: "/assets/b/friends/vivek.jpg"
     }
-].reverse()
+]
 
 export default function BFriendsV2() {
     return (
@@ -89,7 +89,7 @@ export default function BFriendsV2() {
                     <div className="font-semibold size-xl text-2xl text-center mt-[32px] mx-[64px]">
                         People who I think are very cool
                     </div>
-                    <div className="size-sm text-sm text-center mb-[32px] mx-[64px]"> Note: Order is of when I have first met them.</div>
+                    <div className="size-sm text-sm text-center mb-[32px] mx-[64px]">helped me with major projects, life and </div>
                     <div className="mx-[32px] grid sm:grid-cols-3 gap-2 items-center justify-items-center mb-[32px] h-[450px] overflow-y-scroll">
                         {frens.map(({ url, img, name }) => <FriendItem url={url} img={img} name={name} key={name} />)}
                     </div>
