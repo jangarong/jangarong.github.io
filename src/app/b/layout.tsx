@@ -45,7 +45,7 @@ export default function RootLayout({
                         </Link>
                     )}
                     {!archiveExists() ? <div /> : (
-                        <Link href="https://archivebox.corp.jangarong.com" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
+                        <Link href="https://archive.corp.jangarong.com" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
                             ARCHIVEBOX
                         </Link>
                     )}
