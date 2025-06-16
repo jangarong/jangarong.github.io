@@ -30,13 +30,18 @@ const frens: Friend[] = [
         name: "Amy Li"
     },
     {
+        url: "https://instagram.com/aruvru",
+        img: "/assets/b/friends/jackii.jpg",
+        name: "Jackii"
+    },
+    {
         url: "https://jcaoj.github.io/",
         img: "/assets/b/friends/jay.jpg",
         name: "Jess Cao"
     },
     {
         url: "https://sayolko.carrd.co",
-        img: "/assets/b/friends/kat.webp",
+        img: "/assets/b/friends/kat2.webp",
         name: "Kathleen An Padua",
     },
     {
