@@ -43,6 +43,7 @@ export function WorksTree() {
                             location={project.location}
                             dates={project.dates}
                             image={project.image}
+                            key={id}
                         // links={project.links}
                         />
                     ))}
