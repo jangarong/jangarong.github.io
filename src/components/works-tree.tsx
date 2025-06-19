@@ -31,12 +31,6 @@ const experiences = [
     },
 ]
 
-interface Experience {
-    title: string;
-    company: string;
-    img: string;
-}
-
 export function WorksTree() {
     return (
         <div className="m-[48px] flex justify-center">
