@@ -25,7 +25,7 @@ export default function RootLayout({
                             <div className="text-center mt-[4px]">My ordinary website.</div>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="hidden sm:block">
                         <Image src="/assets/pengdesk.png" alt="peng" width={250} height={250} />
                     </div>
                 </div>
