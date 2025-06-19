@@ -1,4 +1,3 @@
-import { Experience } from "@/components/experience";
 import { TheWorld } from "@/components/the-world";
 import "./globals.css"
 import RgbBusinessCard from "@/components/rgb-business-card";
