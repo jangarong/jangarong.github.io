@@ -1,7 +1,3 @@
-import { HomeIcon } from "lucide-react";
-import Link from "next/link";
-import { Card } from "./ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { HackathonCard } from "./ui/hackathon-card";
 
 const experiences = [
