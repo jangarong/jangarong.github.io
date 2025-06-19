@@ -18,12 +18,15 @@ export default function RootLayout({
     return (
         <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center bg-[#eeeeee]">
             <div className="base">
-                <div className="base-banner pt-[48px]">
-                    <div className="p-[24px] flex flex-col align-center">
-                        <div className="flex flex-col align-center justify-center w-[250px]">
+                <div className="base-banner pt-[48px] flex flex-row justify-between w-[100%]">
+                    <div className="flex flex-col align-center">
+                        <div className="flex flex-col align-center justify-center w-[250px] p-[24px]">
                             <Image src="/assets/jang-penguin.png" alt="JanG." width={250} height={50} />
                             <div className="text-center mt-[4px]">My ordinary website.</div>
                         </div>
+                    </div>
+                    <div className="">
+                        <Image src="/assets/pengdesk.png" alt="peng" width={250} height={250} />
                     </div>
                 </div>
                 <div className="navbar-penguin flex flex-wrap">
