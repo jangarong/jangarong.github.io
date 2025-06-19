@@ -51,22 +51,22 @@ export function HackathonCard({
 }: Props) {
   return (
     <li className="relative ml-10 py-4">
-      <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
-        <Avatar className="border size-12 m-auto">
+      <div className="absolute left-[-70px] top-2 flex items-center justify-center bg-white rounded-full">
+        <Avatar className="border size-14 m-auto">
           <AvatarImage src={image} alt={title} className="object-contain" />
           <AvatarFallback>{title[0]}</AvatarFallback>
         </Avatar>
       </div>
-      <div className="flex flex-1 flex-col justify-start gap-1">
+      <div className="flex flex-1 flex-col justify-start gap-2">
         {dates && (
-          <time className="text-xs text-muted-foreground">{dates}</time>
+          <time className="text-sm text-muted-foreground">{dates}</time>
         )}
-        <h2 className="font-semibold leading-none">{title}</h2>
+        <h2 className="font-semibold text-lg leading-none">{title}</h2>
         {location && (
-          <p className="text-sm text-muted-foreground">{location}</p>
+          <p className="text-md text-muted-foreground">{location}</p>
         )}
         {description && (
-          <span className="prose dark:prose-invert text-sm text-muted-foreground">
+          <span className="prose dark:prose-invert text-md text-muted-foreground">
             {description}
           </span>
         )}
