@@ -3,7 +3,7 @@ import { HackathonCard } from "./ui/hackathon-card";
 const experiences = [
     {
         title: "Google Cloud Security",
-        description: "Part of the Event Threat Detection team, where I helped design and implement threat detections on popular GCP products.",
+        description: "Part of the Event Threat Detection team, where I helped design and implement threat detections for common GCP products.",
         location: "Sunnyvale, CA",
         dates: "January 2025 - Current",
         image: "/assets/companies/icons/google.jpg"
