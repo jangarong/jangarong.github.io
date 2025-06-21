@@ -2,14 +2,22 @@
   "name": "jangarong.github.io",
   "version": "4.1.0",
   "private": true,
-  "main": "electron/main.js",
+  "main": "electron.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start-electron": "electron-forge start",
     "lint": "next lint",
-    "dev-electron": "concurrently -n \"NEXT,ELECTRON\" -c \"yellow,blue\" --kill-others \"next dev\" \"electron .\"",
-    "build-electron": "next build && electron-builder"
+    "package": "next build && electron-forge package",
+    "make": "next build && electron-forge make",
+    "make-all": "npm run make-mac-x64 && npm run make-mac-arm && npm run make-win-x64 && npm run make-win-arm && npm run make-linux-x64 && npm run make-linux-arm",
+    "make-mac-x64": "npm run make -- --arch=x64 --platform=darwin",
+    "make-mac-arm": "npm run make -- --arch=arm64 --platform=darwin",
+    "make-linux-x64": "npm run make -- --arch=x64 --platform=linux",
+    "make-linux-arm": "npm run make -- --arch=arm64 --platform=linux",
+    "make-win-x64": "npm run package -- --arch=arm64 --platform=win32",
+    "make-win-arm": "npm run package -- --arch=x64 --platform=win32"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.7",
@@ -25,7 +33,6 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
-    "electron-serve": "^2.1.1",
     "embla-carousel-autoplay": "^8.5.1",
     "embla-carousel-react": "^8.5.1",
     "lucide-react": "^0.460.0",
@@ -37,19 +44,26 @@
     "sugar-high": "^0.9.3",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
-    "vaul": "^1.1.1"
+    "vaul": "^1.1.1",
+    "@electron-forge/plugin-fuses": "^7.3.0",
+    "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "concurrently": "^9.1.2",
-    "electron": "^36.5.0",
-    "electron-builder": "^26.0.12",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "electron": "^29.1.1"
   }
 }

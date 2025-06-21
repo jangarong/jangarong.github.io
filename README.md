@@ -13,3 +13,7 @@ This is a Next.js based website with a few special things added:
         * `/public/b/archive/*` - This contains archived pages stored in singefile.
 
 Side B development has been paused. Expect bugs on this website!
+
+# note on electron build
+
+when accessicing via url it works http://localhost:21980/ but via the electron app it doesn't work due to JS files not proxying well. should account for querying.
