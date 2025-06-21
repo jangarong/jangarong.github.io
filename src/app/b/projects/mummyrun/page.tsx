@@ -10,11 +10,12 @@ export default function Page() {
         <div className="mt-[48px] mx-[24px] mb-[72px]">
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Mummy Run: Boss Rush Mode</h1>
             <div className="mb-4">
-                This was for my Grade 11 Computer Science class (presented on Jan. 2018), where we all had to program in ActionScript.
+                This was for my Grade 11 Computer Science class (presented on Jan. 2018), where we all had to program in ActionScript (Flash).
                 This was also a pretty huge milestone, since this was the first big coding project I had that
                 required collaborating with other students. I have previously made games in GameMaker individually.
             </div><div className="mb-4">
-                This is the same game, but only with the Boss Rush Mode which had art made by me and Emily. Just as a fair warning, this game requires <b>heavy spamming</b> of the spacebar in order to progress.
+                This is the same game, but only with the Boss Rush Mode tweaked to be playable for keyboard users. 
+                Just as a fair warning, this game requires <b>heavy spamming</b> of the spacebar in order to progress.
                 Also the music is <b>very loud</b>, sorry about that.
             </div>
             <div className="w-[100%] flex justify-center my-8">
