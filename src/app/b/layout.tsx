@@ -40,7 +40,7 @@ export default function RootLayout({
                         WORKS
                     </Link>
                     <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                        CREATIVE
+                        SKETCHES
                     </Link>
                     {!archiveExists() ? <div /> : (
                         <Link href="/b/archive" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
