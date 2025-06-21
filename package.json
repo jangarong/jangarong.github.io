@@ -1,12 +1,15 @@
 {
   "name": "jangarong.github.io",
-  "version": "0.1.0",
+  "version": "4.1.0",
   "private": true,
+  "main": "electron/main.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev-electron": "concurrently -n \"NEXT,ELECTRON\" -c \"yellow,blue\" --kill-others \"next dev\" \"electron .\"",
+    "build-electron": "next build && electron-builder"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.7",
@@ -22,6 +25,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
+    "electron-serve": "^2.1.1",
     "embla-carousel-autoplay": "^8.5.1",
     "embla-carousel-react": "^8.5.1",
     "lucide-react": "^0.460.0",
@@ -39,6 +43,9 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "concurrently": "^9.1.2",
+    "electron": "^36.5.0",
+    "electron-builder": "^26.0.12",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
