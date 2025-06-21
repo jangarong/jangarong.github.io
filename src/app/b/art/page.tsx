@@ -12,8 +12,8 @@ export default function Page() {
             WIP Please style this page
             <div className="mb-4 flex flex-col items-center gap-8">
                <Image src="/assets/b/art/magichanics.png" alt="magichanics" width={300} height={300} />
-               <Image src="/assets/b/art/egg-carton.png" alt="eggcarton"  height={800} width={400} />
-               <Image src="/assets/b/art/standing.png" alt="standing"  height={640} width={420} />
+               <Image src="/assets/b/art/egg-carton.png" alt="eggcarton"  height={600} width={400} />
+               <Image src="/assets/b/art/standing.png" alt="standing"  height={320} width={210} />
                <Image src="/assets/b/art/mao.png" alt="mao"  height={300} width={300} />
             </div>
         </div>

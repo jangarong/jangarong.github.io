@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export const metadata = {
-    title: 'Jan Garong',
+    title: 'Jan Garong - Zodiac Tail: A Game of Cat and Mouse',
     // description: 'Read my blog.',
 }
 
