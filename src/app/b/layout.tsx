@@ -47,7 +47,8 @@ export default function RootLayout({
                             WHAT&apos;S OLD
                         </Link>
                     )}
-                    {!archiveExists() ? <div /> : (
+                    {/* TODO: Load iff these URLs exist, or honestly put /files under a diff subdomain. */}
+                    {/* {!archiveExists() ? <div /> : (
                         <Link href="https://archive.corp.jangarong.com" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
                             ARCHIVEBOX
                         </Link>
@@ -56,7 +57,7 @@ export default function RootLayout({
                         <Link href="/files" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
                             FILES
                         </Link>
-                    )}
+                    )} */}
                     <Link href="/b/ack" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         COOL PEOPLE
                     </Link>
