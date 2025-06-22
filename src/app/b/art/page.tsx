@@ -15,6 +15,7 @@ export default function Page() {
                <Image src="/assets/b/art/egg-carton.png" alt="eggcarton"  height={600} width={400} />
                <Image src="/assets/b/art/standing.png" alt="standing"  height={320} width={210} />
                <Image src="/assets/b/art/mao.png" alt="mao"  height={300} width={300} />
+               <Image src="/assets/b/art/tori-w-tims.png" alt="tori-w-tims"  height={300} width={300} />
             </div>
         </div>
     )
