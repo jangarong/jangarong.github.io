@@ -1,6 +1,5 @@
 .next/
 node_modules/
-out/
 public/assets/b/log
 posts
 public/b/archive
