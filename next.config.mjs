@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  distDir: 'static_dist',
   transpilePackages: ["next-mdx-remote"],
 };
 

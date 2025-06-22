@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       {/* TODO: Move this footer to layout */}
       <footer className="bg-black text-white p-12 text-sm text-center">
-        Website code and design by me (jangarong). This website is currently a WIP!
+        Website code and design by me (jangarong). Current version is v4.2.0.
       </footer>
     </div>
   );

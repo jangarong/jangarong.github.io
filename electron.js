@@ -9,6 +9,7 @@ const PORT = 21980
 const http = require("http");
 const path = require('path');
 const fs = require('fs');
+const STATIC_DIST = "static_dist"
 
 const server = http.createServer(function (req, res) {
 
@@ -21,7 +22,7 @@ const server = http.createServer(function (req, res) {
         resourcePath += ".html"
     }
     resourcePath = resourcePath.replaceAll("%20", " ")
-    const filePath = path.join(__dirname, 'out', resourcePath);
+    const filePath = path.join(__dirname, STATIC_DIST, resourcePath);
     console.log(filePath)
 
     // read the file

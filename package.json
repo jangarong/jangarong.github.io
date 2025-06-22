@@ -18,8 +18,8 @@
     "make-mac-arm": "npm run make -- --arch=arm64 --platform=darwin",
     "make-linux-x64": "npm run make -- --arch=x64 --platform=linux",
     "make-linux-arm": "npm run make -- --arch=arm64 --platform=linux",
-    "make-win-x64": "npm run package -- --arch=arm64 --platform=win32",
-    "make-win-arm": "npm run package -- --arch=x64 --platform=win32"
+    "make-win-x64": "npm run package -- --arch=x64 --platform=win32",
+    "make-win-arm": "npm run package -- --arch=arm64 --platform=win32"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.7",
