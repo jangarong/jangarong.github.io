@@ -1,5 +1,5 @@
 # build docker image
-docker build -t jangarong/jangarong.github.io:4.1.0 .
+docker build -t jangarong/jangarong.github.io:4.2.0 .
 # # remove volumes
 # rm -rf volumes
 # remove posts and assets
