@@ -3,7 +3,7 @@ const { app, BrowserWindow } = require('electron')
 // electron main
 console.log(process.versions);
 
-const PORT = 
+const PORT = 21980
 
 app.on("ready", function () {
   var mainWindow = new BrowserWindow({
@@ -19,7 +19,7 @@ app.on("ready", function () {
     title: 'jangarong.github.io'
   });
   // mainWindow.setAspectRatio(16/9)
-  mainWindow.loadURL("http://localhost:" + PORT + "/index.html");
+  mainWindow.loadURL("file://" + __dirname + "/out/index.html");
   mainWindow.webContents.once("did-finish-load", function () {
 
 
