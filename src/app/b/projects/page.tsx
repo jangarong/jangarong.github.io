@@ -1,6 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+export const metadata = {
+    title: 'Jan Garong [B] - Projects',
+    // description: 'Read my blog.',
+}
+
 function ProjectItem({ href, src }: { href: string, src: string }) {
     return (
         <Link className="w-[200px]" href={href}>

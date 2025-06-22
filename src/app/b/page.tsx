@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: 'Jan Garong',
+  title: 'Jan Garong [B]',
   // description: 'Read my blog.',
 }
 

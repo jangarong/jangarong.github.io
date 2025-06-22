@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export const metadata = {
-    title: 'Jan Garong - Mummy Run: Boss Rush Mode',
+    title: 'Jan Garong [B] - Using Headlines to Predict Stocks',
     // description: 'Read my blog.',
 }
 

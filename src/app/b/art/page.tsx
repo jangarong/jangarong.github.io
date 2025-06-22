@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export const metadata = {
-    title: 'Jan Garong',
+    title: 'Jan Garong [B] - Sketches',
     // description: 'Read my blog.',
 }
 

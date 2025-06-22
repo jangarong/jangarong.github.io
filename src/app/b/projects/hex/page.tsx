@@ -1,7 +1,7 @@
 
 
 export const metadata = {
-    title: 'Jan Garong - HEX',
+    title: 'Jan Garong [B] - HEX',
     // description: 'Read my blog.',
 }
 

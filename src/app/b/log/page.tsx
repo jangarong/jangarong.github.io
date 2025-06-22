@@ -1,7 +1,7 @@
 import { BlogPosts } from '@/components/blog/posts'
 
 export const metadata = {
-  title: 'Jan Garong',
+  title: 'Jan Garong [B] - Logs',
   // description: 'Read my blog.',
 }
 

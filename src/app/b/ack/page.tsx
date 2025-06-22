@@ -1,7 +1,7 @@
 import BFriendsV2 from "@/components/b-friends-v2";
 
 export const metadata = {
-  title: 'Jan Garong',
+  title: 'Jan Garong [B] - Friends List',
 }
 
 export default function Page() {
