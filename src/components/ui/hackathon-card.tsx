@@ -34,6 +34,7 @@ interface Props {
   dates: string;
   location: string;
   image?: string;
+  link: string;
   // links?: readonly {
   //   icon: React.ReactNode;
   //   title: string;
@@ -47,6 +48,7 @@ export function HackathonCard({
   dates,
   location,
   image,
+  link,
   // links,
 }: Props) {
   return (
@@ -61,7 +63,7 @@ export function HackathonCard({
         {dates && (
           <time className="text-sm text-muted-foreground">{dates}</time>
         )}
-        <h2 className="font-semibold text-lg leading-none">{title}</h2>
+        <h2 className="font-semibold text-lg leading-none"><a href={link}>{title}</a></h2>
         {location && (
           <p className="text-md text-muted-foreground">{location}</p>
         )}

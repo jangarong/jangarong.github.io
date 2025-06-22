@@ -5,8 +5,8 @@ module.exports = {
     outDir: "dist",
     packagerConfig: {
         asar: true,
-        icon: './public/favicon.png',
-        extraResource: './out'
+        icon: 'public/favicon.png',
+        extraResource: 'out'
     },
     rebuildConfig: {},
     makers: [
