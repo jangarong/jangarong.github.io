@@ -20,7 +20,9 @@ export default function Page() {
                 Credits are at the end of the video!
             </div>
             <div className="w-[100%] flex justify-center my-8">
-                <video src="/assets/b/solidguard/demo.mp4" />
+                <video width="320" height="240" controls>
+                    <source src="/assets/b/solidguard/demo.mp4" type="video/mp4"/>
+                </video>
             </div>
         </div>
     )
