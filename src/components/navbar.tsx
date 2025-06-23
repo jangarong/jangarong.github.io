@@ -38,7 +38,7 @@ export function Navbar() {
             <Image className="invisible hover:visible" src={"/assets/jang-penguin.png"} alt={"JanG."} width={100} height={50} /> */}
             <div className="width-[480px] flex justify-around gap-[24px] sm:gap-8 text-xl flex-col sm:flex-row mb-[-20px] sm:mb-[0px]">
                 {/* <Link href="/#resume">Resume</Link> */}
-                <Link href="/#contacts">Contacts</Link>
+                {/* <Link href="/#contacts">Contacts</Link> */}
             </div>
             {/* <div className="items-center">
                 <Menubar>
