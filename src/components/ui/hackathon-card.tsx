@@ -24,7 +24,7 @@ SOFTWARE.
  */
 
 // from: https://magicui.design/docs/templates/portfolio
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 // import { Badge } from "@/components/ui/badge";
 // import Link from "next/link";
 import Image from "next/image";
