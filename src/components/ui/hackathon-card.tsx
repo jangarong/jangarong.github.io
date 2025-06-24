@@ -27,13 +27,14 @@ SOFTWARE.
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 // import { Badge } from "@/components/ui/badge";
 // import Link from "next/link";
+import Image from "next/image";
 
 interface Props {
   title: string;
   description: string;
   dates: string;
   location: string;
-  image?: string;
+  image: string;
   link: string;
   // links?: readonly {
   //   icon: React.ReactNode;
@@ -54,10 +55,13 @@ export function HackathonCard({
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute left-[-70px] top-2 flex items-center justify-center bg-white rounded-full">
-        <Avatar className="border size-14 m-auto">
+        {/* <Avatar className="border size-14 m-auto">
           <AvatarImage src={image} alt={title} className="object-contain" />
           <AvatarFallback>{title[0]}</AvatarFallback>
-        </Avatar>
+        </Avatar> */}
+        <div className="border size-14 m-auto rounded-full">
+          <Image className="object-contain rounded-full" src={image} alt={title} width={54} height={52} />
+        </div>
       </div>
       <div className="flex flex-1 flex-col justify-start gap-2">
         {dates && (

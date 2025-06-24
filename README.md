@@ -14,6 +14,8 @@ This is a Next.js based website with a few special things added:
 
 Side B development has been paused. Expect bugs on this website!
 
-# note on electron build
+## cloudflare
 
-when accessicing via url it works http://localhost:21980/ but via the electron app it doesn't work due to JS files not proxying well. should account for querying.
+![](./cloudflare.png)
+
+Add Captcha to the following URL paths.

@@ -5,3 +5,4 @@ posts
 public/b/archive
 dist/
 static_dist/
+src/app/b/archive/page.tsx

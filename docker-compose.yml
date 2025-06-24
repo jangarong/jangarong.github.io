@@ -3,11 +3,12 @@ services:
   jangarong:
     restart: unless-stopped
     hostname: jangarong.internal
-    image: jangarong/jangarong.github.io:4.2.0
+    image: jangarong/jangarong.github.io:4.2.2
     container_name: jangarong
     volumes:
       - ./volumes/assets:/app/public/assets/b/log
       - ./volumes/posts:/app/posts
       - ./volumes/archive:/app/public/b/archive
+      - ./volumes/archive-page.tsx:/app/src/app/b/archive/page.tsx
     ports:
       - "3001:3000"
