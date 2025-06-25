@@ -4,7 +4,7 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 module.exports = {
     outDir: "dist",
     packagerConfig: {
-        icon: 'public/favicon.png',
+        icon: './public/favicon.png',
     },
     rebuildConfig: {},
     makers: [

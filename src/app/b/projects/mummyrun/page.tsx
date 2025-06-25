@@ -26,7 +26,7 @@ export default function Page() {
             </div>
             <div className="ml-4">
                 <div className="mb-4">
-                    • <a href="/mummyrun-ruffle/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">Ruffle version</a>
+                    • <a href="/b/webgames/mummyrun/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">Ruffle version</a>
                 </div>
             </div>
             <div className="font-semibold mb-4">
