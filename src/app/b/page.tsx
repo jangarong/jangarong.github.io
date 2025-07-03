@@ -23,13 +23,13 @@ export default function Page() {
         {/* <div className="p-8 font-semibold">
           Note: This website is under construction, and I am currently quite busy with work to continue maintaining this website in the next month or 2. Expect bugs!
         </div> */}
-        <p className="p-8">
-          <Image src="/assets/b/stamps/0.gif" alt="stamp0" width={100} height={55} />
-          <Image src="/assets/b/stamps/1.png" alt="stamp0" width={100} height={55} />
-          <Image src="/assets/b/stamps/2.png" alt="stamp0" width={100} height={55} />
-          <Image src="/assets/b/stamps/3.png" alt="stamp0" width={100} height={55} />
-          <Image src="/assets/b/stamps/4.gif" alt="stamp0" width={100} height={55} />
-          <Image src="/assets/b/stamps/5.png" alt="stamp0" width={100} height={55} />
+        <p className="p-8 grid grid-cols-3 grid-rows-2 gap-1 items-center justify-items-center">
+          <Image src="/assets/b/stamps/0.gif" alt="stamp0" width={100} height={55} className="mb-[25px]"/>
+          <Image src="/assets/b/stamps/1.png" alt="stamp0" width={100} height={55} className="mb-[25px]"/>
+          <Image src="/assets/b/stamps/2.png" alt="stamp0" width={100} height={55} className="mb-[25px]"/>
+          <Image src="/assets/b/stamps/3.png" alt="stamp0" width={100} height={55} className="mb-[25px]"/>
+          <Image src="/assets/b/stamps/4.gif" alt="stamp0" width={100} height={55} className="mb-[25px]"/>
+          <Image src="/assets/b/stamps/5.png" alt="stamp0" width={100} height={55} className="mb-[25px]"/>
         </p>
         <p className="p-8">
           If you&apos;re looking for my professional security software work at companies like
