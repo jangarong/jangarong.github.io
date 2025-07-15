@@ -1,0 +1,29 @@
+/* https://codesandbox.io/p/sandbox/web-dev-ref-svg-tv-noise-effects-in-css-muvuv?file=%2Fstyles.css%3A1%2C1-22%2C1 */
+
+.tvSection {
+  position: absolute;
+  width: calc(100%);
+  height: calc(100%);
+  top: -50px;
+  left: -50px;
+  width: calc(100vw + 50px);
+  height: calc(100vh + 50px);
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+  background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
+  background-size: 5px 5px;
+  filter: url(#noise);
+  animation: fadeOut 1s ease-in-out forwards;
+  pointer-events: none;
+}
+
+@keyframes fadeOut {
+    0% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+

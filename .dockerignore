@@ -1,0 +1,14 @@
+.next/
+node_modules/
+
+# remove default posts + assets
+public/assets/b/log
+posts
+
+# archive section -- please deprecate!
+public/b/archive
+
+# existing built distros
+dist/
+static_dist/
+out/
