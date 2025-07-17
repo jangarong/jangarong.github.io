@@ -136,9 +136,7 @@ export default function Page() {
   return (
     <div className="min-h-[100vh] mt-[48px] mx-[24px] mb-[72px]">
       <h1 className="font-semibold text-2xl tracking-tighter mb-4">What&apos;s Old</h1>
-      <p className=" mb-8">Here is the entire J13 collection: <Link href="/b/archive/j13/index.html" target="_blank">Click here.</Link></p>
-
-      <p className=" mb-8">This is a collection of posts from my old blog, JanCo. Blog. This was previously hosted on Ghost, and was preserved using singlefile.html.</p>
+      <p className=" mb-8">These are just a bunch of tar archives I have.</p>
       <ArchivePosts />
     </div>
   )
