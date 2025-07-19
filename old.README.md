@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+This is a Next.js based website with a few special things added:
+
+* `/posts/` is used to add static posts in `.mdx` (Markdown) format. See the existing posts for examples.
+* There is a "corp" set of files that will not be committed to the repository. (corp = LAN server I run privately) **Please back these gitignored files separately!**
+    * `/posts/<name>.corp.mdx` - Posts with this format are intended to be accessed via the corp network.
+    * `/public/assets/b/log/corp/<anything>` - Any assets stored here will not be committed. Please use this directory for any assets the corp posts will need.
+    * For archive page:
+        * `/src/app/b/archive/page.tsx` - This is the archive page which routes to archived singlefiles.
+        * `/public/b/archive/*` - This contains archived pages stored in singefile.
+
+Side B development has been paused. Expect bugs on this website!
+
+## cloudflare
+
+![](./cloudflare.png)
+
+Add Captcha to the following URL paths.
+
