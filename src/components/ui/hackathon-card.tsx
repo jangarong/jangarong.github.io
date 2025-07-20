@@ -70,8 +70,8 @@ export function HackathonCard({
         {dates && (
           <time className="text-sm text-muted-foreground italic leading-none">{dates}</time>
         )}
-        {title && <h2 className="font-bold text-lg leading-none">{title}</h2>}
-        <h3 className="text-md font-semibold text-muted-foreground"><a href={link}>{team}</a></h3>
+        {title && <h2 className="font-semibold text-lg leading-none">{title}</h2>}
+        <h3 className="text-md "><a href={link}>{team}</a></h3>
         {/* {location && (
           <p className="text-md text-muted-foreground leading-none">{location}</p>
         )} */}
