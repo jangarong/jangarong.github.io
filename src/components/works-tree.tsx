@@ -40,7 +40,7 @@ const experiences = [
         </div>),
         location: "Mississauga, ON",
         dates: "Sept 2023 - Dec 2023",
-        image: "/assets/companies/icons/bb.jpg",
+        image: "/assets/companies/icons/cylance.jpg",
         link: "https://docs.blackberry.com/en/unified-endpoint-security/cylancemdr",
     },
     {
