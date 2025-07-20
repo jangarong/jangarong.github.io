@@ -1,7 +1,7 @@
 // import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarGroup, MenubarSeparator } from "@/components/ui/menubar";
 // import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 // import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import styles from "./navbar.module.css"
 
 // const menuButtons = [
