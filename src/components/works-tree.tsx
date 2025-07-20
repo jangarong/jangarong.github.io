@@ -30,7 +30,7 @@ const experiences = [
         location: "Ottawa, ON",
         dates: "Jan 2024 - Dec 2024",
         image: "/assets/companies/icons/trend.jpg",
-        link: "https://www.trendmicro.com/en_us/business/products.html",
+        link: "https://www.trendmicro.com/en_us/business/products/email-and-collaboration.html",
     },
     {
         title: "BlackBerry Cylance",
