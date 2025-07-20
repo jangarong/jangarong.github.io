@@ -24,7 +24,8 @@ const experiences = [
         title: "Trend Micro",
         team: "Email Security",
         description: (<div>
-            Worked on Trend Micro&apos;s Email Security product on log pipeline and email storage and developed an internal tool for UI development.
+            Worked on Trend Micro&apos;s Email Security product, with a focus on developing the logs pipeline and email storage (for sandboxing or quarantine usage). 
+            Was also able to conceptualize from scratch an internal tool for UI development.
         </div>),
         location: "Ottawa, ON",
         dates: "Jan 2024 - Dec 2024",
@@ -35,7 +36,7 @@ const experiences = [
         title: "BlackBerry Cylance",
         team: "MDR Engineering Cloud",
         description: (<div>
-            Helped with migrating CylanceMDR&apos;s alerts infrastructure and tenancy system for SOC analysts.
+            Helped with migrating CylanceMDR&apos;s alerts infrastructure and tenancy system, substituting old APIs and systems with those based on AWS and GraphQL.
         </div>),
         location: "Mississauga, ON",
         dates: "Sept 2023 - Dec 2023",
@@ -48,6 +49,7 @@ const experiences = [
         description: (
             <div>
                 Worked on Skynet, an on-chain monitoring tool that provides security-related analytics for blockchain projects.
+                Mostly focused on integrating the new Bug Bounty UI components onto Skynet.
             </div>
         ),
         location: "New York, NY (Remote)",
@@ -59,7 +61,8 @@ const experiences = [
         team: "Smart Contract Audits",
         description: (
             <div>
-                Audited EVM-based smart contracts for critical vulnerabilities and centralization issues.
+                Audited EVM-based Solidity smart contracts for critical vulnerabilities and centralization issues across a wide variety 
+                of applications and protocols such as ERC20s/721s, Decentralized Exchanges, etc.
             </div>
         ),
         dates: "Oct 2021 - Dec 2021",
