@@ -22,18 +22,10 @@ import styles from "./navbar.module.css"
 //     },
 // ]
 
-// const menuButtons2 = [
-//     {
-//         "name": "Side B",
-//         "link": "/b",
-//         "enabled": true,
-//     },
-// ]
-
 export function Navbar() {
     return (
         <div className="flex flex-row p-8 justify-between w-[100%] items-center">
-            <Link href="/b"><div className={styles.jang} /></Link>
+            <div className={styles.jang} />
             {/* <Image className="visible hover:invisible" src={"/assets/jang.svg"} alt={"JanG."} width={100} height={50} />
             <Image className="invisible hover:visible" src={"/assets/jang-penguin.png"} alt={"JanG."} width={100} height={50} /> */}
             <div className="width-[480px] flex justify-around gap-[24px] sm:gap-8 text-xl flex-col sm:flex-row mb-[-20px] sm:mb-[0px]">
