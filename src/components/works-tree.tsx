@@ -22,7 +22,7 @@ const experiences = [
     },
     {
         title: "Trend Micro",
-        team: "Email Security",
+        team: "Trend Micro EMail Security (TMEMS)",
         description: (<div>
             Worked on Trend Micro&apos;s Email Security product, with a focus on developing the logs pipeline and email storage (for sandboxing or quarantine usage). 
             Was also able to conceptualize from scratch an internal tool for UI development.
@@ -34,7 +34,7 @@ const experiences = [
     },
     {
         title: "BlackBerry Cylance",
-        team: "MDR Engineering Cloud",
+        team: "CylanceMDR",
         description: (<div>
             Helped with migrating CylanceMDR&apos;s alerts infrastructure and tenancy system, substituting old APIs and systems with those based on AWS and GraphQL.
         </div>),
@@ -45,7 +45,7 @@ const experiences = [
     },
     {
         title: "CertiK",
-        team: "Skynet",
+        team: "CertiK Skynet",
         description: (
             <div>
                 Worked on Skynet, an on-chain monitoring tool that provides security-related analytics for blockchain projects.
