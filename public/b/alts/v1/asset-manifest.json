@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5f361e03.chunk.css",
+    "main.js": "./static/js/main.f395b2a0.chunk.js",
+    "main.js.map": "./static/js/main.f395b2a0.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.33dfd6b5.js",
+    "runtime-main.js.map": "./static/js/runtime-main.33dfd6b5.js.map",
+    "static/js/2.2c20ad41.chunk.js": "./static/js/2.2c20ad41.chunk.js",
+    "static/js/2.2c20ad41.chunk.js.map": "./static/js/2.2c20ad41.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.5b92ad006c8a66d80c6ca72296307295.js": "./precache-manifest.5b92ad006c8a66d80c6ca72296307295.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "./static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.2c20ad41.chunk.js.LICENSE.txt": "./static/js/2.2c20ad41.chunk.js.LICENSE.txt",
+    "static/media/cyc.jpg": "./static/media/cyc.40feab09.jpg",
+    "static/media/grr-pi.jpg": "./static/media/grr-pi.9815c0d3.jpg",
+    "static/media/stockmarket.jpg": "./static/media/stockmarket.a9336369.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33dfd6b5.js",
+    "static/js/2.2c20ad41.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.f395b2a0.chunk.js"
+  ]
+}
