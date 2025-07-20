@@ -3,35 +3,67 @@ import { HackathonCard } from "./ui/hackathon-card";
 const experiences = [
     {
         title: "Google Cloud Security",
-        description: "Part of the Event Threat Detection team, where I helped design and implement threat detections for common GCP products, as well as maintain log pipelines.",
+        team: "Workforce Identity Federation",
+        description: (<div>
+            Coding critical features for integrating Google Cloud services with external identity providers. Mainly dealing with cookie/session management.
+        </div>),
         location: "Sunnyvale, CA",
-        dates: "January 2025 - Current",
+        dates: "July 2025 - Current",
         image: "/assets/companies/icons/google.jpg",
+        link: "https://cloud.google.com/iam/docs/workforce-identity-federation"
+    },
+    {
+        team: "Event Threat Detection",
+        description: (<div>
+            Aided with designing and implementing threat detections that happen on GCP, sourced from internal and external cloud logging and threat intelligence.
+        </div>),
+        dates: "Jan 2025 - Current",
         link: "https://cloud.google.com/security-command-center/docs/concepts-event-threat-detection-overview"
     },
     {
         title: "Trend Micro",
-        description: "Worked on Trend Micro's EMail Security (EMS) product on log pipeline and email storage. Also developed an internal tool for UI development.",
+        team: "Email Security",
+        description: (<div>
+            Worked on Trend Micro&apos;s Email Security product on log pipeline and email storage and developed an internal tool for UI development.
+        </div>),
         location: "Ottawa, ON",
-        dates: "January 2024 - December 2024",
+        dates: "Jan 2024 - Dec 2024",
         image: "/assets/companies/icons/trend.jpg",
         link: "https://www.trendmicro.com/en_us/business/products.html",
     },
     {
         title: "BlackBerry Cylance",
-        description: "Helped with migrating CylanceMDR's alerts infrastructure and tenancy system for SOC analysts.",
+        team: "MDR Engineering Cloud",
+        description: (<div>
+            Helped with migrating CylanceMDR&apos;s alerts infrastructure and tenancy system for SOC analysts.
+        </div>),
         location: "Mississauga, ON",
-        dates: "September 2023 - December 2023",
+        dates: "Sept 2023 - Dec 2023",
         image: "/assets/companies/icons/bb.jpg",
         link: "https://docs.blackberry.com/en/unified-endpoint-security/cylancemdr",
     },
     {
         title: "CertiK",
-        description: "Worked on Skynet, an on-chain monitoring tool that provides security-related analytics for blockchain projects.",
+        team: "Skynet",
+        description: (
+            <div>
+                Worked on Skynet, an on-chain monitoring tool that provides security-related analytics for blockchain projects.
+            </div>
+        ),
         location: "New York, NY (Remote)",
-        dates: "May 2022 - August 2022",
+        dates: "May 2022 - Aug 2022",
         image: "/assets/companies/icons/certik.jpg",
         link: "https://www.certik.com/products/skynet",
+    },
+    {
+        team: "Smart Contract Audits",
+        description: (
+            <div>
+                Audited EVM-based smart contracts for critical vulnerabilities and centralization issues.
+            </div>
+        ),
+        dates: "Oct 2021 - Dec 2021",
+        link: "https://www.certik.com/products/smart-contract-audit",
     },
 ]
 
@@ -49,6 +81,7 @@ export function WorksTree() {
                             image={project.image}
                             link={project.link}
                             key={id}
+                            team={project.team}
                         // links={project.links}
                         />
                     ))}

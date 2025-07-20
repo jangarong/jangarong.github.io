@@ -30,11 +30,12 @@ SOFTWARE.
 import Image from "next/image";
 
 interface Props {
-  title: string;
-  description: string;
+  title?: string;
+  location?: string;
+  image?: string;
+  description: JSX.Element;
+  team: string;
   dates: string;
-  location: string;
-  image: string;
   link: string;
   // links?: readonly {
   //   icon: React.ReactNode;
@@ -50,8 +51,10 @@ export function HackathonCard({
   location,
   image,
   link,
+  team,
   // links,
 }: Props) {
+  const isSubExperience = !!title && !!location && !!image
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute left-[-70px] top-2 flex items-center justify-center bg-white rounded-full">
@@ -59,18 +62,19 @@ export function HackathonCard({
           <AvatarImage src={image} alt={title} className="object-contain" />
           <AvatarFallback>{title[0]}</AvatarFallback>
         </Avatar> */}
-        <div className="border size-14 m-auto rounded-full">
+        {isSubExperience  ? <div className="border size-14 m-auto rounded-full">
           <Image className="object-contain rounded-full" src={image} alt={title} width={54} height={52} />
-        </div>
+        </div> : false}
       </div>
       <div className="flex flex-1 flex-col justify-start gap-2">
         {dates && (
-          <time className="text-sm text-muted-foreground">{dates}</time>
+          <time className="text-sm text-muted-foreground italic leading-none">{dates}</time>
         )}
-        <h2 className="font-semibold text-lg leading-none"><a href={link}>{title}</a></h2>
-        {location && (
-          <p className="text-md text-muted-foreground">{location}</p>
-        )}
+        {title && <h2 className="font-bold text-lg leading-none">{title}</h2>}
+        <h3 className="text-md font-semibold text-muted-foreground"><a href={link}>{team}</a></h3>
+        {/* {location && (
+          <p className="text-md text-muted-foreground leading-none">{location}</p>
+        )} */}
         {description && (
           <span className="prose dark:prose-invert text-md text-muted-foreground">
             {description}
