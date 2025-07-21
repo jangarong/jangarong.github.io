@@ -22,7 +22,9 @@ export default function Page() {
                 <Image src="/assets/b/art/egg-carton.png" alt="eggcarton" height={600} width={400} />
                 <div>Drew an egg carton during my drawing class in 2023.</div>
                 <Image src="/assets/b/art/magichanics.png" alt="magichanics" width={300} height={300} />
-                <div>Magichanics. Profile picture since 2019.</div>
+                <div>Profile picture since 2019.</div>
+                <Image src="/assets/b/art/pinstripe.png" alt="pinstripe" width={400} height={300} />
+                <div>Character I made using my Wacom tablet in 2017.</div>
             </div>
         </div>
     )

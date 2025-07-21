@@ -23,12 +23,13 @@ export default function Page() {
                 <ProjectItem href="/b/projects/zodiactail" src="/assets/b/zodiactail.png" />
                 <ProjectItem href="/b/projects/hex" src="/assets/b/hex.png" />
                 <ProjectItem href="/b/projects/solidguard" src="/assets/b/solidguard.png" />
+                <ProjectItem href="/b/projects/this" src="/assets/b/this.png" />
                 <ProjectItem href="/b/projects/stockmarket" src="/assets/b/stock-market-headlines.png" />
                 <ProjectItem href="/b/projects/mummyrun" src="/assets/b/mummyrun.png" />
             </div>
             <div className="mb-8 mb-[400px]">If you are looking for my more professional work at big corporations, please see <Link href="/" className="inline-block" >
-            Side A
-          </Link>.</div>
+                Side A
+            </Link>.</div>
         </div>
     )
 }
