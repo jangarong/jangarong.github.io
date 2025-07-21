@@ -1,0 +1,62 @@
+.hypno-pattern {
+
+    /* https://www.magicpattern.design/tools/css-backgrounds */
+    background-color: #121212;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #121212 9px ), repeating-linear-gradient( #26262655, #262626 );
+
+    animation:shine 2s infinite;
+}
+
+/* https://www.magicpattern.design/tools/css-backgrounds */
+.graph-pattern {
+    --s: 100px; /* control the size*/
+    --c1: #121212;
+    --c2: #1C1C1C;
+    
+    --_g: #0000 90deg,var(--c1) 0;
+    background: 
+      conic-gradient(from 90deg at 2px 2px,var(--_g)),
+      conic-gradient(from 90deg at 1px 1px,var(--_g)),
+      var(--c2);
+    background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+
+    animation:shine 2s infinite;
+  }
+
+  .wavy-pattern {
+    --s: 100px; /* control the size*/
+    --c1: #121212;
+    --c2: #1C1C1C;
+    
+    --_g: 
+       var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+       var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+    background:
+      radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+      radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+      var(--c1);
+    background-size: var(--s) var(--s);
+  }
+
+
+  .tor-pattern {
+    --s: 100px; /* control the size*/
+    --c1: #121212;
+    --c2: #1C1C1C;
+    
+    background:
+      radial-gradient(var(--c2) 15%,
+        #0000 17% 20%,var(--c2) 22% 25%,
+        #0000 27% 30%,var(--c2) 32% 35%,
+        #0000 37% 40%,var(--c2) 42% 45%,
+        #0000 47% 50%,var(--c2) 52% 55%, var(--c1) 57%)
+       calc(var(--s)/2) 0/var(--s) var(--s),
+      repeating-conic-gradient(var(--c2) 0 25%,var(--c1) 0 50%)
+       0 0/calc(2*var(--s)) calc(2*var(--s));
+  }
+
+  .attention-pattern {
+  background-color: #1C1C1C;
+background: repeating-linear-gradient( 45deg, #121212, #121212 50px, #1C1C1C 20px, #1C1C1C 100px );
+  }
