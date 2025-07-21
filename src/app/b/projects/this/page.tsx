@@ -1,8 +1,7 @@
 
 
 export const metadata = {
-    title: 'Jan Garong [B] - This.',
-    // description: 'Read my blog.',
+    title: 'Jan Garong [B] - This.'
 }
 
 export default function Page() {
@@ -10,8 +9,8 @@ export default function Page() {
         <div className="mt-[48px] mx-[24px] mb-[72px] min-h-[100vh]">
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">This Website</h1>
             <div className="mb-4">
-                I've been developing this website for quite a while since 2020, with lots of
-                layout changes over the years! Here's a full list of built websites I've made using either
+                I&apos;ve been developing this website for quite a while since 2020, with lots of
+                layout changes over the years! Here&apos;s a full list of built websites I&apos;ve made using either
                 pure HTML/CSS, React, Next.js, and Gatsby!
             </div>
             <div className="ml-4">
