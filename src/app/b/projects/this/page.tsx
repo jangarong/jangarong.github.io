@@ -47,8 +47,8 @@ export default function Page() {
             </div>
             <div className="mb-4">
                 Trying something new with this version; Side A will be more for cyber-software-related businesses
-                which is what most employers currently see me for, and Side B will more or less be like my own
-                "Instagram" :D 
+                which is what most employers currently see me for, and Side B will more or less be what I'd typically
+                post on social media :D 
             </div>
         </div>
     )
