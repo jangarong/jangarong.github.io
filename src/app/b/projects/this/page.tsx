@@ -36,10 +36,10 @@ export default function Page() {
                     • <a href="/b/alts/v6/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">v6 - One Card</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v7/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">v7 - One Ticket</a>
+                    • <a href="/b/alts/v7/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">v7 - One Card II</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v8/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">v8 - Business Card</a>
+                    • <a href="/b/alts/v8/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">v8 - One Card III</a>
                 </div>
                 <div className="mb-4">
                     • <a href="/b/alts/v9/index.html" target="_blank" className="text-blue-600 hover:text-purple-400">v9 - Apple</a>
