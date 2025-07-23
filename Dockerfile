@@ -27,17 +27,13 @@ ENV NODE_ENV=production
 # Set working directory
 WORKDIR /app
 
-# # Copy the built application from the builder stage
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/node_modules ./node_modules
+# Copy the built application from the builder stage
 COPY --from=builder /app/static_dist ./static_dist
-
-# COPY ./web/jangarong.github.io .
 
 # Expose the port your Next.js app runs on (default: 3000)
 EXPOSE 3000
 
+RUN npm install serve
+
 # Start the application
-CMD ["npm", "run", "start"]
+CMD ["npx", "serve", "static_dist"]
