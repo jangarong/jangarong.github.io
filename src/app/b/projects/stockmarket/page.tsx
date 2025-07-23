@@ -23,10 +23,10 @@ export default function Page() {
             </div>
             <div className="ml-4">
                 <div className="mb-4">
-                    • <a href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks" target="_blank" className="text-blue-600 hover:text-purple-400">Kaggle</a>
+                    • <a href="https://www.kaggle.com/code/magichanics/amateur-hour-using-headlines-to-predict-stocks"  className="text-blue-600 hover:text-purple-400">Kaggle</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="https://github.com/jangarong/StockMarketPredictions" target="_blank" className="text-blue-600 hover:text-purple-400">GitHub</a>
+                    • <a href="https://github.com/jangarong/StockMarketPredictions"  className="text-blue-600 hover:text-purple-400">GitHub</a>
                 </div>
             </div>
             <div className="w-[100%] flex justify-center my-8">
