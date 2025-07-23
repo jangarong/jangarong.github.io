@@ -15,8 +15,6 @@ RUN npm install --legacy-peer-deps
 # Copy the rest of the application source code
 COPY ./web/jangarong.github.io .
 
-ENV IS_CORP_ENV=true
-
 # Build the application
 RUN npm run build
 

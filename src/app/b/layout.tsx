@@ -41,22 +41,6 @@ export default function RootLayout({
                     <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         SKETCHES
                     </Link>
-                    {!process.env.IS_CORP_ENV ? <div /> : (
-                        <Link href="/b/archive" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
-                            THETA ARCHIVES
-                        </Link>
-                    )}
-                    {/* TODO: Load iff these URLs exist, or honestly put /files under a diff subdomain. */}
-                    {/* {!archiveExists() ? <div /> : (
-                        <Link href="https://archive.corp.jangarong.com" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
-                            ARCHIVEBOX
-                        </Link>
-                    )}
-                    {!archiveExists() ? <div /> : (
-                        <Link href="/files" className={" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col"}>
-                            FILES
-                        </Link>
-                    )} */}
                     <Link href="/b/ack" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         COOL PEOPLE
                     </Link>
