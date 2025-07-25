@@ -35,6 +35,9 @@ export default function RootLayout({
                     <Link href="/b/log" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         WHAT&apos;S NEW
                     </Link>
+                    <Link href="/b/job" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
+                        EMPLOYMENT
+                    </Link>
                     <Link href="/b/projects" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                         PROJECTS
                     </Link>
