@@ -1,11 +1,11 @@
-import "./globals.css"
+// import "./globals.css"
 import "./globals2.scss"
-import Image from "next/image"
+// import Image from "next/image"
 
 export default function Home() {
     return (
         <div>
-            <div className="wrapper">
+            {/* <div className="wrapper">
 
                 <div className="card-wrapper">
                     <div className="card digital two">
@@ -22,7 +22,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
 
                 <div className="card">
@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
 
 
-            </div>
+            {/* </div> */}
         </div>
     );
 }
