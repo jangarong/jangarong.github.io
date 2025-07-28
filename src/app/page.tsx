@@ -15,9 +15,10 @@ export default function Home() {
       <div className={"flex justify-center items-center h-[100%]"}>
         <TheWorld />
       </div>
-      <div className="px-[32px] py-[128px]">
+
+      {/* <div className="px-[32px] py-[128px]">
         <HomeBento />
-      </div>
+      </div> */}
 
       {/* <div className="">
         <div className={"spacedTitle"}>
@@ -32,6 +33,18 @@ export default function Home() {
         <RgbBusinessCard />
       </div> */}
 
+      <div className="grid w-full grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-8 mb-[128px]">
+        <div className="grid-cols-1 grid-rows-1">
+          <div className={"spacedTitle"}>
+            CONTRIBUTIONS
+          </div>
+          <WorksTree />
+        </div>
+        <div className="grid-cols-1 grid-rows-1 flex flex-col justify-around">
+          <RgbBusinessCard />
+          <DownloadMyResume />
+        </div>
+      </div>
 
       {/* TODO: Move this footer to layout */}
       <footer className="bg-black text-white p-12 text-sm text-center">

@@ -13,22 +13,67 @@ const features = [
         isButton: false
     },
     {
+        className: "col-span-2 row-span-2",
+        background: (
+            <div>
+                Image of Bay Area/Ottawa/Toronto
+            </div>
+        ),
+        isButton: true
+    },
+    // {
+    //     className: "col-span-1 row-span-1",
+    //     background: (
+    //         <a href="https://github.com/jangarong/" className="bg-[red] size-full flex flex-col justify-center items-center">
+    //             <GitHubLogoIcon className="h-[64px] w-[64px] m-[48px]" />
+    //         </a>
+    //     ),
+    //     isButton: true
+    // },
+    // {
+    //     className: "col-span-1 row-span-1",
+    //     background: (
+    //         <a href="https://www.linkedin.com/in/jangarong/" className="bg-[red] size-full flex flex-col justify-center items-center">
+    //             <LinkedInLogoIcon className="h-[64px] w-[64px] m-[48px]" />
+    //         </a>
+    //     ),
+    //     isButton: true
+    // },
+        {
         className: "col-span-2 row-span-1",
+        background: (
+            <div>
+                Image of Bay Area/Ottawa/Toronto
+            </div>
+        ),
+        isButton: true
+    },
+    // {
+    //     className: "col-span-1 row-span-1",
+    //     background: (
+    //         <a href="mailto:jan.garong@alumni.utoronto.ca" className="bg-[red] size-full flex flex-col justify-center items-center">
+    //             <MailIcon width={64} className="h-[64px] w-[64px] m-[48px]" />
+    //         </a>
+    //     ),
+    //     isButton: true
+    // },
+    // {
+    //     className: "col-span-1 row-span-1",
+    //     background: (
+    //         <a href="https://keys.openpgp.org/search?q=6BDFD428487D50AC40774CB4AC382728823BDAEC" className="bg-[red] size-full flex flex-col justify-center items-center">
+    //             <KeyRoundIcon width={64} className="h-[64px] w-[64px] m-[48px]" />
+    //         </a>
+    //     ),
+    //     isButton: true
+    // },
+    {
+        className: "col-span-3 row-span-1",
         background: (
             <div>
                 <div className="mb-2 flex flex-row items-center"><span className="mr-[8px]"><MailIcon width={20} /></span> <a href="mailto:jan.garong@alumni.utoronto.ca">jan.garong@alumni.utoronto.ca</a></div>
                 <div className="mb-2 flex flex-row items-center"><span className="mr-[8px]"><KeyRoundIcon width={20} /></span> <a href="https://keys.openpgp.org/search?q=6BDFD428487D50AC40774CB4AC382728823BDAEC">PGP Key (6BDFD428)</a></div>
                 <div className="mb-2 flex flex-row items-center"><GitHubLogoIcon className="h-[20px] w-[20px] mr-[8px]" /><a href="https://github.com/jangarong/">https://github.com/jangarong</a></div>
                 <div className="mb-2 flex flex-row items-center"><LinkedInLogoIcon className="h-[20px] w-[20px] mr-[8px]" /><a href="https://www.linkedin.com/in/jangarong/">https://www.linkedin.com/in/jangarong/</a></div>
-            </div>
-        ),
-        isButton: true
-    },
-        {
-        className: "col-span-1 row-span-1",
-        background: (
-            <div className="bg-[red] size-full flex flex-col justify-center align-center">
-                <GitHubLogoIcon className="h-[128px] w-[128px]" />
             </div>
         ),
         isButton: true
