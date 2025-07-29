@@ -121,22 +121,22 @@ export function TechnologiesMarquee() {
   return (
     <div className="overflow-x-hidden w-[100%] md:w-full">
       <div className="hidden md:block relative flex h-[275px] w-full flex-col items-center justify-center overflow-hidden rounded-lg no-border">
-        <Marquee pauseOnHover className="[--duration:20s] flex justify-center align-center">
+        <Marquee className="[--duration:20s] flex justify-center align-center">
           {techDesktopImgs[0].map((imgProps) => (
             <div key={imgProps.alt} className="flex flex-col justify-center h-[100%] m-2">
               <Image {...imgProps} alt={imgProps.alt} />
             </div>
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s] flex justify-center align-center">
+        <Marquee reverse className="[--duration:20s] flex justify-center align-center">
           {techDesktopImgs[1].map((imgProps) => (
             <div key={imgProps.alt} className="flex flex-col justify-center h-[100%] m-2">
               <Image {...imgProps} alt={imgProps.alt} />
             </div>
           ))}
         </Marquee>
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-lightblack"></div>
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-lightblack"></div>
+        {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-lightblack"></div>
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-lightblack"></div> */}
       </div>
       <div className="block md:hidden relative flex h-[400px] w-full flex-col items-center justify-center overflow-hidden rounded-lg no-border py-5">
         <Marquee pauseOnHover className="[--duration:20s] flex justify-center align-center">
@@ -146,21 +146,21 @@ export function TechnologiesMarquee() {
             </div>
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s] flex justify-center align-center">
+        <Marquee reverse className="[--duration:20s] flex justify-center align-center">
           {techMobileImgs[1].map((imgProps) => (
             <div key={imgProps.alt} className="flex flex-col justify-center h-[100%] m-2">
               <Image {...imgProps} alt={imgProps.alt} />
             </div>
           ))}
         </Marquee>
-        <Marquee pauseOnHover className="[--duration:20s] flex justify-center align-center">
+        <Marquee className="[--duration:20s] flex justify-center align-center">
           {techMobileImgs[2].map((imgProps) => (
             <div key={imgProps.alt} className="flex flex-col justify-center h-[100%] m-2">
               <Image {...imgProps} alt={imgProps.alt} />
             </div>
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s] flex justify-center align-center">
+        <Marquee reverse className="[--duration:20s] flex justify-center align-center">
           {techMobileImgs[3].map((imgProps) => (
             <div key={imgProps.alt} className="flex flex-col justify-center h-[100%] m-2">
               <Image {...imgProps} alt={imgProps.alt} />

@@ -14,7 +14,7 @@ const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid w-full grid-cols-6 grid-rows-12 gap-8",
+        "grid w-[1440px] grid-cols-9 grid-rows-8 gap-8",
         className,
       )}
     >
@@ -36,7 +36,8 @@ interface BentoCardProps {
 interface BentoCardOnlyBGProps {
   className: string;
   background: ReactNode;
-  isButton: boolean;
+  isButton?: boolean;
+  href?: string;
 }
 
 // interface BentoCardButtonProps {
@@ -44,8 +45,9 @@ interface BentoCardOnlyBGProps {
 //   background: ReactNode;
 // }
 
-const BentoCardOnlyBg = ({ className, background, isButton }: BentoCardOnlyBGProps) => (
-  <div
+const BentoCardOnlyBg = ({ className, background, isButton, href }: BentoCardOnlyBGProps) => (
+  <div 
+    // href={href}
     className={cn(
       "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl",
       // light styles
@@ -55,7 +57,7 @@ const BentoCardOnlyBg = ({ className, background, isButton }: BentoCardOnlyBGPro
       className,
     )}
   >
-    <div>{background}</div>
+    <a href={href}>{background}</a>
     {isButton ? <div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />:null}
   </div>
 )
@@ -118,15 +120,15 @@ const BentoCard = (props: BentoCardOnlyBGProps | BentoCardProps) => {
     href,
     cta,
     isButton
-  } = { name: null, Icon: null, description: null, href: null, cta: null, isButton: false, ...props }
+  } = { name: null, Icon: null, description: null, cta: null, isButton: false, ...props }
 
-  const bgOnly = !name && !Icon && !description && !href && !cta;
+  const bgOnly = !name && !Icon && !description && !cta;
 
   if (bgOnly) {
     return <BentoCardOnlyBg
       className={className}
       background={background}
-      isButton={isButton} />
+      isButton={isButton} href={href} />
   }
   return <BentoCardNormal
     name={name} className={className}

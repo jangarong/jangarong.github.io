@@ -3,22 +3,37 @@ import Image from "next/image";
 import { WorksTree } from "@/components/works-tree";
 import { KeyRoundIcon, MailIcon } from "lucide-react";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { TechnologiesMarquee } from "@/components/technologies-marquee";
 
 const features = [
     {
-        className: "col-span-3 row-span-4",
+        className: "col-span-4 row-span-8",
         background: (
             <WorksTree />
         ),
         isButton: false
     },
     {
-        className: "col-span-2 row-span-2",
+        className: "col-span-3 row-span-2",
         background: (
-            <div>
-                Image of Bay Area/Ottawa/Toronto
-            </div>
+            <div className="absolute w-[100%] h-[100%] bg-[url('/assets/bike2.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed"></div>
         ),
+        isButton: true
+    },
+    {
+        className: "col-span-1 row-span-1",
+        background: (
+            <GitHubLogoIcon className="h-[64px] w-[64px] m-[32px]" />
+        ),
+        href: "https://github.com/jangarong/",
+        isButton: true
+    },
+    {
+        className: "col-span-1 row-span-1",
+        background: (
+            <LinkedInLogoIcon className="h-[64px] w-[64px] m-[32px]" />
+        ),
+        href: "https://www.linkedin.com/in/jangarong/",
         isButton: true
     },
     // {
@@ -39,12 +54,46 @@ const features = [
     //     ),
     //     isButton: true
     // },
-        {
-        className: "col-span-2 row-span-1",
+    {
+        className: "col-span-1 row-span-1",
         background: (
-            <div>
-                Image of Bay Area/Ottawa/Toronto
+            <MailIcon width={64} className="h-[64px] w-[64px] m-[32px]" />
+        ),
+        isButton: true,
+        href: "mailto:jan.garong@alumni.utoronto.ca"
+    },
+    {
+        className: "col-span-1 row-span-1",
+        background: (
+            <KeyRoundIcon width={64} className="h-[64px] w-[64px] m-[32px]" />
+        ),
+        isButton: true,
+        href: "https://keys.openpgp.org/search?q=6BDFD428487D50AC40774CB4AC382728823BDAEC"
+    },
+    {
+        className: "col-span-5 row-span-3",
+        background: (
+            <div className="bg-[black] h-[100%] flex items-center justify-center">
+                <TechnologiesMarquee />
             </div>
+        ),
+    },
+    {
+        className: "col-span-2 row-span-2",
+        background: (
+            <div className="flex flex-col items-start m-[32px]">
+                <Image className="mb-[16px]" src="/assets/Utoronto_coa.png" alt="uoft" width={32} height={32} />
+                <div className="text-lg font-semibold">University of Toronto</div>
+                <div className="text-md mb-[16px]">HBSc - Computer Science</div>
+                <div className="text-md text-muted-foreground font-italic">Graduated on Nov 9th, 2023.</div>
+            </div>
+        ),
+        isButton: true
+    },
+    {
+        className: "col-span-3 row-span-2",
+        background: (
+            <div className="absolute w-[100%] h-[100%] bg-[url('/assets/IMG_1550.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed"></div>
         ),
         isButton: true
     },
@@ -67,13 +116,14 @@ const features = [
     //     isButton: true
     // },
     {
-        className: "col-span-3 row-span-1",
+        className: "col-span-5 row-span-1",
         background: (
             <div>
-                <div className="mb-2 flex flex-row items-center"><span className="mr-[8px]"><MailIcon width={20} /></span> <a href="mailto:jan.garong@alumni.utoronto.ca">jan.garong@alumni.utoronto.ca</a></div>
+               Footer
+                {/* <div className="mb-2 flex flex-row items-center"><span className="mr-[8px]"><MailIcon width={20} /></span> <a href="mailto:jan.garong@alumni.utoronto.ca">jan.garong@alumni.utoronto.ca</a></div>
                 <div className="mb-2 flex flex-row items-center"><span className="mr-[8px]"><KeyRoundIcon width={20} /></span> <a href="https://keys.openpgp.org/search?q=6BDFD428487D50AC40774CB4AC382728823BDAEC">PGP Key (6BDFD428)</a></div>
                 <div className="mb-2 flex flex-row items-center"><GitHubLogoIcon className="h-[20px] w-[20px] mr-[8px]" /><a href="https://github.com/jangarong/">https://github.com/jangarong</a></div>
-                <div className="mb-2 flex flex-row items-center"><LinkedInLogoIcon className="h-[20px] w-[20px] mr-[8px]" /><a href="https://www.linkedin.com/in/jangarong/">https://www.linkedin.com/in/jangarong/</a></div>
+                <div className="mb-2 flex flex-row items-center"><LinkedInLogoIcon className="h-[20px] w-[20px] mr-[8px]" /><a href="https://www.linkedin.com/in/jangarong/">https://www.linkedin.com/in/jangarong/</a></div> */}
             </div>
         ),
         isButton: true
