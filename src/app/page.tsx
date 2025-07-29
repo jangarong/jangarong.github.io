@@ -16,7 +16,7 @@ export default function Home() {
         <TheWorld />
       </div>
 
-      <div className="px-[32px] py-[128px]">
+      <div className="px-[32px] py-[128px] flex flex-col justify-center items-center">
         <HomeBento />
       </div>
 
