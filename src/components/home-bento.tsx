@@ -81,7 +81,7 @@ const features = [
         isButton: true
     },
     {
-        className: "col-span-2 row-span-12 sm:row-span-8 md:row-span-4 lg:col-span-2 lg:row-span-4 lg:col-span-4 xl:col-span-4 xl:row-span-1",
+        className: "col-span-2 row-span-12 sm:row-span-8 md:row-span-4 lg:col-span-2 lg:row-span-4 lg:col-span-4 xl:col-span-3 xl:row-span-1",
         background: (
             <div className={"w-full h-full flex flex-row items-center justify-center padding-[32px] " + styles.trippy}>
                 <Image src="/assets/laoshu.gif" alt="laoshu" className="mr-[16px] w-[48px] h-[48px]" width={32} height={32} />
