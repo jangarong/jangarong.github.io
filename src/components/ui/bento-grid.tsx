@@ -3,6 +3,7 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const BentoGrid = ({
   children,
@@ -14,7 +15,7 @@ const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid w-[1440px] grid-cols-9 grid-rows-8 gap-8",
+        "grid w-[100%] md:w-[480px] md:lg:grid-cols-4 lg:w-[966px] xl:w-[1280px] lg:grid-cols-8 lg:grid-rows-16 xl:grid-cols-9 xl:grid-rows-8 gap-4 md:gap-8",
         className,
       )}
     >
@@ -45,9 +46,9 @@ interface BentoCardOnlyBGProps {
 //   background: ReactNode;
 // }
 
-const BentoCardOnlyBg = ({ className, background, isButton, href }: BentoCardOnlyBGProps) => (
-  <div 
-    // href={href}
+const BentoCardOnlyBg = ({ className, background, isButton, href }: BentoCardOnlyBGProps) => {  
+  if (!href) {
+    return (<div 
     className={cn(
       "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl",
       // light styles
@@ -57,10 +58,25 @@ const BentoCardOnlyBg = ({ className, background, isButton, href }: BentoCardOnl
       className,
     )}
   >
-    <a href={href}>{background}</a>
+    {background}
     {isButton ? <div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />:null}
-  </div>
-)
+  </div>)
+  }
+return (<Link 
+    href={href}
+    className={cn(
+      "group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl",
+      // light styles
+      "bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
+      // dark styles
+      "transform-gpu dark:bg-black dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]",
+      className,
+    )}
+  >
+    {background}
+    {isButton ? <div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />:null}
+  </Link>)
+}
 
 const BentoCardNormal = ({
   name,

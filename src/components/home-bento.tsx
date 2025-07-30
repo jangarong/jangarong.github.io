@@ -8,61 +8,61 @@ import styles from "./home-bento.module.css";
 
 const features = [
     {
-        className: "col-span-4 row-span-8 " + styles.paper,
+        className: "col-span-4 lg:col-span-4 lg:row-span-8 xl:row-span-8 xl:col-span-4 " + styles.paper,
         background: (
             <WorksTree />
         ),
         isButton: false
     },
     {
-        className: "col-span-3 row-span-2",
+        className: "col-span-4 row-span-8 lg:col-span-4 lg:row-span-4 xl:col-span-3 xl:row-span-2",
         background: (
             <div className="absolute w-[100%] h-[100%] bg-[url('/assets/bike2.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed"></div>
         ),
         isButton: true
     },
     {
-        className: "col-span-1 row-span-1 " + styles.blue,
+        className: "flex flex-col justify-center items-center col-span-1 row-span-1 " + styles.blue,
         background: (
-            <GitHubLogoIcon className={"h-[64px] w-[64px] m-[32px]"} />
+            <GitHubLogoIcon className={"h-[32px] w-[32px] md:h-[48px] md:w-[48px] m-[24px] lg:m-[0px]"} />
         ),
         href: "https://github.com/jangarong/",
         isButton: true
     },
     {
-        className: "col-span-1 row-span-1 " + styles.cooked,
+        className: "flex flex-col justify-center items-center col-span-1 row-span-1 " + styles.cooked,
         background: (
-            <LinkedInLogoIcon className="h-[64px] w-[64px] m-[32px]" />
+            <LinkedInLogoIcon className="h-[32px] w-[32px] md:h-[48px] md:w-[48px]" />
         ),
         href: "https://www.linkedin.com/in/jangarong/",
         isButton: true
     },
     {
-        className: "col-span-1 row-span-1 " + styles.shore,
+        className: "flex flex-col justify-center items-center col-span-1 row-span-1 " + styles.shore,
         background: (
-            <MailIcon width={64} className="h-[64px] w-[64px] m-[32px]" />
+            <MailIcon width={64} className="h-[32px] w-[32px] md:h-[48px] md:w-[48px]" />
         ),
         isButton: true,
         href: "mailto:jan.garong@alumni.utoronto.ca"
     },
     {
-        className: "col-span-1 row-span-1 " + styles.purpley,
+        className: "flex flex-col justify-center items-center col-span-1 row-span-1 " + styles.purpley,
         background: (
-            <KeyRoundIcon width={64} className="h-[64px] w-[64px] m-[32px]" />
+            <KeyRoundIcon width={64} className="h-[32px] w-[32px] md:h-[48px] md:w-[48px]" />
         ),
         isButton: true,
         href: "https://keys.openpgp.org/search?q=6BDFD428487D50AC40774CB4AC382728823BDAEC"
     },
     {
-        className: "col-span-5 row-span-3",
+        className: "col-span-4 row-span-12 lg:row-span-1 xl:col-span-5 xl:row-span-3",
         background: (
-            <div className={"h-[175%] flex items-center justify-center "+ styles.dark}>
+            <div className={"h-[175%] flex items-center justify-center " + styles.dark}>
                 <TechnologiesMarquee />
             </div>
         ),
     },
     {
-        className: "col-span-2 row-span-2 " + styles.bluePaper,
+        className: "col-span-4 row-span-1 xl:col-span-2 xl:row-span-2 " + styles.bluePaper,
         background: (
             <div className="flex flex-col items-start m-[32px]">
                 <Image className="mb-[16px]" src="/assets/Utoronto_coa.png" alt="uoft" width={32} height={32} />
@@ -74,7 +74,7 @@ const features = [
         isButton: true
     },
     {
-        className: "col-span-3 row-span-2",
+        className: "hidden lg:block col-span-4 row-span-4 xl:col-span-3 xl:row-span-2",
         background: (
             <div className="absolute w-[100%] h-[100%] bg-[url('/assets/IMG_1550.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed"></div>
         ),
