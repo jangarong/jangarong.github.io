@@ -1,9 +1,6 @@
 import { TheWorld } from "@/components/the-world";
-import "./globals.css"
-import RgbBusinessCard from "@/components/rgb-business-card";
-import DownloadMyResume from "@/components/download-my-resume";
+import "./globals.css";
 import { Navbar } from "@/components/navbar";
-import { WorksTree } from "@/components/works-tree";
 import { HomeBento } from "@/components/home-bento";
 
 export default function Home() {
