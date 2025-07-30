@@ -97,3 +97,18 @@
     #c9d6ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.trippy {
+  background-color: #99ffe7;
+  background-image: radial-gradient(
+      at 69% 14%,
+      hsla(194, 82%, 73%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 52% 23%, hsla(222, 77%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(35, 90%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 39% 37%, hsla(107, 74%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 70% 86%, hsla(341, 75%, 71%, 1) 0px, transparent 50%),
+    radial-gradient(at 72% 94%, hsla(287, 88%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 42% 21%, hsla(309, 67%, 75%, 1) 0px, transparent 50%);
+}

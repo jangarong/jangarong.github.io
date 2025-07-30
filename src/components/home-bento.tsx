@@ -68,16 +68,27 @@ const features = [
                 <Image className="mb-[16px]" src="/assets/Utoronto_coa.png" alt="uoft" width={32} height={32} />
                 <div className="text-lg font-semibold">University of Toronto</div>
                 <div className="text-md mb-[16px]">HBSc - Computer Science</div>
-                <div className="text-md text-muted-foreground font-italic">Graduated on Nov 9th, 2023.</div>
+                <div className="text-md text-muted-foreground font-italic">Graduated on Nov 9th, 2023 from the Scarborough Campus.</div>
             </div>
         ),
         isButton: true
     },
     {
-        className: "hidden lg:block col-span-4 row-span-4 xl:col-span-3 xl:row-span-2",
+        className: "col-span-2 row-span-12 sm:row-span-8 md:row-span-4 lg:col-span-4 lg:row-span-4 lg:row-span-5 xl:col-span-3 xl:row-span-2",
         background: (
             <div className="absolute w-[100%] h-[100%] bg-[url('/assets/IMG_1550.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed"></div>
         ),
+        isButton: true
+    },
+    {
+        className: "col-span-2 row-span-12 sm:row-span-8 md:row-span-4 lg:col-span-2 lg:row-span-4 lg:col-span-4 xl:col-span-4 xl:row-span-1",
+        background: (
+            <div className={"w-full h-full flex flex-row items-center justify-center padding-[32px] " + styles.trippy}>
+                <Image src="/assets/laoshu.gif" alt="laoshu" className="mr-[16px] w-[48px] h-[48px]" width={32} height={32} />
+                <Image src="/assets/mao.gif" alt="mao" className="w-[48px] h-[48px]"  width={32} height={32} />
+            </div>
+        ),
+        href: "https://zodiactail.itch.io/prologue",
         isButton: true
     },
 ];
