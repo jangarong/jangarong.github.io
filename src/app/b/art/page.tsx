@@ -25,6 +25,10 @@ export default function Page() {
                 <div>Profile picture since 2019.</div>
                 <Image src="/assets/b/art/pinstripe.png" alt="pinstripe" width={400} height={300} />
                 <div>Character I made using my Wacom tablet in 2017.</div>
+                <Image src="/assets/b/art/eye.png" alt="eye" width={400} height={300} />
+                <div>Drew this in one of my high school art classes.</div>
+                <Image src="/assets/b/art/fist.png" alt="fist" width={300} height={400} />
+                <div>Drew this in one of my high school art classes.</div>
             </div>
         </div>
     )
