@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/b/alts/v3/static/css/main.630ee255.chunk.css",
+    "main.js": "/b/alts/v3/static/js/main.cf084ffc.chunk.js",
+    "main.js.map": "/b/alts/v3/static/js/main.cf084ffc.chunk.js.map",
+    "runtime-main.js": "/b/alts/v3/static/js/runtime-main.880b99a1.js",
+    "runtime-main.js.map": "/b/alts/v3/static/js/runtime-main.880b99a1.js.map",
+    "static/js/2.13b23dbc.chunk.js": "/b/alts/v3/static/js/2.13b23dbc.chunk.js",
+    "static/js/2.13b23dbc.chunk.js.map": "/b/alts/v3/static/js/2.13b23dbc.chunk.js.map",
+    "static/js/3.f50d5968.chunk.js": "/b/alts/v3/static/js/3.f50d5968.chunk.js",
+    "static/js/3.f50d5968.chunk.js.map": "/b/alts/v3/static/js/3.f50d5968.chunk.js.map",
+    "index.html": "/b/alts/v3/index.html",
+    "static/css/main.630ee255.chunk.css.map": "/b/alts/v3/static/css/main.630ee255.chunk.css.map",
+    "static/js/2.13b23dbc.chunk.js.LICENSE.txt": "/b/alts/v3/static/js/2.13b23dbc.chunk.js.LICENSE.txt",
+    "static/media/conventionmanager.0b08496f.png": "/b/alts/v3/static/media/conventionmanager.0b08496f.png",
+    "static/media/dApp.7b4c931d.png": "/b/alts/v3/static/media/dApp.7b4c931d.png",
+    "static/media/grrpi.c5d43628.png": "/b/alts/v3/static/media/grrpi.c5d43628.png",
+    "static/media/mummyrun.ccdccd48.png": "/b/alts/v3/static/media/mummyrun.ccdccd48.png",
+    "static/media/pfp.6f9160cc.svg": "/b/alts/v3/static/media/pfp.6f9160cc.svg",
+    "static/media/stockmarket.6139432a.png": "/b/alts/v3/static/media/stockmarket.6139432a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.880b99a1.js",
+    "static/js/2.13b23dbc.chunk.js",
+    "static/css/main.630ee255.chunk.css",
+    "static/js/main.cf084ffc.chunk.js"
+  ]
+}

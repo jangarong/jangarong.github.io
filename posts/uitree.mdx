@@ -1,0 +1,45 @@
+---
+title: "Trend Micro - uitree"
+publishedAt: "2024-10-05"
+summary: "From conception to productization (within the development teams)"
+---
+
+*Posted originally on ghost, edited on August 9th, 2025*
+
+I have been working here for 10 months already, and so far things have been pretty interesting. 
+Here at Trend Micro EMail Security (TMEMS), I got the chance to not only grow, 
+but also make a pretty huge impact I'd say, so let's talk about it!
+
+## uitree
+
+This is just a small aside. At around May 2024, I made a service that mimicked Vercel's CI/CD easy UI deployment 
+for each git branch, which is called the uitree! Currently, our UI system is a bit complicated to 
+deploy, and it doesn't use Next.js so an existing system like Vercel wouldn't be feasible. It was an annoying 
+problem since we could not deploy the UI locally. 
+
+
+So using my self-hosting knowledge on Docker and NGINX reverse proxies, I basically just made something that allows 
+multiple versions of these UIs to be run behind a reverse proxy, and have each of these UI instances be hosted under a 
+subdomain! Pretty cool, right?
+
+
+It basically means using a CI/CD pipeline which deploys and generates the URLs, you can have your UIs running on:
+* 49dv9xjsla.uitree.tmems.com (your UI)
+* 2938r03204.uitree.tmems.com (another developer's UI)
+* jvfd9ppvoc.uitree.tmems.com (and another developer's UI)
+
+and so on... and yes it's called uitree because of the network graph it produces.
+
+
+Originally this started with a prototype with a bunch of "fake" frontends, and since my manager says I can 
+dedicate time towards building this out for the UI of our product, Email Security, I was able to finish it!
+
+
+I was able to present it to both the Canadian and Chinese teams for Email Security, and got some really good 
+feedback to improve it from my coworkers! To this day when I have spare time, I try to implement new features 
+or fixes to it. It's kind of, fun? or enjoyable? working on this project!
+
+
+
+
+

@@ -1,0 +1,13 @@
+.jang {
+    width: 125px;
+    height: 45px;
+    background-image: url('/assets/jang-non-penguin.png');
+    background-size: contain;
+}
+
+/* .jang:hover {
+    width: 125px;
+    height: 45px;
+    background-image: url('/assets/jang-penguin.png');
+    background-size: contain;
+} */

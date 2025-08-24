@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <script type="text/javascript" src="ruffle/ruffle.js"></script>
+  </head>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      text-align:center;
+    }
+    body {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    #flash-game {
+      max-width: 1280px; /* Maximum width of the content */
+      max-height: 720px; /* Maximum height of the content */
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+
+  <body>
+    <object type="application/x-shockwave-flash" id="flash-game" name="flash-game">
+        <param name="menu" value="false" />
+        <param name="allowScriptAccess" value="always" />
+        <param name="flashvars" value="lang=en" />
+      </object>
+      <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", (event) => {
+          const ruffle = window.RufflePlayer.newest();
+          const player = ruffle.createPlayer();
+          const game = document.getElementById("flash-game");
+          game.appendChild(player);
+          player.style.width = "1280px";
+          player.style.height = "720px";
+          player.config = {
+            autoplay: "on",
+            unmuteOverlay: "hidden",
+            scale: "exactfit",
+            backgroundColor: "black",
+            forceScale: true,
+          };
+          player.load({
+            url: "MummyRun.swf",
+          });
+        });
+      </script>
+  </body>
+</html>

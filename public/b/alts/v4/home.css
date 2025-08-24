@@ -1,0 +1,29 @@
+.home {
+  margin-top: 40vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    margin-top: 40vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home {
+    margin-top: 40vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home {
+    margin-top: 40vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
+}

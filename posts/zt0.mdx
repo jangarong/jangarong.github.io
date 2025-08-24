@@ -1,0 +1,45 @@
+---
+title: "The Foundation"
+publishedAt: "2023-07-19"
+summary: "Amy and I cook up a game :)"
+---
+
+*Manually imported from Ghost, edited on July 12th, 2025. Originally titled ZodiacTail's Foundation.*
+
+[![](/assets/b/log/zt0/0.png)](/assets/b/log/zt0/0.png)
+
+This past month has been very overwhelming, or semester I should say, has been a huge struggle. My day usually goes along the lines of programming for as long as I could, and then taking a TF2 or YouTube break, or now, posting on my new blog! So far this semester, I had the following projects to work on:
+
+* VaultSentry (with Mexi)
+* FriendSend (led by Peter, with Vivek)
+* ZodiacTail (name subject to change) (led by Amy)
+* antony v1.4
+* CSCC69H3 - Projects 1-4 (with Leo and Rahul)
+* CSCD03H3 - Debate/Info Presentations + Term Paper
+
+The first 2 are on hold, antony v1.4 is done, and what remains is my schoolwork and ZodiacTail! Those by itself was stressful enough, but recently, I had 2 interviews come in (as well as applying to jobs myself). One for Nethermind, which was a month ago, and now, one for Blackberry that will come on Thursday. I'll most likely post about it after the interview! It's on their cybersecurity AI tool which looks exciting! For now though, we'll talk about the state of ZodiacTail!
+
+## Foundational Mechanics
+
+So far, the game has all of its core gameplay mechanics fully implemented, minus the goal/final door that you need to get through. It was a lot tougher than I thought, taking many hours to finish a seemingly simple platformer game.
+Platformer level with doors, buttons, switches, hazards, teleportation and real-time save/load mechanics!
+
+[![](/assets/b/log/zt0/1.png)](/assets/b/log/zt0/1.png)
+
+Overall I was proud with my work, and I hope by the time the art comes out, the game would look perfect (at least to me)! I'm really excited about this idea, especially with how Amy told me how the characters would interact, the plot surrounding it, and most of all, the designs! She helped with designing a few levels (not the one above, above is just a sandbox), but also with her talented art skills!
+
+[![](/assets/b/log/zt0/2.png)](/assets/b/log/zt0/2.png)
+[![](/assets/b/log/zt0/3.png)](/assets/b/log/zt0/3.png)
+[![](/assets/b/log/zt0/4.png)](/assets/b/log/zt0/4.png)
+
+I wont spoil the story, but instead talk about one thing I found while developing for this game in Unity.
+
+## Object-Oriented Mess
+
+While developing, I found myself having to make so many different class for each thing a player does. I tried to design them in a way so that they are all decoupled, and are only linked via the Unity Editor. But how decoupled should they be? I found myself having a repository full of C# classes like this:
+
+[![](/assets/b/log/zt0/5.png)](/assets/b/log/zt0/5.png) 
+
+While this design seems to make sense, it just felt like I was being too extreme with the S in SOLID, Single Responsibility. A Player does many things in the game, but does that mean we need to give a player 10-20 different classes for each action it does? And what about that layering of classes (mainly with Keyboard classes)? How decoupled should they be, or should they be more coupled with their service classes (the classes that actually does the intended action). I found myself developing a large codebase with lots of files which at times, felt nonsensical, especially for such simple gameplay mechanics.
+
+Regardless, I'm quite happy to be where I am right now with this project, and even though I'm super passionate to continue working, C69 and D03 dues are coming up very soon, along with the interview being in 2 days, so I will put ZodiacTail on the backburner until a week or two from now, which is when I should have Project 3 and my term paper done.
