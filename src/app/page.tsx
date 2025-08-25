@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* TODO: Move this footer to layout */}
       <footer className="bg-black text-white p-12 text-sm text-center">
-        Website code and design by me (jangarong). Current version is v10.1.1.
+        Website code and design by me (jangarong). Current version is v10.1.2.
       </footer>
     </div>
   );

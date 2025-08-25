@@ -25,7 +25,7 @@ export default function RootLayout({
                         </div>
                     </div>
                     <div className="hidden sm:block flex flex-col align-center justify-end">
-                        <Image src="/assets/pengdesk.png" alt="peng" className="mr-[32px]" width={125} height={100} />
+                        <Image src="/assets/pengdesk.png" alt="peng" className="mr-[32px]" width={250} height={100} />
                     </div>
                 </div>
                 <div className="navbar-penguin flex flex-wrap">
