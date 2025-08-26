@@ -1,0 +1,73 @@
+---
+title: "My Raspberry Pi"
+publishedAt: "2025-08-25"
+summary: "my rpi setup :)"
+---
+
+![](/assets/b/log/psa.jpeg)
+
+*Behold, the one thing I've been working on the longest!*
+
+These are my Raspberry Pis that I've been using for self-hosting and learning!
+
+## Penguin Secret Agency
+
+Originally the RPi now known as the "Penguin Secret Agency" (will soon get its own project page)
+has been the same RPi used in my Grade 12 Great Roamin Robot (GRR-Pi for short, also will get its
+own project page in due time), repurposed to serve many key services I use mostly for file storage 
+and archival purposes:
+* ArchiveBox (/) - My very own web archive!
+* Filebrowser (/files) - Basic file storage.
+* Syncthing (/sync) - File sync for backups/redundancy.
+* Gitea (/git) - Mirror of my GitHub repositories.
+
+And these services, great combo btw, is what I use to create the VPN for the above services:
+* WireGuard or specifically wg-easy - Open source VPN service.
+* PiHole - Open Source DNS service with adblocker for the VPN.
+
+Lastly, for secure browsing:
+* NGINX - Used as a reverse proxy for the above services.
+* certbot - Used to create and renew certs.
+
+### Design Considerations
+
+Outside of the primary 4 services, the VPN and HTTPS setup I used was mainly out of my interest of 
+having my very own intranet, kind of like the big corporations that do it. I would also like this 
+entire setup to be very offline-friendly or air-gapped compatible, which I have achieved, mostly. 
+
+The only thing I was not able to really "perfect" in my own eyes is the certificate renewal, which 
+the only way to make it purely offline or compatible is to host your own certificate authority, 
+install a root certificate on all of your devices, it's a lot of work and also I'm unsure if 
+this is the correct approach.
+
+Scalability could use some improvement though; maybe if there's some WireGuard + OAuth integration
+I can use, or maybe if I use Kubernetes which my RPi could not handle at all. At the end 
+of the day though, I'm the only one using it, so I think it's fine as is.
+
+Also, please don't comment on how this is all wired and connected. It's used with whatever USB-C
+cables and sockets that I could find xD
+
+## Other Services
+
+You might wonder about the other RPis and the router attached on the side. The plan at 
+the end is to make it so that the only way to access the RPis is via this router, with 
+the other two RPIs being more experimental Docker containers, thus making it sorta? air gapped.
+
+I still plan on doing this, I've just been flip flopping on it since it's a matter of convenience
+(can connect on home router) and bad UX for me (connect to router, connect to VPN).
+
+## Why am I saying all of this?
+
+I've been working on this ever since I've discovered Docker and did DevOps for that one webdev 
+course, which was since 2021-2022. I have been needlessly adding and updating and removing 
+services, but after evaluating my most common use cases for my self-hosted services, I have 
+decided to stop it here.
+
+I'm planning to do a mix of the following in the near future, which is going to be exciting :D
+* Foundational Cybersecurity Training (pending)
+* Fitness (about time I go to the gym lmao)
+* Foundational Drawing Classes (starting next week!)
+
+Until then!
+
+\- Jan
