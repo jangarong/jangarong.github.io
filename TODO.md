@@ -1,6 +1,7 @@
 # On the TODO list:
 - cite https://portfolio-blog-starter.vercel.app for blog components
-- resize images to be a lot smaller on /b/
+- add new project pages, maybe just small brief ones for the SaaS Security Products
+- update homepage?
 - add citation page with tech used
 - why is `npm run make-win-x64` the only one that works?
 
