@@ -26,19 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:dark`}
       >
-        <div className="h-[100vh] w-[100%]">
-          {/* <div className="absolute w-[100%]">
-            <Navbar />
-          </div> */}
-          <div className="h-[100%] min-h-[800px]">
-            {children}
-            {/* <footer className="bg-black text-white p-12 text-center">
-              Website code and design by me (jangarong).
-            </footer> */}
-          </div>
-        </div>
+        {children}
       </body>
     </html>
   );

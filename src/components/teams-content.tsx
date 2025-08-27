@@ -10,27 +10,24 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
         {
             "company": "Google",
             "logo": "/companies/google.svg",
-            "url": "https://about.google",
+            "url": "https://cloud.google.com/security",
             "description": "Google Cloud Security",
-            "enabled": false,
             "width":1,
             "height":0.5
         },
         {
             "company": "Trend Micro",
             "logo": "/companies/trend.svg",
-            "url": "https://www.trendmicro.com/en_ca/about.html",
+            "url": "https://www.trendmicro.com/about.html",
             "description": "Trend Micro Email Security",
-            "enabled": true,
             "width":1,
             "height":0.5
         },
         {
             "company": "BlackBerry",
             "logo": "/companies/blackberry.svg",
-            "url": "https://www.blackberry.com/us/en/company/overview",
+            "url": "https://www.blackberry.com/company/overview",
             "description": "BlackBerry CylanceMDR",
-            "enabled": true,
             "width":1.25,
             "height":0.5
         },
@@ -39,7 +36,6 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
             "logo": "/companies/certik.svg",
             "url": "https://www.certik.com/company/about",
             "description": "CertiK Skynet",
-            "enabled": true,
             "width":1.25,
             "height":0.5
         },
@@ -55,18 +51,17 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
     }
 
     return (
-        <div className={`flex flex-wrap justify-evenly align-center`}>
+        <div className={`flex flex-wrap dark:invert justify-evenly align-center`}>
             {teams.map((team) => (
                 <a href={team.url} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
                     <Image
-                        className={`dark:invert m-2 mb-${logoMarginBottom}`}
+                        className={`m-2 mb-${logoMarginBottom}`}
                         src={team.logo}
                         alt={team.company}
                         width={logoWidth * team.width}
                         height={logoWidth * team.height}
                         priority
                     />
-                    {team.enabled ? null : <div className="text-2xl ml-[-8px] mr-[6px]">*</div>}
                 </a>
             ))}
         </div>

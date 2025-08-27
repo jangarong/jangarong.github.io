@@ -11,11 +11,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  /* background-color: white; */
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 @layer base {
@@ -83,12 +78,190 @@ body {
   }
 }
 
-.spacedTitle {
-  font-weight: 900;
-  font-size: 20pt;
-  line-height: 24pt;
-  letter-spacing: 2pt;
-  text-align: center;
-  margin-top: 20pt;
-  margin-bottom: 20pt;
+/* https://codepen.io/frontendsda/pen/JeEmPW */
+
+.bkg__spotlight {
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  background: radial-gradient(
+      75% 35% at 50% 50%,
+      rgba(46, 47, 56, 0.6) 20%,
+      rgba(53, 55, 66, 0) 90%
+    ),
+    linear-gradient(rgba(19, 24, 34, 0) 0%, rgb(2, 2, 4) 80%);
+  z-index: 2;
+  opacity: 40%;
+
+  &:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: radial-gradient(
+        50vw 60vw at 50% 50%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0) 60%
+      ),
+      radial-gradient(
+        35% 15% at 50% 50%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+  }
+}
+/* 
+@media (min-width: 768px) {
+  .bkg__spotlight {
+    pointer-events: none;
+    position: fixed;
+    width: 100%;
+    background: radial-gradient(
+        75% 35% at 50% 95%,
+        rgba(46, 47, 56, 0.6) 20%,
+        rgba(53, 55, 66, 0) 90%
+      ),
+      linear-gradient(rgba(19, 24, 34, 0) 0%, rgb(2, 2, 4) 80%);
+    z-index: 2;
+    opacity: 50%;
+
+    &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: radial-gradient(
+          50vw 60vw at 50% 70%,
+          rgba(255, 255, 255, 0.105) 0%,
+          rgba(255, 255, 255, 0) 60%
+        ),
+        radial-gradient(
+          35% 15% at 50% 85%,
+          rgba(255, 255, 255, 0.09) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+    }
+  }
+} */
+
+.cosmos {
+  background-color: #999cff;
+  background-image: radial-gradient(
+      at 14% 54%,
+      hsla(296, 96%, 76%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 73% 89%, hsla(198, 88%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 37% 23%, hsla(172, 99%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 66% 82%, hsla(339, 83%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 17% 95%, hsla(287, 97%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 45% 46%, hsla(21, 88%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 87% 97%, hsla(88, 61%, 60%, 1) 0px, transparent 50%);
+}
+
+/* tailwind colors doesn't work for some reason :( */
+
+.bg-trendmicro {
+  background-color: #d8121b;
+}
+
+.border-trendmicro {
+  border-color: #d8121b;
+}
+
+.bg-blackberry {
+  background-color: #1475dc;
+}
+
+.border-blackberry {
+  border-color: #1475dc;
+}
+
+.bg-neutral-900 {
+  background-color: rgb(23 23 23);
+}
+
+.border-neutral-900 {
+  border-color: rgb(23 23 23);
+}
+
+.bg-orange-500 {
+  background-color: #9a3412;
+}
+
+.border-orange-500 {
+  border-color: #9a3412;
+}
+
+.bg-white-0 {
+  background-color: #ffffff;
+}
+
+.border-white-0 {
+  border-color: #ffffff;
+}
+
+.bg-lightblack {
+  background-color: rgba(37, 37, 37, 0.3);
+}
+
+.bg-lightblack2 {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.bg-lightwhite {
+  background-color: rgba(218, 218, 218, 0.3);
+}
+
+.bg-lightwhite2 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-scc {
+  background-image: url('/teams/scc-bg.png');
+  background-size: contain;
+  background-position-x: 30px;
+  background-position-y: 230px;
+  background-repeat: no-repeat;
+}
+
+.card-tmems {
+  background-image: url('/teams/tmems-bg.png');
+  background-size: contain;
+  background-position-x: 30px;
+  background-position-y: 230px;
+  background-repeat: no-repeat;
+}
+
+.card-cylancemdr {
+  background-image: url('/teams/cylancemdr-bg.png');
+  background-size: contain;
+  background-position-x: 30px;
+  background-position-y: 230px;
+  background-repeat: no-repeat;
+}
+
+.card-skynet {
+  background-image: url('/teams/skynet-bg.png');
+  background-size: contain;
+  background-position-x: 30px;
+  background-position-y: 230px;
+  background-repeat: no-repeat;
+}
+
+.card-zodiactail {
+  background-image: url('/teams/zodiactail-bg.jpg');
+  background-size: cover;
+  background-position-x: -300px;
+  background-repeat: no-repeat;
 }

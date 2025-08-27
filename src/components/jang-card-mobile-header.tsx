@@ -1,5 +1,5 @@
 import { CardTitle, CardDescription } from "@/components/ui/card";
-import { CompassIcon, FileTextIcon } from "lucide-react";
+import { CompassIcon, FileTextIcon, KeyRoundIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function JangCardMobileHeader() {
@@ -12,8 +12,8 @@ export default function JangCardMobileHeader() {
                 </CardDescription>
             </div>
             <div className="text-xs items-center flex flex-row justify-between">
-                <Link href="/test/portal">
-                    <CompassIcon className="ml-4 opacity-50" />
+                <Link href="/6BDFD428487D50AC40774CB4AC382728823BDAEC.asc">
+                    <KeyRoundIcon className="ml-4 opacity-50" />
                 </Link>
                 <Link href="/resume.pdf">
                     <FileTextIcon className="ml-4 opacity-50" />

@@ -55,6 +55,11 @@ const frens: Friend[] = [
         name: "Leo Wang"
     },
     {
+        url: "https://www.linkedin.com/in/meixuan-mexi-lu-5103621b6/",
+        img: "/assets/b/friends/mexi.png",
+        name: "Meixuan (Mexi) Lu"
+    },
+    {
         url: "https://qrn99.github.io",
         img: "/assets/b/friends/nancy.png",
         name: "Nancy (Ruo Ning) Qiu"
