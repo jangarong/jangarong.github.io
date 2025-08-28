@@ -1,5 +1,5 @@
 import { CardTitle, CardDescription } from "@/components/ui/card";
-import { CompassIcon, FileTextIcon, KeyRoundIcon } from "lucide-react";
+import { FileTextIcon, KeyRoundIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function JangCardMobileHeader() {

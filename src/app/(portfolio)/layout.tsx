@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import JangCardDesktopContent from "@/components/jang-card-desktop-content";
 import JangCardMobileFooter from "@/components/jang-card-mobile-footer";
 import JangCardMobileHeader from "@/components/jang-card-mobile-header";
-import RGBCardDesktop from "@/components/rgb-card-desktop";
 import RGBCardMobile from "@/components/rgb-card-mobile";
 import Spotlight from "@/components/spotlight";
 import "./globals.css";
