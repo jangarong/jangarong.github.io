@@ -1,6 +1,4 @@
-/* body {
-    background-color: #eeeeee;
-} */
+
 
 .base {
     /* background-color: #fdfad6; */
@@ -68,3 +66,6 @@
     }
  }
 
+ body {
+    color: black;
+ }
