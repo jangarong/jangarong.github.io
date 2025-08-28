@@ -4,23 +4,23 @@ import styles from './the-world.module.css';
 export function TheWorld() {
     return (
         <div>
-            <div className={`hidden md:flex flex-wrap justify-evenly align-center`}>
+            <div className={`flex flex-row justify-center align-center`}>
                 <Image
-                    className={styles.circle}
+                    className={styles.circle + " mt-[24px]"}
                     src={"/assets/the-world.png"}
                     alt={"Tower of Babel"}
-                    width={400}
-                    height={600}
+                    width={200}
+                    height={300}
                 />
                 <Image
-                    className={styles.ring + ` mt-[72px]`}
+                    className={styles.ring + ` mt-[64px] dark:invert`}
                     src={"/assets/ring.svg"}
                     alt={"JAN GARONG • SOFTWARE ENGINEER • CYBERSECURITY "}
-                    width={500}
-                    height={500}
+                    width={250}
+                    height={250}
                 />
             </div>
-            <div className={`flex md:hidden flex-wrap justify-evenly align-center  w-[100%] h-[100%] overflow-hidden`}>
+            {/* <div className={`flex md:hidden flex-wrap justify-evenly align-center  w-[100%] h-[100%] overflow-hidden`}>
                 <Image
                     className={styles.circle}
                     src={"/assets/the-world.png"}
@@ -35,7 +35,7 @@ export function TheWorld() {
                     width={350}
                     height={350}
                 />
-            </div>
+            </div> */}
         </div>
     )
 }
