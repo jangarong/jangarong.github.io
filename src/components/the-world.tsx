@@ -6,14 +6,14 @@ export function TheWorld() {
         <div>
             <div className={`flex flex-row justify-center align-center`}>
                 <Image
-                    className={styles.circle + " mt-[24px]"}
+                    className={styles.circle + " mt-[18px]"}
                     src={"/assets/the-world.png"}
                     alt={"Tower of Babel"}
                     width={200}
                     height={300}
                 />
                 <Image
-                    className={styles.ring + ` mt-[64px] dark:invert`}
+                    className={styles.ring + ` mt-[54px] dark:invert`}
                     src={"/assets/ring.svg"}
                     alt={"JAN GARONG • SOFTWARE ENGINEER • CYBERSECURITY "}
                     width={250}
