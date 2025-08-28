@@ -1,58 +1,61 @@
 import Image from "next/image";
+import Marquee from "@/components/ui/marquee";
 
 interface TeamsContentProps {
     isMobile?: boolean;
 }
 
-export function TeamsContent({isMobile}: TeamsContentProps) {
+export function TeamsContent({ isMobile }: TeamsContentProps) {
 
     const teams = [
         {
             "company": "Google",
-            "logo": "/companies/google.svg",
+            "logo": "/assets/companies/google.png",
             "url": "https://cloud.google.com/security",
             "description": "Google Cloud Security",
-            "width":1,
-            "height":0.5
+            "width": 1.25,
+            "height": 0.5
         },
         {
             "company": "Trend Micro",
             "logo": "/companies/trend.svg",
             "url": "https://www.trendmicro.com/about.html",
             "description": "Trend Micro Email Security",
-            "width":1,
-            "height":0.5
+            "width": 1.5,
+            "height": 0.5
         },
         {
             "company": "BlackBerry",
-            "logo": "/companies/blackberry.svg",
+            "logo": "/assets/companies/cylance.png",
             "url": "https://www.blackberry.com/company/overview",
             "description": "BlackBerry CylanceMDR",
-            "width":1.25,
-            "height":0.5
+            "width": 1.75,
+            "height": 0.5
         },
         {
             "company": "CertiK",
             "logo": "/companies/certik.svg",
             "url": "https://www.certik.com/company/about",
             "description": "CertiK Skynet",
-            "width":1.25,
-            "height":0.5
+            "width": 1.5,
+            "height": 0.5
         },
     ]
 
     let logoWidth = 90
     let logoMargin = 2
     let logoMarginBottom = 2
-    if (!!isMobile){
+    if (!!isMobile) {
         logoWidth = 70
         logoMargin = 0
-        logoMarginBottom = 4
+        logoMarginBottom = 2
     }
+    let teamsFinal = teams.slice(1).concat(teams.slice(0,1))
 
     return (
-        <div className={`flex flex-wrap dark:invert justify-evenly align-center`}>
-            {teams.map((team) => (
+        <div className={`w-[300px] flex flex-wrap dark:invert justify-evenly align-center mt-[8px]`}>
+            <Marquee className="[--duration:20s] flex justify-center align-center">
+                {teamsFinal.map((team) => (
                 <a href={team.url} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
                     <Image
                         className={`m-2 mb-${logoMarginBottom}`}
@@ -63,7 +66,8 @@ export function TeamsContent({isMobile}: TeamsContentProps) {
                         priority
                     />
                 </a>
-            ))}
+                ))}
+            </Marquee>
         </div>
     )
 }
