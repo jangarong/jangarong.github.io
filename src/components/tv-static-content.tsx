@@ -3,7 +3,7 @@ import styles from './tv-static.module.css';
 export default function TVStaticContent({ children }: { children: JSX.Element }) {
     return (
         <div>
-            <div className={styles.tvSection + " z-10 h-[350px] w-[350px] mt-[-72px]"}></div>
+            <div className={styles.tvSection + " z-10 mt-[-72px]"}></div>
             {children}
             <svg className={"display-none absolute"}>
                 <filter id="noise">
