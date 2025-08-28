@@ -50,7 +50,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         logoMargin = 0
         logoMarginBottom = 2
     }
-    let teamsFinal = teams.slice(1).concat(teams.slice(0,1))
+    const teamsFinal = teams.slice(1).concat(teams.slice(0,1))
 
     return (
         <div className={`w-[300px] flex flex-wrap dark:invert justify-evenly align-center mt-[8px]`}>
