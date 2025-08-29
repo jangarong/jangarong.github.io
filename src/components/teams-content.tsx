@@ -50,12 +50,11 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         logoMargin = 0
         logoMarginBottom = 2
     }
-    const teamsFinal = teams.slice(1).concat(teams.slice(0,1))
 
     return (
         <div className={`w-[300px] flex flex-wrap dark:invert justify-evenly align-center mt-[8px]`}>
             <Marquee className="[--duration:20s] flex justify-center align-center">
-                {teamsFinal.map((team) => (
+                {teams.map((team) => (
                 <a href={team.url} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
                     <Image
                         className={`m-2 mb-${logoMarginBottom}`}
