@@ -13,7 +13,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
             "logo": "/assets/companies/google.png",
             "url": "https://cloud.google.com/security",
             "description": "Google Cloud Security",
-            "width": 1.25,
+            "width": 1.3,
             "height": 0.5
         },
         {
