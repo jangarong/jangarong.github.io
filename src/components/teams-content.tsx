@@ -19,7 +19,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "Trend Micro",
             "logo": "/companies/trend.svg",
-            "url": "https://www.trendmicro.com/about.html",
+            "url": "https://www.trendmicro.com/",
             "description": "Trend Micro Email Security",
             "width": 1.5,
             "height": 0.5
@@ -27,7 +27,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "BlackBerry",
             "logo": "/assets/companies/cylance.png",
-            "url": "https://www.blackberry.com/company/overview",
+            "url": "https://www.blackberry.com/cylance",
             "description": "BlackBerry CylanceMDR",
             "width": 1.75,
             "height": 0.5
