@@ -8,7 +8,7 @@ export default function JangCardMobileHeader() {
             <div className="pt-2">
                 <CardTitle className="text-sm mb-1">Jan Garong</CardTitle>
                 <CardDescription className="opacity-80 text-sm">
-                    Software Engineer
+                    Software Developer
                 </CardDescription>
             </div>
             <div className="text-xs items-center flex flex-row justify-between">
