@@ -15,40 +15,43 @@ export default function Page() {
             </div>
             <div className="ml-4">
                 <div className="mb-4">
-                    • <a href="/b/alts/v0/index.html"  className="text-blue-600 hover:text-purple-400">v0 - The Professor</a>
+                    • <a href="/b/alts/v0/index.html" className="text-blue-600 hover:text-purple-400">v0 - The Professor</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v1/index.html"  className="text-blue-600 hover:text-purple-400">v1 - Bootstrap</a>
+                    • <a href="/b/alts/v1/index.html" className="text-blue-600 hover:text-purple-400">v1 - Bootstrap</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v2/index.html"  className="text-blue-600 hover:text-purple-400">v2 - Constellation</a>
+                    • <a href="/b/alts/v2/index.html" className="text-blue-600 hover:text-purple-400">v2 - Constellation</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v3/index.html"  className="text-blue-600 hover:text-purple-400">v3 - Material Plus</a>
+                    • <a href="/b/alts/v3/index.html" className="text-blue-600 hover:text-purple-400">v3 - Material Plus</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v4/index.html"  className="text-blue-600 hover:text-purple-400">v4 - Minimalist Mint</a>
+                    • <a href="/b/alts/v4/index.html" className="text-blue-600 hover:text-purple-400">v4 - Minimalist Mint</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v5/index.html"  className="text-blue-600 hover:text-purple-400">v5 - Aurora</a>
+                    • <a href="/b/alts/v5/index.html" className="text-blue-600 hover:text-purple-400">v5 - Aurora</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v6/index.html"  className="text-blue-600 hover:text-purple-400">v6 - One Card</a>
+                    • <a href="/b/alts/v6/index.html" className="text-blue-600 hover:text-purple-400">v6 - One Card</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v7/index.html"  className="text-blue-600 hover:text-purple-400">v7 - One Card II</a>
+                    • <a href="/b/alts/v7/index.html" className="text-blue-600 hover:text-purple-400">v7 - One Card II</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v8/index.html"  className="text-blue-600 hover:text-purple-400">v8 - One Card III</a>
+                    • <a href="/b/alts/v8/index.html" className="text-blue-600 hover:text-purple-400">v8 - One Card III</a>
                 </div>
                 <div className="mb-4">
-                    • <a href="/b/alts/v9/index.html"  className="text-blue-600 hover:text-purple-400">v9 - Apple</a>
+                    • <a href="/b/alts/v9/index.html" className="text-blue-600 hover:text-purple-400">v9 - Apple</a>
+                </div>
+                <div className="mb-4">
+                    • <a href="/b/alts/v10/index.html" className="text-blue-600 hover:text-purple-400">v10 - The World</a>
                 </div>
             </div>
             <div className="mb-4">
                 Trying something new with this version; Side A will be more for cyber-software-related businesses
                 which is what most employers currently see me for, and Side B will more or less be what I&apos;d typically
-                post on social media :D 
+                post on social media :D
             </div>
         </div>
     )
