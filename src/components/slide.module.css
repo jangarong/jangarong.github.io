@@ -4,16 +4,16 @@
 }
 
 .slideBottom {
-  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s
     both;
-  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s both;
 
 }
 
 .slideBottomReverse {
-  -webkit-animation: slide-bottom-reverse 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s
+  -webkit-animation: slide-bottom-reverse 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s
     both;
-  animation: slide-bottom-reverse 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+  animation: slide-bottom-reverse 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s both;
 
 }
 
