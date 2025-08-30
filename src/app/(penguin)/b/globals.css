@@ -65,12 +65,12 @@ body {
 
 @font-face {
     font-family: acme;
-    src: url("./fonts/acme.ttf");
+    src: url("../../fonts/acme.ttf");
 }
 
 @font-face {
     font-family: acme-bold;
-    src: url("./fonts/acme-bold.ttf");
+    src: url("../../fonts/acme-bold.ttf");
 }
 
 @media (min-width: 576px) { 
