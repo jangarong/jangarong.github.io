@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const experiences = [
     {
-        title: "Trend Micro",
-        team: "Trend Micro EMail Security (TMEMS)",
+        title: "Trend Micro Vision One",
+        team: "Email Security",
         description: (<div>
             Worked on Trend Micro&apos;s Email Security product, with a focus on developing the logs pipeline and email storage (for sandboxing or quarantine usage).
             Was also able to conceptualize from scratch an internal tool for UI development.
@@ -24,7 +24,7 @@ export default function Home() {
                         Trend Micro
                     </div>
                     <p className="text-muted-foreground text-xl font-italic text-center pt-4">
-                        Proactive security starts here.
+                        Proactive Security starts here.
                     </p>
                     <WorksTree
                         experiences={experiences}
