@@ -34,7 +34,7 @@ export default function Layout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:dark`}
       >
-        <div className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end">
+        <div className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end overflow-hidden">
           <DrawerNoJS>
             {children}
           </DrawerNoJS>

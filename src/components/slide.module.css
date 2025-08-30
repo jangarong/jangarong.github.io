@@ -1,6 +1,13 @@
 .slideTop {
-	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
-	        animation: slide-top 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+}
+
+.slideBottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s
+    both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+
 }
 
 /* ----------------------------------------------
@@ -18,6 +25,15 @@
 @keyframes slide-top {
   0% {
     transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(1000px);
   }
   100% {
     transform: translateY(0);
