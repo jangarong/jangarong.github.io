@@ -6,7 +6,6 @@ import RGBCardMobile from "@/components/rgb-card-mobile";
 import JangCardMobileHeader from "@/components/jang-card-mobile-header";
 import { TheWorld } from "@/components/the-world";
 import JangCardMobileFooter from "@/components/jang-card-mobile-footer";
-import DrawerNoJS from "@/components/drawer-no-js";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",

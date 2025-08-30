@@ -19,7 +19,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "Trend Micro",
             "logo": "/assets/companies/trend.svg",
-            "url": "https://www.trendmicro.com/",
+            "url": "/trend",
             "description": "Trend Micro Email Security",
             "width": 1.5,
             "height": 0.5
@@ -27,7 +27,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "BlackBerry",
             "logo": "/assets/companies/cylance.png",
-            "url": "https://www.blackberry.com/cylance",
+            "url": "/cylance",
             "description": "BlackBerry CylanceMDR",
             "width": 1.75,
             "height": 0.5
@@ -35,7 +35,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "CertiK",
             "logo": "/assets/companies/certik.svg",
-            "url": "https://www.certik.com/company/about",
+            "url": "/certik",
             "description": "CertiK Skynet",
             "width": 1.5,
             "height": 0.5
