@@ -1,4 +1,4 @@
-import { HackathonCard } from "./ui/hackathon-card";
+import { HackathonCard, WorkNode } from "@/components/ui/hackathon-card";
 
 const experiences = [
     {
@@ -70,7 +70,7 @@ const experiences = [
     },
 ]
 
-export function WorksTree() {
+export function WorksTree({experiences} : {experiences: WorkNode[]} ) {
     return (
         <div className="m-[48px] flex justify-center">
             <div className="w-[100%] sm:w-[480px]">
@@ -79,7 +79,7 @@ export function WorksTree() {
                         <HackathonCard
                             title={project.title}
                             description={project.description}
-                            location={project.location}
+                            // location={project.location}
                             dates={project.dates}
                             image={project.image}
                             link={project.link}

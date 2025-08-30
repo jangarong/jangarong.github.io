@@ -29,12 +29,12 @@ SOFTWARE.
 // import Link from "next/link";
 import Image from "next/image";
 
-interface Props {
+export interface WorkNode {
   title?: string;
-  location?: string;
+  // location?: string;
   image?: string;
   description: JSX.Element;
-  team: string;
+  team?: string;
   dates: string;
   link: string;
   // links?: readonly {
@@ -48,13 +48,13 @@ export function HackathonCard({
   title,
   description,
   dates,
-  location,
+  // location,
   image,
   link,
   team,
   // links,
-}: Props) {
-  const isSubExperience = !!title && !!location && !!image
+}: WorkNode) {
+  const isSubExperience = !!title && !!image
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute left-[-70px] top-2 flex items-center justify-center bg-white rounded-full">
@@ -71,7 +71,7 @@ export function HackathonCard({
           <time className="text-sm text-muted-foreground italic leading-none">{dates}</time>
         )}
         {title && <h2 className="font-semibold text-lg leading-none">{title}</h2>}
-        <h3 className="text-md "><a href={link}>{team}</a></h3>
+        {team && <h3 className="text-md "><a href={link}>{team}</a></h3>}
         {/* {location && (
           <p className="text-md text-muted-foreground leading-none">{location}</p>
         )} */}
