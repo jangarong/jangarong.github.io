@@ -12,7 +12,7 @@ const experiences = [
             </div>
         ),
         dates: "May 2022 - Aug 2022",
-        image: "/assets/companies/icons/certik.jpg",
+        image: "/assets/companies/icons/skynet.png",
     },
     {
         title: "Smart Contract Audits",
@@ -23,7 +23,7 @@ const experiences = [
             </div>
         ),
         dates: "Oct 2021 - Dec 2021",
-        image: "/assets/companies/icons/certik.jpg",
+        image: "/assets/companies/icons/audits.png",
     },
 ]
 
