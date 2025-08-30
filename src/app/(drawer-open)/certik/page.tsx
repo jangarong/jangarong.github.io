@@ -3,7 +3,7 @@ import { WorksTree } from "@/components/works-tree";
 import Link from "next/link";
 
 const experiences = [
-{
+    {
         title: "CertiK Skynet",
         description: (
             <div>
@@ -18,7 +18,7 @@ const experiences = [
         title: "Smart Contract Audits",
         description: (
             <div>
-                Audited EVM-based Solidity smart contracts for critical vulnerabilities and centralization issues across a wide variety 
+                Audited EVM-based Solidity smart contracts for critical vulnerabilities and centralization issues across a wide variety
                 of applications and protocols such as ERC20s/721s, Decentralized Exchanges, etc.
             </div>
         ),
@@ -32,12 +32,6 @@ export default function Home() {
         <Link href="/certik/home" className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end overflow-hidden">
             <DrawerNoJS open>
                 <div>
-                    <div className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-                        CertiK
-                    </div>
-                    <p className="text-muted-foreground text-xl font-italic text-center pt-4">
-                        Building a safer, smarter future for Web3.
-                    </p>
                     <WorksTree
                         experiences={experiences}
                     />

@@ -28,12 +28,6 @@ const experiences = [
 export default function Home() {
     return (
         <div>
-            <div className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-                CertiK
-            </div>
-            <p className="text-muted-foreground text-xl font-italic text-center pt-4">
-                Building a safer, smarter future for Web3.
-            </p>
             <WorksTree
                 experiences={experiences}
             />

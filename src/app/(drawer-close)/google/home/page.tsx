@@ -24,12 +24,6 @@ const experiences = [
 export default function Home() {
     return (
         <div>
-            <div className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-                Google Cloud Security
-            </div>
-            <p className="text-muted-foreground text-xl font-italic text-center pt-4">
-                Make Google part of your Security team.
-            </p>
             <WorksTree
                 experiences={experiences}
             />

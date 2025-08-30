@@ -28,12 +28,6 @@ export default function Home() {
         <Link href="/google/home" className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end overflow-hidden">
             <DrawerNoJS open>
                 <div>
-                    <div className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-                        Google Cloud Security
-                    </div>
-                    <p className="text-muted-foreground text-xl font-italic text-center pt-4">
-                        Make Google part of your Security team.
-                    </p>
                     <WorksTree
                         experiences={experiences}
                     />
