@@ -1,12 +1,12 @@
 import JangCardMobileFooter from "@/components/jang-card-mobile-footer";
 import JangCardMobileHeader from "@/components/jang-card-mobile-header";
 import RGBCardMobile from "@/components/rgb-card-mobile";
-import Slide from "@/components/slide";
+import Slide, { SlideDirection } from "@/components/slide";
 import { TheWorld } from "@/components/the-world";
 
 export default function Home() {
   return (
-    <Slide>
+    <Slide dir={SlideDirection.DOWN}>
       <RGBCardMobile className="" header={<JangCardMobileHeader />} body={
         <div className="dark:invert">
           <TheWorld />

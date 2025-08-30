@@ -39,8 +39,6 @@ export default function Layout({
             {children}
           </DrawerNoJS>
         </div>
-        <div className="bg-black w-[100%] h-[100%] absolute z-20 opacity-50">
-        </div>
         <div className="flex w-full justify-center">
           <Spotlight>
             <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center max-h-screen p-4 pb-20 md:p-20 font-[family-name:var(--font-geist-sans)]">

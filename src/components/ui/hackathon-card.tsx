@@ -36,7 +36,7 @@ export interface WorkNode {
   description: JSX.Element;
   team?: string;
   dates: string;
-  link: string;
+  link?: string;
   // links?: readonly {
   //   icon: React.ReactNode;
   //   title: string;
@@ -62,7 +62,7 @@ export function HackathonCard({
           <AvatarImage src={image} alt={title} className="object-contain" />
           <AvatarFallback>{title[0]}</AvatarFallback>
         </Avatar> */}
-        {isSubExperience  ? <div className="border size-14 m-auto rounded-full">
+        {isSubExperience ? <div className="border size-14 m-auto rounded-full">
           <Image className="object-contain rounded-full" src={image} alt={title} width={54} height={52} />
         </div> : false}
       </div>
@@ -71,7 +71,9 @@ export function HackathonCard({
           <time className="text-sm text-muted-foreground italic leading-none">{dates}</time>
         )}
         {title && <h2 className="font-semibold text-lg leading-none">{title}</h2>}
-        {team && <h3 className="text-md "><a href={link}>{team}</a></h3>}
+        {team && <h3 className="text-md ">
+          {link ? <a href={link}>{team}</a> : <div>{team}</div>}
+        </h3>}
         {/* {location && (
           <p className="text-md text-muted-foreground leading-none">{location}</p>
         )} */}
