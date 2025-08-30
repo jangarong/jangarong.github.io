@@ -8,7 +8,9 @@ export default function DrawerNoJS({ children }: { children: React.ReactNode }) 
             <Card className={`${styles.card}`}>
                 <div className="bg-muted mx-auto mb-8 h-2 w-[100px] shrink-0 rounded-full group-data-[vaul-drawer-direction=bottom]/drawer-content:block">
                 </div>
-                {children}
+                <div className="width-[350px]">
+                    {children}
+                </div>
             </Card>
         </Slide>
     );

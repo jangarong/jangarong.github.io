@@ -43,7 +43,7 @@ export default function Layout({
         </div>
         <div className="flex w-full justify-center">
           <Spotlight>
-            <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center max-h-screen p-4 pb-20 font-[family-name:var(--font-geist-sans)]">
+            <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center max-h-screen p-4 pb-20 md:p-20 font-[family-name:var(--font-geist-sans)]">
               <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start pb-[64px]">
                 <RGBCardMobile className="" header={<JangCardMobileHeader />} body={
                   <div className="dark:invert">
