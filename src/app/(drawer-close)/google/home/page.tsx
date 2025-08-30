@@ -9,7 +9,6 @@ const experiences = [
         </div>),
         dates: "July 2025 - Current",
         image: "/assets/companies/icons/google.jpg",
-        link: "https://cloud.google.com/iam/docs/workforce-identity-federation"
     },
     {
         title: "Security Command Center",
@@ -19,7 +18,6 @@ const experiences = [
         </div>),
         dates: "Jan 2025 - Current",
         image: "/assets/companies/icons/google.jpg",
-        link: "https://cloud.google.com/security-command-center/docs/concepts-event-threat-detection-overview"
     },
 ]
 

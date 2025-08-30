@@ -10,7 +10,7 @@ const experiences = [
             Writing critical features for integrating Google Cloud services with external identity providers. Dealing with cookie/session management.
         </div>),
         dates: "July 2025 - Current",
-        image: "/assets/companies/icons/google.jpg",
+        image: "/assets/companies/icons/iam.jpg",
     },
     {
         title: "Security Command Center",
@@ -19,7 +19,7 @@ const experiences = [
             Aided with designing and implementing threat detections that happen on GCP, sourced from internal and external cloud logging and threat intelligence.
         </div>),
         dates: "Jan 2025 - Current",
-        image: "/assets/companies/icons/google.jpg",
+        image: "/assets/companies/icons/scc.jpg",
     },
 ]
 

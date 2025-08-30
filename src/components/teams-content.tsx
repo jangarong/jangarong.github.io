@@ -11,14 +11,14 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "Google",
             "logo": "/assets/companies/google.png",
-            "url": "https://cloud.google.com/security",
+            "url": "/google",
             "description": "Google Cloud Security",
             "width": 1.3,
             "height": 0.5
         },
         {
             "company": "Trend Micro",
-            "logo": "/companies/trend.svg",
+            "logo": "/assets/companies/trend.svg",
             "url": "https://www.trendmicro.com/",
             "description": "Trend Micro Email Security",
             "width": 1.5,
@@ -34,7 +34,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         },
         {
             "company": "CertiK",
-            "logo": "/companies/certik.svg",
+            "logo": "/assets/companies/certik.svg",
             "url": "https://www.certik.com/company/about",
             "description": "CertiK Skynet",
             "width": 1.5,

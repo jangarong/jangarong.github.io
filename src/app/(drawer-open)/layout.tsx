@@ -34,7 +34,7 @@ export default function Layout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:dark`}
       >
-{children}
+        {children}
         <div className="bg-black w-[100%] h-[100%] absolute z-20 opacity-50">
         </div>
         <div className="flex w-full justify-center">
