@@ -265,3 +265,33 @@ body {
   background-position-x: -300px;
   background-repeat: no-repeat;
 }
+
+.fadeout {
+ -webkit-animation: fade-out 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s
+    both;
+  animation: fade-out 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 0%;
+        display: hidden;
+        pointer-events: none;
+    }
+}
+
+.removeAfterDelay {
+ -webkit-animation: remove-after-delay 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s
+    both;
+  animation: remove-after-delay 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.25s both;
+}
+
+@keyframes remove-after-delay {
+    100% {
+        display:hidden;
+        pointer-events: none;
+    }
+}
