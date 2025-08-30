@@ -34,16 +34,16 @@ export default function Layout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:dark`}
       >
-        <div className="w-[100%] h-[100vh] absolute z-30 flex flex-col justify-end">
+        <div className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end">
           <DrawerNoJS>
             {children}
           </DrawerNoJS>
         </div>
-        <div className="bg-black w-[100%] h-[100vh] absolute z-20 opacity-50">
+        <div className="bg-black w-[100%] h-[100%] absolute z-20 opacity-50">
         </div>
         <div className="flex w-full justify-center">
           <Spotlight>
-            <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-20 md:p-20 font-[family-name:var(--font-geist-sans)]">
+            <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center max-h-screen p-4 pb-20 font-[family-name:var(--font-geist-sans)]">
               <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start pb-[64px]">
                 <RGBCardMobile className="" header={<JangCardMobileHeader />} body={
                   <div className="dark:invert">
