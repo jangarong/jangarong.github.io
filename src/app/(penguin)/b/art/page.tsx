@@ -13,8 +13,6 @@ export default function Page() {
                 <div>
                     All drawings posted here are in reverse chronological order.
                 </div>
-                <Image src="/assets/b/art/tori-w-tims.png" alt="tori-w-tims" height={300} width={300} />
-                <div>Tori. She&apos;s from the UofT personifications from 2020.</div>
                 <Image src="/assets/b/art/mao.png" alt="mao" height={300} width={300} />
                 <div>Mao from <a href="/b/projects/zodiactail">Zodiac Tail</a>.</div>
                 <Image src="/assets/b/art/standing.png" alt="standing" height={320} width={210} />
