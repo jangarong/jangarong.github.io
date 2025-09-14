@@ -13,10 +13,10 @@ export default function Page() {
                 <div>
                     All drawings posted here are in reverse chronological order.
                 </div>
+                <Image src="/assets/b/art/ghost_alice.png" alt="alice" height={300} width={300} />
+                <div>Practicing drawing again in 2025 with the aim of drawing assets like these for a future game :)</div>
                 <Image src="/assets/b/art/mao.png" alt="mao" height={300} width={300} />
-                <div>Mao from <a href="/b/projects/zodiactail">Zodiac Tail</a>.</div>
-                <Image src="/assets/b/art/standing.png" alt="standing" height={320} width={210} />
-                <div>A random sketch I drew in 2024.</div>
+                <div>Mao from <a href="/b/projects/zodiactail">Zodiac Tail</a>, drawn in 2024.</div>
                 <Image src="/assets/b/art/egg-carton.png" alt="eggcarton" height={600} width={400} />
                 <div>Drew an egg carton during my drawing class in 2023.</div>
                 <Image src="/assets/b/art/magichanics.png" alt="magichanics" width={300} height={300} />
