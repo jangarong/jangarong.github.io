@@ -30,7 +30,8 @@ export default function BFeatured() {
             </BFeaturedItem>
             <BFeaturedItem src="/assets/b/pro.png" title="Professional Works">
                 <div>
-                    My career, all in one page. Working from cybersecurity unicorns to FAANGs.
+                    My career, all in one page. Mostly engineering in cybersecurity software at a scale 
+                    ranging from startups to Google.
                 </div>
                 <div className="mt-[16px]">
                     <Link href="/b/pro">Click here to see more!</Link>

@@ -14,7 +14,7 @@ export default function Page() {
                     All drawings posted here are in reverse chronological order.
                 </div>
                 <Image src="/assets/b/art/ghost_alice.png" alt="alice" height={300} width={300} />
-                <div>Practicing drawing again in 2025 with the aim of drawing assets like these for a future game :)</div>
+                <div>Ghost character I hope to include in futuer games.</div>
                 <Image src="/assets/b/art/mao.png" alt="mao" height={300} width={300} />
                 <div>Mao from <a href="/b/projects/zodiactail">Zodiac Tail</a>, drawn in 2024.</div>
                 <Image src="/assets/b/art/egg-carton.png" alt="eggcarton" height={600} width={400} />

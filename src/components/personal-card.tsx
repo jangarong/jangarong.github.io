@@ -28,6 +28,9 @@ export default function PersonalCard() {
                             <a href="https://www.deviantart.com/sushibeth/art/Club-Penguin-Stamp-112706392"><Image src="/assets/b/stamps/5.gif" alt="stamp0" width={100} height={55} className="mb-[25px]" /></a>
                         </p>
                     </div>
+                    <div className="text-center px-[24px]">
+                        Also, here are some <a href="/b/ack" className="inline">cool people</a> who I think are worth checking out :)
+                    </div>
                 </div>
             </div>
         </div>

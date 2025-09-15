@@ -46,9 +46,6 @@ export default function Layout({
                             <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                                 SKETCHES
                             </Link>
-                            <Link href="/b/ack" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                COOL PEOPLE
-                            </Link>
                         </div>
                         <div>
                             {children}
