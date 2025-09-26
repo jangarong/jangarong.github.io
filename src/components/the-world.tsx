@@ -8,7 +8,7 @@ export function TheWorld() {
                 <Image
                     className={styles.circle + " mt-[18px]"}
                     src={"/assets/the-world.png"}
-                    alt={"Tower of Babel"}
+                    alt={"stacked-buildings"}
                     width={200}
                     height={300}
                 />
