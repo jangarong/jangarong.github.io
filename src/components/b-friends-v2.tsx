@@ -102,9 +102,9 @@ export default function BFriendsV2() {
                 </div>
                 <div className={"w-[85%] rounded-2xl bg-[#0099cc] " + styles.darkshadow}>
                     <div className="font-semibold size-xl text-2xl text-center mt-[32px] mx-[64px]">
-                        People who I think are very cool
+                        hall of fame
                     </div>
-                    <div className="size-sm text-sm text-center mb-[32px] mx-[64px]">list of people who have been great coworkers or longtime friends of mine</div>
+                    <div className="size-sm text-sm text-center mb-[32px] mx-[64px]">includes friends + coworkers</div>
                     <div className="mx-[32px] grid sm:grid-cols-3 gap-2 items-center justify-items-center mb-[32px] h-[450px] overflow-y-scroll">
                         {frens.map(({ url, img, name }) => <FriendItem url={url} img={img} name={name} key={name} />)}
                     </div>
