@@ -55,6 +55,11 @@ const frens: Friend[] = [
         name: "Leo Wang"
     },
     {
+        url: "https://my.spline.design/untitled-8f3bd59853d3416d50d3bae6ba2fcf9d/",
+        img: "/assets/b/friends/marie.jpg",
+        name: "Marie Samantha Fidelia"
+    },
+    {
         url: "https://www.linkedin.com/in/meixuan-mexi-lu-5103621b6/",
         img: "/assets/b/friends/mexi.png",
         name: "Meixuan (Mexi) Lu"
