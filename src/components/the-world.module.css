@@ -1,0 +1,20 @@
+.circle {
+  position: absolute;
+  z-index: 2;
+}
+
+.ring {
+  animation-name: spin; /* The name of the @keyframes rule */
+  animation-duration: 20s; /* How long the animation takes to complete one cycle */
+  animation-iteration-count: infinite; /* How many times the animation should repeat (infinite for continuous) */
+  animation-timing-function: linear; /* The speed curve of the animation (linear for a constant speed) */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); /* Start with no rotation */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotate a full 360 degrees */
+  }
+}
