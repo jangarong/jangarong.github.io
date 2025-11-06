@@ -13,9 +13,9 @@ export default function Page() {
                 <div>
                     All drawings posted here are in reverse chronological order.
                 </div>
-                <div className="flex justify-center space-x-4">
-                    <Image src="/assets/b/art/ghost_alice2.png" alt="alice" height={300} width={300} />
-                    <Image src="/assets/b/art/ghost_alice.png" alt="alice" height={300} width={300} />
+                <div className="flex justify-center space-x-0">
+                    <Image src="/assets/b/art/ghost_alice2.png" alt="alice" height={180} width={180} />
+                    <Image src="/assets/b/art/ghost_alice.png" alt="alice" height={180} width={180} />
                 </div>
                 <div>Ghost character I hope to include in futuer games.</div>
                 <Image src="/assets/b/art/mao.png" alt="mao" height={300} width={300} />
