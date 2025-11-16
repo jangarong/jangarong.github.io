@@ -17,11 +17,14 @@
 
 .logoInnerContainer {
     background-color: #1973b0;
-    height: 84px;
+    height: 94px;
+    width: 200px;
     border-radius: 0 0 36px 0;
-    /* maybe use box shadow instead?*/
+    /* maybe use box shadow*/
     border-color: #074276;
     border-width: 0 0 4px 0;
+    padding-bottom: 36px;
+
 }
 
 .navbarOuterContainer {

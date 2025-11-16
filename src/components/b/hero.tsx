@@ -15,7 +15,7 @@ export default function Hero() {
             </div> */}
             <div className={styles.logoOuterContainer}>
                 <div className={styles.logoInnerContainer}>
-                    <Image src="/assets/b/jang-penguin.png" alt="JanG." width={250} height={50} />
+                    <Image src="/assets/b/jang-penguin.png" alt="JanG." width={180} height={50} />
                 </div>
             </div>
             <div className={styles.navbarOuterContainer}>
