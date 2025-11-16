@@ -1,6 +1,5 @@
 import Link from "next/link";
-import "./globals.css"
-import Image from "next/image";
+import "./globals.css";
 import Hero from "@/components/b/hero";
 
 export const metadata = {
