@@ -15,14 +15,23 @@ body {
     background-color: #3d3e8e;
 }
 
-.bg {
+.bgHero {
+    height: 128px;
+    width: 100%;
+    background-color: #1973b0;
+}
+
+.bgBody {
     background-image: url('/assets/b/sunrise.png');
     background-repeat: no-repeat;
     background-size: contain;
+    height: 520px;
+    width: 100%;
+}
+
+.bgContainer {
     position: absolute;
     z-index: -1;
-    margin-top: 128px;
-    height: 520px;
     width: 100%;
 }
 

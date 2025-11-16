@@ -18,7 +18,10 @@ export default function Layout({
         <html className="">
             <body className="">
                 <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center">
-                    <div className={"bg"}></div>
+                    <div className={"bgContainer"}>
+                        <div className={"bgHero"}></div>
+                        <div className={"bgBody"}></div>
+                    </div>
                     <div className="base">
                         <Hero />
                         {/* <div className="navbar-penguin flex flex-wrap">
