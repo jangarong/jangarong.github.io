@@ -15,9 +15,22 @@ body {
     background-color: #3d3e8e;
 }
 
-.bgHero {
+.bgHeroContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #303780;
+}
+
+.bgHero1 {
     height: 128px;
-    width: 100%;
+    width: 50%;
+    background-color: #1973b0;
+}
+
+.bgHero2 {
+    height: 95px;
+    width: 50%;
     background-color: #1973b0;
 }
 

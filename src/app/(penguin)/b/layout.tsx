@@ -19,7 +19,10 @@ export default function Layout({
             <body className="">
                 <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center">
                     <div className={"bgContainer"}>
-                        <div className={"bgHero"}></div>
+                        <div className="bgHeroContainer">
+                        <div className={"bgHero1"}></div>
+                                                <div className={"bgHero2"}></div>
+                        </div>
                         <div className={"bgBody"}></div>
                     </div>
                     <div className="base">
