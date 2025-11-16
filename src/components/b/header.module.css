@@ -8,3 +8,9 @@
     padding-left: 24px;
     border-width: 0 0 4px 0;
 }
+
+@media (max-width: 576px) {
+    .header {
+        padding-top: 32px;
+    }
+}
