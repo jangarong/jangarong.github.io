@@ -1,3 +1,4 @@
+import InternalBanner from "@/components/b/internal-banner";
 import "./globals.css";
 import Hero from "@/components/b/hero";
 
@@ -24,6 +25,7 @@ export default function Layout({
                         </div>
                         <div className={"bgBody"}></div>
                     </div>
+                    <InternalBanner />
                     <div className="base">
                         <Hero />
                         <div>

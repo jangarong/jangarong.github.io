@@ -13,6 +13,7 @@ body {
     padding: 0;
     color: black;
     background-color: #3d3e8e;
+        overflow-x: hidden;
 }
 
 .bgHeroContainer {

@@ -12,3 +12,7 @@ enforce `corp` mode to toggle not only the theta archives page but also the `cor
 cleanup code
 
 add storybook
+
+idk if electron works with env variables like `RESTRICTED_MODE=true`.
+
+bundle posts and assets together

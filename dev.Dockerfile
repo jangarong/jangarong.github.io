@@ -15,7 +15,7 @@ RUN npm install --legacy-peer-deps
 # Copy the rest of the application source code
 COPY ./web/jangarong.github.io .
 
-ENV IS_CORP_ENV=true
+ENV RESTRICTED_MODE=true
 
 # Expose the port your Next.js app runs on (default: 3000)
 EXPOSE 3000

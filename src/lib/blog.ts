@@ -40,13 +40,18 @@ function getMDXData(dir) {
   return mdxFiles.map((file) => {
     const { metadata, content } = readMDXFile(path.join(dir, file))
     const slug = path.basename(file, path.extname(file))
+    const restricted = slug.includes('.corp')
+    const externalOnly = slug.includes('.ext')
 
     return {
       metadata,
       slug,
       content,
+      restricted,
+      externalOnly
     }
-  })
+  }).filter((file) => (!file.restricted || process.env.RESTRICTED_MODE === 'true'))
+    .filter((file) => (!file.externalOnly || process.env.RESTRICTED_MODE !== 'true'))
 }
 
 export function getBlogPosts() {
