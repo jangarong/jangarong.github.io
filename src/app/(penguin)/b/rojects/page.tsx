@@ -25,7 +25,6 @@ export default function Page() {
                     <ProjectItem href="/b/rojects/this" src="/assets/b/this.png" />
                     <ProjectItem href="/b/rojects/psa" src="/assets/b/psa.png" />
                     <ProjectItem href="/b/rojects/zodiactail" src="/assets/b/zodiactail.png" />
-                    <ProjectItem href="/b/rojects/hex" src="/assets/b/hex.png" />
                     <ProjectItem href="/b/rojects/solidguard" src="/assets/b/solidguard.png" />
                     <ProjectItem href="/b/rojects/grr" src="/assets/b/grr.png" />
                     <ProjectItem href="/b/rojects/stockmarket" src="/assets/b/stock-market-headlines.png" />
