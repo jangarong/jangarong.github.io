@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Header from '@/components/b/header'
 
 export const metadata = {
     title: 'Jan Garong [B] - Mummy Run: Boss Rush Mode',
@@ -7,8 +8,8 @@ export const metadata = {
 
 export default function Page() {
     return (
+               <div>            <Header>Mummy Run: Boss Rush Mode</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px]">
-            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Mummy Run: Boss Rush Mode</h1>
             <div className="mb-4">
                 This was for my Grade 11 Computer Science class (presented on Jan. 2018), where we all had to program in ActionScript (Flash).
                 This was also a pretty huge milestone, since this was the first big coding project I had that
@@ -40,6 +41,7 @@ export default function Page() {
                     • Main Photoshoppers/Artists: Jan, Emily.
                 </div>
             </div>
+        </div>
         </div>
     )
 }

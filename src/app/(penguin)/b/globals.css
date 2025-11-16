@@ -3,22 +3,64 @@
 @tailwind utilities;
 
 html {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #3d3e8e;
+        overflow-x: hidden;
 }
 
+.bgHeroContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #303780;
+}
+
+.bgHero1 {
+    height: 138px;
+    width: 50%;
+    background-color: #1973b0;
+}
+
+.bgHero2 {
+    height: 95px;
+    width: 50%;
+    background-color: #1973b0;
+}
+
+.bgBody {
+    background-image: url('/assets/b/sunrise.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 520px;
+    width: 100%;
+}
+
+@media (min-width: 1456px) {
+    .bgBody {
+        background-size: cover;
+    }
+}
+
+.bgContainer {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+/*     background-image: url('/assets/b/sunrise.png'); */
 .base {
     /* background-color: #fdfad6; */
     background-color: white;
     width: 100%;
-    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2),
-    -5px 0px 5px rgba(0, 0, 0, 0.2);
+    height: 100%;
     /* padding-left: 16px;
     padding-right: 16px; */
 }
@@ -32,37 +74,6 @@ body {
     text-decoration: underline;
 }
 
-.base-banner {
-    background-color: #0097c9;
-    background: linear-gradient(to bottom, #0c4b65, #0097c9);
-    border-bottom: 8px solid #ffcd08;
-    color: white;
-        /* https://online-fonts.com/fonts/acme-explosive/download */
-}
-
-.navbar-penguin {
-    background: linear-gradient(to bottom, #025374, #106793);
-       color: white;
-        /* https://online-fonts.com/fonts/acme-explosive/download */
-    font-family: acme;
-}
-
-.navbar-penguin a {
-    text-decoration: none;
-    color: white;
-}
-
-.navbar-penguin .disabled {
-    text-decoration: none;
-    color: rgb(167, 167, 167);
-}
-
-.navbar-penguin a:hover {
-    color: yellow;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.443);
-}
-
 @font-face {
     font-family: acme;
     src: url("../../fonts/acme.ttf");
@@ -73,12 +84,8 @@ body {
     src: url("../../fonts/acme-bold.ttf");
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     .base {
-    width: 760px;
+        width: 760px;
     }
- }
-
- body {
-    color: black;
- }
+}

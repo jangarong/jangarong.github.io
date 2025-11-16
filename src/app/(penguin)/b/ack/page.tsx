@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="min-h-[100vh] bg-[#fdfad6] pt-[48px]">
+    <div className="min-h-[100vh] bg-[#fefde1] pt-[48px]">
       <div>
         <BFriendsV2 />
       </div>

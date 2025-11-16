@@ -1,7 +1,8 @@
-import BFeatured from "@/components/b-featured";
-import "./globals.css";
-import PersonalCard from "@/components/personal-card";
 import Link from "next/link";
+import "./globals.css";
+import Header from "@/components/b/header";
+import BFeatured from "@/components/b-featured";
+import PersonalCard from "@/components/personal-card";
 
 export const metadata = {
   title: 'Jan Garong [B]',
@@ -10,7 +11,8 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="min-h-[100vh] bg-[#fdfad6]">
+    <div className="min-h-[100vh]">
+      <Header>Welcome to the B-Side!</Header>
       <div>
         <div className="p-8">
           Here is where I post content that may

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import InternalBanner from "@/components/b/internal-banner";
 import "./globals.css";
 import Hero from "@/components/b/hero";
 
@@ -17,23 +17,17 @@ export default function Layout({
     return (
         <html className="">
             <body className="">
-                <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center bg-[#eeeeee]">
+                <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center">
+                    <div className={"bgContainer"}>
+                        <div className="bgHeroContainer">
+                            <div className={"bgHero1"}></div>
+                            <div className={"bgHero2"}></div>
+                        </div>
+                        <div className={"bgBody"}></div>
+                    </div>
+                    <InternalBanner />
                     <div className="base">
                         <Hero />
-                        <div className="navbar-penguin flex flex-wrap">
-                            <Link href="/b" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                HOME
-                            </Link>
-                            <Link href="/b/log" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                WHAT&apos;S NEW
-                            </Link>
-                            <Link href="/b/projects" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                PROJECTS
-                            </Link>
-                            <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                SKETCHES
-                            </Link>
-                        </div>
                         <div>
                             {children}
                         </div>
