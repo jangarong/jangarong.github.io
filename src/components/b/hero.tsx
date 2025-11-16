@@ -14,9 +14,9 @@ export default function Hero() {
                 <div className={styles.navbarInnerContainer}>
                     <div className={styles.navbar}>
                         <Link href="/b">
-                            What's New?
+                            Home
                         </Link> | <Link href="/b/log" >
-                            Archives
+                            What&apos;s New?
                         </Link> | <Link href="/b/rojects" >
                             Projects
                         </Link> |

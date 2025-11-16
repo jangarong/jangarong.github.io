@@ -1,6 +1,6 @@
 import styles from "./header.module.css"
 
-export default function Header({ children }: { children: JSX.Element | String }) {
+export default function Header({ children }: { children: JSX.Element | string }) {
     return (
         <div className={styles.header}>
             {children}

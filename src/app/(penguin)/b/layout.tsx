@@ -1,4 +1,3 @@
-import Link from "next/link";
 import "./globals.css";
 import Hero from "@/components/b/hero";
 
@@ -20,8 +19,8 @@ export default function Layout({
                 <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center">
                     <div className={"bgContainer"}>
                         <div className="bgHeroContainer">
-                        <div className={"bgHero1"}></div>
-                                                <div className={"bgHero2"}></div>
+                            <div className={"bgHero1"}></div>
+                            <div className={"bgHero2"}></div>
                         </div>
                         <div className={"bgBody"}></div>
                     </div>
