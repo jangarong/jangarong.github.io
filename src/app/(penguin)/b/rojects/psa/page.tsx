@@ -9,9 +9,8 @@ export const metadata = {
 
 export default function Page() {
     return (
-               <div>            <Header>This Website</Header>
+               <div>            <Header>Penguin Secret Agency</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px] min-h-[100vh]">
-            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Penguin Secret Agency</h1>
 
             <div className="mb-4">
                 <Image alt={'psa0'} src="/assets/b/psa/psa.jpeg" width={200} height={100} className="object-cover w-half h-half" />

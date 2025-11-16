@@ -10,9 +10,8 @@ import Link from 'next/link'
 
 export default function Page() {
     return (
-               <div>            <Header>This Website</Header>
+               <div>            <Header>G.R.R. - Great Roaming Robot</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px] min-h-[100vh]">
-            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">G.R.R. - Great Roaming Robot</h1>
             <div className="mb-4">
                 <Image alt={'psa0'} src="/assets/b/grr/grr-0.jpg" width={300} height={100} className="object-cover w-half h-half" />
             </div>

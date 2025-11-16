@@ -7,9 +7,8 @@ export const metadata = {
 
 export default function Page() {
     return (
-               <div>            <Header>This Website</Header>
+               <div>            <Header>SolidGuard</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px]">
-            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">SolidGuard</h1>
             <div className="mb-4">
                 This is a blockchain security project that basically audits smart contracts using
                 a database of known vulnerable smart contracts. It uses a simple method of checking

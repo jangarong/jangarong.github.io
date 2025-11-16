@@ -8,9 +8,8 @@ export const metadata = {
 
 export default function Page() {
     return (
-        <div>            <Header>This Website</Header>
+        <div>            <Header>Amateur Hour - Using Headlines to Predict Stocks</Header>
             <div className="mt-[48px] mx-[24px] mb-[72px]">
-                <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Amateur Hour - Using Headlines to Predict Stocks</h1>
                 <div className="mb-4">
                     During Grade 12, I did this Two Sigma Kaggle competition to predict stocks using headlines.
                     I applied a basic approach of using the individual words themselves as
