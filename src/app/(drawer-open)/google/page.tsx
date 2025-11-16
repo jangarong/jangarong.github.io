@@ -1,0 +1,38 @@
+import DrawerNoJS from "@/components/drawer-no-js";
+import { WorksTree } from "@/components/works-tree";
+import Link from "next/link";
+
+const experiences = [
+    {
+        title: "Identity and Access Management (IAM)",
+        team: "Workforce Experience",
+        description: (<div>
+            Developing authportal and workforce pool features for integrating Google Cloud services with external identity providers.
+        </div>),
+        dates: "July 2025 - Current",
+        image: "/assets/companies/icons/iam.jpg",
+    },
+    {
+        title: "Security Command Center",
+        team: "Event Threat Detection",
+        description: (<div>
+            Aided with designing and implementing threat detections that happen on GCP, sourced from internal and external cloud logging and threat intelligence.
+        </div>),
+        dates: "Jan 2025 - Nov 2025",
+        image: "/assets/companies/icons/scc.jpg",
+    },
+]
+
+export default function Home() {
+    return (
+        <Link href="/google/closed" className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end overflow-hidden">
+            <DrawerNoJS open>
+                <div>
+                    <WorksTree
+                        experiences={experiences}
+                    />
+                </div>
+            </DrawerNoJS>
+        </Link>
+    );
+}

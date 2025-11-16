@@ -28,7 +28,7 @@ export default function BFeatured() {
                     <Link href="/b/log">Click here to see more!</Link>
                 </div>
             </BFeaturedItem>
-            <BFeaturedItem src="/assets/b/pro.png" title="Professional Works">
+            {/* <BFeaturedItem src="/assets/b/pro.png" title="Professional Works">
                 <div>
                     My career, all in one page. Mostly engineering in cybersecurity software at a scale 
                     ranging from startups to Google.
@@ -36,7 +36,7 @@ export default function BFeatured() {
                 <div className="mt-[16px]">
                     <Link href="/b/pro">Click here to see more!</Link>
                 </div>
-            </BFeaturedItem>
+            </BFeaturedItem> */}
             <BFeaturedItem src="/assets/b/zodiactail.png" title="Zodiac Tail: A Game of Cat and Mouse">
                 <div>
                     Join the Zodiac Tail animals on this puzzle platformer manipulating time and space for the Jade Talisman!

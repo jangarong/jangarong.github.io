@@ -8,7 +8,7 @@ export default function JangCardMobileFooter() {
         <CardContent>
             <CardDescription className="text-center">
                 <AnimatedShinyText className="inline-flex items-center justify-center px-4 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-                    Engineering cybersecurity tools at
+                    Engineering cybersecurity at
                 </AnimatedShinyText>
             </CardDescription>
             <TeamsContent isMobile={true} />

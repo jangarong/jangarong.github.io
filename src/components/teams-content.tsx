@@ -11,28 +11,28 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "Google Cloud Security",
             "logo": "/assets/companies/google.png",
-            "url": "https://cloud.google.com/security",
+            "url": "/google",
             "width": 1.3,
             "height": 0.5
         },
         {
             "company": "Trend Micro",
             "logo": "/assets/companies/trend.svg",
-            "url": "https://www.trendmicro.com/",
+            "url": "/trend",
             "width": 1.5,
             "height": 0.5
         },
         {
             "company": "BlackBerry Cylance",
             "logo": "/assets/companies/cylance.png",
-            "url": "https://cylance.com",
+            "url": "/cylance",
             "width": 1.75,
             "height": 0.5
         },
         {
             "company": "CertiK",
             "logo": "/assets/companies/certik.svg",
-            "url": "https://certik.com",
+            "url": "/certik",
             "width": 1.5,
             "height": 0.5
         },
