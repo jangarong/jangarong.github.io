@@ -19,6 +19,7 @@
     background-color: #1973b0;
     height: 84px;
     border-radius: 0 0 36px 0;
+    /* maybe use box shadow instead?*/
     border-color: #074276;
     border-width: 0 0 4px 0;
 }

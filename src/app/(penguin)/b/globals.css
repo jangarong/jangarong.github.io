@@ -3,22 +3,35 @@
 @tailwind utilities;
 
 html {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #3d3e8e;
 }
 
+.bg {
+    background-image: url('/assets/b/sunrise.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    margin-top: 128px;
+    height: 520px;
+    width: 100%;
+}
+
+/*     background-image: url('/assets/b/sunrise.png'); */
 .base {
     /* background-color: #fdfad6; */
     background-color: white;
     width: 100%;
-    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2),
-    -5px 0px 5px rgba(0, 0, 0, 0.2);
+    height: 100%;
     /* padding-left: 16px;
     padding-right: 16px; */
 }
@@ -32,29 +45,6 @@ body {
     text-decoration: underline;
 }
 
-.navbar-penguin {
-    background: linear-gradient(to bottom, #025374, #106793);
-       color: white;
-        /* https://online-fonts.com/fonts/acme-explosive/download */
-    font-family: acme;
-}
-
-.navbar-penguin a {
-    text-decoration: none;
-    color: white;
-}
-
-.navbar-penguin .disabled {
-    text-decoration: none;
-    color: rgb(167, 167, 167);
-}
-
-.navbar-penguin a:hover {
-    color: yellow;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.443);
-}
-
 @font-face {
     font-family: acme;
     src: url("../../fonts/acme.ttf");
@@ -65,12 +55,8 @@ body {
     src: url("../../fonts/acme-bold.ttf");
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     .base {
-    width: 760px;
+        width: 760px;
     }
- }
-
- body {
-    color: black;
- }
+}

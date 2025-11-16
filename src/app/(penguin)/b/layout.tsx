@@ -17,10 +17,11 @@ export default function Layout({
     return (
         <html className="">
             <body className="">
-                <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center bg-[#eeeeee]">
+                <div className="w-[100%] min-h-[100%] flex flex-row justify-center align-center">
+                    <div className={"bg"}></div>
                     <div className="base">
                         <Hero />
-                        <div className="navbar-penguin flex flex-wrap">
+                        {/* <div className="navbar-penguin flex flex-wrap">
                             <Link href="/b" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                                 HOME
                             </Link>
@@ -33,7 +34,7 @@ export default function Layout({
                             <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
                                 SKETCHES
                             </Link>
-                        </div>
+                        </div> */}
                         <div>
                             {children}
                         </div>
