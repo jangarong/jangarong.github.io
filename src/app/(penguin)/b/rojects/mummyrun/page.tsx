@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Header from '@/components/b/header'
 
 export const metadata = {
     title: 'Jan Garong [B] - Mummy Run: Boss Rush Mode',
@@ -7,6 +8,7 @@ export const metadata = {
 
 export default function Page() {
     return (
+               <div>            <Header>This Website</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px]">
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Mummy Run: Boss Rush Mode</h1>
             <div className="mb-4">
@@ -40,6 +42,7 @@ export default function Page() {
                     • Main Photoshoppers/Artists: Jan, Emily.
                 </div>
             </div>
+        </div>
         </div>
     )
 }

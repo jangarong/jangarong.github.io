@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-
+import Header from '@/components/b/header'
 
 export const metadata = {
     title: 'Jan Garong [B] - PSA',
@@ -9,6 +9,7 @@ export const metadata = {
 
 export default function Page() {
     return (
+               <div>            <Header>This Website</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px] min-h-[100vh]">
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Penguin Secret Agency</h1>
 
@@ -47,6 +48,7 @@ export default function Page() {
             <div className="mb-4">
                 You can check out the  <Link href="https://github.com/jangarong/penguin-secret-agency" className="text-blue-600 hover:text-purple-400">GitHub Repo</Link> here!
             </div>
+        </div>
         </div>
     )
 }

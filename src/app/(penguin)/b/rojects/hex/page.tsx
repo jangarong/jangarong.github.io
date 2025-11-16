@@ -1,4 +1,4 @@
-
+import Header from '@/components/b/header'
 
 export const metadata = {
     title: 'Jan Garong [B] - HEX',
@@ -7,6 +7,7 @@ export const metadata = {
 
 export default function Page() {
     return (
+               <div>            <Header>This Website</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px] min-h-[100vh]">
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">CSC499Y5: Hex</h1>
             <div className="mb-4">
@@ -19,6 +20,7 @@ export default function Page() {
                did. I was responsible for making the backend, which includes serving endpoints and 
                handling asynchronous events that may take a while (like testing the model on a set of data).
             </div>
+        </div>
         </div>
     )
 }

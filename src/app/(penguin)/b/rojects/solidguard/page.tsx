@@ -1,3 +1,5 @@
+import Header from '@/components/b/header'
+
 export const metadata = {
     title: 'Jan Garong [B] - SolidGuard',
     // description: 'Read my blog.',
@@ -5,6 +7,7 @@ export const metadata = {
 
 export default function Page() {
     return (
+               <div>            <Header>This Website</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px]">
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">SolidGuard</h1>
             <div className="mb-4">
@@ -24,6 +27,7 @@ export default function Page() {
                     <source src="/assets/b/solidguard/demo.mp4" type="video/mp4"/>
                 </video>
             </div>
+        </div>
         </div>
     )
 }

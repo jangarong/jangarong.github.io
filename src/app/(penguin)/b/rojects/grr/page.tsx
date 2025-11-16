@@ -4,11 +4,13 @@ export const metadata = {
     title: 'Jan Garong [B] - GRR',
     // description: 'Read my blog.',
 }
+import Header from '@/components/b/header'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Page() {
     return (
+               <div>            <Header>This Website</Header>
         <div className="mt-[48px] mx-[24px] mb-[72px] min-h-[100vh]">
             <h1 className="font-semibold text-2xl mb-4 tracking-tighter">G.R.R. - Great Roaming Robot</h1>
             <div className="mb-4">
@@ -33,6 +35,7 @@ export default function Page() {
             <div className="mb-4">
                 You can check out the  <Link href="https://github.com/jangarong/GRR-Pi" className="text-blue-600 hover:text-purple-400">GitHub Repo</Link> here!
             </div>
+        </div>
         </div>
     )
 }

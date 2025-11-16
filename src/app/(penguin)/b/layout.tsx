@@ -27,20 +27,6 @@ export default function Layout({
                     </div>
                     <div className="base">
                         <Hero />
-                        {/* <div className="navbar-penguin flex flex-wrap">
-                            <Link href="/b" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                HOME
-                            </Link>
-                            <Link href="/b/log" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                WHAT&apos;S NEW
-                            </Link>
-                            <Link href="/b/projects" className="text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                PROJECTS
-                            </Link>
-                            <Link href="/b/art" className=" text-nowrap border-b border-r border-black pl-[16px] pr-[16px] py-[6px] h-[100%] flex flex-col">
-                                SKETCHES
-                            </Link>
-                        </div> */}
                         <div>
                             {children}
                         </div>

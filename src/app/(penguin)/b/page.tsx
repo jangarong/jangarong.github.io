@@ -1,7 +1,4 @@
-import BFeatured from "@/components/b-featured";
 import "./globals.css";
-import PersonalCard from "@/components/personal-card";
-import Link from "next/link";
 import Header from "@/components/b/header";
 
 export const metadata = {
@@ -12,7 +9,9 @@ export const metadata = {
 export default function Page() {
   return (
     <div className="min-h-[100vh]">
-<Header>Hello world!</Header>
+      <Header>What's new?</Header>
+
+      this page is under construction :(
     </div>
   )
 }

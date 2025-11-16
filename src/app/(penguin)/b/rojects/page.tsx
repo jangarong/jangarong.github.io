@@ -1,3 +1,4 @@
+import Header from '@/components/b/header'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -16,18 +17,20 @@ function ProjectItem({ href, src }: { href: string, src: string }) {
 
 export default function Page() {
     return (
-        <div className="mt-[48px] mx-[24px] mb-[72px]">
-            <h1 className="font-semibold text-2xl mb-4 tracking-tighter">List of Projects</h1>
-            <div className="mb-8">Click on the following boxes to go to their project page!</div>
-            <div className="grid flex flex-col justify-center align-center md:grid-cols-3 gap-4 mb-[32px]">
-                <ProjectItem href="/b/projects/this" src="/assets/b/this.png" />
-                <ProjectItem href="/b/projects/psa" src="/assets/b/psa.png" />
-                <ProjectItem href="/b/projects/zodiactail" src="/assets/b/zodiactail.png" />
-                <ProjectItem href="/b/projects/hex" src="/assets/b/hex.png" />
-                <ProjectItem href="/b/projects/solidguard" src="/assets/b/solidguard.png" />
-                <ProjectItem href="/b/projects/grr" src="/assets/b/grr.png" />
-                <ProjectItem href="/b/projects/stockmarket" src="/assets/b/stock-market-headlines.png" />
-                <ProjectItem href="/b/projects/mummyrun" src="/assets/b/mummyrun.png" />
+        <div>
+            <Header>Projects</Header>
+            <div className="mt-[24px] mx-[24px] mb-[72px]">
+                <div className="mb-8">Click on the following boxes to go to their project page!</div>
+                <div className="grid flex flex-col justify-center align-center md:grid-cols-3 gap-4 mb-[32px]">
+                    <ProjectItem href="/b/rojects/this" src="/assets/b/this.png" />
+                    <ProjectItem href="/b/rojects/psa" src="/assets/b/psa.png" />
+                    <ProjectItem href="/b/rojects/zodiactail" src="/assets/b/zodiactail.png" />
+                    <ProjectItem href="/b/rojects/hex" src="/assets/b/hex.png" />
+                    <ProjectItem href="/b/rojects/solidguard" src="/assets/b/solidguard.png" />
+                    <ProjectItem href="/b/rojects/grr" src="/assets/b/grr.png" />
+                    <ProjectItem href="/b/rojects/stockmarket" src="/assets/b/stock-market-headlines.png" />
+                    <ProjectItem href="/b/rojects/mummyrun" src="/assets/b/mummyrun.png" />
+                </div>
             </div>
         </div>
     )
