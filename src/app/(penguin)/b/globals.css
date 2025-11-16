@@ -32,14 +32,6 @@ body {
     text-decoration: underline;
 }
 
-.base-banner {
-    background-color: #0097c9;
-    background: linear-gradient(to bottom, #0c4b65, #0097c9);
-    border-bottom: 8px solid #ffcd08;
-    color: white;
-        /* https://online-fonts.com/fonts/acme-explosive/download */
-}
-
 .navbar-penguin {
     background: linear-gradient(to bottom, #025374, #106793);
        color: white;
