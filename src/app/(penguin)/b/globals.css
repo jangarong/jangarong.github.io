@@ -42,6 +42,12 @@ body {
     width: 100%;
 }
 
+@media (min-width: 1456px) {
+    .bgBody {
+        background-size: cover;
+    }
+}
+
 .bgContainer {
     position: absolute;
     z-index: -1;
