@@ -41,21 +41,59 @@ function getMDXData(dir) {
     const { metadata, content } = readMDXFile(path.join(dir, file))
     const slug = path.basename(file, path.extname(file))
     const restricted = slug.includes('.corp')
-    const externalOnly = slug.includes('.ext')
 
     return {
       metadata,
       slug,
       content,
       restricted,
-      externalOnly
     }
   }).filter((file) => (!file.restricted || process.env.RESTRICTED_MODE === 'true'))
-    .filter((file) => (!file.externalOnly || process.env.RESTRICTED_MODE !== 'true'))
 }
 
 export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), 'posts'))
+}
+
+interface MdxData {
+  metadata: Metadata;
+  slug: string;
+  content: string;
+  restricted: boolean;
+  external?: {
+    metadata: Metadata;
+    slug: string;
+  }
+}
+
+export function getBlogPostsWithExternalMetadata(): MdxData[] {
+  const mdxData = getMDXData(path.join(process.cwd(), 'posts'))
+  if (process.env.RESTRICTED_MODE !== 'true') {
+    return mdxData;
+  }
+  const mdxDataExternalPairs = mdxData.filter(
+    (file) => mdxData.filter(
+      (file2) =>
+        (file.slug.includes('.corp') && file2.slug === file.slug.replace('.corp', '')) ||
+        (file2.slug.includes('.corp') && file.slug === file2.slug.replace('.corp', ''))
+    ).length === 1
+  ).filter((file) => !file.slug.includes('.corp'))
+  const mdxDataNoPairs = mdxData.filter((file) => mdxDataExternalPairs.filter((file2) => file2.slug === file.slug).length === 0)
+  const mdxDataWithExternal = mdxDataNoPairs.map((file) => {
+    if (file.restricted) {
+      const mdxDataExts = mdxData.filter((file2) => file2.slug === file.slug.replace('.corp', ''))
+      if (mdxDataExts.length === 1) {
+        return {
+          ...file, external: {
+            metadata: mdxDataExts[0].metadata,
+            slug: mdxDataExts[0].slug
+          }
+        }
+      }
+    }
+    return file
+  })
+  return mdxDataWithExternal
 }
 
 export function formatDate(date: string, includeRelative = false) {
