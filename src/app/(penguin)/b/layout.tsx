@@ -32,7 +32,7 @@ export default function Layout({
                             {children}
                         </div>
                         <footer className="p-12 text-center text-sm bg-[#fdfad6]">
-                            Side B website code and design by me (jangarong). Inspired by clubpenguin.com.
+                            Side A & B website code and design by me (jangarong). Inspired by clubpenguin.com. Version 11.2.0.
                         </footer>
                     </div>
                 </div>
