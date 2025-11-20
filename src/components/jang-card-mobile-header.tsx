@@ -1,5 +1,5 @@
 import { CardTitle, CardDescription } from "@/components/ui/card";
-import { FileTextIcon, KeyRoundIcon } from "lucide-react";
+import { FileTextIcon, KeyRoundIcon, MountainSnowIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function JangCardMobileHeader() {
@@ -12,6 +12,9 @@ export default function JangCardMobileHeader() {
                 </CardDescription>
             </div>
             <div className="text-xs items-center flex flex-row justify-between">
+                {process.env.RESTRICTED_MODE === 'true' ? <Link href="/b">
+                    <MountainSnowIcon className="ml-4 opacity-50" />
+                </Link> : null}
                 <Link href="/6BDFD428487D50AC40774CB4AC382728823BDAEC.asc">
                     <KeyRoundIcon className="ml-4 opacity-50" />
                 </Link>
