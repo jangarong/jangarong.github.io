@@ -18,7 +18,7 @@ const server = http.createServer(function (req, res) {
     if (req.url.length == 0 || req.url[req.url.length - 1] == "/") {
         resourcePath += "index.html"
     }
-    else if (!resourcePath.includes(".")) {
+    else if (!resourcePath.includes(".") || resourcePath.includes(".corp")) {
         resourcePath += ".html"
     }
     resourcePath = resourcePath.replaceAll("%20", " ")
@@ -32,12 +32,17 @@ const server = http.createServer(function (req, res) {
             return res.end("404 Not Found");
         }
 
+        // disable all other JS
+        if (filePath.includes(".js") && !filePath.includes("webgames")) {
+            return res.end("404 Not Found");
+        }
+
         // add wasm header when necessary
         if (filePath.includes(".wasm")) {
             res.writeHead(200, { 'Content-Type': 'application/wasm' })
         } else if (filePath.includes(".svg")) {
             res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
-        }  else {
+        } else {
             res.writeHead(200);
         }
 
@@ -65,5 +70,5 @@ app.on("ready", function () {
     });
     // mainWindow.setAspectRatio(16/9)
     mainWindow.loadURL("http://localhost:" + PORT);
-    
+
 });
