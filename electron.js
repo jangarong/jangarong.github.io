@@ -1,57 +1,57 @@
 const { app, BrowserWindow } = require('electron')
 
-// // electron main
-// console.log(process.versions);
+// electron main
+console.log(process.versions);
 
-// const PORT = 21980
+const PORT = 21980
 
-// // Webserver!
-// const http = require("http");
-// const path = require('path');
-// const fs = require('fs');
-// const STATIC_DIST = "static_dist"
+// Webserver!
+const http = require("http");
+const path = require('path');
+const fs = require('fs');
+const STATIC_DIST = "static_dist"
 
-// const server = http.createServer(function (req, res) {
+const server = http.createServer(function (req, res) {
 
-//     // url parsing
-//     let resourcePath = req.url
-//     if (req.url.length == 0 || req.url[req.url.length - 1] == "/") {
-//         resourcePath += "index.html"
-//     }
-//     else if (!resourcePath.includes(".") || resourcePath.includes(".corp")) {
-//         resourcePath += ".html"
-//     }
-//     resourcePath = resourcePath.replaceAll("%20", " ")
-//     const filePath = path.join(__dirname, STATIC_DIST, resourcePath);
-//     console.log(filePath)
+    // url parsing
+    let resourcePath = req.url
+    if (req.url.length == 0 || req.url[req.url.length - 1] == "/") {
+        resourcePath += "index.html"
+    }
+    else if (!resourcePath.includes(".") || resourcePath.includes(".corp")) {
+        resourcePath += ".html"
+    }
+    resourcePath = resourcePath.replaceAll("%20", " ")
+    const filePath = path.join(__dirname, STATIC_DIST, resourcePath);
+    console.log(filePath)
 
-//     // read the file
-//     fs.readFile(filePath, function (err, data) {
-//         if (err) {
-//             res.writeHead(404, { 'Content-Type': 'text/html' });
-//             return res.end("404 Not Found");
-//         }
+    // read the file
+    fs.readFile(filePath, function (err, data) {
+        if (err) {
+            res.writeHead(404, { 'Content-Type': 'text/html' });
+            return res.end("404 Not Found");
+        }
 
-//         // disable all other JS
-//         if (filePath.includes(".js") && !filePath.includes("webgames")) {
-//             return res.end("404 Not Found");
-//         }
+        // disable all other JS
+        if (filePath.includes(".js") && !filePath.includes("webgames")) {
+            return res.end("404 Not Found");
+        }
 
-//         // add wasm header when necessary
-//         if (filePath.includes(".wasm")) {
-//             res.writeHead(200, { 'Content-Type': 'application/wasm' })
-//         } else if (filePath.includes(".svg")) {
-//             res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
-//         } else {
-//             res.writeHead(200);
-//         }
+        // add wasm header when necessary
+        if (filePath.includes(".wasm")) {
+            res.writeHead(200, { 'Content-Type': 'application/wasm' })
+        } else if (filePath.includes(".svg")) {
+            res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
+        } else {
+            res.writeHead(200);
+        }
 
-//         // send!
-//         res.end(data);
-//     });
-// });
-// server.listen(PORT);
-// console.log("http://localhost:" + PORT + "/");
+        // send!
+        res.end(data);
+    });
+});
+server.listen(PORT);
+console.log("http://localhost:" + PORT + "/");
 
 
 
