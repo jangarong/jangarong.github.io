@@ -69,6 +69,6 @@ app.on("ready", function () {
         title: 'jangarong.github.io'
     });
     // mainWindow.setAspectRatio(16/9)
-    mainWindow.loadURL('file://' + __dirname + '/static_dist/index.html');
-
+    // mainWindow.loadURL('file://' + __dirname + '/static_dist/index.html');
+    mainWindow.loadURL("http://localhost:" + PORT + "/" + "index.html")
 });
