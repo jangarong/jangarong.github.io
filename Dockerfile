@@ -5,17 +5,16 @@ FROM node:18-alpine AS builder
 WORKDIR /app
 
 # Copy package.json and package-lock.json (or yarn.lock) files
-COPY ./web/jangarong.github.io/package*.json .
-COPY ./storage/jangarong.github.io/log/assets /app/public/assets/b/log
-COPY ./storage/jangarong.github.io/log/posts /app/posts
+COPY ./package*.json .
 
 # Install dependencies
 RUN npm install --legacy-peer-deps
 
 # Copy the rest of the application source code
-COPY ./web/jangarong.github.io .
+COPY . .
 
 # Build the application
+ARG RESTRICTED_MODE=true
 RUN npm run build
 
 # Stage 2: Production

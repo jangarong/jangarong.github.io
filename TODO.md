@@ -5,6 +5,7 @@
 - add citation page with tech used
 - why is `npm run make-win-x64` the only one that works?
 
+docker build -t jangarong/jangarong.github.io:11.2.0 .
 docker save jangarong/jangarong.github.io:11.2.0 -o jangarong_img.tar
 
 enforce `corp` mode to toggle not only the theta archives page but also the `corp` posts.
