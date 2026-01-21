@@ -14,9 +14,9 @@ export default function Page() {
     return (
         <div className="min-h-[100vh]">
             <TTCLine1 items={[
-                <div>wan</div>,
-                <div>too</div>,
-                <div>tree</div>,
+                <div>ONE!</div>,
+                <div>TWO!</div>,
+                <div>THREE!</div>,
             ]} />
         </div>
     )
