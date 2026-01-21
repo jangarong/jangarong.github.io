@@ -6,11 +6,11 @@ export function TheWorld() {
         <div>
             <div className={`flex flex-row justify-center align-center`}>
                 <Image
-                    className={styles.circle + " mt-[18px]"}
+                    className={styles.circle + " mt-[58px]"}
                     src={"/assets/the-world.png"}
                     alt={"stacked-buildings"}
                     width={200}
-                    height={300}
+                    height={225}
                 />
                 <Image
                     className={styles.ring + ` mt-[54px] dark:invert`}
