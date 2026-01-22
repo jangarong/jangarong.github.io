@@ -265,3 +265,11 @@ body {
   background-position-x: -300px;
   background-repeat: no-repeat;
 }
+
+.test {
+  background-color: blue;
+}
+
+#googleWorks:checked + .test {
+  background-color: red;
+}

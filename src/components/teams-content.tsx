@@ -11,6 +11,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "Google Cloud Security",
             "logo": "/assets/companies/google.png",
+            "divId": "googleWorks",
             "url": "/google",
             "width": 1.3,
             "height": 0.5
@@ -18,6 +19,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "Trend Micro",
             "logo": "/assets/companies/trend.svg",
+            "divId": "trendWorks",
             "url": "/trend",
             "width": 1.5,
             "height": 0.5
@@ -25,6 +27,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "BlackBerry Cylance",
             "logo": "/assets/companies/cylance.png",
+            "divId": "cylanceWorks",
             "url": "/cylance",
             "width": 1.75,
             "height": 0.5
@@ -32,6 +35,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         {
             "company": "CertiK",
             "logo": "/assets/companies/certik.svg",
+            "divId": "certikWorks",
             "url": "/certik",
             "width": 1.5,
             "height": 0.5
@@ -51,16 +55,19 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         <div className={`w-[300px] flex flex-wrap dark:invert justify-evenly align-center mt-[8px]`}>
             <Marquee pauseOnHover className="[--duration:20s] flex justify-center align-center">
                 {teams.map((team) => (
-                    <a href={team.url} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
-                        <Image
-                            className={`m-2 mb-${logoMarginBottom}`}
-                            src={team.logo}
-                            alt={team.company}
-                            width={logoWidth * team.width}
-                            height={logoWidth * team.height}
-                            priority
-                        />
-                    </a>
+                    <div className="flex align-center">
+                        <input type="checkbox" id={team.divId} />
+                        <label htmlFor={team.divId} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
+                            <Image
+                                className={`m-2 mb-${logoMarginBottom}`}
+                                src={team.logo}
+                                alt={team.company}
+                                width={logoWidth * team.width}
+                                height={logoWidth * team.height}
+                                priority
+                            />
+                        </label>
+                    </div>
                 ))}
             </Marquee>
         </div>
