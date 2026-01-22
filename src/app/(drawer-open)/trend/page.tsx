@@ -17,7 +17,7 @@ const experiences = [
 
 export default function Home() {
     return (
-        <Link href="/trend/closed" className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end overflow-hidden">
+        <Link href="/" className="w-[100%] h-[100%] absolute z-30 flex flex-col justify-end overflow-hidden">
             <DrawerNoJS open>
                 <div>
                     <WorksTree

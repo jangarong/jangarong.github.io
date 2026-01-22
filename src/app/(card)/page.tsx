@@ -6,12 +6,10 @@ import { TheWorld } from "@/components/the-world";
 
 export default function Home() {
   return (
-    <Slide dir={SlideDirection.DOWN}>
       <RGBCardMobile className="" header={<JangCardMobileHeader />} body={
         <div className="dark:invert">
           <TheWorld />
         </div>
       } footer={<JangCardMobileFooter />} width={350} height={600} />
-    </Slide>
   );
 }
