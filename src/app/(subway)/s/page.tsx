@@ -48,6 +48,9 @@ export default function Page() {
             "width": 2,
             "height": 0.5
         },
+        {
+            "company": "University of Toronto Scarborough"
+        }
     ]
 
     let logoWidth = 90
@@ -61,15 +64,8 @@ export default function Page() {
 
     return (
         <div className="min-h-[100vh]">
-            <TTCLine1 items={teams.map(team => <div>
-                {/* <Image
-                    className={`m-2 mb-${logoMarginBottom}`}
-                    src={team.logo}
-                    alt={team.company}
-                    width={logoWidth * team.width}
-                    height={logoWidth * team.height}
-                    priority
-                /> */}
+            <TTCLine1 items={teams.map(team => <div className="mt-[-6px] font-medium">
+                {team.company}
                 <Card size="sm" className="mx-auto w-full max-w-sm">
                     <CardHeader className="flex flex-row align-center">
                         <Avatar className="border size-14 m-auto">
@@ -83,16 +79,24 @@ export default function Page() {
                             </CardDescription>
                         </div>
                     </CardHeader>
-                    {/* <CardContent>
+                    <CardContent>
                         <p>
                             The card component supports a size prop that can be set to
                             &quot;sm&quot; for a more compact appearance.
                         </p>
-                    </CardContent> */}
+                    </CardContent>
                     <CardFooter>
                         test
                     </CardFooter>
                 </Card>
+                <Image
+                    className={`m-2 mb-${logoMarginBottom} dark:invert`}
+                    src={team.logo}
+                    alt={team.company}
+                    width={logoWidth * team.width}
+                    height={logoWidth * team.height}
+                    priority
+                />
             </div>)} />
         </div>
     )
