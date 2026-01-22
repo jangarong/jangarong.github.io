@@ -15,7 +15,7 @@ export default function Layout({
     children: React.ReactNode;
 }>) {
     return (
-        <html className="">
+        <html className="dark">
             <body className="">
                   {children}
             </body>

@@ -5,6 +5,8 @@ import BFeatured from "@/components/b-featured";
 import PersonalCard from "@/components/personal-card";
 import TTCLine1 from "@/components/subway/ttc-line-1";
 import Image from "next/image";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export const metadata = {
     title: 'Jan Garong',
@@ -17,6 +19,7 @@ export default function Page() {
         {
             "company": "Google Cloud Security",
             "logo": "/assets/companies/google.png",
+            "avatar": "/assets/companies/icons/google.jpg",
             "url": "/google",
             "width": 2,
             "height": 1
@@ -24,6 +27,7 @@ export default function Page() {
         {
             "company": "Trend Micro",
             "logo": "/assets/companies/trend.svg",
+            "avatar": "/assets/companies/icons/trend.jpg",
             "url": "/trend",
             "width": 2,
             "height": 0.75
@@ -31,6 +35,7 @@ export default function Page() {
         {
             "company": "BlackBerry Cylance",
             "logo": "/assets/companies/cylance.png",
+            "avatar": "/assets/companies/icons/cylance.jpg",
             "url": "/cylance",
             "width": 2,
             "height": 0.75
@@ -38,6 +43,7 @@ export default function Page() {
         {
             "company": "CertiK",
             "logo": "/assets/companies/certik.svg",
+            "avatar": "/assets/companies/icons/certik.jpg",
             "url": "/certik",
             "width": 2,
             "height": 0.5
@@ -56,14 +62,37 @@ export default function Page() {
     return (
         <div className="min-h-[100vh]">
             <TTCLine1 items={teams.map(team => <div>
-                <Image
+                {/* <Image
                     className={`m-2 mb-${logoMarginBottom}`}
                     src={team.logo}
                     alt={team.company}
                     width={logoWidth * team.width}
                     height={logoWidth * team.height}
                     priority
-                />
+                /> */}
+                <Card size="sm" className="mx-auto w-full max-w-sm">
+                    <CardHeader className="flex flex-row align-center">
+                        <Avatar className="border size-14 m-auto">
+                            <AvatarImage src={team.avatar} alt={team.company} className="object-contain" />
+                            <AvatarFallback>{team.company}</AvatarFallback>
+                        </Avatar>
+                        <div className="flex flex-col justify-center ml-4">
+                            <CardTitle>{team.company}</CardTitle>
+                            <CardDescription>
+                                This card uses the small size variant.
+                            </CardDescription>
+                        </div>
+                    </CardHeader>
+                    {/* <CardContent>
+                        <p>
+                            The card component supports a size prop that can be set to
+                            &quot;sm&quot; for a more compact appearance.
+                        </p>
+                    </CardContent> */}
+                    <CardFooter>
+                        test
+                    </CardFooter>
+                </Card>
             </div>)} />
         </div>
     )
