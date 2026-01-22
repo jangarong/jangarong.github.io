@@ -31,9 +31,6 @@ export default function Page() {
                 <div className="mb-4">
                     • <Link href="https://corp.jangarong.com/files" className="text-blue-600 hover:text-purple-400">Filebrowser at &quot;/files&quot;</Link>
                 </div>
-                <div className="mb-4">
-                    • <Link href="https://corp.jangarong.com/git" className="text-blue-600 hover:text-purple-400">Gitea at &quot;/git&quot;</Link>
-                </div>
             </div>
             <div className="mb-4">
                 The above links should work only when connected to the VPN.
