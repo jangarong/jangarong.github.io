@@ -1,7 +1,7 @@
 {
   "name": "jangarong.github.io",
   "description": "my ordinary website.",
-  "version": "11.3.0",
+  "version": "11.3.1",
   "private": true,
   "main": "electron.js",
   "license": "UNLICENSED",
