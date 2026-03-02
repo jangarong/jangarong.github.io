@@ -22,7 +22,7 @@ export default function BFeatured() {
         <div className="w-[100%] flex flex-col">
             <BFeaturedItem src="/assets/b/blog.png" title="What's New">
                 <div>
-                    This is where I post very infrequently about anything.
+                    This is where I post very infrequently about anything, ranging from hobbies to professional work.
                 </div>
                 <div className="mt-[16px]">
                     <Link href="/b/log">Click here to see more!</Link>

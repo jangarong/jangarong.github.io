@@ -17,7 +17,7 @@ export default function Page() {
         <div className="p-8">
           Here is where I post content that may
           not fit with my profession. This includes personal coding projects, posts on my whereabouts
-          (sometimes engineering related), and half-decent drawings. If you are looking for my more professional work in the software cybersecurity field, please see <Link href="/" className="inline-block" >
+          (sometimes engineering related), and half-decent drawings. If you are looking for my more professional looking website, see <Link href="/" className="inline-block" >
             Side A
           </Link>.
         </div>
