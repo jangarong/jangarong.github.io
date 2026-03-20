@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Marquee from "@/components/ui/marquee";
+import Link from "next/link";
 
 interface TeamsContentProps {
     isMobile?: boolean;
@@ -51,7 +52,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
         <div className={`w-[300px] flex flex-wrap dark:invert justify-evenly align-center mt-[8px]`}>
             <Marquee pauseOnHover className="[--duration:20s] flex justify-center align-center">
                 {teams.map((team) => (
-                    <a href={team.url} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
+                    <Link href={team.url} className={`flex pl-${logoMargin} pr-${logoMargin}`} key={team.company}>
                         <Image
                             className={`m-2 mb-${logoMarginBottom}`}
                             src={team.logo}
@@ -60,7 +61,7 @@ export function TeamsContent({ isMobile }: TeamsContentProps) {
                             height={logoWidth * team.height}
                             priority
                         />
-                    </a>
+                    </Link>
                 ))}
             </Marquee>
         </div>

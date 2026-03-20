@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { formatDate, getBlogPostsWithExternalMetadata } from '@/lib/blog'
 
 export function BlogPosts() {
@@ -26,15 +25,15 @@ export function BlogPosts() {
                 {formatDate(post.metadata.publishedAt, false)}
               </p>
               <div className="flex flex-col w-[100%]">
-                <Link
-                  href={`/b/log/${post.slug}`}
+                <a
+                  href={`/b/log/${post.slug}/`}
                   className={"text-neutral-900 tracking-tight "}>
                   {post.metadata.title}{post.restricted ? "*" : ""}
-                </Link>
+                </a>
                 {post.external?.slug ?
-                  <Link href={`/b/log/${post.external.slug}`} className={"text-neutral-400 tracking-tight text-xs"}>
+                  <a href={`/b/log/${post.external.slug}/`} className={"text-neutral-400 tracking-tight text-xs"}>
                     External Post: {post.external.metadata.title}
-                  </Link>
+                  </a>
                   : null}
               </div>
             </div>

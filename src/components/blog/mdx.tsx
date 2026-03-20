@@ -31,7 +31,7 @@ function Table({ data }) {
   )
 }
 // @ts-expect-error: migrated code will fix later
-function CustomLink(slug, props) {
+function CustomLink(props) {
   const href = props.href
 
   if (href.startsWith('/')) {
@@ -46,11 +46,11 @@ function CustomLink(slug, props) {
     return <a {...props} />
   }
 
-  return <a target="_blank" rel="noopener noreferrer" href={slug + "/" + href} {...props} />
+  return <a target="_blank" rel="noopener noreferrer" href={href} {...props} />
 }
 // @ts-expect-error: migrated code will fix later
-function RoundedImage(slug, props) {
-  return <Image src={props.src.startsWith('/') ? props.src : slug + "/" + props.src} alt={props.alt} className="rounded-lg" {...props} />
+function RoundedImage(props) {
+  return <Image src={props.src} alt={props.alt} className="rounded-lg" {...props} />
 }
 // @ts-expect-error: migrated code will fix later
 function Code({ children, ...props }) {
@@ -93,30 +93,24 @@ function createHeading(level) {
   return Heading
 }
 
-// @ts-expect-error: soon-to-be-deprecated code
-function getComponents(slug) {
-  return {
-    h1: createHeading(1),
-    h2: createHeading(2),
-    h3: createHeading(3),
-    h4: createHeading(4),
-    h5: createHeading(5),
-    h6: createHeading(6),
-    // @ts-expect-error: soon-to-be-deprecated code
-    Image: (props) => RoundedImage('ax2025', props),
-    // @ts-expect-error: soon-to-be-deprecated code
-    a: (props) => CustomLink(slug, props),
-    code: Code,
-    Table,
-  }
+const components = {
+  h1: createHeading(1),
+  h2: createHeading(2),
+  h3: createHeading(3),
+  h4: createHeading(4),
+  h5: createHeading(5),
+  h6: createHeading(6),
+  Image: RoundedImage,
+  a: CustomLink,
+  code: Code,
+  Table,
 }
-
 // @ts-expect-error: migrated code will fix later
 export function CustomMDX(props) {
   return (
     <MDXRemote
       {...props}
-      components={{ ...getComponents(props.slug), ...(props.components || {}) }}
+      components={{ ...components, ...(props.components || {}) }}
     />
   )
 }

@@ -9,6 +9,7 @@ const nextConfig = {
     unoptimized: true,
   },
   distDir: 'static_dist',
+  trailingSlash: true,
   transpilePackages: ["next-mdx-remote"],
   webpack: (config) => {
     config.plugins.push(
