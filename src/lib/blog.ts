@@ -4,6 +4,7 @@ import path from 'path'
 type Metadata = {
   title: string
   publishedAt: string
+  version?: string // default is v1
   summary?: string
   image?: string
 }
@@ -25,10 +26,22 @@ function parseFrontmatter(fileContent: string) {
 
   return { metadata: metadata as Metadata, content }
 }
-// @ts-expect-error: migrated code will fix later
-function getMDXFiles(dir) {
-  return fs.readdirSync(dir).filter((file) => path.extname(file) === '.mdx')
+function getMDXFilenames(dir: string) {
+  const files = []
+  for (const postdir of fs.readdirSync(dir).filter(file => file !== ".DS_Store")) {
+    const mdxFiles = fs.readdirSync(path.join(dir, postdir)).filter(file => path.extname(file) === ".mdx");
+    if (mdxFiles.length !== 1) {
+      throw new Error("There is more than 1 mdx file present in the post directories.")
+    }
+    files.push(path.join(postdir, mdxFiles[0]))
+  }
+  return files;
 }
+
+// // @ts-expect-error: migrated code will fix later
+// function getMDXFiles(dir) {
+//   return fs.readdirSync(dir).filter((file) => path.extname(file) === '.mdx')
+// }
 // @ts-expect-error: migrated code will fix later
 function readMDXFile(filePath) {
   const rawContent = fs.readFileSync(filePath, 'utf-8')
@@ -36,10 +49,10 @@ function readMDXFile(filePath) {
 }
 // @ts-expect-error: migrated code will fix later
 function getMDXData(dir) {
-  const mdxFiles = getMDXFiles(dir)
+  const mdxFiles = getMDXFilenames(dir)
   return mdxFiles.map((file) => {
     const { metadata, content } = readMDXFile(path.join(dir, file))
-    const slug = path.basename(file, path.extname(file))
+    const slug = path.dirname(file)
     const restricted = slug.includes('.corp')
 
     return {

@@ -3,7 +3,8 @@
 /public/b/archive.html
 /public/b/archive/*
 /public/assets/b/log/corp/*
-/posts/*.corp.mdx
+/public/b/log/*
+/posts/*.corp
 /volumes
 /dist
 /bin

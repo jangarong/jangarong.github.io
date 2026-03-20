@@ -23,7 +23,7 @@ export function generateMetadata({ params }) {
   const {
     title,
     publishedAt: publishedTime,
-    summary: description,
+    // summary: description,
     image,
   } = post.metadata
   const ogImage = image
@@ -32,13 +32,13 @@ export function generateMetadata({ params }) {
 
   return {
     title,
-    description,
+    // description,
     openGraph: {
       title,
-      description,
+      // description,
       type: 'article',
       publishedTime,
-      url: `${baseUrl}/b/log/${post.slug}`,
+      url: `${baseUrl}/b/log/${post.slug}/`,
       images: [
         {
           url: ogImage,
@@ -48,7 +48,7 @@ export function generateMetadata({ params }) {
     twitter: {
       card: 'summary_large_image',
       title,
-      description,
+      // description,
       images: [ogImage],
     },
   }
@@ -96,7 +96,7 @@ export default function Blog({ params }) {
           </p>
         </div>
         <article className="prose">
-          <CustomMDX source={post.content} />
+          <CustomMDX source={post.content} slug={post.slug} />
         </article>
       </section>
     </div>
