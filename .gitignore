@@ -2,8 +2,8 @@
 # /src/app/b/archive/page.tsx
 /public/b/archive.html
 /public/b/archive/*
-/public/assets/b/log/corp/*
 /public/b/log/*
+/posts/*-ntk
 /posts/*.corp
 /volumes
 /dist

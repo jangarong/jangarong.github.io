@@ -12,8 +12,8 @@ To serve the static build, run `npm run start`.
 To build and serve this docker image, run the following:
 
 ```
-docker image build -t jangarong/jangarong.github.io:11.4.0 .
-docker save jangarong/jangarong.github.io:11.4.0 -o jangarong_img.tar
+docker image build -t jangarong/jangarong.github.io:11.4.1 .
+docker save jangarong/jangarong.github.io:11.4.1 -o jangarong_img.tar
 ```
 
 # Old README

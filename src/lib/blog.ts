@@ -53,7 +53,7 @@ function getMDXData(dir) {
   return mdxFiles.map((file) => {
     const { metadata, content } = readMDXFile(path.join(dir, file))
     const slug = path.dirname(file)
-    const restricted = slug.includes('.corp')
+    const restricted = slug.includes('-ntk')
 
     return {
       metadata,
@@ -87,14 +87,14 @@ export function getBlogPostsWithExternalMetadata(): MdxData[] {
   const mdxDataExternalPairs = mdxData.filter(
     (file) => mdxData.filter(
       (file2) =>
-        (file.slug.includes('.corp') && file2.slug === file.slug.replace('.corp', '')) ||
-        (file2.slug.includes('.corp') && file.slug === file2.slug.replace('.corp', ''))
+        (file.slug.includes('-ntk') && file2.slug === file.slug.replace('-ntk', '')) ||
+        (file2.slug.includes('-ntk') && file.slug === file2.slug.replace('-ntk', ''))
     ).length === 1
-  ).filter((file) => !file.slug.includes('.corp'))
+  ).filter((file) => !file.slug.includes('-ntk'))
   const mdxDataNoPairs = mdxData.filter((file) => mdxDataExternalPairs.filter((file2) => file2.slug === file.slug).length === 0)
   const mdxDataWithExternal = mdxDataNoPairs.map((file) => {
     if (file.restricted) {
-      const mdxDataExts = mdxData.filter((file2) => file2.slug === file.slug.replace('.corp', ''))
+      const mdxDataExts = mdxData.filter((file2) => file2.slug === file.slug.replace('-ntk', ''))
       if (mdxDataExts.length === 1) {
         return {
           ...file, external: {
