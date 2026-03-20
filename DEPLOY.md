@@ -1,3 +1,23 @@
+# Deployment & Testing
+
+To run the website locally, run `npm run dev-internal`.
+* Note: Changes made to `public/b/log/`, which will populate if the build command has been ran, will not apply.
+Modify `posts/` instead!
+
+To build a static copy of the website, run `npm run build-internal`.
+* Note: This makes a copy of `posts/` assets into `public/b/log/`. This has been gitignored.
+
+To serve the static build, run `npm run start`.
+
+To build and serve this docker image, run the following:
+
+```
+docker image build -t jangarong/jangarong.github.io:11.4.0 .
+docker save jangarong/jangarong.github.io:11.4.0 -o jangarong_img.tar
+```
+
+# Old README
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,22 +54,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-This is a Next.js based website with a few special things added:
-
-* `/posts/` is used to add static posts in `.mdx` (Markdown) format. See the existing posts for examples.
-* There is a "corp" set of files that will not be committed to the repository. (corp = LAN server I run privately) **Please back these gitignored files separately!**
-    * `/posts/<name>.corp.mdx` - Posts with this format are intended to be accessed via the corp network.
-    * `/public/assets/b/log/corp/<anything>` - Any assets stored here will not be committed. Please use this directory for any assets the corp posts will need.
-    * For archive page:
-        * `/src/app/b/archive/page.tsx` - This is the archive page which routes to archived singlefiles.
-        * `/public/b/archive/*` - This contains archived pages stored in singefile.
-
-Side B development has been paused. Expect bugs on this website!
-
-## cloudflare
-
-![](./cloudflare.png)
-
-Add Captcha to the following URL paths.
 
