@@ -11,6 +11,16 @@ const nextConfig = {
   distDir: 'static_dist',
   trailingSlash: true,
   transpilePackages: ["next-mdx-remote"],
+  // this is added so that the post files copy over on `next dev`
+  async rewrites() {
+    return [
+      {
+        source: '/b/log/:post/:file(.+)', 
+        destination: '/posts/:post/:file', 
+      },
+    ]
+  },
+  // this is added so that the post files copy over on build (they get gitignored though!) 
   webpack: (config) => {
     config.plugins.push(
       new CopyPlugin({
