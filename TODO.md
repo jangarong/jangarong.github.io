@@ -7,3 +7,7 @@
 - add storybook
 - code cleanup and refactor
 - add new mdx parser version
+    * Ghost-style image galleries
+    * Memos-style image galleries
+    * Pleroma-style iamge galleries
+
