@@ -22,6 +22,9 @@ export default function Hero() {
                         </Link> |
                         <Link href="/b/art">
                             Sketches
+                        </Link> |
+                        <Link href="/b/anceancerevolution">
+                            DDR
                         </Link>
                     </div>
                 </div>

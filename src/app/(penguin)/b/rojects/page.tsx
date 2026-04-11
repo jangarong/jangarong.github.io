@@ -31,6 +31,7 @@ export default function Page() {
                     <ProjectItem href="/b/rojects/mummyrun" src="/assets/b/mummyrun.png" />
                 </div>
             </div>
+            TODO: Add fully released non-NDA work projects here too.
         </div>
     )
 }

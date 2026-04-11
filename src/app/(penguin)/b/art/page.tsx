@@ -15,15 +15,15 @@ export default function Page() {
                     <div>
                         All drawings posted here are in reverse chronological order.
                     </div>
+                    <Image src="/assets/b/art/draw6.jpeg" alt="artclass" height={300} width={300} />
+                    <div>From drawing foundations class in Fall of 2025.</div>
                     <Image src="/assets/b/art/mao.png" alt="mao" height={300} width={300} />
                     <div>Mao from <a href="/b/rojects/zodiactail">Zodiac Tail</a>, drawn in 2024.</div>
                     <Image src="/assets/b/art/egg-carton.png" alt="eggcarton" height={600} width={400} />
-                    <div>Drew an egg carton during my drawing class in 2023.</div>
+                    <div>Drew an egg carton during my university drawing class in 2023.</div>
                     <Image src="/assets/b/art/magichanics.png" alt="magichanics" width={300} height={300} />
                     <div>Profile picture since 2019.</div>
                     <Image src="/assets/b/art/eye.png" alt="eye" width={400} height={300} />
-                    <div>Drew this in one of my high school art classes.</div>
-                    <Image src="/assets/b/art/fist.png" alt="fist" width={300} height={400} />
                     <div>Drew this in one of my high school art classes.</div>
                     <Image src="/assets/b/art/pinstripe.png" alt="pinstripe" width={400} height={300} />
                     <div>Character I made using my Wacom tablet in 2017.</div>
