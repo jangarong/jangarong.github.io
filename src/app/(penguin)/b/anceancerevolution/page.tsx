@@ -1,10 +1,8 @@
 import Header from '@/components/b/header'
 import Image from 'next/image'
-import Link from 'next/link'
 import {
     Table,
     TableBody,
-    TableCaption,
     TableCell,
     TableHead,
     TableHeader,
@@ -13,8 +11,8 @@ import {
 
 export const metadata = {
     title: 'Jan Garong [B] - Dance Dance Revolution',
-    // description: 'Read my blog.',
 }
+/* eslint-disable @next/next/no-img-element, jsx-a11y/alt-text */
 
 export default function Page() {
     return (
