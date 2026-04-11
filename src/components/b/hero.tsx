@@ -23,7 +23,7 @@ export default function Hero() {
                         <Link href="/b/art">
                             Sketches
                         </Link> |
-                        <Link href="/b/anceancerevolution">
+                        <Link href="/b/ddr">
                             DDR
                         </Link>
                     </div>

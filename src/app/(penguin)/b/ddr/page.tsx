@@ -37,68 +37,68 @@ export default function Page() {
                             <TableCell className="font-medium">MEGALOVANIA</TableCell>
                             <TableCell>ESP 16.30</TableCell>
                             <TableCell>991070</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/16-0.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/16-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">悲報！ワイ！ニート！</TableCell>
                             <TableCell>ESP 15.30</TableCell>
                             <TableCell>995770</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/15-0.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">ハイテックトキオ</TableCell>
                             <TableCell>ESP 15.25</TableCell>
                             <TableCell>991520</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/15-2.jpg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/15-2.jpg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">ラビットホール</TableCell>
                             <TableCell>ESP 15.20</TableCell>
                             <TableCell>990460</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/15-1.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/15-1.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">Death By Glamour</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>992740</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/14-0.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>990000</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/14-1.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-1.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">人マニア</TableCell>
                             <TableCell>ESP 14.35</TableCell>
                             <TableCell>998020</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/14-2.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-2.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">ΔMAX</TableCell>
                             <TableCell>DSP 13.85</TableCell>
                             <TableCell>993250</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/13-0.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/13-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">SABER WING</TableCell>
                             <TableCell>CSP 13.85</TableCell>
                             <TableCell>991430</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/anceancerevolution/13-1.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/13-1.jpeg">Link</a></TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
                 <div className="flex flex-col items-center justify-center mb-[48px] mt-[24px]">
                     <div className="w-[300px] md:w-[650px] grid grid-cols-1 md:grid-cols-3 grid-rows-3 md:grid-rows-1 gap-2 mb-[24px]">
-                        <a href="/assets/b/anceancerevolution/16-0.jpeg">
-                            <img src="/assets/b/anceancerevolution/16-0.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/16-0.jpeg">
+                            <img src="/assets/b/ddr/16-0.jpeg" className="object-cover w-full h-full" />
                         </a>
-                        <a href="/assets/b/anceancerevolution/14-2.jpeg">
-                            <img src="/assets/b/anceancerevolution/14-2.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/14-2.jpeg">
+                            <img src="/assets/b/ddr/14-2.jpeg" className="object-cover w-full h-full" />
                         </a>
-                        <a href="/assets/b/anceancerevolution/13-1.jpeg">
-                            <img src="/assets/b/anceancerevolution/13-1.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/13-1.jpeg">
+                            <img src="/assets/b/ddr/13-1.jpeg" className="object-cover w-full h-full" />
                         </a>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ export default function Page() {
                 </Table>
 
                 <div className="flex flex-col justify-center align-center items-center text-center">
-                    <Image src="/assets/b/anceancerevolution/ribs.JPG" width={300} height={150} alt={"group photo - ribs"} />
+                    <Image src="/assets/b/ddr/ribs.JPG" width={300} height={150} alt={"group photo - ribs"} />
                     <div className="mt-[8px]">Me at my first DDR Tournament with friends from Stonestown B)</div>
                 </div>
             </div>
