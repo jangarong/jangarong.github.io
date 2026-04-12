@@ -40,6 +40,12 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/16-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
+                            <TableCell className="font-medium">BRE∀K DOWN!</TableCell>
+                            <TableCell>ESP 15.35</TableCell>
+                            <TableCell>992370</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/15-3.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow>
                             <TableCell className="font-medium">悲報！ワイ！ニート！</TableCell>
                             <TableCell>ESP 15.30</TableCell>
                             <TableCell>995770</TableCell>
