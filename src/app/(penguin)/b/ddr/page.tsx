@@ -58,7 +58,7 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-3.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell className="font-medium">悲報！ワイ！ニート！ (Hihou! Wai! Neet!)</TableCell>
+                            <TableCell className="font-medium">悲報！ワイ！ニート！ (HEY! HO! NEET!)</TableCell>
                             <TableCell>ESP 15.30</TableCell>
                             <TableCell>995770</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
