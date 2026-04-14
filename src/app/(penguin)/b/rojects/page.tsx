@@ -22,6 +22,8 @@ export default function Page() {
             <div className="mt-[24px] mx-[24px] mb-[72px]">
                 <div className="mb-8">Click on the following boxes to go to their project page!</div>
                 <div className="grid flex flex-col justify-center align-center md:grid-cols-3 gap-4 mb-[32px]">
+                    <ProjectItem href="/b/rojects/workforce" src="/assets/b/workforce.png" />
+                    <ProjectItem href="/b/rojects/ems" src="/assets/b/ems.png" />
                     <ProjectItem href="/b/rojects/this" src="/assets/b/this.png" />
                     <ProjectItem href="/b/rojects/psa" src="/assets/b/psa.png" />
                     <ProjectItem href="/b/rojects/zodiactail" src="/assets/b/zodiactail.png" />
@@ -31,7 +33,6 @@ export default function Page() {
                     <ProjectItem href="/b/rojects/mummyrun" src="/assets/b/mummyrun.png" />
                 </div>
             </div>
-            TODO: Add fully released non-NDA work projects here too.
         </div>
     )
 }
