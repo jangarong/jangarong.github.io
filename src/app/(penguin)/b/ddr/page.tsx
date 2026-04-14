@@ -12,7 +12,7 @@ import {
 export const metadata = {
     title: 'Jan Garong [B] - Dance Dance Revolution',
 }
-/* eslint-disable @next/next/no-img-element, jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element, jsx-a11y/alt-text, react/no-unescaped-entities */
 
 export default function Page() {
     return (

@@ -7,6 +7,8 @@ export const metadata = {
 import Header from '@/components/b/header'
 import Image from 'next/image'
 
+/* eslint-disable react/no-unescaped-entities */
+
 export default function Page() {
     return (
         <div>            <Header>Google Cloud Workforce Identity</Header>
