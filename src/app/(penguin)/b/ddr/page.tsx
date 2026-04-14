@@ -35,6 +35,18 @@ export default function Page() {
                     <TableBody>
                         <TableRow>
                             <TableCell className="font-medium">MEGALOVANIA</TableCell>
+                            <TableCell>CSP 18.10</TableCell>
+                            <TableCell>935910</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/18-0.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell className="font-medium">True Blue</TableCell>
+                            <TableCell>CSP 17.10</TableCell>
+                            <TableCell>940260</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/17-0.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell className="font-medium">MEGALOVANIA</TableCell>
                             <TableCell>ESP 16.30</TableCell>
                             <TableCell>991070</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/16-0.jpeg">Link</a></TableCell>
@@ -46,16 +58,10 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-3.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell className="font-medium">悲報！ワイ！ニート！</TableCell>
+                            <TableCell className="font-medium">悲報！ワイ！ニート！ (Hihou! Wai! Neet!)</TableCell>
                             <TableCell>ESP 15.30</TableCell>
                             <TableCell>995770</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow>
-                            <TableCell className="font-medium">ハイテックトキオ</TableCell>
-                            <TableCell>ESP 15.25</TableCell>
-                            <TableCell>991520</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/15-2.jpg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">Death By Glamour</TableCell>
@@ -64,13 +70,13 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院</TableCell>
+                            <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院 (commonly referred to as "Overdrive")</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>990000</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-1.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell className="font-medium">人マニア</TableCell>
+                            <TableCell className="font-medium">人マニア (HITO Mania)</TableCell>
                             <TableCell>ESP 14.35</TableCell>
                             <TableCell>998020</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-2.jpeg">Link</a></TableCell>
@@ -86,6 +92,12 @@ export default function Page() {
                             <TableCell>CSP 13.85</TableCell>
                             <TableCell>991430</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-1.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell className="font-medium">ヴァンパイア (Vampire)</TableCell>
+                            <TableCell>CSP 13.00</TableCell>
+                            <TableCell>999420</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/13-2.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">Heaven is a '57 metallic gray ~gimmix~</TableCell>
@@ -104,7 +116,7 @@ export default function Page() {
                             <img src="/assets/b/ddr/14-2.jpeg" className="object-cover w-full h-full" />
                         </a>
                         <a href="/assets/b/ddr/13-1.jpeg">
-                            <img src="/assets/b/ddr/13-1.jpeg" className="object-cover w-full h-full" />
+                            <img src="/assets/b/ddr/13-0.jpeg" className="object-cover w-full h-full" />
                         </a>
                     </div>
                 </div>
