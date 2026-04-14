@@ -70,7 +70,7 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院 (commonly referred to as "Overdrive")</TableCell>
+                            <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院 (unofficially aka "Overdrive")</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>990000</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-1.jpeg">Link</a></TableCell>
@@ -95,9 +95,9 @@ export default function Page() {
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">ヴァンパイア (Vampire)</TableCell>
-                            <TableCell>CSP 13.00</TableCell>
+                            <TableCell>ESP 13.00</TableCell>
                             <TableCell>999420</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/13-2.jpeg">Link</a></TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/13-2.jpg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">Heaven is a '57 metallic gray ~gimmix~</TableCell>
