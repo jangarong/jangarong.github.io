@@ -58,12 +58,6 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-2.jpg">Link</a></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell className="font-medium">ラビットホール</TableCell>
-                            <TableCell>ESP 15.20</TableCell>
-                            <TableCell>990460</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/15-1.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow>
                             <TableCell className="font-medium">Death By Glamour</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>992740</TableCell>
@@ -92,6 +86,12 @@ export default function Page() {
                             <TableCell>CSP 13.85</TableCell>
                             <TableCell>991430</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-1.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell className="font-medium">Heaven is a '57 metallic gray ~gimmix~</TableCell>
+                            <TableCell>CSP 12.80</TableCell>
+                            <TableCell>991920</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/12-0.jpeg">Link</a></TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
@@ -123,9 +123,9 @@ export default function Page() {
 
                     <TableBody>
                         <TableRow>
-                            <TableCell className="font-medium">Run It Back Series 1</TableCell>
+                            <TableCell className="font-medium">Run It Back Series 1 - Group 6</TableCell>
                             <TableCell>12.55 - 14.50</TableCell>
-                            <TableCell>2nd in Group 6, 22nd Overall</TableCell>
+                            <TableCell>2nd</TableCell>
                             <TableCell className="text-right"><a href="https://www.start.gg/tournament/the-run-it-back-series/event/the-ribs/brackets/2250716/3262634">Group 6 Bracket</a></TableCell>
                         </TableRow>
                     </TableBody>
