@@ -89,7 +89,7 @@ export default function Page() {
                         </TableRow>
                         <TableRow>
                             <TableCell className="font-medium">Heaven is a '57 metallic gray ~gimmix~</TableCell>
-                            <TableCell>CSP 12.80</TableCell>
+                            <TableCell>ESP 12.80</TableCell>
                             <TableCell>991920</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/12-0.jpeg">Link</a></TableCell>
                         </TableRow>
