@@ -45,61 +45,61 @@ export default function Page() {
                             <TableCell>940260</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/17-0.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">MEGALOVANIA</TableCell>
                             <TableCell>ESP 16.30</TableCell>
                             <TableCell>991070</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/16-0.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">BRE∀K DOWN!</TableCell>
                             <TableCell>ESP 15.35</TableCell>
                             <TableCell>992370</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-3.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">悲報！ワイ！ニート！ (HEY! HO! NEET!)</TableCell>
                             <TableCell>ESP 15.30</TableCell>
                             <TableCell>995770</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">Death By Glamour</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>992740</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-0.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
+                            <TableCell className="font-medium">Reach The Sky, Without you</TableCell>
+                            <TableCell>ESP 14.65</TableCell>
+                            <TableCell>990670</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-4.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院 (unofficially aka "Overdrive")</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>990000</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-1.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
-                            <TableCell className="font-medium">人マニア (HITO Mania)</TableCell>
-                            <TableCell>ESP 14.35</TableCell>
-                            <TableCell>998020</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/14-2.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">ΔMAX</TableCell>
                             <TableCell>DSP 13.85</TableCell>
                             <TableCell>993250</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-0.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">SABER WING</TableCell>
                             <TableCell>CSP 13.85</TableCell>
                             <TableCell>991430</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-1.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#FFD700]">
                             <TableCell className="font-medium">ヴァンパイア (Vampire)</TableCell>
                             <TableCell>ESP 13.00</TableCell>
                             <TableCell>999420</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-2.jpg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
+                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">Heaven is a '57 metallic gray ~gimmix~</TableCell>
                             <TableCell>ESP 12.80</TableCell>
                             <TableCell>991920</TableCell>
@@ -112,8 +112,8 @@ export default function Page() {
                         <a href="/assets/b/ddr/16-0.jpeg">
                             <img src="/assets/b/ddr/16-0.jpeg" className="object-cover w-full h-full" />
                         </a>
-                        <a href="/assets/b/ddr/14-2.jpeg">
-                            <img src="/assets/b/ddr/14-2.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/14-0.jpeg">
+                            <img src="/assets/b/ddr/14-0.jpeg" className="object-cover w-full h-full" />
                         </a>
                         <a href="/assets/b/ddr/13-1.jpeg">
                             <img src="/assets/b/ddr/13-0.jpeg" className="object-cover w-full h-full" />
