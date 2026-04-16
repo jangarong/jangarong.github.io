@@ -70,16 +70,16 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">Reach The Sky, Without you</TableCell>
-                            <TableCell>ESP 14.65</TableCell>
-                            <TableCell>990670</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/14-4.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院 (unofficially aka "Overdrive")</TableCell>
                             <TableCell>ESP 14.65</TableCell>
                             <TableCell>990000</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-1.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow className="bg-[#fff7cc]">
+                            <TableCell className="font-medium">Reach The Sky, Without you</TableCell>
+                            <TableCell>ESP 14.60</TableCell>
+                            <TableCell>990670</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-4.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">ΔMAX</TableCell>
