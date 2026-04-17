@@ -46,7 +46,7 @@ const frens: Friend[] = [
     },
     {
         url: "https://sayolko.carrd.co",
-        img: "/assets/b/friends/kat2.png",
+        img: "/assets/b/friends/kat.png",
         name: "Kathleen An Padua",
     },
     {
@@ -68,6 +68,11 @@ const frens: Friend[] = [
         url: "https://peter-pham.netlify.app/",
         img: "/assets/b/friends/peter.png",
         name: "Peter Pham"
+    },
+    {
+        url: "https://steamcommunity.com/id/PKFired/",
+        img: "/assets/b/friends/cyrus.jpg",
+        name: "PKFired"
     },
     {
         url: "https://epicsteve2.github.io/",

@@ -64,10 +64,10 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">Death By Glamour</TableCell>
-                            <TableCell>ESP 14.65</TableCell>
-                            <TableCell>992740</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/14-0.jpeg">Link</a></TableCell>
+                            <TableCell className="font-medium">Avenger</TableCell>
+                            <TableCell>ESP 14.85</TableCell>
+                            <TableCell>991340</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-5.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院 (unofficially aka "Overdrive")</TableCell>
