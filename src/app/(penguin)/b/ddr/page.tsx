@@ -115,8 +115,8 @@ export default function Page() {
                         <a href="/assets/b/ddr/14-5.jpeg">
                             <img src="/assets/b/ddr/14-5.jpeg" className="object-cover w-full h-full" />
                         </a>
-                        <a href="/assets/b/ddr/13-0.jpeg">
-                            <img src="/assets/b/ddr/13-0.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/13-1.jpeg">
+                            <img src="/assets/b/ddr/13-1.jpeg" className="object-cover w-full h-full" />
                         </a>
                     </div>
                 </div>
