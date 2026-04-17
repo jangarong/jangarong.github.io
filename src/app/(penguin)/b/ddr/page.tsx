@@ -82,16 +82,16 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-4.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">ΔMAX</TableCell>
-                            <TableCell>DSP 13.85</TableCell>
-                            <TableCell>993250</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/13-0.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">SABER WING</TableCell>
                             <TableCell>CSP 13.85</TableCell>
                             <TableCell>991430</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-1.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow className="bg-[#fff7cc]">
+                            <TableCell className="font-medium">ΔMAX</TableCell>
+                            <TableCell>DSP 13.85</TableCell>
+                            <TableCell>993250</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/13-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#FFD700]">
                             <TableCell className="font-medium">ヴァンパイア (Vampire)</TableCell>
