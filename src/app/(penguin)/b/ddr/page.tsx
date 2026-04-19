@@ -17,8 +17,18 @@ export const metadata = {
 export default function Page() {
     return (
         <div>
-            <Header>Dance Dance Revolution - SPENG</Header>
+            <Header>Dance Dance Revolution</Header>
             <div className="m-[24px]">
+                <h1 className="title font-semibold text-2xl tracking-tighter">
+                    Quick Facts
+                </h1>
+                <div className="mb-4">
+                    <ul className="list-disc list-inside ml-4">
+                        <li>三倍icecream: <a href="https://3icecream.com/profile/secretpenguin.ca">secretpenguin.ca</a></li>
+                        <li>DDR-CODE: 81388827</li>
+                        <li>DANCER NAME: SPENG (formerly JANG)</li>
+                    </ul>
+                </div>
                 <h1 className="title font-semibold text-2xl tracking-tighter">
                     Holy Grails
                 </h1>
@@ -42,7 +52,7 @@ export default function Page() {
                         <TableRow>
                             <TableCell className="font-medium">True Blue</TableCell>
                             <TableCell>CSP 17.10</TableCell>
-                            <TableCell>940260</TableCell>
+                            <TableCell>950020</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/17-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
