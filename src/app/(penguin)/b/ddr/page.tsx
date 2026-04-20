@@ -88,7 +88,7 @@ export default function Page() {
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">Reach The Sky, Without you</TableCell>
                             <TableCell>ESP 14.60</TableCell>
-                            <TableCell>990670</TableCell>
+                            <TableCell>997520</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-4.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
