@@ -80,10 +80,10 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-5.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">患部で止まってすぐ溶ける～狂気の優曇華院 (unofficially aka "Overdrive")</TableCell>
-                            <TableCell>ESP 14.65</TableCell>
-                            <TableCell>990000</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/14-1.jpeg">Link</a></TableCell>
+                            <TableCell className="font-medium">突撃！ガラスのニーソ姫！(Totsugeki! Glass no kneeso hime!)</TableCell>
+                            <TableCell>ESP 14.80</TableCell>
+                            <TableCell>990530</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-6.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">Reach The Sky, Without you</TableCell>
