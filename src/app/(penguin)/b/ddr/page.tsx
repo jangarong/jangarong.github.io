@@ -24,7 +24,7 @@ export default function Page() {
                 </h1>
                 <div className="mb-4">
                     <ul className="list-disc list-inside ml-4">
-                        <li>三倍icecream: <a href="https://3icecream.com/profile/secretpenguin.ca">secretpenguin.ca</a></li>
+                        <li>三倍icecream: <a href="https://3icecream.com/profile/trueblue">trueblue</a></li>
                         <li>DDR-CODE: 81388827</li>
                         <li>DANCER NAME: TRUEBLUE (formerly SPENG & JANG)</li>
                     </ul>
