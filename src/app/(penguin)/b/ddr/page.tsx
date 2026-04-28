@@ -109,11 +109,11 @@ export default function Page() {
                             <TableCell>999420</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-2.jpg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">Heaven is a '57 metallic gray ~gimmix~</TableCell>
-                            <TableCell>ESP 12.80</TableCell>
-                            <TableCell>991920</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/12-0.jpeg">Link</a></TableCell>
+                        <TableRow className="bg-[#FFD700]">
+                            <TableCell className="font-medium">Ska Ska No. 3</TableCell>
+                            <TableCell>ESP 12.35</TableCell>
+                            <TableCell>999680</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/12-1.jpeg">Link</a></TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
