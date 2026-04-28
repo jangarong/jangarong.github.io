@@ -68,7 +68,7 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-5.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">悲報！ワイ！ニート！ (HEY! HO! NEET!)</TableCell>
+                            <TableCell className="font-medium">悲報！ワイ！ニート！ (Hihou! Wai! Neet!)</TableCell>
                             <TableCell>ESP 15.30</TableCell>
                             <TableCell>995770</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
