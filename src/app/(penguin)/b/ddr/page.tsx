@@ -62,10 +62,10 @@ export default function Page() {
                             <TableCell className="text-right"><a href="/assets/b/ddr/16-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">ナイト・オブ・ナイツ (Night of Knights)</TableCell>
-                            <TableCell>ESP 15.35</TableCell>
-                            <TableCell>991060</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/15-5.jpeg">Link</a></TableCell>
+                            <TableCell className="font-medium">ZETA ~素数の世界と超越者~</TableCell>
+                            <TableCell>ESP 15.40</TableCell>
+                            <TableCell>994720</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/15-6.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">悲報！ワイ！ニート！ (Hihou! Wai! Neet!)</TableCell>
