@@ -118,14 +118,14 @@ export default function Page() {
                 </Table>
                 <div className="flex flex-col items-center justify-center mb-[48px] mt-[24px]">
                     <div className="w-[300px] md:w-[650px] grid grid-cols-1 md:grid-cols-3 grid-rows-3 md:grid-rows-1 gap-2 mb-[24px]">
-                        <a href="/assets/b/ddr/16-0.jpeg">
-                            <img src="/assets/b/ddr/16-0.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/15-6.jpeg">
+                            <img src="/assets/b/ddr/15-6.jpeg" className="object-cover w-full h-full" />
                         </a>
-                        <a href="/assets/b/ddr/14-5.jpeg">
-                            <img src="/assets/b/ddr/14-5.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/14-4.jpeg">
+                            <img src="/assets/b/ddr/14-4.jpeg" className="object-cover w-full h-full" />
                         </a>
-                        <a href="/assets/b/ddr/13-1.jpeg">
-                            <img src="/assets/b/ddr/13-1.jpeg" className="object-cover w-full h-full" />
+                        <a href="/assets/b/ddr/13-3.jpeg">
+                            <img src="/assets/b/ddr/13-3.jpeg" className="object-cover w-full h-full" />
                         </a>
                     </div>
                 </div>
