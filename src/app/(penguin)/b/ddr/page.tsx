@@ -37,83 +37,82 @@ export default function Page() {
                         <TableRow>
                             <TableHead>Song Name</TableHead>
                             <TableHead>Sanbai Level</TableHead>
+                            <TableHead>pprx.gg Spice</TableHead>
                             <TableHead>Money Score</TableHead>
                             <TableHead className="text-right">Screenshot</TableHead>
                         </TableRow>
                     </TableHeader>
 
                     <TableBody>
-                        <TableRow>
-                            <TableCell className="font-medium">MEGALOVANIA</TableCell>
-                            <TableCell>CSP 18.10</TableCell>
-                            <TableCell>935910</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/18-0.jpeg">Link</a></TableCell>
+                        <TableRow className="bg-[#fff7cc]">
+                            <TableCell className="font-medium">Reach The Sky, Without you</TableCell>
+                            <TableCell>ESP 14.60</TableCell>
+                            <TableCell>10.77</TableCell>
+                            <TableCell>997520</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-4.jpeg">Link</a></TableCell>
                         </TableRow>
-                        <TableRow>
-                            <TableCell className="font-medium">True Blue</TableCell>
-                            <TableCell>CSP 17.10</TableCell>
-                            <TableCell>950020</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/17-0.jpeg">Link</a></TableCell>
+                        <TableRow className="bg-[#FFD700]">
+                            <TableCell className="font-medium">イガク (Igaku)</TableCell>
+                            <TableCell>ESP 13.40</TableCell>
+                            <TableCell>7.70</TableCell>
+                            <TableCell>999640</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/13-3.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow className="bg-[#FFD700]">
+                            <TableCell className="font-medium">人マニア (HITO Mania)</TableCell>
+                            <TableCell>ESP 14.35</TableCell>
+                            <TableCell>8.96</TableCell>
+                            <TableCell>999400</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/14-7.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">MEGALOVANIA</TableCell>
                             <TableCell>ESP 16.30</TableCell>
+                            <TableCell>11.09</TableCell>
                             <TableCell>991070</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/16-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">ZETA ~素数の世界と超越者~</TableCell>
-                            <TableCell>ESP 15.40</TableCell>
-                            <TableCell>994720</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/15-6.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">悲報！ワイ！ニート！ (Hihou! Wai! Neet!)</TableCell>
-                            <TableCell>ESP 15.30</TableCell>
-                            <TableCell>995770</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">Avenger</TableCell>
                             <TableCell>ESP 14.85</TableCell>
+                            <TableCell>11.03</TableCell>
                             <TableCell>991340</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-5.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">突撃！ガラスのニーソ姫！(Charge! Kneesocks Princess of Glass!)</TableCell>
                             <TableCell>ESP 14.80</TableCell>
+                            <TableCell>10.65</TableCell>
                             <TableCell>990530</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/14-6.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
-                            <TableCell className="font-medium">Reach The Sky, Without you</TableCell>
-                            <TableCell>ESP 14.60</TableCell>
-                            <TableCell>997520</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/14-4.jpeg">Link</a></TableCell>
+                            <TableCell className="font-medium">ZETA ~素数の世界と超越者~</TableCell>
+                            <TableCell>ESP 15.40</TableCell>
+                            <TableCell>10.36</TableCell>
+                            <TableCell>994720</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/15-6.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">SABER WING</TableCell>
                             <TableCell>CSP 13.85</TableCell>
-                            <TableCell>991430</TableCell>
+                            <TableCell>9.85</TableCell>
+                            <TableCell>998460</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-1.jpeg">Link</a></TableCell>
+                        </TableRow>
+                        <TableRow className="bg-[#fff7cc]">
+                            <TableCell className="font-medium">悲報！ワイ！ニート！ (Hihou! Wai! Neet!)</TableCell>
+                            <TableCell>ESP 15.30</TableCell>
+                            <TableCell>9.46</TableCell>
+                            <TableCell>995770</TableCell>
+                            <TableCell className="text-right"><a href="/assets/b/ddr/15-0.jpeg">Link</a></TableCell>
                         </TableRow>
                         <TableRow className="bg-[#fff7cc]">
                             <TableCell className="font-medium">ΔMAX</TableCell>
                             <TableCell>DSP 13.85</TableCell>
+                            <TableCell></TableCell>
                             <TableCell>993250</TableCell>
                             <TableCell className="text-right"><a href="/assets/b/ddr/13-0.jpeg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow className="bg-[#FFD700]">
-                            <TableCell className="font-medium">ヴァンパイア (Vampire)</TableCell>
-                            <TableCell>ESP 13.00</TableCell>
-                            <TableCell>999420</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/13-2.jpg">Link</a></TableCell>
-                        </TableRow>
-                        <TableRow className="bg-[#FFD700]">
-                            <TableCell className="font-medium">Ska Ska No. 3</TableCell>
-                            <TableCell>ESP 12.35</TableCell>
-                            <TableCell>999680</TableCell>
-                            <TableCell className="text-right"><a href="/assets/b/ddr/12-1.jpeg">Link</a></TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
